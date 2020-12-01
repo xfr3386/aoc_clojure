@@ -48,5 +48,5 @@
     (println (p2-main-function sorted-values))))
 
 (defn -main []
-  (aoc-day1-p1)
-  (aoc-day1-p2))
+  (time (aoc-day1-p1))
+  (time (aoc-day1-p2)))
