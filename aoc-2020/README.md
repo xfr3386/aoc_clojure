@@ -1,10 +1,6 @@
 # Advent Of Code
 
-This repository contaisn some Advent of Code implementations using the Clojure language. The 2020 project contains my first attempts at writing anything in the Clojure language.
-
-
-### Bugs
-No known bugs yet
+This repository contains some Advent of Code implementations using the Clojure language. The 2020 project contains my first attempts at writing anything in the Clojure language.
 
 ...
 
