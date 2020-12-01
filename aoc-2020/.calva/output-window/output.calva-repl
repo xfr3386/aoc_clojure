@@ -1,0 +1,879 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj::aoc-2020.core=> 
+
+; Jack-in done.
+clj::aoc-2020.core=> 
+; Syntax error compiling at (src/aoc_2020/core.clj:7:3).
+; No such namespace: str
+clojure.lang.Compiler/analyze (Compiler.java:6808)
+clojure.lang.Compiler$InvokeExpr/parse (Compiler.java:3820)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7109)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$FnMethod/parse (Compiler.java:5467)
+clojure.lang.Compiler$FnExpr/parse (Compiler.java:4029)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7105)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7095)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/access$300 (Compiler.java:38)
+clojure.lang.Compiler$DefExpr$Parser/parse (Compiler.java:596)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7107)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/eval (Compiler.java:7181)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.core=> 
+nil
+clj::aoc-2020.core=> 
+#'aoc-2020.core/read-expense-report
+clj::aoc-2020.core=> 
+; Syntax error macroexpanding clojure.core/defn at (src/aoc_2020/core.clj:9:1).
+; read-expense-report - failed: vector? at: [:fn-tail :arity-n :bodies :params] spec: :clojure.core.specs.alpha/param-list
+(read-expense-report "expense-report.txt") - failed: vector? at: [:fn-tail :arity-1 :params] spec: :clojure.core.specs.alpha/param-list
+clojure.lang.Compiler/checkSpecs (Compiler.java:6972)
+clojure.lang.Compiler/macroexpand1 (Compiler.java:6988)
+clojure.lang.Compiler/macroexpand (Compiler.java:7075)
+clojure.lang.Compiler/eval (Compiler.java:7161)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.core=> 
+#'aoc-2020.core/-main
+clj::aoc-2020.core=> 
+#'aoc-2020.core/-main
+clj::aoc-2020.core=> 
+(read-expense-report "expense-report.txt")
+; Execution error (FileNotFoundException) at java.io.FileInputStream/open0 (FileInputStream.java:-2).
+; expense-report.txt (No such file or directory)
+java.io.FileInputStream/open0 (FileInputStream.java:-2)
+java.io.FileInputStream/open (FileInputStream.java:195)
+java.io.FileInputStream/<init> (FileInputStream.java:138)
+clojure.java.io/fn (io.clj:229)
+clojure.java.io/fn (io.clj:69)
+clojure.java.io/fn (io.clj:258)
+clojure.java.io/fn (io.clj:254)
+clojure.java.io/fn (io.clj:69)
+clojure.java.io/fn (io.clj:165)
+clojure.java.io/fn (io.clj:69)
+clojure.java.io/reader (io.clj:102)
+clojure.java.io/reader (io.clj:86)
+clojure.core/apply (core.clj:667)
+clojure.core/slurp (core.clj:6942)
+aoc-2020.core/read-expense-report (form-init2130508822486296312.clj:7)
+aoc-2020.core/read-expense-report (form-init2130508822486296312.clj:6)
+aoc-2020.core/eval17816 (form-init2130508822486296312.clj:86)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.core=> 
+; Syntax error (ClassNotFoundException) compiling at (src/aoc_2020/core.clj:1:8238).
+; expense-report.txt
+clojure.lang.Compiler/analyze (Compiler.java:6808)
+clojure.lang.Compiler/eval (Compiler.java:7181)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.core=> 
+; Syntax error compiling at (src/aoc_2020/core.clj:1:8238).
+; Unable to resolve symbol: filepath in this context
+clojure.lang.Compiler/analyze (Compiler.java:6808)
+clojure.lang.Compiler/eval (Compiler.java:7181)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.core=> 
+; Syntax error (ClassNotFoundException) compiling at (src/aoc_2020/core.clj:1:8238).
+; clojure.string
+clojure.lang.Compiler/analyze (Compiler.java:6808)
+clojure.lang.Compiler/eval (Compiler.java:7181)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.core=> 
+nil
+clj::aoc-2020.core=> 
+nil
+clj::aoc-2020.core=> 
+#'aoc-2020.core/read-expense-report
+clj::aoc-2020.core=> 
+#'aoc-2020.core/-main
+clj::aoc-2020.core=> 
+#function[aoc-2020.core/read-expense-report]
+clj::aoc-2020.core=> 
+; Execution error (FileNotFoundException) at java.io.FileInputStream/open0 (FileInputStream.java:-2).
+; expense-report.txt (No such file or directory)
+java.io.FileInputStream/open0 (FileInputStream.java:-2)
+java.io.FileInputStream/open (FileInputStream.java:195)
+java.io.FileInputStream/<init> (FileInputStream.java:138)
+clojure.java.io/fn (io.clj:229)
+clojure.java.io/fn (io.clj:69)
+clojure.java.io/fn (io.clj:258)
+clojure.java.io/fn (io.clj:254)
+clojure.java.io/fn (io.clj:69)
+clojure.java.io/fn (io.clj:165)
+clojure.java.io/fn (io.clj:69)
+clojure.java.io/reader (io.clj:102)
+clojure.java.io/reader (io.clj:86)
+clojure.core/apply (core.clj:667)
+clojure.core/slurp (core.clj:6942)
+aoc-2020.core/read-expense-report (form-init2130508822486296312.clj:7)
+aoc-2020.core/read-expense-report (form-init2130508822486296312.clj:6)
+aoc-2020.core/eval17930 (form-init2130508822486296312.clj:14)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.core=> 
+; Execution error (FileNotFoundException) at java.io.FileInputStream/open0 (FileInputStream.java:-2).
+; ~/expense-report.txt (No such file or directory)
+java.io.FileInputStream/open0 (FileInputStream.java:-2)
+java.io.FileInputStream/open (FileInputStream.java:195)
+java.io.FileInputStream/<init> (FileInputStream.java:138)
+clojure.java.io/fn (io.clj:229)
+clojure.java.io/fn (io.clj:69)
+clojure.java.io/fn (io.clj:258)
+clojure.java.io/fn (io.clj:254)
+clojure.java.io/fn (io.clj:69)
+clojure.java.io/fn (io.clj:165)
+clojure.java.io/fn (io.clj:69)
+clojure.java.io/reader (io.clj:102)
+clojure.java.io/reader (io.clj:86)
+clojure.core/apply (core.clj:667)
+clojure.core/slurp (core.clj:6942)
+aoc-2020.core/read-expense-report (form-init2130508822486296312.clj:7)
+aoc-2020.core/read-expense-report (form-init2130508822486296312.clj:6)
+aoc-2020.core/eval17962 (form-init2130508822486296312.clj:14)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.core=> 
+; Execution error (FileNotFoundException) at java.io.FileInputStream/open0 (FileInputStream.java:-2).
+; ./expense-report.txt (No such file or directory)
+java.io.FileInputStream/open0 (FileInputStream.java:-2)
+java.io.FileInputStream/open (FileInputStream.java:195)
+java.io.FileInputStream/<init> (FileInputStream.java:138)
+clojure.java.io/fn (io.clj:229)
+clojure.java.io/fn (io.clj:69)
+clojure.java.io/fn (io.clj:258)
+clojure.java.io/fn (io.clj:254)
+clojure.java.io/fn (io.clj:69)
+clojure.java.io/fn (io.clj:165)
+clojure.java.io/fn (io.clj:69)
+clojure.java.io/reader (io.clj:102)
+clojure.java.io/reader (io.clj:86)
+clojure.core/apply (core.clj:667)
+clojure.core/slurp (core.clj:6942)
+aoc-2020.core/read-expense-report (form-init2130508822486296312.clj:7)
+aoc-2020.core/read-expense-report (form-init2130508822486296312.clj:6)
+aoc-2020.core/eval17994 (form-init2130508822486296312.clj:14)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.core=> 
+; Execution error (FileNotFoundException) at java.io.FileInputStream/open0 (FileInputStream.java:-2).
+; ~/Projects/aoc_clojure/aoc-2020/src/aoc_2020/expense-report.txt (No such file or directory)
+java.io.FileInputStream/open0 (FileInputStream.java:-2)
+java.io.FileInputStream/open (FileInputStream.java:195)
+java.io.FileInputStream/<init> (FileInputStream.java:138)
+clojure.java.io/fn (io.clj:229)
+clojure.java.io/fn (io.clj:69)
+clojure.java.io/fn (io.clj:258)
+clojure.java.io/fn (io.clj:254)
+clojure.java.io/fn (io.clj:69)
+clojure.java.io/fn (io.clj:165)
+clojure.java.io/fn (io.clj:69)
+clojure.java.io/reader (io.clj:102)
+clojure.java.io/reader (io.clj:86)
+clojure.core/apply (core.clj:667)
+clojure.core/slurp (core.clj:6942)
+aoc-2020.core/read-expense-report (form-init2130508822486296312.clj:7)
+aoc-2020.core/read-expense-report (form-init2130508822486296312.clj:6)
+aoc-2020.core/eval18046 (form-init2130508822486296312.clj:14)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.core=> 
+["2004"
+ "1867"
+ "1923"
+ "1819"
+ "1940"
+ "1675"
+ "1992"
+ "1728"
+ "2006"
+ "1578"
+ "1630"
+ "1893"
+ "1910"
+ "1509"
+ "1569"
+ "1967"
+ "1917"
+ "1922"
+ "1919"
+ "1813"
+ "1870"
+ "370"
+ "1617"
+ "1600"
+ "1729"
+ "503"
+ "1856"
+ "1842"
+ "1990"
+ "1605"
+ "1931"
+ "1827"
+ "1618"
+ "1727"
+ "1920"
+ "1802"
+ "1523"
+ "1797"
+ "1816"
+ "1962"
+ "1748"
+ "1946"
+ "1714"
+ "1863"
+ "1559"
+ "1866"
+ "1894"
+ "1646"
+ "1720"
+ "1787"
+ ...]
+clj::aoc-2020.core=> 
+#'aoc-2020.core/-main
+clj::aoc-2020.core=> 
+#'aoc-2020.core/-main
+clj::aoc-2020.core=> 
+#'aoc-2020.core/-main
+clj::aoc-2020.core=> 
+#object[clojure.lang.Var$Unbound 0x21334e04 Unbound: #'aoc-2020.core/report]
+nil
+clj::aoc-2020.core=> 
+#'aoc-2020.core/report
+clj::aoc-2020.core=> 
+["2004"
+ "1867"
+ "1923"
+ "1819"
+ "1940"
+ "1675"
+ "1992"
+ "1728"
+ "2006"
+ "1578"
+ "1630"
+ "1893"
+ "1910"
+ "1509"
+ "1569"
+ "1967"
+ "1917"
+ "1922"
+ "1919"
+ "1813"
+ "1870"
+ "370"
+ "1617"
+ "1600"
+ "1729"
+ "503"
+ "1856"
+ "1842"
+ "1990"
+ "1605"
+ "1931"
+ "1827"
+ "1618"
+ "1727"
+ "1920"
+ "1802"
+ "1523"
+ "1797"
+ "1816"
+ "1962"
+ "1748"
+ "1946"
+ "1714"
+ "1863"
+ "1559"
+ "1866"
+ "1894"
+ "1646"
+ "1720"
+ "1787"
+ ...]
+clj::aoc-2020.core=> 
+[]
+nil
+clj::aoc-2020.core=> 
+("1021"
+ "111"
+ "1258"
+ "1281"
+ "1367"
+ "1477"
+ "1508"
+ "1509"
+ "1510"
+ "1519"
+ "1523"
+ "1525"
+ "1530"
+ "1532"
+ "1541"
+ "1546"
+ "1554"
+ "1559"
+ "1564"
+ "1568"
+ "1569"
+ "1575"
+ "1576"
+ "1577"
+ "1578"
+ "1595"
+ "1596"
+ "1597"
+ "1600"
+ "1605"
+ "1607"
+ "1612"
+ "1614"
+ "1615"
+ "1616"
+ "1617"
+ "1618"
+ "1619"
+ "1627"
+ "1630"
+ "1632"
+ "1639"
+ "1641"
+ "1644"
+ "1646"
+ "1647"
+ "1651"
+ "1655"
+ "1663"
+ "1665"
+ ...)
+clj::aoc-2020.core=> 
+; Execution error (ClassCastException) at java.util.TimSort/countRunAndMakeAscending (TimSort.java:355).
+; java.lang.String cannot be cast to java.lang.Number
+clojure.lang.Numbers/lt (Numbers.java:251)
+clojure.core/< (core.clj:907)
+clojure.core/< (core.clj:900)
+clojure.lang.AFunction/compare (AFunction.java:51)
+java.util.TimSort/countRunAndMakeAscending (TimSort.java:355)
+java.util.TimSort/sort (TimSort.java:234)
+java.util.Arrays/sort (Arrays.java:1438)
+clojure.core/sort (core.clj:3115)
+clojure.core/sort (core.clj:3102)
+aoc-2020.core/eval18402 (form-init2130508822486296312.clj:13)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.core=> 
+#'aoc-2020.core/-main
+clj::aoc-2020.core=> 
+#'aoc-2020.core/-main
+clj::aoc-2020.core=> 
+()
+clj::aoc-2020.core=> 
+nil
+clj::aoc-2020.core=> 
+"2004\n1867\n1923\n1819\n1940\n1675\n1992\n1728\n2006\n1578\n1630\n1893\n1910\n1509\n1569\n1967\n1917\n1922\n1919\n1813\n1870\n370\n1617\n1600\n1729\n503\n1856\n1842\n1990\n1605\n1931\n1827\n1618\n1727\n1920\n1802\n1523\n1797\n1816\n1962\n1748\n1946\n1714\n1863\n1559\n1866\n1894\n1646\n1720\n1787\n1519\n1765\n562\n1823\n1639\n1697\n544\n1938\n1681\n1477\n1778\n1718\n1853\n1632\n1651\n1694\n1683\n1911\n1692\n1997\n1745\n1873\n1750\n1795\n1924\n1724\n1596\n1726\n1979\n1869\n1740\n1847\n1951\n1541\n1755\n1991\n1680\n1612\n1903\n1691\n422\n1508\n1665\n1948\n1707\n1773\n1861\n1954\n2005\n1808\n1904\n543\n1678\n2001\n1688\n1855\n1258\n1695\n1877\n1554\n1568\n1771\n1857\n1597\n1738\n577\n2010\n604\n1655\n1644\n1671\n1281\n1777\n1690\n1702\n1949\n1679\n1862\n1525\n1789\n1959\n1595\n1641\n1829\n1941\n1854\n1619\n1706\n1530\n1828\n1926\n1577\n1614\n1963\n1935\n1627\n1607\n1769\n111\n1647\n1716\n1696\n1868\n1021\n1906\n1575\n1905\n1668\n1758\n1915\n1892\n1663\n2003\n1943\n1742\n1883\n1576\n1510\n1546\n1734\n814\n1367\n1902\n1698\n1912\n1818\n1615\n1851\n1564\n1719\n1952\n1616\n1988\n1768\n1957\n1744\n1858\n1705\n1794\n1944\n1973\n1960\n1887\n1804\n1913\n1770\n1825\n1737\n1799\n1532"
+clj::aoc-2020.core=> 
+; Syntax error compiling at (src/aoc_2020/core.clj:17:25).
+; Unable to resolve symbol: file-contents in this context
+clojure.lang.Compiler/analyze (Compiler.java:6808)
+clojure.lang.Compiler$InvokeExpr/parse (Compiler.java:3888)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7109)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$FnMethod/parse (Compiler.java:5467)
+clojure.lang.Compiler$FnExpr/parse (Compiler.java:4029)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7105)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/eval (Compiler.java:7174)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.core=> 
+nil
+clj::aoc-2020.core=> 
+; Execution error (ArityException) at aoc-2020.core/eval20746 (form-init2130508822486296312.clj:19).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+aoc-2020.core/eval20746 (form-init2130508822486296312.clj:19)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.core=> 
+[]
+nil
+clj::aoc-2020.core=> 
+#'aoc-2020.core/-main
+clj::aoc-2020.core=> 
+(2004 1867 1923 1819 1940 1675 1992 1728 2006 1578 1630 1893 1910 1509 1569 1967 1917 1922 1919 1813 1870 370 1617 1600 1729 503 1856 1842 1990 1605 1931 1827 1618 1727 1920 1802 1523 1797 1816 1962 1748 1946 1714 1863 1559 1866 1894 1646 1720 1787 1519 1765 562 1823 1639 1697 544 1938 1681 1477 1778 1718 1853 1632 1651 1694 1683 1911 1692 1997 1745 1873 1750 1795 1924 1724 1596 1726 1979 1869 1740 1847 1951 1541 1755 1991 1680 1612 1903 1691 422 1508 1665 1948 1707 1773 1861 1954 2005 1808 1904 543 1678 2001 1688 1855 1258 1695 1877 1554 1568 1771 1857 1597 1738 577 2010 604 1655 1644 1671 1281 1777 1690 1702 1949 1679 1862 1525 1789 1959 1595 1641 1829 1941 1854 1619 1706 1530 1828 1926 1577 1614 1963 1935 1627 1607 1769 111 1647 1716 1696 1868 1021 1906 1575 1905 1668 1758 1915 1892 1663 2003 1943 1742 1883 1576 1510 1546 1734 814 1367 1902 1698 1912 1818 1615 1851 1564 1719 1952 1616 1988 1768 1957 1744 1858 1705 1794 1944 1973 1960 1887 1804 1913 1770 1825 1737 1799 1532)
+(111
+ 370
+ 422
+ 503
+ 543
+ 544
+ 562
+ 577
+ 604
+ 814
+ 1021
+ 1258
+ 1281
+ 1367
+ 1477
+ 1508
+ 1509
+ 1510
+ 1519
+ 1523
+ 1525
+ 1530
+ 1532
+ 1541
+ 1546
+ 1554
+ 1559
+ 1564
+ 1568
+ 1569
+ 1575
+ 1576
+ 1577
+ 1578
+ 1595
+ 1596
+ 1597
+ 1600
+ 1605
+ 1607
+ 1612
+ 1614
+ 1615
+ 1616
+ 1617
+ 1618
+ 1619
+ 1627
+ 1630
+ 1632
+ ...)
+clj::aoc-2020.core=> 
+(111 370 422 503 543 544 562 577 604 814 1021 1258 1281 1367 1477 1508 1509 1510 1519 1523 1525 1530 1532 1541 1546 1554 1559 1564 1568 1569 1575 1576 1577 1578 1595 1596 1597 1600 1605 1607 1612 1614 1615 1616 1617 1618 1619 1627 1630 1632 1639 1641 1644 1646 1647 1651 1655 1663 1665 1668 1671 1675 1678 1679 1680 1681 1683 1688 1690 1691 1692 1694 1695 1696 1697 1698 1702 1705 1706 1707 1714 1716 1718 1719 1720 1724 1726 1727 1728 1729 1734 1737 1738 1740 1742 1744 1745 1748 1750 1755 1758 1765 1768 1769 1770 1771 1773 1777 1778 1787 1789 1794 1795 1797 1799 1802 1804 1808 1813 1816 1818 1819 1823 1825 1827 1828 1829 1842 1847 1851 1853 1854 1855 1856 1857 1858 1861 1862 1863 1866 1867 1868 1869 1870 1873 1877 1883 1887 1892 1893 1894 1902 1903 1904 1905 1906 1910 1911 1912 1913 1915 1917 1919 1920 1922 1923 1924 1926 1931 1935 1938 1940 1941 1943 1944 1946 1948 1949 1951 1952 1954 1957 1959 1960 1962 1963 1967 1973 1979 1988 1990 1991 1992 1997 2001 2003 2004 2005 2006 2010)
+nil
+clj::aoc-2020.core=> 
+#'aoc-2020.core/find-2020-sum
+clj::aoc-2020.core=> 
+; Execution error (IndexOutOfBoundsException) at aoc-2020.core/find-2020-sum (form-init2130508822486296312.clj:9).
+; null
+clojure.lang.RT/nthFrom (RT.java:928)
+clojure.lang.RT/nth (RT.java:897)
+aoc-2020.core/find-2020-sum (form-init2130508822486296312.clj:9)
+aoc-2020.core/find-2020-sum (form-init2130508822486296312.clj:8)
+aoc-2020.core/eval23048 (form-init2130508822486296312.clj:19)
+aoc-2020.core/eval23048 (form-init2130508822486296312.clj:15)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.core=> 
+#'aoc-2020.core/find-2020-sum
+clj::aoc-2020.core=> 
+2121
+clj::aoc-2020.core=> 
+#'aoc-2020.core/find-2020-sum
+clj::aoc-2020.core=> 
+-101
+nil
+clj::aoc-2020.core=> 
+#'aoc-2020.core/find-2020-sum
+clj::aoc-2020.core=> 
+; Execution error (ClassCastException) at aoc-2020.core/find-2020-sum (form-init2130508822486296312.clj:17).
+; clojure.lang.ArraySeq cannot be cast to clojure.lang.IPersistentStack
+clojure.lang.RT/pop (RT.java:755)
+clojure.core/pop (core.clj:1474)
+clojure.core/pop (core.clj:1467)
+aoc-2020.core/find-2020-sum (form-init2130508822486296312.clj:17)
+aoc-2020.core/find-2020-sum (form-init2130508822486296312.clj:8)
+aoc-2020.core/eval27835 (form-init2130508822486296312.clj:29)
+aoc-2020.core/eval27835 (form-init2130508822486296312.clj:25)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.core=> 
+; Syntax error compiling at (src/aoc_2020/core.clj:13:9).
+; Unable to resolve symbol: sub-2020-from-sum in this context
+clojure.lang.Compiler/analyze (Compiler.java:6808)
+clojure.lang.Compiler$HostExpr$Parser/parse (Compiler.java:1020)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7107)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7102)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$IfExpr$Parser/parse (Compiler.java:2824)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7107)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$FnMethod/parse (Compiler.java:5467)
+clojure.lang.Compiler$FnExpr/parse (Compiler.java:4029)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7105)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/eval (Compiler.java:7174)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.core=> 
+#'aoc-2020.core/find-2020-sum
+clj::aoc-2020.core=> 
+(370
+ 422
+ 503
+ 543
+ 544
+ 562
+ 577
+ 604
+ 814
+ 1021
+ 1258
+ 1281
+ 1367
+ 1477
+ 1508
+ 1509
+ 1510
+ 1519
+ 1523
+ 1525
+ 1530
+ 1532
+ 1541
+ 1546
+ 1554
+ 1559
+ 1564
+ 1568
+ 1569
+ 1575
+ 1576
+ 1577
+ 1578
+ 1595
+ 1596
+ 1597
+ 1600
+ 1605
+ 1607
+ 1612
+ 1614
+ 1615
+ 1616
+ 1617
+ 1618
+ 1619
+ 1627
+ 1630
+ 1632
+ 1639
+ ...)
+clj::aoc-2020.core=> 
+#'aoc-2020.core/find-2020-sum
+clj::aoc-2020.core=> 
+(111
+ 370
+ 422
+ 503
+ 543
+ 544
+ 562
+ 577
+ 604
+ 814
+ 1021
+ 1258
+ 1281
+ 1367
+ 1477
+ 1508
+ 1509
+ 1510
+ 1519
+ 1523
+ 1525
+ 1530
+ 1532
+ 1541
+ 1546
+ 1554
+ 1559
+ 1564
+ 1568
+ 1569
+ 1575
+ 1576
+ 1577
+ 1578
+ 1595
+ 1596
+ 1597
+ 1600
+ 1605
+ 1607
+ 1612
+ 1614
+ 1615
+ 1616
+ 1617
+ 1618
+ 1619
+ 1627
+ 1630
+ 1632
+ ...)
+clj::aoc-2020.core=> 
+#'aoc-2020.core/find-2020-sum
+clj::aoc-2020.core=> 
+802011
+clj::aoc-2020.core=> 
+#'aoc-2020.core/aoc-day-1
+clj::aoc-2020.core=> 
+#'aoc-2020.core/-main
+clj::aoc-2020.core=> 
+802011
+clj::aoc-2020.core=> 
+#'aoc-2020.core/find-2020-sum-and-mult
+clj::aoc-2020.core=> 
+#'aoc-2020.core/aoc-day-1
+clj::aoc-2020.core=> 
+802011
+clj::aoc-2020.core=> 
+802011
+clj::aoc-2020.core=> 
