@@ -1,6 +1,6 @@
-# aoc-2020
+# Advent Of Code
 
-Learning Clojure by doing Advent of Code 2020
+This repository contaisn some Advent of Code implementations using the Clojure language. The 2020 project contains my first attempts at writing anything in the Clojure language.
 
 
 ### Bugs
