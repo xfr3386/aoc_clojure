@@ -18,7 +18,7 @@ clj::aoc-2020.core=>
 
 ; Jack-in done.
 clj::aoc-2020.core=> 
-; Syntax error compiling at (src/aoc_2020/day_two.clj:9:37).
+; Syntax error compiling at (src/aoc_2020/day_two.clj:26:37).
 ; No such namespace: str
 clojure.lang.Compiler/analyze (Compiler.java:6808)
 clojure.lang.Compiler$InvokeExpr/parse (Compiler.java:3820)
@@ -58,51 +58,10 @@ nrepl.middleware.session/session-exec (session.clj:202)
 nrepl.middleware.session/session-exec (session.clj:201)
 java.lang.Thread/run (Thread.java:745)
 clj::aoc-2020.day-two=> 
-#'aoc-2020.day-two/pwd-db
+nil
 clj::aoc-2020.day-two=> 
-#'aoc-2020.day-two/pwd-db
-clj::aoc-2020.day-two=> 
-#'aoc-2020.day-two/get-valid-entry
-clj::aoc-2020.day-two=> 
-; Execution error (PatternSyntaxException) at java.util.regex.Pattern/error (Pattern.java:1955).
-; Dangling meta character '*' near index 0
-*s*
-^
-java.util.regex.Pattern/error (Pattern.java:1955)
-java.util.regex.Pattern/sequence (Pattern.java:2123)
-java.util.regex.Pattern/expr (Pattern.java:1996)
-java.util.regex.Pattern/compile (Pattern.java:1696)
-java.util.regex.Pattern/<init> (Pattern.java:1351)
-java.util.regex.Pattern/compile (Pattern.java:1028)
-clojure.core/re-pattern (core.clj:4847)
-clojure.core/re-pattern (core.clj:4839)
-aoc-2020.day-two/get-valid-entry (form-init1317110026822407688.clj:13)
-aoc-2020.day-two/get-valid-entry (form-init1317110026822407688.clj:8)
-aoc-2020.day-two/eval14309 (form-init1317110026822407688.clj:36)
-clojure.lang.PersistentVector/reduce (PersistentVector.java:343)
-clojure.core/reduce (core.clj:6827)
-clojure.core/reduce (core.clj:6810)
-aoc-2020.day-two/eval14309 (form-init1317110026822407688.clj:35)
-aoc-2020.day-two/eval14309 (form-init1317110026822407688.clj:33)
-clojure.lang.Compiler/eval (Compiler.java:7177)
-clojure.core/eval (core.clj:3214)
-clojure.core/eval (core.clj:3210)
-nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
-clojure.core/apply (core.clj:665)
-clojure.core/with-bindings* (core.clj:1973)
-nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
-clojure.main/repl (main.clj:437)
-clojure.main/repl (main.clj:458)
-clojure.main/repl (main.clj:368)
-nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
-nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
-nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
-nrepl.middleware.session/session-exec (session.clj:202)
-nrepl.middleware.session/session-exec (session.clj:201)
-java.lang.Thread/run (Thread.java:745)
-clj::aoc-2020.day-two=> 
-; Syntax error reading source at (REPL:13:55).
-; Unsupported escape character: \*
+; Syntax error reading source at (REPL:4:1).
+; Invalid token: /Users/amund/Projects/aoc_clojure/aoc-2020/src/aoc_2020/pwd_db.txt
 clojure.main/repl (main.clj:433)
 clojure.main/repl (main.clj:432)
 clojure.main/repl (main.clj:458)
@@ -114,2129 +73,24 @@ nrepl.middleware.session/session-exec (session.clj:202)
 nrepl.middleware.session/session-exec (session.clj:201)
 java.lang.Thread/run (Thread.java:745)
 clj::aoc-2020.day-two=> 
-#'aoc-2020.day-two/get-valid-entry
+#'aoc-2020.day-two/pwd-db
 clj::aoc-2020.day-two=> 
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-[nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- ...]
-clj::aoc-2020.day-two=> 
-#'aoc-2020.day-two/get-valid-entry
-clj::aoc-2020.day-two=> 
-7
-2
-9
-17
-14
-5
-10
-12
-11
-2
-18
-13
-6
-3
-8
-9
-13
-9
-4
-16
-17
-18
-15
-8
-6
-15
-16
-2
-11
-14
-12
-3
-3
-11
-14
-3
-16
-8
-11
-2
-9
-5
-6
-6
-13
-8
-3
-9
-3
-14
-2
-18
-13
-5
-2
-4
-4
-9
-3
-6
-3
-7
-1
-12
-11
-16
-5
-3
-2
-17
-7
-11
-4
-4
-5
-3
-8
-4
-8
-11
-2
-3
-8
-4
-14
-11
-9
-2
-9
-3
-9
-4
-1
-11
-3
-2
-8
-4
-8
-5
-4
-5
-2
-8
-3
-7
-13
-4
-13
-8
-1
-3
-3
-1
-2
-7
-2
-10
-2
-16
-12
-7
-7
-4
-4
-4
-8
-8
-2
-8
-14
-12
-4
-15
-11
-4
-13
-11
-8
-3
-7
-9
-7
-13
-12
-3
-7
-1
-7
-8
-2
-4
-3
-5
-7
-8
-4
-9
-9
-4
-2
-15
-5
-19
-2
-9
-3
-5
-3
-9
-3
-3
-2
-10
-10
-16
-4
-2
-5
-7
-6
-10
-3
-3
-1
-2
-6
-6
-5
-15
-4
-19
-13
-6
-12
-4
-7
-2
-4
-13
-5
-2
-8
-11
-17
-8
-3
-5
-5
-3
-7
-7
-2
-5
-2
-2
-4
-11
-4
-13
-2
-14
-1
-4
-8
-19
-4
-2
-2
-16
-14
-7
-3
-9
-8
-2
-13
-2
-9
-13
-18
-2
-10
-5
-7
-6
-8
-11
-3
-5
-3
-12
-14
-9
-2
-3
-9
-4
-1
-4
-2
-4
-3
-2
-6
-9
-12
-2
-2
-3
-6
-8
-7
-11
-8
-14
-7
-17
-16
-6
-2
-4
-3
-8
-2
-11
-3
-12
-11
-2
-14
-3
-3
-11
-7
-1
-4
-1
-6
-2
-2
-9
-11
-4
-1
-3
-1
-2
-3
-10
-1
-2
-2
-10
-7
-10
-14
-2
-2
-5
-7
-11
-5
-3
-19
-4
-15
-6
-16
-11
-8
-9
-6
-8
-4
-9
-1
-6
-5
-8
-16
-9
-6
-6
-5
-9
-2
-3
-7
-9
-1
-2
-13
-5
-13
-9
-4
-7
-1
-2
-3
-4
-10
-2
-3
-11
-1
-6
-4
-2
-6
-15
-4
-6
-9
-11
-6
-2
-9
-2
-7
-8
-3
-5
-3
-2
-11
-19
-4
-13
-4
-5
-2
-2
-12
-5
-2
-1
-7
-5
-5
-6
-10
-3
-5
-3
-13
-6
-3
-7
-16
-2
-2
-9
-2
-7
-8
-2
-6
-2
-4
-4
-6
-7
-1
-3
-6
-3
-3
-6
-13
-13
-12
-4
-13
-8
-3
-7
-4
-3
-10
-13
-1
-3
-5
-2
-7
-15
-11
-5
-2
-2
-10
-14
-6
-2
-13
-2
-3
-4
-11
-4
-10
-3
-5
-2
-3
-12
-6
-1
-3
-6
-3
-10
-3
-16
-5
-6
-7
-2
-3
-12
-14
-11
-2
-16
-11
-9
-5
-8
-2
-8
-3
-2
-14
-2
-2
-5
-1
-5
-7
-1
-4
-3
-4
-11
-4
-5
-3
-8
-2
-13
-17
-8
-2
-4
-6
-3
-11
-3
-2
-2
-9
-4
-4
-4
-3
-4
-4
-8
-6
-5
-11
-3
-13
-13
-7
-1
-8
-4
-2
-4
-13
-9
-19
-16
-9
-3
-2
-7
-3
-9
-7
-4
-12
-9
-6
-18
-9
-16
-6
-5
-11
-2
-8
-6
-11
-4
-2
-4
-4
-5
-2
-6
-9
-7
-2
-10
-10
-9
-2
-7
-6
-7
-2
-17
-16
-14
-5
-3
-5
-7
-15
-18
-3
-9
-9
-6
-12
-6
-4
-5
-3
-4
-6
-3
-2
-6
-11
-2
-14
-2
-8
-3
-2
-5
-1
-9
-1
-4
-8
-7
-5
-12
-5
-1
-5
-10
-1
-2
-12
-15
-11
-6
-5
-3
-6
-3
-14
-2
-9
-1
-4
-2
-10
-11
-2
-1
-3
-2
-16
-12
-6
-3
-2
-6
-14
-4
-3
-11
-7
-2
-4
-16
-2
-5
-8
-2
-10
-3
-3
-13
-14
-11
-11
 nil
-8
-16
-1
-12
-6
-2
-2
-10
-4
-4
-9
-4
-2
-10
-4
-2
-6
-11
-6
-4
-5
-4
-1
-3
-3
-4
-8
-7
-4
-18
-13
-7
-6
-2
-7
-4
-11
-2
-2
-11
-8
-2
-2
-15
-2
-14
-5
-10
-2
-2
-1
-16
-8
-6
-nil
-12
-6
-9
-12
-2
-6
-2
-6
-14
-8
-7
-4
-9
-11
-nil
-5
-11
-3
-15
-4
-8
-11
-14
-10
-5
-14
-5
-5
-14
-3
-5
-2
-2
-7
-2
-4
-2
-19
-7
-4
-3
-5
-6
-11
-2
-9
-10
-13
-2
-7
-5
-11
-3
-3
-8
-3
-11
-12
-2
-3
-7
-5
-5
-2
-5
-10
-7
-2
-6
-3
-2
-11
-2
-8
-16
-5
-12
-4
-6
-5
-3
-3
-14
-13
-11
-4
-12
-2
-10
-14
-10
-6
-6
-3
-3
-15
-2
-9
-8
-4
-6
-10
-5
-5
-4
-11
-14
-15
-11
-15
-9
-3
-2
-3
-3
-12
-6
-8
-8
-9
-14
-4
-9
-13
-4
-3
-14
-1
-7
-6
-4
-4
-17
-3
-13
-2
-3
-3
-17
-4
-6
-7
-4
-8
-1
-5
-2
-13
-7
-6
-8
-2
-3
-3
-7
-4
-4
-6
-15
-3
-4
-6
-11
-7
-1
-7
-2
-10
-9
-17
-1
-6
-18
-6
-9
-7
-11
-6
-11
-3
-16
-3
-3
-10
-7
-3
-9
-1
-3
-5
-7
-2
-10
-4
-5
-12
-7
-12
-2
-11
-2
-7
-18
-2
-5
-3
-5
-2
-2
-9
-6
-14
-7
-2
-11
-1
-6
-3
-13
-4
-2
-11
-3
-1
-2
-5
-4
-2
-3
-12
-1
-4
-3
-2
-4
-4
-13
-7
-9
-3
-7
-7
-12
-1
-4
-9
-14
-8
-5
-4
-11
-8
-12
-7
-11
-12
-9
-4
-3
-8
-6
-14
-5
-11
-7
-4
-11
-2
-7
-[nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- nil
- ...]
 clj::aoc-2020.day-two=> 
-#'aoc-2020.day-two/get-valid-entry
+#'aoc-2020.day-two/get-valid-entry-p2
 clj::aoc-2020.day-two=> 
-; Execution error (ClassCastException) at aoc-2020.day-two/get-valid-entry (form-init1317110026822407688.clj:13).
+#'aoc-2020.day-two/aoc-day2-p2-reduce
+clj::aoc-2020.day-two=> 
+; Execution error (ClassCastException) at aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:26).
 ; java.lang.String cannot be cast to java.lang.Number
-clojure.lang.Numbers/lte (Numbers.java:255)
-clojure.core/<= (core.clj:1064)
-clojure.core/<= (core.clj:1055)
-aoc-2020.day-two/get-valid-entry (form-init1317110026822407688.clj:13)
-aoc-2020.day-two/get-valid-entry (form-init1317110026822407688.clj:8)
-aoc-2020.day-two/eval17637 (form-init1317110026822407688.clj:39)
+aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:26)
+aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:25)
+aoc-2020.day-two/eval22574 (form-init2132174929412593829.clj:41)
 clojure.lang.PersistentVector/reduce (PersistentVector.java:343)
 clojure.core/reduce (core.clj:6827)
 clojure.core/reduce (core.clj:6810)
-aoc-2020.day-two/eval17637 (form-init1317110026822407688.clj:38)
-aoc-2020.day-two/eval17637 (form-init1317110026822407688.clj:36)
+aoc-2020.day-two/eval22574 (form-init2132174929412593829.clj:40)
+aoc-2020.day-two/eval22574 (form-init2132174929412593829.clj:38)
 clojure.lang.Compiler/eval (Compiler.java:7177)
 clojure.core/eval (core.clj:3214)
 clojure.core/eval (core.clj:3210)
@@ -2254,21 +108,11 @@ nrepl.middleware.session/session-exec (session.clj:202)
 nrepl.middleware.session/session-exec (session.clj:201)
 java.lang.Thread/run (Thread.java:745)
 clj::aoc-2020.day-two=> 
-#'aoc-2020.day-two/get-valid-entry
-clj::aoc-2020.day-two=> 
-; Execution error (ClassCastException) at aoc-2020.day-two/get-valid-entry (form-init1317110026822407688.clj:13).
+; Execution error (ClassCastException) at aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:26).
 ; java.lang.String cannot be cast to java.lang.Number
-clojure.lang.Numbers/lte (Numbers.java:255)
-clojure.core/<= (core.clj:1064)
-clojure.core/<= (core.clj:1055)
-aoc-2020.day-two/get-valid-entry (form-init1317110026822407688.clj:13)
-aoc-2020.day-two/get-valid-entry (form-init1317110026822407688.clj:8)
-aoc-2020.day-two/eval17800 (form-init1317110026822407688.clj:39)
-clojure.lang.PersistentVector/reduce (PersistentVector.java:343)
-clojure.core/reduce (core.clj:6827)
-clojure.core/reduce (core.clj:6810)
-aoc-2020.day-two/eval17800 (form-init1317110026822407688.clj:38)
-aoc-2020.day-two/eval17800 (form-init1317110026822407688.clj:36)
+aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:26)
+aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:25)
+aoc-2020.day-two/eval23022 (form-init2132174929412593829.clj:37)
 clojure.lang.Compiler/eval (Compiler.java:7177)
 clojure.core/eval (core.clj:3214)
 clojure.core/eval (core.clj:3210)
@@ -2286,18 +130,13 @@ nrepl.middleware.session/session-exec (session.clj:202)
 nrepl.middleware.session/session-exec (session.clj:201)
 java.lang.Thread/run (Thread.java:745)
 clj::aoc-2020.day-two=> 
-#'aoc-2020.day-two/get-valid-entry
+#'aoc-2020.day-two/get-valid-entry-p2
 clj::aoc-2020.day-two=> 
-; Execution error (ClassCastException) at aoc-2020.day-two/get-valid-entry (form-init1317110026822407688.clj:12).
-; java.lang.Long cannot be cast to java.lang.String
-aoc-2020.day-two/get-valid-entry (form-init1317110026822407688.clj:12)
-aoc-2020.day-two/get-valid-entry (form-init1317110026822407688.clj:8)
-aoc-2020.day-two/eval18151 (form-init1317110026822407688.clj:39)
-clojure.lang.PersistentVector/reduce (PersistentVector.java:343)
-clojure.core/reduce (core.clj:6827)
-clojure.core/reduce (core.clj:6810)
-aoc-2020.day-two/eval18151 (form-init1317110026822407688.clj:38)
-aoc-2020.day-two/eval18151 (form-init1317110026822407688.clj:36)
+; Execution error (ClassCastException) at aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:26).
+; java.lang.String cannot be cast to java.lang.Number
+aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:26)
+aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:25)
+aoc-2020.day-two/eval23170 (form-init2132174929412593829.clj:37)
 clojure.lang.Compiler/eval (Compiler.java:7177)
 clojure.core/eval (core.clj:3214)
 clojure.core/eval (core.clj:3210)
@@ -2315,18 +154,15 @@ nrepl.middleware.session/session-exec (session.clj:202)
 nrepl.middleware.session/session-exec (session.clj:201)
 java.lang.Thread/run (Thread.java:745)
 clj::aoc-2020.day-two=> 
-#'aoc-2020.day-two/get-valid-entry
+#'aoc-2020.day-two/get-valid-entry-p2
 clj::aoc-2020.day-two=> 
-; Execution error (ClassCastException) at aoc-2020.day-two/get-valid-entry (form-init1317110026822407688.clj:13).
-; java.lang.Long cannot be cast to java.lang.String
-aoc-2020.day-two/get-valid-entry (form-init1317110026822407688.clj:13)
-aoc-2020.day-two/get-valid-entry (form-init1317110026822407688.clj:8)
-aoc-2020.day-two/eval18325 (form-init1317110026822407688.clj:39)
-clojure.lang.PersistentVector/reduce (PersistentVector.java:343)
-clojure.core/reduce (core.clj:6827)
-clojure.core/reduce (core.clj:6810)
-aoc-2020.day-two/eval18325 (form-init1317110026822407688.clj:38)
-aoc-2020.day-two/eval18325 (form-init1317110026822407688.clj:36)
+#'aoc-2020.day-two/get-valid-entry-p2
+clj::aoc-2020.day-two=> 
+; Execution error (ClassCastException) at aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:26).
+; java.lang.String cannot be cast to java.lang.Number
+aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:26)
+aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:25)
+aoc-2020.day-two/eval23341 (form-init2132174929412593829.clj:37)
 clojure.lang.Compiler/eval (Compiler.java:7177)
 clojure.core/eval (core.clj:3214)
 clojure.core/eval (core.clj:3210)
@@ -2344,18 +180,15 @@ nrepl.middleware.session/session-exec (session.clj:202)
 nrepl.middleware.session/session-exec (session.clj:201)
 java.lang.Thread/run (Thread.java:745)
 clj::aoc-2020.day-two=> 
-#'aoc-2020.day-two/get-valid-entry
+#'aoc-2020.day-two/get-valid-entry-p2
 clj::aoc-2020.day-two=> 
-; Execution error (ClassCastException) at aoc-2020.day-two/get-valid-entry (form-init1317110026822407688.clj:13).
-; java.lang.Long cannot be cast to java.lang.String
-aoc-2020.day-two/get-valid-entry (form-init1317110026822407688.clj:13)
-aoc-2020.day-two/get-valid-entry (form-init1317110026822407688.clj:8)
-aoc-2020.day-two/eval18434 (form-init1317110026822407688.clj:39)
-clojure.lang.PersistentVector/reduce (PersistentVector.java:343)
-clojure.core/reduce (core.clj:6827)
-clojure.core/reduce (core.clj:6810)
-aoc-2020.day-two/eval18434 (form-init1317110026822407688.clj:38)
-aoc-2020.day-two/eval18434 (form-init1317110026822407688.clj:36)
+#'aoc-2020.day-two/get-valid-entry-p2
+clj::aoc-2020.day-two=> 
+; Execution error (ClassCastException) at aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:26).
+; java.lang.String cannot be cast to java.lang.Number
+aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:26)
+aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:25)
+aoc-2020.day-two/eval23590 (form-init2132174929412593829.clj:38)
 clojure.lang.Compiler/eval (Compiler.java:7177)
 clojure.core/eval (core.clj:3214)
 clojure.core/eval (core.clj:3210)
@@ -2373,93 +206,8 @@ nrepl.middleware.session/session-exec (session.clj:202)
 nrepl.middleware.session/session-exec (session.clj:201)
 java.lang.Thread/run (Thread.java:745)
 clj::aoc-2020.day-two=> 
-#'aoc-2020.day-two/get-valid-entry
-clj::aoc-2020.day-two=> 
-[["6-8 s: svsssszslpsp"]
- ["3-4 n: gncn"]
- ["4-8 v: vkvmvdmvhttvvrgvvwv"]
- ["16-18 j: jjjjjjjjjjjjjjjjjf"]
- ["13-15 p: pppppppvppppxxppp"]
- ["3-4 k: bkksggqbtwkkkzqcz"]
- ["8-18 x: qxphxxtczxxxxxrbxxl"]
- ["6-11 c: dccxcccccchrcfdckcsc"]
- ["10-11 c: ccvxccccccccc"]
- ["2-4 f: pszff"]
- ["18-20 z: zzzzzzzzzzwzzzzzzzzj"]
- ["1-7 g: ggggggpggggggg"]
- ["3-5 h: hhhhfhh"]
- ["2-5 x: dxxzxv"]
- ["7-8 s: ssssssss"]
- ["3-9 k: ktkkkkkklkck"]
- ["2-9 r: rzrrrrrrrrrrrr"]
- ["5-9 k: tkrkhkxbvkbkkkkk"]
- ["8-9 n: tnnpbnrns"]
- ["14-15 q: qqqqqqqqqqqqqqqq"]
- ["11-12 q: cqqqqqqqqqsqqqlqqqqq"]
- ["15-17 v: vvvvvvvvvvnvvvvvlvvv"]
- ["2-10 c: ccccccccvgckcccccc"]
- ["8-9 h: hbhhhhchhhs"]
- ["7-13 t: thtfttzctpvtn"]
- ["14-15 w: wwwwwwwvwwwwwppwww"]
- ["5-19 m: mmmmmjmmmmmmmmcmmmw"]
- ["2-8 z: mvtnjvzzs"]
- ["8-10 c: cccccccxcccc"]
- ["8-11 m: mmmmmmmmmmxmmmmk"]
- ["6-7 h: hhhhhhhhhhkhh"]
- ["6-8 h: xmhsphhm"]
- ["2-3 b: bbgb"]
- ["2-14 q: qqqqtkqzqqqqqq"]
- ["9-15 z: zzzzzzzzzzzzzzb"]
- ["2-12 n: hnmztvzxxwvnrnvlfbs"]
- ["8-13 c: cccccccccccctccbcc"]
- ["10-13 k: jkjzqkkkkmkkk"]
- ["3-10 m: mmmlmmmmmmmm"]
- ["1-2 r: nprr"]
- ["9-15 z: zzfjwgczzzzzzvlqz"]
- ["5-6 q: vqqqqq"]
- ["3-10 r: rrftrrkrrg"]
- ["7-9 r: tqfrrcrvbzrkrr"]
- ["5-12 j: jjjjjjjjjjjjj"]
- ["14-18 p: phnppvpchpncdppjpf"]
- ["3-5 t: hdtrtt"]
- ["7-9 x: xxxxxxxxlx"]
- ["3-4 m: wmmm"]
- ["1-14 l: hllllllllllllll"]
- ...]
-clj::aoc-2020.day-two=> 
-#'aoc-2020.day-two/get-valid-entry
-clj::aoc-2020.day-two=> 
-; Execution error (ClassCastException) at java.lang.String/compareTo (String.java:111).
-; java.lang.Long cannot be cast to java.lang.String
-java.lang.String/compareTo (String.java:111)
-clojure.lang.Util/compare (Util.java:153)
-aoc-2020.day-two/get-valid-entry (form-init1317110026822407688.clj:13)
-aoc-2020.day-two/get-valid-entry (form-init1317110026822407688.clj:8)
-aoc-2020.day-two/eval19054 (form-init1317110026822407688.clj:39)
-clojure.lang.PersistentVector/reduce (PersistentVector.java:343)
-clojure.core/reduce (core.clj:6827)
-clojure.core/reduce (core.clj:6810)
-aoc-2020.day-two/eval19054 (form-init1317110026822407688.clj:38)
-aoc-2020.day-two/eval19054 (form-init1317110026822407688.clj:36)
-clojure.lang.Compiler/eval (Compiler.java:7177)
-clojure.core/eval (core.clj:3214)
-clojure.core/eval (core.clj:3210)
-nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
-clojure.core/apply (core.clj:665)
-clojure.core/with-bindings* (core.clj:1973)
-nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
-clojure.main/repl (main.clj:437)
-clojure.main/repl (main.clj:458)
-clojure.main/repl (main.clj:368)
-nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
-nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
-nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
-nrepl.middleware.session/session-exec (session.clj:202)
-nrepl.middleware.session/session-exec (session.clj:201)
-java.lang.Thread/run (Thread.java:745)
-clj::aoc-2020.day-two=> 
-; Syntax error (NoSuchFieldException) compiling . at (src/aoc_2020/day_two.clj:13:18).
-; parseLonglower
+; Syntax error (IllegalArgumentException) compiling . at (src/aoc_2020/day_two.clj:28:46).
+; No matching method parseInt found taking 1 args for class java.lang.Number
 clojure.lang.Compiler/analyzeSeq (Compiler.java:7115)
 clojure.lang.Compiler/analyze (Compiler.java:6789)
 clojure.lang.Compiler/analyzeSeq (Compiler.java:7095)
@@ -2469,11 +217,8 @@ clojure.lang.Compiler/analyzeSeq (Compiler.java:7107)
 clojure.lang.Compiler/analyze (Compiler.java:6789)
 clojure.lang.Compiler/analyzeSeq (Compiler.java:7102)
 clojure.lang.Compiler/analyze (Compiler.java:6789)
-clojure.lang.Compiler$IfExpr$Parser/parse (Compiler.java:2824)
-clojure.lang.Compiler/analyzeSeq (Compiler.java:7107)
-clojure.lang.Compiler/analyze (Compiler.java:6789)
-clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
-clojure.lang.Compiler$LetExpr$Parser/parse (Compiler.java:6436)
+clojure.lang.Compiler/access$300 (Compiler.java:38)
+clojure.lang.Compiler$LetExpr$Parser/parse (Compiler.java:6384)
 clojure.lang.Compiler/analyzeSeq (Compiler.java:7107)
 clojure.lang.Compiler/analyze (Compiler.java:6789)
 clojure.lang.Compiler/analyzeSeq (Compiler.java:7095)
@@ -2506,752 +251,59 @@ nrepl.middleware.session/session-exec (session.clj:202)
 nrepl.middleware.session/session-exec (session.clj:201)
 java.lang.Thread/run (Thread.java:745)
 clj::aoc-2020.day-two=> 
-#'aoc-2020.day-two/get-valid-entry
+; Syntax error (IllegalArgumentException) compiling . at (src/aoc_2020/day_two.clj:28:46).
+; No matching method parseNumber found taking 1 args for class java.lang.Number
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7115)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7095)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$HostExpr$Parser/parse (Compiler.java:1020)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7107)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7102)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/access$300 (Compiler.java:38)
+clojure.lang.Compiler$LetExpr$Parser/parse (Compiler.java:6384)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7107)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7095)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$FnMethod/parse (Compiler.java:5467)
+clojure.lang.Compiler$FnExpr/parse (Compiler.java:4029)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7105)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7095)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/access$300 (Compiler.java:38)
+clojure.lang.Compiler$DefExpr$Parser/parse (Compiler.java:596)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7107)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/eval (Compiler.java:7181)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
 clj::aoc-2020.day-two=> 
-[["6-8 s: svsssszslpsp"]
- ["3-4 n: gncn"]
- ["4-8 v: vkvmvdmvhttvvrgvvwv"]
- ["16-18 j: jjjjjjjjjjjjjjjjjf"]
- ["13-15 p: pppppppvppppxxppp"]
- ["3-4 k: bkksggqbtwkkkzqcz"]
- ["8-18 x: qxphxxtczxxxxxrbxxl"]
- ["6-11 c: dccxcccccchrcfdckcsc"]
- ["10-11 c: ccvxccccccccc"]
- ["2-4 f: pszff"]
- ["18-20 z: zzzzzzzzzzwzzzzzzzzj"]
- ["1-7 g: ggggggpggggggg"]
- ["3-5 h: hhhhfhh"]
- ["2-5 x: dxxzxv"]
- ["7-8 s: ssssssss"]
- ["3-9 k: ktkkkkkklkck"]
- ["2-9 r: rzrrrrrrrrrrrr"]
- ["5-9 k: tkrkhkxbvkbkkkkk"]
- ["8-9 n: tnnpbnrns"]
- ["14-15 q: qqqqqqqqqqqqqqqq"]
- ["11-12 q: cqqqqqqqqqsqqqlqqqqq"]
- ["15-17 v: vvvvvvvvvvnvvvvvlvvv"]
- ["2-10 c: ccccccccvgckcccccc"]
- ["8-9 h: hbhhhhchhhs"]
- ["7-13 t: thtfttzctpvtn"]
- ["14-15 w: wwwwwwwvwwwwwppwww"]
- ["5-19 m: mmmmmjmmmmmmmmcmmmw"]
- ["2-8 z: mvtnjvzzs"]
- ["8-10 c: cccccccxcccc"]
- ["8-11 m: mmmmmmmmmmxmmmmk"]
- ["6-7 h: hhhhhhhhhhkhh"]
- ["6-8 h: xmhsphhm"]
- ["2-3 b: bbgb"]
- ["2-14 q: qqqqtkqzqqqqqq"]
- ["9-15 z: zzzzzzzzzzzzzzb"]
- ["2-12 n: hnmztvzxxwvnrnvlfbs"]
- ["8-13 c: cccccccccccctccbcc"]
- ["10-13 k: jkjzqkkkkmkkk"]
- ["3-10 m: mmmlmmmmmmmm"]
- ["1-2 r: nprr"]
- ["9-15 z: zzfjwgczzzzzzvlqz"]
- ["5-6 q: vqqqqq"]
- ["3-10 r: rrftrrkrrg"]
- ["7-9 r: tqfrrcrvbzrkrr"]
- ["5-12 j: jjjjjjjjjjjjj"]
- ["14-18 p: phnppvpchpncdppjpf"]
- ["3-5 t: hdtrtt"]
- ["7-9 x: xxxxxxxxlx"]
- ["3-4 m: wmmm"]
- ["1-14 l: hllllllllllllll"]
- ...]
+#'aoc-2020.day-two/get-valid-entry-p2
 clj::aoc-2020.day-two=> 
-#'aoc-2020.day-two/get-valid-entry
-clj::aoc-2020.day-two=> 
-6
-3
-4
-16
-13
-3
-8
-6
-10
-2
-18
-1
-3
-2
-7
-3
-2
-5
-8
-14
-11
-15
-2
-8
-7
-14
-5
-2
-8
-8
-6
-6
-2
-2
-9
-2
-8
-10
-3
-1
-9
-5
-3
-7
-5
-14
-3
-7
-3
-1
-2
-17
-8
-4
-3
-3
-5
-4
-1
-6
-2
-17
-3
-10
-11
-11
-14
-3
-10
-19
-4
-8
-4
-6
-5
-1
-6
-6
-7
-10
-1
-4
-1
-3
-18
-12
-8
-5
-9
-3
-9
-10
-6
-1
-6
-1
-9
-12
-1
-6
-13
-5
-2
-6
-7
-6
-11
-1
-12
-9
-5
-15
-3
-3
-7
-2
-2
-1
-3
-14
-7
-9
-9
-4
-1
-2
-6
-6
-3
-9
-9
-6
-2
-14
-6
-12
-13
-7
-2
-1
-1
-9
-12
-8
-14
-7
-2
-3
-5
-8
-2
-2
-2
-5
-9
-1
-7
-2
-6
-7
-1
-14
-6
-7
-2
-8
-3
-2
-5
-8
-2
-3
-2
-1
-2
-2
-2
-1
-2
-5
-6
-2
-4
-13
-7
-6
-1
-2
-3
-1
-10
-15
-8
-4
-8
-2
-5
-12
-3
-8
-8
-2
-7
-10
-15
-8
-3
-3
-3
-3
-4
-5
-1
-1
-1
-4
-1
-7
-4
-14
-14
-12
-6
-7
-4
-18
-5
-2
-1
-15
-11
-9
-2
-6
-8
-3
-13
-4
-2
-12
-5
-4
-12
-11
-16
-3
-2
-7
-2
-1
-1
-12
-12
-11
-2
-3
-8
-2
-2
-3
-6
-7
-3
-4
-8
-8
-10
-3
-3
-1
-13
-14
-4
-3
-2
-13
-6
-15
-11
-4
-2
-11
-7
-10
-10
-13
-1
-11
-10
-3
-2
-1
-2
-4
-5
-3
-7
-2
-8
-2
-2
-5
-11
-5
-6
-2
-3
-5
-3
-9
-3
-4
-6
-10
-3
-1
-10
-2
-3
-8
-1
-11
-6
-3
-16
-4
-11
-2
-13
-10
-3
-2
-6
-5
-10
-8
-3
-5
-1
-7
-5
-4
-6
-5
-1
-9
-3
-2
-9
-15
-1
-2
-10
-5
-5
-3
-7
-4
-3
-6
-6
-6
-7
-6
-5
-8
-3
-6
-1
-6
-3
-13
-1
-5
-5
-3
-1
-3
-10
-4
-5
-4
-4
-2
-1
-8
-1
-12
-2
-9
-1
-3
-6
-3
-12
-5
-1
-3
-7
-9
-6
-4
-1
-13
-6
-8
-13
-2
-2
-4
-15
-3
-5
-9
-2
-5
-15
-3
-1
-3
-4
-2
-7
-8
-3
-1
-8
-4
-6
-11
-14
-6
-8
-14
-1
-6
-5
-7
-6
-4
-9
-1
-2
-2
-3
-10
-6
-15
-3
-6
-3
-4
-10
-7
-3
-2
-12
-2
-2
-2
-10
-1
-1
-1
-4
-7
-1
-3
-2
-2
-1
-3
-5
-3
-1
-2
-15
-6
-1
-8
-3
-1
-8
-11
-1
-10
-8
-8
-9
-2
-7
-9
-4
-2
-4
-11
-3
-7
-3
-4
-6
-4
-3
-8
-6
-7
-4
-5
-4
-11
-1
-10
-9
-6
-3
-2
-3
-1
-18
-1
-2
-3
-3
-11
-6
-6
-2
-4
-3
-6
-6
-10
-10
-10
-6
-2
-9
-7
-7
-2
-2
-2
-11
-10
-13
-12
-9
-4
-9
-3
-2
-1
-7
-6
-11
-6
-10
-18
-7
-16
-7
-5
-6
-4
-1
-5
-1
-15
-5
-3
-1
-11
-1
-4
-9
-7
-5
-1
-13
-5
-1
-3
-4
-6
-3
-11
-15
-5
-5
-2
-13
-16
-15
-18
-3
-1
-3
-13
-12
-2
-11
-2
-3
-2
-9
-8
-2
-12
-10
-7
-7
-2
-6
-3
-5
-4
-5
-4
-5
-5
-7
-7
-7
-7
-7
-2
-2
-5
-7
-3
-1
-15
-11
-5
-6
-1
-3
-4
-12
-2
-9
-3
-4
-2
-8
-9
-3
-1
-3
-13
-16
-12
-1
-4
-5
-4
-15
-1
-4
-16
-1
-1
-1
-16
-3
-4
-8
-3
-1
-2
-6
-6
-13
-3
-6
-3
-; Execution error (NullPointerException) at aoc-2020.day-two/get-valid-entry (form-init1317110026822407688.clj:14).
-; null
-clojure.lang.Numbers/ops (Numbers.java:1068)
-clojure.lang.Numbers/gte (Numbers.java:263)
-clojure.core/>= (core.clj:1094)
-clojure.core/>= (core.clj:1085)
-aoc-2020.day-two/get-valid-entry (form-init1317110026822407688.clj:14)
-aoc-2020.day-two/get-valid-entry (form-init1317110026822407688.clj:8)
-aoc-2020.day-two/eval20709 (form-init1317110026822407688.clj:40)
-clojure.lang.PersistentVector/reduce (PersistentVector.java:343)
-clojure.core/reduce (core.clj:6827)
-clojure.core/reduce (core.clj:6810)
-aoc-2020.day-two/eval20709 (form-init1317110026822407688.clj:39)
-aoc-2020.day-two/eval20709 (form-init1317110026822407688.clj:37)
+; Execution error (ClassCastException) at aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:28).
+; java.lang.String cannot be cast to java.lang.Character
+clojure.lang.RT/intCast (RT.java:1220)
+aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:28)
+aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:25)
+aoc-2020.day-two/eval24730 (form-init2132174929412593829.clj:38)
 clojure.lang.Compiler/eval (Compiler.java:7177)
 clojure.core/eval (core.clj:3214)
 clojure.core/eval (core.clj:3210)
@@ -3269,698 +321,18 @@ nrepl.middleware.session/session-exec (session.clj:202)
 nrepl.middleware.session/session-exec (session.clj:201)
 java.lang.Thread/run (Thread.java:745)
 clj::aoc-2020.day-two=> 
-#'aoc-2020.day-two/get-valid-entry
+#'aoc-2020.day-two/get-valid-entry-p2
 clj::aoc-2020.day-two=> 
-6   7   8
-3   2   4
-4   9   8
-16   17   18
-13   14   15
-3   5   4
-8   10   18
-6   12   11
-10   11   11
-2   2   4
-18   18   20
-1   13   7
-3   6   5
-2   3   5
-7   8   8
-3   9   9
-2   13   9
-5   9   9
-8   4   9
-14   16   15
-11   17   12
-15   18   17
-2   15   10
-8   8   9
-7   6   13
-14   15   15
-5   16   19
-2   2   8
-8   11   10
-8   14   11
-6   12   7
-6   3   8
-2   3   3
-2   11   14
-9   14   15
-2   3   12
-8   16   13
-10   8   13
-3   11   10
-1   2   2
-9   9   15
-5   5   6
-3   6   10
-7   6   9
-5   13   12
-14   8   18
-3   3   5
-7   9   9
-3   3   4
-1   14   14
-2   2   3
-17   18   18
-8   13   13
-4   5   9
-3   2   5
-3   4   4
-5   4   6
-4   9   8
-1   3   3
-6   6   7
-2   3   3
-17   7   18
-3   1   6
-10   12   15
-11   11   13
-11   16   17
-14   5   15
-3   3   5
-10   2   11
-19   17   20
-4   7   6
-8   11   10
-4   4   20
-6   4   9
-5   5   6
-1   3   4
-6   8   11
-6   4   8
-7   8   8
-10   11   11
-1   2   3
-4   3   5
-1   8   3
-3   4   5
-18   14   20
-12   11   13
-8   9   11
-5   2   18
-9   9   10
-3   3   4
-9   9   16
-10   4   12
-6   1   7
-1   11   5
-6   3   8
-1   2   2
-9   8   10
-12   4   14
-1   8   4
-6   5   7
-13   4   14
-5   5   14
-2   2   4
-6   8   10
-7   3   8
-6   7   7
-11   13   12
-1   4   8
-12   13   13
-9   8   12
-5   1   7
-15   3   18
-3   3   8
-3   1   4
-7   2   9
-2   7   8
-2   2   8
-1   10   9
-3   2   16
-14   16   16
-7   12   8
-9   7   10
-9   7   10
-4   4   5
-1   4   6
-2   4   6
-6   8   13
-6   8   8
-3   2   4
-9   8   10
-9   14   15
-6   12   12
-2   4   6
-14   15   16
-6   11   13
-12   4   13
-13   13   14
-7   11   10
-2   8   10
-1   3   2
-1   7   6
-9   9   12
-12   7   16
-8   13   9
-14   12   15
-7   3   8
-2   7   7
-3   1   5
-5   7   9
-8   8   11
-2   2   4
-2   4   13
-2   3   5
-5   5   8
-9   7   11
-1   8   9
-7   4   11
-2   9   7
-6   9   11
-7   4   17
-1   2   2
-14   15   18
-6   5   8
-7   19   19
-2   2   5
-8   9   10
-3   3   7
-2   5   7
-5   3   11
-8   9   16
-2   3   3
-3   3   5
-2   2   3
-1   10   6
-2   10   10
-2   16   5
-2   4   6
-1   2   3
-2   5   10
-5   7   8
-6   6   8
-2   10   10
-4   3   11
-13   3   15
-7   1   8
-6   2   10
-1   6   3
-2   6   4
-3   5   6
-1   15   14
-10   4   11
-15   19   18
-8   13   12
-4   6   6
-8   12   11
-2   4   4
-5   7   8
-12   2   15
-3   4   6
-8   13   12
-8   5   9
-2   2   11
-7   8   14
-10   11   11
-15   17   16
-8   8   14
-3   3   13
-3   5   5
-3   5   4
-3   3   13
-4   7   5
-5   7   7
-1   2   4
-1   5   5
-1   2   3
-4   2   6
-1   4   5
-7   11   8
-4   4   5
-14   13   19
-14   2   16
-12   14   14
-6   1   9
-7   4   14
-4   8   11
-18   19   20
-5   4   6
-2   2   4
-1   2   2
-15   16   17
-11   14   14
-9   7   13
-2   3   5
-6   9   8
-8   8   9
-3   2   4
-13   13   15
-4   2   6
-2   9   6
-12   13   14
-5   18   19
-4   2   9
-12   10   15
-11   5   12
-16   7   18
-3   6   11
-2   8   3
-7   11   11
-2   3   3
-1   5   8
-1   3   4
-12   12   13
-12   14   13
-11   9   12
-2   2   7
-3   3   9
-8   9   10
-2   4   5
-2   1   7
-3   4   4
-6   2   7
-7   4   12
-3   3   4
-4   2   5
-8   6   15
-8   9   10
-10   12   14
-3   2   7
-3   2   4
-1   3   2
-13   6   17
-14   8   19
-4   7   7
-3   11   13
-2   8   7
-13   14   14
-6   7   11
-15   17   19
-11   16   16
-4   6   13
-2   2   3
-11   4   14
-7   3   8
-10   8   11
-10   2   11
-13   11   14
-1   3   4
-11   12   16
-10   11   12
-3   2   4
-2   14   10
-1   3   2
-2   3   5
-4   11   11
-5   7   7
-3   1   4
-7   4   8
-2   1   10
-8   6   14
-2   2   4
-2   2   11
-5   9   19
-11   11   13
-5   4   6
-6   1   8
-2   3   4
-3   1   4
-5   2   7
-3   3   4
-9   10   11
-3   1   4
-4   2   7
-6   2   9
-10   10   11
-3   7   7
-1   10   4
-10   14   13
-2   2   6
-3   2   4
-8   5   10
-1   7   2
-11   11   13
-6   5   10
-3   3   4
-16   19   18
-4   4   7
-11   15   14
-2   6   6
-13   16   14
-10   11   12
-3   8   13
-2   9   6
-6   6   7
-5   8   8
-10   4   14
-8   9   9
-3   1   5
-5   6   6
-1   5   9
-7   8   8
-5   16   8
-4   9   11
-6   6   7
-5   6   6
-1   5   2
-9   9   12
-3   2   4
-2   3   6
-9   7   10
-15   9   18
-1   1   4
-2   2   6
-10   13   12
-5   5   6
-5   13   13
-3   9   7
-7   4   12
-4   7   7
-3   1   5
-6   2   13
-6   3   12
-6   4   11
-7   10   10
-6   2   7
-5   3   6
-8   11   18
-3   1   5
-6   6   7
-1   4   5
-6   2   9
-3   6   7
-13   15   17
-1   4   3
-5   6   6
-5   9   9
-3   11   8
-1   6   3
-3   2   5
-10   9   11
-4   2   6
-5   7   7
-4   8   6
-4   3   5
-2   5   5
-1   3   3
-8   2   14
-1   11   12
-12   19   14
-2   4   6
-9   13   12
-1   4   7
-3   5   6
-6   2   7
-3   2   4
-12   12   17
-5   5   6
-1   2   3
-3   1   4
-7   7   9
-9   5   16
-6   5   9
-4   6   6
-1   10   10
-13   3   20
-6   5   7
-8   3   13
-13   13   14
-2   6   15
-2   3   4
-4   7   5
-15   16   17
-3   2   5
-5   2   6
-9   9   10
-2   2   3
-5   7   11
-15   8   18
-3   2   6
-1   6   4
-3   2   4
-4   4   8
-2   4   3
-7   6   13
-8   7   9
-3   1   9
-1   3   3
-8   6   10
-4   3   5
-6   3   7
-11   6   13
-14   13   16
-6   13   15
-8   12   16
-14   4   16
-1   13   9
-6   8   9
-5   3   6
-7   7   8
-6   4   19
-4   3   14
-9   10   11
-1   13   2
-2   1   3
-2   3   4
-3   5   4
-10   2   13
-6   7   9
-15   15   16
-3   11   11
-6   5   7
-3   2   8
-4   2   9
-10   10   11
-7   14   8
-3   6   5
-2   2   4
-12   13   13
-2   2   3
-2   3   4
-2   4   3
-10   11   11
-1   4   3
-1   10   5
-1   3   4
-4   5   6
-7   2   8
-1   3   3
-3   12   9
-2   6   5
-2   1   6
-1   3   3
-3   6   5
-5   3   7
-3   10   10
-1   3   3
-2   16   15
-15   5   17
-6   6   8
-1   7   3
-8   2   17
-3   3   5
-1   12   9
-8   14   13
-11   11   12
-1   2   4
-10   16   12
-8   11   10
-8   9   9
-9   5   10
-2   8   8
-7   2   12
-9   8   14
-4   3   6
-2   2   9
-4   14   11
-11   2   12
-3   2   4
-7   5   8
-3   1   4
-4   5   5
-6   7   9
-4   1   9
-3   4   4
-8   3   10
-6   4   7
-7   11   15
-4   4   5
-5   5   9
-4   3   5
-11   8   13
-1   2   2
-10   13   11
-9   17   16
-6   8   10
-3   2   4
-2   4   7
-3   6   5
-1   3   10
-18   11   19
-1   3   2
-2   2   11
-3   2   4
-3   9   8
-11   4   18
-6   4   19
-6   4   7
-2   3   7
-4   4   8
-3   4   7
-6   8   7
-6   6   8
-10   5   14
-10   11   11
-10   3   12
-6   13   8
-2   13   13
-9   7   16
-7   1   8
-7   8   8
-2   4   4
-2   2   3
-2   4   5
-11   13   16
-10   9   12
-13   19   14
-12   16   15
-9   9   10
-4   3   9
-9   2   11
-3   7   15
-2   3   3
-1   9   8
-7   7   10
-6   4   8
-11   12   12
-6   9   11
-10   6   12
-18   18   19
-7   9   8
-16   16   17
-7   6   8
-5   5   8
-6   11   11
-4   2   13
-1   8   9
-5   6   6
-1   11   9
-15   4   16
-5   2   6
-3   4   11
-1   4   3
-11   5   12
-1   2   8
-4   6   5
-9   9   10
-7   7   12
-5   2   13
-1   10   11
-13   10   15
-5   9   10
-1   2   4
-3   7   13
-4   6   6
-6   7   7
-3   2   4
-11   17   13
-15   16   18
-5   14   13
-5   5   17
-2   3   7
-13   5   17
-16   7   19
-15   15   20
-18   18   19
-3   3   5
-1   9   6
-3   9   8
-13   6   16
-12   12   13
-2   6   3
-11   4   13
-2   5   11
-3   3   4
-2   4   7
-9   6   12
-8   3   14
-2   2   4
-12   6   13
-10   11   12
-7   2   8
-7   14   19
-2   2   4
-6   8   15
-3   3   4
-5   2   6
-4   5   5
-5   1   7
-4   9   7
-5   1   7
-5   4   10
-7   8   10
-7   7   13
-7   5   8
-7   12   13
-7   5   8
-2   1   5
-2   5   4
-5   10   11
-7   1   8
-3   2   5
-1   12   10
-15   15   17
-11   11   12
-5   6   7
-6   5   11
-1   3   4
-3   6   5
-4   3   5
-12   14   14
-2   2   8
-9   9   12
-3   1   4
-4   4   5
-2   2   8
-8   10   11
-9   11   11
-3   2   4
-1   1   2
-3   3   5
-13   2   14
-16   16   18
-12   12   16
-1   6   7
-4   3   6
-5   2   7
-4   6   11
-15   14   17
-1   4   3
-4   3   5
-16   11   18
-1   7   8
-1   2   2
-1   4   4
-16   16   17
-3   2   4
-4   5   5
-8   8   9
-3   2   6
-1   10   7
-2   3   4
-6   3   8
-6   13   13
-13   14   14
-3   11   7
-6   11   9
-3   nil   5
-; Execution error (NullPointerException) at aoc-2020.day-two/get-valid-entry (form-init1317110026822407688.clj:14).
-; null
-clojure.lang.Numbers/ops (Numbers.java:1068)
-clojure.lang.Numbers/gte (Numbers.java:263)
-clojure.core/>= (core.clj:1094)
-clojure.core/>= (core.clj:1085)
-aoc-2020.day-two/get-valid-entry (form-init1317110026822407688.clj:14)
-aoc-2020.day-two/get-valid-entry (form-init1317110026822407688.clj:8)
-aoc-2020.day-two/eval21896 (form-init1317110026822407688.clj:40)
-clojure.lang.PersistentVector/reduce (PersistentVector.java:343)
-clojure.core/reduce (core.clj:6827)
-clojure.core/reduce (core.clj:6810)
-aoc-2020.day-two/eval21896 (form-init1317110026822407688.clj:39)
-aoc-2020.day-two/eval21896 (form-init1317110026822407688.clj:37)
+nil
+clj::aoc-2020.day-two=> 
+#'aoc-2020.day-two/get-valid-entry-p2
+clj::aoc-2020.day-two=> 
+; Execution error (ClassCastException) at aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:28).
+; java.lang.String cannot be cast to java.lang.Character
+clojure.lang.RT/intCast (RT.java:1220)
+aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:28)
+aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:25)
+aoc-2020.day-two/eval24930 (form-init2132174929412593829.clj:38)
 clojure.lang.Compiler/eval (Compiler.java:7177)
 clojure.core/eval (core.clj:3214)
 clojure.core/eval (core.clj:3210)
@@ -3978,2053 +350,4377 @@ nrepl.middleware.session/session-exec (session.clj:202)
 nrepl.middleware.session/session-exec (session.clj:201)
 java.lang.Thread/run (Thread.java:745)
 clj::aoc-2020.day-two=> 
-#'aoc-2020.day-two/get-valid-entry
+#'aoc-2020.day-two/get-valid-entry-p2
 clj::aoc-2020.day-two=> 
-6   7   8
-3   2   4
-4   9   8
-16   17   18
-13   14   15
-3   5   4
-8   10   18
-6   12   11
-10   11   11
-2   2   4
-18   18   20
-1   13   7
-3   6   5
-2   3   5
-7   8   8
-3   9   9
-2   13   9
-5   9   9
-8   4   9
-14   16   15
-11   17   12
-15   18   17
-2   15   10
-8   8   9
-7   6   13
-14   15   15
-5   16   19
-2   2   8
-8   11   10
-8   14   11
-6   12   7
-6   3   8
-2   3   3
-2   11   14
-9   14   15
-2   3   12
-8   16   13
-10   8   13
-3   11   10
-1   2   2
-9   9   15
-5   5   6
-3   6   10
-7   6   9
-5   13   12
-14   8   18
-3   3   5
-7   9   9
-3   3   4
-1   14   14
-2   2   3
-17   18   18
-8   13   13
-4   5   9
-3   2   5
-3   4   4
-5   4   6
-4   9   8
-1   3   3
-6   6   7
-2   3   3
-17   7   18
-3   1   6
-10   12   15
-11   11   13
-11   16   17
-14   5   15
-3   3   5
-10   2   11
-19   17   20
-4   7   6
-8   11   10
-4   4   20
-6   4   9
-5   5   6
-1   3   4
-6   8   11
-6   4   8
-7   8   8
-10   11   11
-1   2   3
-4   3   5
-1   8   3
-3   4   5
-18   14   20
-12   11   13
-8   9   11
-5   2   18
-9   9   10
-3   3   4
-9   9   16
-10   4   12
-6   1   7
-1   11   5
-6   3   8
-1   2   2
-9   8   10
-12   4   14
-1   8   4
-6   5   7
-13   4   14
-5   5   14
-2   2   4
-6   8   10
-7   3   8
-6   7   7
-11   13   12
-1   4   8
-12   13   13
-9   8   12
-5   1   7
-15   3   18
-3   3   8
-3   1   4
-7   2   9
-2   7   8
-2   2   8
-1   10   9
-3   2   16
-14   16   16
-7   12   8
-9   7   10
-9   7   10
-4   4   5
-1   4   6
-2   4   6
-6   8   13
-6   8   8
-3   2   4
-9   8   10
-9   14   15
-6   12   12
-2   4   6
-14   15   16
-6   11   13
-12   4   13
-13   13   14
-7   11   10
-2   8   10
-1   3   2
-1   7   6
-9   9   12
-12   7   16
-8   13   9
-14   12   15
-7   3   8
-2   7   7
-3   1   5
-5   7   9
-8   8   11
-2   2   4
-2   4   13
-2   3   5
-5   5   8
-9   7   11
-1   8   9
-7   4   11
-2   9   7
-6   9   11
-7   4   17
-1   2   2
-14   15   18
-6   5   8
-7   19   19
-2   2   5
-8   9   10
-3   3   7
-2   5   7
-5   3   11
-8   9   16
-2   3   3
-3   3   5
-2   2   3
-1   10   6
-2   10   10
-2   16   5
-2   4   6
-1   2   3
-2   5   10
-5   7   8
-6   6   8
-2   10   10
-4   3   11
-13   3   15
-7   1   8
-6   2   10
-1   6   3
-2   6   4
-3   5   6
-1   15   14
-10   4   11
-15   19   18
-8   13   12
-4   6   6
-8   12   11
-2   4   4
-5   7   8
-12   2   15
-3   4   6
-8   13   12
-8   5   9
-2   2   11
-7   8   14
-10   11   11
-15   17   16
-8   8   14
-3   3   13
-3   5   5
-3   5   4
-3   3   13
-4   7   5
-5   7   7
-1   2   4
-1   5   5
-1   2   3
-4   2   6
-1   4   5
-7   11   8
-4   4   5
-14   13   19
-14   2   16
-12   14   14
-6   1   9
-7   4   14
-4   8   11
-18   19   20
-5   4   6
-2   2   4
-1   2   2
-15   16   17
-11   14   14
-9   7   13
-2   3   5
-6   9   8
-8   8   9
-3   2   4
-13   13   15
-4   2   6
-2   9   6
-12   13   14
-5   18   19
-4   2   9
-12   10   15
-11   5   12
-16   7   18
-3   6   11
-2   8   3
-7   11   11
-2   3   3
-1   5   8
-1   3   4
-12   12   13
-12   14   13
-11   9   12
-2   2   7
-3   3   9
-8   9   10
-2   4   5
-2   1   7
-3   4   4
-6   2   7
-7   4   12
-3   3   4
-4   2   5
-8   6   15
-8   9   10
-10   12   14
-3   2   7
-3   2   4
-1   3   2
-13   6   17
-14   8   19
-4   7   7
-3   11   13
-2   8   7
-13   14   14
-6   7   11
-15   17   19
-11   16   16
-4   6   13
-2   2   3
-11   4   14
-7   3   8
-10   8   11
-10   2   11
-13   11   14
-1   3   4
-11   12   16
-10   11   12
-3   2   4
-2   14   10
-1   3   2
-2   3   5
-4   11   11
-5   7   7
-3   1   4
-7   4   8
-2   1   10
-8   6   14
-2   2   4
-2   2   11
-5   9   19
-11   11   13
-5   4   6
-6   1   8
-2   3   4
-3   1   4
-5   2   7
-3   3   4
-9   10   11
-3   1   4
-4   2   7
-6   2   9
-10   10   11
-3   7   7
-1   10   4
-10   14   13
-2   2   6
-3   2   4
-8   5   10
-1   7   2
-11   11   13
-6   5   10
-3   3   4
-16   19   18
-4   4   7
-11   15   14
-2   6   6
-13   16   14
-10   11   12
-3   8   13
-2   9   6
-6   6   7
-5   8   8
-10   4   14
-8   9   9
-3   1   5
-5   6   6
-1   5   9
-7   8   8
-5   16   8
-4   9   11
-6   6   7
-5   6   6
-1   5   2
-9   9   12
-3   2   4
-2   3   6
-9   7   10
-15   9   18
-1   1   4
-2   2   6
-10   13   12
-5   5   6
-5   13   13
-3   9   7
-7   4   12
-4   7   7
-3   1   5
-6   2   13
-6   3   12
-6   4   11
-7   10   10
-6   2   7
-5   3   6
-8   11   18
-3   1   5
-6   6   7
-1   4   5
-6   2   9
-3   6   7
-13   15   17
-1   4   3
-5   6   6
-5   9   9
-3   11   8
-1   6   3
-3   2   5
-10   9   11
-4   2   6
-5   7   7
-4   8   6
-4   3   5
-2   5   5
-1   3   3
-8   2   14
-1   11   12
-12   19   14
-2   4   6
-9   13   12
-1   4   7
-3   5   6
-6   2   7
-3   2   4
-12   12   17
-5   5   6
-1   2   3
-3   1   4
-7   7   9
-9   5   16
-6   5   9
-4   6   6
-1   10   10
-13   3   20
-6   5   7
-8   3   13
-13   13   14
-2   6   15
-2   3   4
-4   7   5
-15   16   17
-3   2   5
-5   2   6
-9   9   10
-2   2   3
-5   7   11
-15   8   18
-3   2   6
-1   6   4
-3   2   4
-4   4   8
-2   4   3
-7   6   13
-8   7   9
-3   1   9
-1   3   3
-8   6   10
-4   3   5
-6   3   7
-11   6   13
-14   13   16
-6   13   15
-8   12   16
-14   4   16
-1   13   9
-6   8   9
-5   3   6
-7   7   8
-6   4   19
-4   3   14
-9   10   11
-1   13   2
-2   1   3
-2   3   4
-3   5   4
-10   2   13
-6   7   9
-15   15   16
-3   11   11
-6   5   7
-3   2   8
-4   2   9
-10   10   11
-7   14   8
-3   6   5
-2   2   4
-12   13   13
-2   2   3
-2   3   4
-2   4   3
-10   11   11
-1   4   3
-1   10   5
-1   3   4
-4   5   6
-7   2   8
-1   3   3
-3   12   9
-2   6   5
-2   1   6
-1   3   3
-3   6   5
-5   3   7
-3   10   10
-1   3   3
-2   16   15
-15   5   17
-6   6   8
-1   7   3
-8   2   17
-3   3   5
-1   12   9
-8   14   13
-11   11   12
-1   2   4
-10   16   12
-8   11   10
-8   9   9
-9   5   10
-2   8   8
-7   2   12
-9   8   14
-4   3   6
-2   2   9
-4   14   11
-11   2   12
-3   2   4
-7   5   8
-3   1   4
-4   5   5
-6   7   9
-4   1   9
-3   4   4
-8   3   10
-6   4   7
-7   11   15
-4   4   5
-5   5   9
-4   3   5
-11   8   13
-1   2   2
-10   13   11
-9   17   16
-6   8   10
-3   2   4
-2   4   7
-3   6   5
-1   3   10
-18   11   19
-1   3   2
-2   2   11
-3   2   4
-3   9   8
-11   4   18
-6   4   19
-6   4   7
-2   3   7
-4   4   8
-3   4   7
-6   8   7
-6   6   8
-10   5   14
-10   11   11
-10   3   12
-6   13   8
-2   13   13
-9   7   16
-7   1   8
-7   8   8
-2   4   4
-2   2   3
-2   4   5
-11   13   16
-10   9   12
-13   19   14
-12   16   15
-9   9   10
-4   3   9
-9   2   11
-3   7   15
-2   3   3
-1   9   8
-7   7   10
-6   4   8
-11   12   12
-6   9   11
-10   6   12
-18   18   19
-7   9   8
-16   16   17
-7   6   8
-5   5   8
-6   11   11
-4   2   13
-1   8   9
-5   6   6
-1   11   9
-15   4   16
-5   2   6
-3   4   11
-1   4   3
-11   5   12
-1   2   8
-4   6   5
-9   9   10
-7   7   12
-5   2   13
-1   10   11
-13   10   15
-5   9   10
-1   2   4
-3   7   13
-4   6   6
-6   7   7
-3   2   4
-11   17   13
-15   16   18
-5   14   13
-5   5   17
-2   3   7
-13   5   17
-16   7   19
-15   15   20
-18   18   19
-3   3   5
-1   9   6
-3   9   8
-13   6   16
-12   12   13
-2   6   3
-11   4   13
-2   5   11
-3   3   4
-2   4   7
-9   6   12
-8   3   14
-2   2   4
-12   6   13
-10   11   12
-7   2   8
-7   14   19
-2   2   4
-6   8   15
-3   3   4
-5   2   6
-4   5   5
-5   1   7
-4   9   7
-5   1   7
-5   4   10
-7   8   10
-7   7   13
-7   5   8
-7   12   13
-7   5   8
-2   1   5
-2   5   4
-5   10   11
-7   1   8
-3   2   5
-1   12   10
-15   15   17
-11   11   12
-5   6   7
-6   5   11
-1   3   4
-3   6   5
-4   3   5
-12   14   14
-2   2   8
-9   9   12
-3   1   4
-4   4   5
-2   2   8
-8   10   11
-9   11   11
-3   2   4
-1   1   2
-3   3   5
-13   2   14
-16   16   18
-12   12   16
-1   6   7
-4   3   6
-5   2   7
-4   6   11
-15   14   17
-1   4   3
-4   3   5
-16   11   18
-1   7   8
-1   2   2
-1   4   4
-16   16   17
-3   2   4
-4   5   5
-8   8   9
-3   2   6
-1   10   7
-2   3   4
-6   3   8
-6   13   13
-13   14   14
-3   11   7
-6   11   9
-3   nil   5
-6   8   7
-5   16   12
-4   1   5
-10   12   11
-6   6   7
-2   2   4
-2   2   4
-16   10   17
-4   4   8
-6   4   10
-10   9   12
-4   4   5
-6   2   8
-5   10   11
-3   4   4
-1   2   4
-1   6   5
-10   11   11
-7   6   8
-9   4   10
-2   5   7
-4   4   5
-2   1   4
-1   3   3
-3   3   9
-4   4   5
-10   8   17
-5   7   8
-3   4   5
-18   18   19
-17   13   19
-14   7   16
-3   6   4
-6   2   8
-9   7   11
-9   4   10
-5   11   12
-3   2   5
-4   2   11
-8   11   12
-7   8   10
-2   2   3
-1   2   3
-12   15   16
-2   2   5
-5   14   14
-9   5   11
-11   10   16
-1   2   2
-2   2   3
-12   1   16
-6   16   9
-8   8   9
-2   6   7
-2   nil   14
-10   12   11
-5   6   6
-6   9   8
-8   12   15
-1   2   5
-6   6   7
-2   2   7
-6   6   7
-13   14   15
-10   8   11
-3   7   5
-6   4   7
-3   9   9
-12   11   13
-4   nil   5
-7   5   8
-8   11   11
-4   3   5
-14   15   16
-6   4   9
-2   8   7
-1   11   8
-16   14   17
-4   10   17
-4   5   7
-12   14   14
-3   5   4
-5   5   17
-7   14   12
-1   3   11
-3   5   5
-19   2   20
-4   2   7
-4   7   7
-1   2   2
-3   4   7
-3   2   6
-18   19   19
-6   7   7
-1   4   4
-2   3   3
-5   5   6
-10   6   11
-7   11   10
-2   2   4
-18   9   19
-8   10   9
-18   13   19
-1   2   3
-5   7   7
-2   5   10
-1   11   11
-6   3   14
-2   3   6
-8   8   13
-4   3   7
-8   11   13
-10   12   12
-2   2   3
-5   3   6
-7   7   11
-1   5   11
-4   5   6
-6   2   11
-3   5   10
-10   10   15
-6   7   15
-1   2   2
-5   6   6
-1   3   5
-2   2   6
-14   11   16
-3   2   4
-7   8   9
-15   16   17
-1   5   4
-1   12   10
-3   4   4
-1   6   6
-1   5   9
-13   3   14
-4   3   5
-11   14   14
-14   13   16
-7   11   9
-3   4   5
-17   12   18
-4   2   5
-11   10   13
-7   14   14
-17   10   19
-7   6   9
-4   6   8
-2   3   3
-4   3   5
-14   15   16
-2   2   6
-6   9   9
-9   8   14
-3   4   4
-8   6   9
-2   10   13
-5   5   6
-8   5   11
-3   4   7
-13   11   14
-13   14   15
-12   15   15
-4   11   10
-12   15   16
-8   9   11
-3   3   5
-2   2   3
-3   3   5
-2   3   7
-11   12   13
-10   6   11
-1   8   11
-9   8   10
-9   9   10
-14   14   15
-2   4   6
-12   9   13
-11   13   12
-3   4   5
-7   3   12
-16   14   17
-1   1   5
-3   7   6
-1   6   12
-5   4   6
-8   4   10
-15   17   17
-13   3   15
-4   13   12
-3   2   12
-1   3   2
-1   3   2
-4   17   13
-6   4   11
-10   6   13
-9   7   10
-5   4   7
-7   8   8
-2   1   12
-5   5   7
-1   2   11
-13   13   14
-5   7   7
-6   6   7
-6   8   9
-2   2   9
-5   3   6
-4   3   9
-4   7   9
-2   4   5
-1   4   9
-3   6   5
-5   15   12
-4   3   5
-2   4   8
-4   6   6
-8   11   9
-6   7   9
-5   1   6
-4   7   5
-2   2   5
-13   10   16
-10   9   12
-2   17   9
-3   1   5
-4   6   6
-16   18   17
-6   6   9
-15   9   17
-7   7   8
-7   11   16
-10   6   13
-8   11   11
-8   3   11
-17   16   18
-1   3   3
-8   3   11
-9   10   11
-5   7   14
-8   3   9
-2   9   8
-1   1   3
-1   3   2
-2   5   7
-5   7   6
-3   2   4
-10   10   11
-3   4   4
-2   5   3
-10   12   12
-13   7   16
-2   12   10
-8   2   17
-8   11   11
-3   2   4
-8   7   9
-7   18   16
-2   2   16
-1   5   3
-3   3   5
-3   5   9
-5   2   6
-5   2   9
-1   9   6
-1   6   4
-8   14   16
-8   7   11
-2   2   7
-10   11   13
-1   1   3
-3   6   6
-1   3   6
-11   13   16
-3   4   11
-3   2   8
-11   11   14
-4   3   7
-5   1   6
-2   2   4
-5   5   6
-8   4   12
-3   2   4
-6   3   10
-16   12   17
-1   1   2
-2   4   6
-3   3   5
-3   2   4
-4   4   7
-4   4   6
-11   13   15
-4   7   7
-5   9   10
-4   3   8
-1   7   6
-3   7   7
-13   12   16
-2   1   6
-6   4   7
-9   9   10
-6   14   14
-6   8   8
-8   5   10
-5   4   13
-8   11   12
-3   8   9
-5   12   12
-2   7   4
-9   11   10
-13   12   14
-6   9   8
-3   4   4
-1   3   3
-5   8   9
-8   6   10
-14   14   15
-9   5   15
-11   11   14
-5   7   7
-6   4   7
-10   11   11
-2   2   3
-2   7   9
-1000
+; Execution error (UnsupportedOperationException) at aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:26).
+; nth not supported on this type: Character
+clojure.lang.RT/nthFrom (RT.java:991)
+clojure.lang.RT/nth (RT.java:940)
+aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:26)
+aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:25)
+aoc-2020.day-two/eval25020 (form-init2132174929412593829.clj:38)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
 clj::aoc-2020.day-two=> 
-#'aoc-2020.day-two/get-valid-entry
+#'aoc-2020.day-two/get-valid-entry-p2
 clj::aoc-2020.day-two=> 
-6   7   8
-3   2   4
-4   9   8
-16   17   18
-13   14   15
-3   5   4
-8   10   18
-6   12   11
-10   11   11
-2   2   4
-18   18   20
-1   13   7
-3   6   5
-2   3   5
-7   8   8
-3   9   9
-2   13   9
-5   9   9
-8   4   9
-14   16   15
-11   17   12
-15   18   17
-2   15   10
-8   8   9
-7   6   13
-14   15   15
-5   16   19
-2   2   8
-8   11   10
-8   14   11
-6   12   7
-6   3   8
-2   3   3
-2   11   14
-9   14   15
-2   3   12
-8   16   13
-10   8   13
-3   11   10
-1   2   2
-9   9   15
-5   5   6
-3   6   10
-7   6   9
-5   13   12
-14   8   18
-3   3   5
-7   9   9
-3   3   4
-1   14   14
-2   2   3
-17   18   18
-8   13   13
-4   5   9
-3   2   5
-3   4   4
-5   4   6
-4   9   8
-1   3   3
-6   6   7
-2   3   3
-17   7   18
-3   1   6
-10   12   15
-11   11   13
-11   16   17
-14   5   15
-3   3   5
-10   2   11
-19   17   20
-4   7   6
-8   11   10
-4   4   20
-6   4   9
-5   5   6
-1   3   4
-6   8   11
-6   4   8
-7   8   8
-10   11   11
-1   2   3
-4   3   5
-1   8   3
-3   4   5
-18   14   20
-12   11   13
-8   9   11
-5   2   18
-9   9   10
-3   3   4
-9   9   16
-10   4   12
-6   1   7
-1   11   5
-6   3   8
-1   2   2
-9   8   10
-12   4   14
-1   8   4
-6   5   7
-13   4   14
-5   5   14
-2   2   4
-6   8   10
-7   3   8
-6   7   7
-11   13   12
-1   4   8
-12   13   13
-9   8   12
-5   1   7
-15   3   18
-3   3   8
-3   1   4
-7   2   9
-2   7   8
-2   2   8
-1   10   9
-3   2   16
-14   16   16
-7   12   8
-9   7   10
-9   7   10
-4   4   5
-1   4   6
-2   4   6
-6   8   13
-6   8   8
-3   2   4
-9   8   10
-9   14   15
-6   12   12
-2   4   6
-14   15   16
-6   11   13
-12   4   13
-13   13   14
-7   11   10
-2   8   10
-1   3   2
-1   7   6
-9   9   12
-12   7   16
-8   13   9
-14   12   15
-7   3   8
-2   7   7
-3   1   5
-5   7   9
-8   8   11
-2   2   4
-2   4   13
-2   3   5
-5   5   8
-9   7   11
-1   8   9
-7   4   11
-2   9   7
-6   9   11
-7   4   17
-1   2   2
-14   15   18
-6   5   8
-7   19   19
-2   2   5
-8   9   10
-3   3   7
-2   5   7
-5   3   11
-8   9   16
-2   3   3
-3   3   5
-2   2   3
-1   10   6
-2   10   10
-2   16   5
-2   4   6
-1   2   3
-2   5   10
-5   7   8
-6   6   8
-2   10   10
-4   3   11
-13   3   15
-7   1   8
-6   2   10
-1   6   3
-2   6   4
-3   5   6
-1   15   14
-10   4   11
-15   19   18
-8   13   12
-4   6   6
-8   12   11
-2   4   4
-5   7   8
-12   2   15
-3   4   6
-8   13   12
-8   5   9
-2   2   11
-7   8   14
-10   11   11
-15   17   16
-8   8   14
-3   3   13
-3   5   5
-3   5   4
-3   3   13
-4   7   5
-5   7   7
-1   2   4
-1   5   5
-1   2   3
-4   2   6
-1   4   5
-7   11   8
-4   4   5
-14   13   19
-14   2   16
-12   14   14
-6   1   9
-7   4   14
-4   8   11
-18   19   20
-5   4   6
-2   2   4
-1   2   2
-15   16   17
-11   14   14
-9   7   13
-2   3   5
-6   9   8
-8   8   9
-3   2   4
-13   13   15
-4   2   6
-2   9   6
-12   13   14
-5   18   19
-4   2   9
-12   10   15
-11   5   12
-16   7   18
-3   6   11
-2   8   3
-7   11   11
-2   3   3
-1   5   8
-1   3   4
-12   12   13
-12   14   13
-11   9   12
-2   2   7
-3   3   9
-8   9   10
-2   4   5
-2   1   7
-3   4   4
-6   2   7
-7   4   12
-3   3   4
-4   2   5
-8   6   15
-8   9   10
-10   12   14
-3   2   7
-3   2   4
-1   3   2
-13   6   17
-14   8   19
-4   7   7
-3   11   13
-2   8   7
-13   14   14
-6   7   11
-15   17   19
-11   16   16
-4   6   13
-2   2   3
-11   4   14
-7   3   8
-10   8   11
-10   2   11
-13   11   14
-1   3   4
-11   12   16
-10   11   12
-3   2   4
-2   14   10
-1   3   2
-2   3   5
-4   11   11
-5   7   7
-3   1   4
-7   4   8
-2   1   10
-8   6   14
-2   2   4
-2   2   11
-5   9   19
-11   11   13
-5   4   6
-6   1   8
-2   3   4
-3   1   4
-5   2   7
-3   3   4
-9   10   11
-3   1   4
-4   2   7
-6   2   9
-10   10   11
-3   7   7
-1   10   4
-10   14   13
-2   2   6
-3   2   4
-8   5   10
-1   7   2
-11   11   13
-6   5   10
-3   3   4
-16   19   18
-4   4   7
-11   15   14
-2   6   6
-13   16   14
-10   11   12
-3   8   13
-2   9   6
-6   6   7
-5   8   8
-10   4   14
-8   9   9
-3   1   5
-5   6   6
-1   5   9
-7   8   8
-5   16   8
-4   9   11
-6   6   7
-5   6   6
-1   5   2
-9   9   12
-3   2   4
-2   3   6
-9   7   10
-15   9   18
-1   1   4
-2   2   6
-10   13   12
-5   5   6
-5   13   13
-3   9   7
-7   4   12
-4   7   7
-3   1   5
-6   2   13
-6   3   12
-6   4   11
-7   10   10
-6   2   7
-5   3   6
-8   11   18
-3   1   5
-6   6   7
-1   4   5
-6   2   9
-3   6   7
-13   15   17
-1   4   3
-5   6   6
-5   9   9
-3   11   8
-1   6   3
-3   2   5
-10   9   11
-4   2   6
-5   7   7
-4   8   6
-4   3   5
-2   5   5
-1   3   3
-8   2   14
-1   11   12
-12   19   14
-2   4   6
-9   13   12
-1   4   7
-3   5   6
-6   2   7
-3   2   4
-12   12   17
-5   5   6
-1   2   3
-3   1   4
-7   7   9
-9   5   16
-6   5   9
-4   6   6
-1   10   10
-13   3   20
-6   5   7
-8   3   13
-13   13   14
-2   6   15
-2   3   4
-4   7   5
-15   16   17
-3   2   5
-5   2   6
-9   9   10
-2   2   3
-5   7   11
-15   8   18
-3   2   6
-1   6   4
-3   2   4
-4   4   8
-2   4   3
-7   6   13
-8   7   9
-3   1   9
-1   3   3
-8   6   10
-4   3   5
-6   3   7
-11   6   13
-14   13   16
-6   13   15
-8   12   16
-14   4   16
-1   13   9
-6   8   9
-5   3   6
-7   7   8
-6   4   19
-4   3   14
-9   10   11
-1   13   2
-2   1   3
-2   3   4
-3   5   4
-10   2   13
-6   7   9
-15   15   16
-3   11   11
-6   5   7
-3   2   8
-4   2   9
-10   10   11
-7   14   8
-3   6   5
-2   2   4
-12   13   13
-2   2   3
-2   3   4
-2   4   3
-10   11   11
-1   4   3
-1   10   5
-1   3   4
-4   5   6
-7   2   8
-1   3   3
-3   12   9
-2   6   5
-2   1   6
-1   3   3
-3   6   5
-5   3   7
-3   10   10
-1   3   3
-2   16   15
-15   5   17
-6   6   8
-1   7   3
-8   2   17
-3   3   5
-1   12   9
-8   14   13
-11   11   12
-1   2   4
-10   16   12
-8   11   10
-8   9   9
-9   5   10
-2   8   8
-7   2   12
-9   8   14
-4   3   6
-2   2   9
-4   14   11
-11   2   12
-3   2   4
-7   5   8
-3   1   4
-4   5   5
-6   7   9
-4   1   9
-3   4   4
-8   3   10
-6   4   7
-7   11   15
-4   4   5
-5   5   9
-4   3   5
-11   8   13
-1   2   2
-10   13   11
-9   17   16
-6   8   10
-3   2   4
-2   4   7
-3   6   5
-1   3   10
-18   11   19
-1   3   2
-2   2   11
-3   2   4
-3   9   8
-11   4   18
-6   4   19
-6   4   7
-2   3   7
-4   4   8
-3   4   7
-6   8   7
-6   6   8
-10   5   14
-10   11   11
-10   3   12
-6   13   8
-2   13   13
-9   7   16
-7   1   8
-7   8   8
-2   4   4
-2   2   3
-2   4   5
-11   13   16
-10   9   12
-13   19   14
-12   16   15
-9   9   10
-4   3   9
-9   2   11
-3   7   15
-2   3   3
-1   9   8
-7   7   10
-6   4   8
-11   12   12
-6   9   11
-10   6   12
-18   18   19
-7   9   8
-16   16   17
-7   6   8
-5   5   8
-6   11   11
-4   2   13
-1   8   9
-5   6   6
-1   11   9
-15   4   16
-5   2   6
-3   4   11
-1   4   3
-11   5   12
-1   2   8
-4   6   5
-9   9   10
-7   7   12
-5   2   13
-1   10   11
-13   10   15
-5   9   10
-1   2   4
-3   7   13
-4   6   6
-6   7   7
-3   2   4
-11   17   13
-15   16   18
-5   14   13
-5   5   17
-2   3   7
-13   5   17
-16   7   19
-15   15   20
-18   18   19
-3   3   5
-1   9   6
-3   9   8
-13   6   16
-12   12   13
-2   6   3
-11   4   13
-2   5   11
-3   3   4
-2   4   7
-9   6   12
-8   3   14
-2   2   4
-12   6   13
-10   11   12
-7   2   8
-7   14   19
-2   2   4
-6   8   15
-3   3   4
-5   2   6
-4   5   5
-5   1   7
-4   9   7
-5   1   7
-5   4   10
-7   8   10
-7   7   13
-7   5   8
-7   12   13
-7   5   8
-2   1   5
-2   5   4
-5   10   11
-7   1   8
-3   2   5
-1   12   10
-15   15   17
-11   11   12
-5   6   7
-6   5   11
-1   3   4
-3   6   5
-4   3   5
-12   14   14
-2   2   8
-9   9   12
-3   1   4
-4   4   5
-2   2   8
-8   10   11
-9   11   11
-3   2   4
-1   1   2
-3   3   5
-13   2   14
-16   16   18
-12   12   16
-1   6   7
-4   3   6
-5   2   7
-4   6   11
-15   14   17
-1   4   3
-4   3   5
-16   11   18
-1   7   8
-1   2   2
-1   4   4
-16   16   17
-3   2   4
-4   5   5
-8   8   9
-3   2   6
-1   10   7
-2   3   4
-6   3   8
-6   13   13
-13   14   14
-3   11   7
-6   11   9
-3   nil   5
-6   8   7
-5   16   12
-4   1   5
-10   12   11
-6   6   7
-2   2   4
-2   2   4
-16   10   17
-4   4   8
-6   4   10
-10   9   12
-4   4   5
-6   2   8
-5   10   11
-3   4   4
-1   2   4
-1   6   5
-10   11   11
-7   6   8
-9   4   10
-2   5   7
-4   4   5
-2   1   4
-1   3   3
-3   3   9
-4   4   5
-10   8   17
-5   7   8
-3   4   5
-18   18   19
-17   13   19
-14   7   16
-3   6   4
-6   2   8
-9   7   11
-9   4   10
-5   11   12
-3   2   5
-4   2   11
-8   11   12
-7   8   10
-2   2   3
-1   2   3
-12   15   16
-2   2   5
-5   14   14
-9   5   11
-11   10   16
-1   2   2
-2   2   3
-12   1   16
-6   16   9
-8   8   9
-2   6   7
-2   nil   14
-10   12   11
-5   6   6
-6   9   8
-8   12   15
-1   2   5
-6   6   7
-2   2   7
-6   6   7
-13   14   15
-10   8   11
-3   7   5
-6   4   7
-3   9   9
-12   11   13
-4   nil   5
-7   5   8
-8   11   11
-4   3   5
-14   15   16
-6   4   9
-2   8   7
-1   11   8
-16   14   17
-4   10   17
-4   5   7
-12   14   14
-3   5   4
-5   5   17
-7   14   12
-1   3   11
-3   5   5
-19   2   20
-4   2   7
-4   7   7
-1   2   2
-3   4   7
-3   2   6
-18   19   19
-6   7   7
-1   4   4
-2   3   3
-5   5   6
-10   6   11
-7   11   10
-2   2   4
-18   9   19
-8   10   9
-18   13   19
-1   2   3
-5   7   7
-2   5   10
-1   11   11
-6   3   14
-2   3   6
-8   8   13
-4   3   7
-8   11   13
-10   12   12
-2   2   3
-5   3   6
-7   7   11
-1   5   11
-4   5   6
-6   2   11
-3   5   10
-10   10   15
-6   7   15
-1   2   2
-5   6   6
-1   3   5
-2   2   6
-14   11   16
-3   2   4
-7   8   9
-15   16   17
-1   5   4
-1   12   10
-3   4   4
-1   6   6
-1   5   9
-13   3   14
-4   3   5
-11   14   14
-14   13   16
-7   11   9
-3   4   5
-17   12   18
-4   2   5
-11   10   13
-7   14   14
-17   10   19
-7   6   9
-4   6   8
-2   3   3
-4   3   5
-14   15   16
-2   2   6
-6   9   9
-9   8   14
-3   4   4
-8   6   9
-2   10   13
-5   5   6
-8   5   11
-3   4   7
-13   11   14
-13   14   15
-12   15   15
-4   11   10
-12   15   16
-8   9   11
-3   3   5
-2   2   3
-3   3   5
-2   3   7
-11   12   13
-10   6   11
-1   8   11
-9   8   10
-9   9   10
-14   14   15
-2   4   6
-12   9   13
-11   13   12
-3   4   5
-7   3   12
-16   14   17
-1   1   5
-3   7   6
-1   6   12
-5   4   6
-8   4   10
-15   17   17
-13   3   15
-4   13   12
-3   2   12
-1   3   2
-1   3   2
-4   17   13
-6   4   11
-10   6   13
-9   7   10
-5   4   7
-7   8   8
-2   1   12
-5   5   7
-1   2   11
-13   13   14
-5   7   7
-6   6   7
-6   8   9
-2   2   9
-5   3   6
-4   3   9
-4   7   9
-2   4   5
-1   4   9
-3   6   5
-5   15   12
-4   3   5
-2   4   8
-4   6   6
-8   11   9
-6   7   9
-5   1   6
-4   7   5
-2   2   5
-13   10   16
-10   9   12
-2   17   9
-3   1   5
-4   6   6
-16   18   17
-6   6   9
-15   9   17
-7   7   8
-7   11   16
-10   6   13
-8   11   11
-8   3   11
-17   16   18
-1   3   3
-8   3   11
-9   10   11
-5   7   14
-8   3   9
-2   9   8
-1   1   3
-1   3   2
-2   5   7
-5   7   6
-3   2   4
-10   10   11
-3   4   4
-2   5   3
-10   12   12
-13   7   16
-2   12   10
-8   2   17
-8   11   11
-3   2   4
-8   7   9
-7   18   16
-2   2   16
-1   5   3
-3   3   5
-3   5   9
-5   2   6
-5   2   9
-1   9   6
-1   6   4
-8   14   16
-8   7   11
-2   2   7
-10   11   13
-1   1   3
-3   6   6
-1   3   6
-11   13   16
-3   4   11
-3   2   8
-11   11   14
-4   3   7
-5   1   6
-2   2   4
-5   5   6
-8   4   12
-3   2   4
-6   3   10
-16   12   17
-1   1   2
-2   4   6
-3   3   5
-3   2   4
-4   4   7
-4   4   6
-11   13   15
-4   7   7
-5   9   10
-4   3   8
-1   7   6
-3   7   7
-13   12   16
-2   1   6
-6   4   7
-9   9   10
-6   14   14
-6   8   8
-8   5   10
-5   4   13
-8   11   12
-3   8   9
-5   12   12
-2   7   4
-9   11   10
-13   12   14
-6   9   8
-3   4   4
-1   3   3
-5   8   9
-8   6   10
-14   14   15
-9   5   15
-11   11   14
-5   7   7
-6   4   7
-10   11   11
-2   2   3
-2   7   9
-1000
-clj::aoc-2020.day-two=> 
-#'aoc-2020.day-two/get-valid-entry
-clj::aoc-2020.day-two=> 
-[[6-8 s: svsssszslpsp] [] [] [16-18 j: jjjjjjjjjjjjjjjjjf] [13-15 p: pppppppvppppxxppp] [] [8-18 x: qxphxxtczxxxxxrbxxl] [] [10-11 c: ccvxccccccccc] [2-4 f: pszff] [18-20 z: zzzzzzzzzzwzzzzzzzzj] [] [] [2-5 x: dxxzxv] [7-8 s: ssssssss] [3-9 k: ktkkkkkklkck] [] [5-9 k: tkrkhkxbvkbkkkkk] [] [] [] [] [] [8-9 h: hbhhhhchhhs] [] [14-15 w: wwwwwwwvwwwwwppwww] [5-19 m: mmmmmjmmmmmmmmcmmmw] [2-8 z: mvtnjvzzs] [] [] [] [] [2-3 b: bbgb] [2-14 q: qqqqtkqzqqqqqq] [9-15 z: zzzzzzzzzzzzzzb] [2-12 n: hnmztvzxxwvnrnvlfbs] [] [] [] [1-2 r: nprr] [9-15 z: zzfjwgczzzzzzvlqz] [5-6 q: vqqqqq] [3-10 r: rrftrrkrrg] [] [] [] [3-5 t: hdtrtt] [7-9 x: xxxxxxxxlx] [3-4 m: wmmm] [1-14 l: hllllllllllllll] [2-3 g: jgmg] [17-18 c: ccccccccccccccccctc] [8-13 l: lllllllllllldl] [4-9 v: sbxvbkvfqvvxvnl] [] [3-4 t: jtthcmtfnct] [] [] [1-3 t: qttt] [6-7 j: mwjxqmljtfxbcrjvjjj] [2-3 d: xddxnxmfhvdk] [] [] [10-15 g: ggggqggggngprggg] [11-13 n: nnznnnnnnnrnn] [11-17 p: pppppxppprpppprpppp] [] [3-5 k: tkkknr] [] [] [] [] [4-20 b: hmslxbrbrptfcljhblq
-b] [] [5-6 l: lllldl] [1-4 c: cccw] [6-11 n: tnnnnnnpnnvb] [] [7-8 l: llllllll] [10-11 s: ssssvssnsslsss] [1-3 f: ffkh] [] [] [3-5 r: jvrrrr] [] [] [8-11 h: qhhhhhslhqhhhwfm] [] [9-10 c: cccccccckc] [3-4 g: gggs] [9-16 s: ssllsssvkshssjsth] [] [] [] [] [1-2 h: ghwh] [] [] [] [] [] [5-14 h: tnrhhmqknqhmhfht] [2-4 h: chhxjfksc] [6-10 s: ljmsgsssstscsps] [] [6-7 s: sjskmscfssss] [] [1-8 x: xxqjxmgtxz] [12-13 l: llllllllllllfl] [] [] [] [3-8 q: rqqfqblmc] [] [] [2-8 g: ggqtqgkgfggfmg] [2-8 k: wpkzwwkm] [] [] [14-16 l: lllllllllllllbllln] [] [] [] [4-5 c: ccctc] [1-6 l: cllllg] [2-6 k: kwkkqk] [6-13 d: zdjddkxmdqrddtbdgbd] [6-8 k: kkkkkkkqk] [] [] [9-15 q: qqqqqqkqqqqqqqlqh] [6-12 n: nnnnnnnnnnnn] [2-6 j: cjnxjzljjlq] [14-16 v: vvvvvvvvvvvvvvvm] [6-13 f: gxffsfgdfpfffffffs] [] [13-14 j: jjjjjjjjjgjjjj] [] [2-10 q: qjqqqkqqkqq] [] [] [9-12 n: nndnncnnnnqn] [] [] [] [] [2-7 j: jjjjjjqj] [] [5-9 r: rrrrrmrrm] [8-11 k: kkwkkkkbkzk] [2-4 b: nbqpbtzkdrdm] [2-13 b: bpxltqdxbxbjbl] [2-5 h: jhhhz] [5-8 c: cncccvcn] [] [1-9
- v: jvvvvvvvsv] [] [] [6-11 r: rzczrrtljhzkrkrrbrrr] [] [1-2 n: npkn] [14-18 n: nnnkzntnnnnnnnxnnknn] [] [7-19 l: llllllwlllllllllllll] [2-5 t: qdftt] [8-10 g: gggggggpgg] [3-7 h: gbtdhwhhkl] [2-7 q: glqqrqqzpvqz] [] [8-16 v: fvvvvnvvvrqwvvzf] [2-3 k: kbkk] [3-5 x: xxqxvtz] [2-3 m: jnmmdzzx] [] [2-10 z: zslzzzzdzzzzmz] [] [2-6 b: zbbzbb] [1-3 w: twrw] [2-10 k: hkkhtkskvk] [5-8 q: qqqqqqqf] [6-8 l: qrspqlkdcscclllkltkl] [2-10 j: jjjjjjjjjcj] [] [] [] [] [] [] [3-6 q: qcqqqwnfqrj] [] [] [] [] [4-6 d: qdzxddddnd] [] [2-4 d: qdhjddnd] [5-8 f: ffffzffdf] [] [3-6 x: xbxxtx] [] [] [2-11 w: bwskvwsqbcbnl] [7-14 p: lpgpxqppppplpvlwxx] [10-11 l: lllllllllnll] [] [8-14 v: vgqvvjxwvvzvvv] [3-13 v: vcvzclwbtvbgcngwghh] [3-5 w: zwwnrwww] [] [3-13 h: whhhgqzwjkjqfjc] [] [5-7 k: pkkkkxxkkk] [1-4 f: pqkff] [1-5 x: xxxxvx] [1-3 t: mtht] [] [1-5 t: jtmtttc] [] [4-5 t: jtttt] [] [] [12-14 g: gggggggggggzggg] [] [] [4-11 c: ctccccctcch] [18-20 j: jjjjjjjjtjjjjjjjjjjj] [] [2-4 b: wbbk] [1-2 t: tstf] [15-17 h: hhhhhzhhhhhhhhxhhh] [
-11-14 k: kkkkkkkkkkgkkkk] [] [2-5 s: slssn] [] [8-9 c: cnccccccrc] [] [13-15 c: cccjgccchjcmccrdcccc] [] [] [12-14 r: rrrrrrrrrrrrrv] [5-19 h: hhhhmhhhhhhhhghhhhhh] [] [] [] [] [3-11 g: qmgghrggggt] [] [7-11 b: bbbbbbbbbblb] [2-3 t: nctttjgr] [1-8 t: nrlrtnptztstnfstx] [1-4 r: rrrz] [12-13 z: zzznzzzvzzzzhczz] [] [] [2-7 q: ljsvqlq] [3-9 h: wlkfhjvthpfhzln] [8-10 j: jkxzjjjbjjjjjf] [2-5 p: pqppp] [] [3-4 w: wwww] [] [] [3-4 l: llzrl] [] [] [8-10 h: hjhkhdkgghhhhhwh] [10-14 n: npnnnnnnndnnnn] [] [] [] [] [] [4-7 c: ccczccccq] [3-13 h: hxsghhnhhhhhhhh] [] [13-14 w: wwwwwwwwwwwwwjw] [6-11 d: mdcddbdrddd] [15-19 r: rrgrrrrprrrrrrdrrrrr] [11-16 x: xxxkxxxxxxmsxxxxxxx] [4-13 v: xvqkhfpvlsvvvvs] [2-3 x: jxjbxbq] [] [] [] [] [] [1-4 x: xxxgg] [11-16 c: ccwlggccckwccccccc] [10-12 g: ggggggbggkgqgg] [] [] [] [2-5 q: bqnwqpmtglphq] [4-11 h: hhhmhhhhhhhh] [5-7 w: wwwwnwxww] [] [] [] [] [2-4 z: wzjzlc] [2-11 m: zmctnwcvwhmgcq] [5-19 v: gcmvfvvkvxdmvvxvwgvv] [11-13 c: cccccpcccwcphcc] [] [] [2-4 x: kxxlx] [] [] [3-4 z: zbh
-zmz] [9-11 n: nnnnnnqnnnn] [] [] [] [10-11 f: fffffffpkzqqffrf] [3-7 k: kktkkkkk] [] [] [2-6 d: hdxhvdz] [] [] [] [11-13 x: xxvxxxxxxxxxj] [] [3-4 c: cwfcc] [] [4-7 n: lnqnlndbnf] [] [2-6 j: jjjjjcj] [] [10-12 v: vvvvvvvvvwvv] [3-13 z: nzhzvmzcbzzzzzj] [] [6-7 s: ssssscs] [5-8 f: ffxffffdff] [] [8-9 s: sssssssss] [] [5-6 n: nnnbnnn] [1-9 w: wwqpwhwcdw] [7-8 g: gxgggrgcggg] [] [4-11 b: svbwbqsbbbbbnpcbpprb] [6-7 j: zjvjmsjjjjnvt] [5-6 l: lhlllpll] [] [9-12 g: gjgqggggzggffgp] [] [2-6 v: fvvpvcxnpgd] [] [] [1-4 z: zsjf] [2-6 l: dvcsllhw] [] [5-6 g: dtggpgggcwvvdw] [5-13 p: ppppkppppdpvdpzdlppp] [] [] [4-7 m: mmxzmfmmlmm] [] [] [] [] [7-10 r: rrrrrrxrrsrr] [] [] [8-18 m: wtmtmtvmcmmjsmmxmmmm] [] [6-7 b: bbbbbbl] [1-5 c: cqzfcjhnccjwwjftkx] [] [3-7 f: gffffff] [13-17 b: bbbtbbbzbbbbsbbbjbbk] [] [5-6 b: xqbgbxblbbb] [5-9 p: phhpqppppgtppp] [] [] [] [] [] [5-7 n: nnnnpnnn] [] [] [2-5 v: vvvnnhvv] [1-3 f: bfff] [] [1-12 d: dddddddtddcdd] [] [2-6 w: mwwmvmpwzwpzkn] [] [1-7 c: ccgncfc] [3-6 w: wrrwwww] [] [] [12-17 n:
- nnnnbnnxncnnvnpnjnr] [5-6 h: hhhhth] [1-3 q: qnbqf] [] [7-9 l: nlwlflsllllk] [] [] [4-6 r: rrrrrr] [1-10 j: hjjjljjjjwjjj] [] [] [] [13-14 r: rrrrrrrrrrrrrg] [2-15 j: jhhjnvgxzbjskjjj] [2-4 p: ppghp] [] [15-17 h: hhhhhshhhhhhhhhhh] [] [] [9-10 z: lzzzzzzrtdzqzz] [2-3 s: qksnrsvvb] [5-11 d: ddfvzdddkrgrddr] [] [] [] [] [4-8 w: mzwwswwttnxmkp] [] [] [] [] [1-3 d: ddgd] [] [] [] [] [] [6-15 x: hxlxxxxxxqpjtxwxxxxx] [8-16 l: qlqwrlllphlllllxglll] [] [] [6-9 b: bbbbbbbbt] [] [7-8 x: nxxxlxlxbxx] [] [] [9-11 n: nnnbnnnnnhnn] [] [] [2-4 c: nczcwqwkctzwl] [] [] [6-9 g: qhggzggjfjgghwrkfbg] [15-16 n: nmnnnnncnnnnnnnkndn] [3-11 r: frrrrrprrrgrrr] [] [] [] [10-11 m: mmgtmmmmmgmmm] [] [] [2-4 f: sxxfbpshndbkkmwf] [12-13 p: prpppppppppfppp] [2-3 f: wtff] [2-4 m: pdmmm] [] [10-11 m: mmmmmmmmmqnmm] [] [] [1-4 h: mrhhh] [4-6 w: wxlwvwbhzwwkps] [] [1-3 z: zzqz] [] [] [] [1-3 s: gsss] [] [] [3-10 v: vvnvxvcjvvzcvcvvtv] [1-3 v: vvwvt] [] [] [6-8 d: sddvdjdmdmd] [] [] [3-5 s: mnsss] [] [] [11-12 f: fffffffffffm] [1-4 z: zznq] [
-] [] [8-9 d: ddddddgdwrpdd] [] [2-8 c: hcczwkwcspccrcckc] [] [] [] [2-9 k: jkjbktwdrdnn] [] [] [] [] [] [4-5 h: hpkhsrhshcht] [6-9 h: mhhhhhhht] [] [3-4 k: qfkkkkn] [] [] [7-15 x: zxxxvxxxmksxxxnxxrr] [4-5 v: vvdpvnv] [5-9 l: llrqhllcl] [] [] [1-2 g: gmdjg] [] [] [6-10 j: jxjjrjmvwwjjsjjcth] [] [2-7 p: mppmnpp] [] [1-10 m: msbjbgmmkw] [] [] [2-11 v: vgwrcfcszcvlwt] [] [] [] [] [] [2-7 p: ppdwknp] [4-8 t: rjdtmftjgftwt] [3-7 l: clljldl] [] [6-8 f: fffffcsf] [] [10-11 f: ffffffffffgf] [] [] [2-13 k: kkkwckkckkkkvkkkk] [] [] [7-8 d: xdddddnddd] [2-4 r: srxrrphrb] [2-3 v: vvkgd] [2-5 z: bzzzzhh] [11-16 h: hnchhhhhhhghhhhh] [] [] [] [9-10 z: zzzzzzzzpz] [] [] [3-15 m: qmxmwjmmjgmsmwmz] [2-3 g: hgggp] [] [7-10 t: ttcttttztw] [] [11-12 t: ttttqqtttnhttvttt] [6-11 r: rnrhrrrrrrcgtr] [] [18-19 m: mmmmwmmmmmmmmmmmmnmm] [] [16-17 m: mmmmmdmmmmmmmmcsmmm] [] [5-8 j: vtjcsjjcjlj] [6-11 t: ttttttttgmqttt] [] [1-9 s: dsssssssds] [5-6 d: dddddpdt] [] [] [] [3-11 f: tpfqgzkfrvqrjfhrrf] [] [] [1-8 f: vqtdxgsfkjmncxdkqdfb] [] [9
--10 g: jgggfgqglgghxgg] [7-12 x: xdxxkcxcxxxm] [] [1-11 x: wxxxxxxxxxgx] [] [5-10 g: cpgggccpvkzggzgbgtgg] [1-4 w: wwzvq] [3-13 h: zzhnhnjhhkplhhwph] [4-6 f: fffkfff] [6-7 v: vvvvvvdv] [] [] [15-18 j: jjjjjjjjjrjjjjxjjvj] [] [5-17 q: szncqqqlmcspmcbgqhq] [2-7 s: tsrnhjslffbsv] [] [] [15-20 n: nnmnnsnnlnnncnnnnncn] [18-19 f: fffffffffffffffffkf] [3-5 b: bhnbbm] [] [] [] [12-13 q: qqqqqqqqqqqjq] [] [] [2-11 l: xlbsbrrnlllpl] [3-4 l: llml] [2-7 c: wscrkcvncc] [] [] [2-4 w: lcswnmwsprkhg] [] [10-12 p: ppjppppvpppqpp] [] [7-19 p: pmrhpppppppsppppjspp] [2-4 l: xllxb] [6-15 k: ktknghkkstkkjkkx] [3-4 p: pppq] [] [4-5 n: svnnnrnpn] [] [] [] [] [7-10 k: sskkqxzhkkpzkkvhkkb] [7-13 s: zskccbtsbssdctlmvsss] [] [7-13 p: ppfppvpppmppdppvfpg] [] [] [] [5-11 x: xxxxzxxxxxx] [] [] [] [15-17 j: jjjjjjpjjjjjjjljj] [11-12 f: ffffffqmffmfff] [5-7 p: ppppmpp] [] [1-4 n: nnnccb] [] [] [12-14 d: dddddddddbddddrd] [2-8 l: clvlhdxtqqzdsd] [9-12 z: bzzkzzrzzzzhz] [] [4-5 j: jjjjp] [2-8 f: vfnnlxfrll] [8-11 p: ppqppppwpplpp] [9-11 k: kkk
-kkkkkkkk] [] [1-2 q: qnccf] [3-5 x: wxkxzxcjk] [] [16-18 d: dfdldddddddddddhddd] [12-16 s: sssdssqdrsssssss] [1-7 k: kdkkwkkvk] [] [] [4-11 h: dvhhjdhhjkhbcbhb] [] [] [] [] [1-8 p: zppppppbp] [1-2 k: xckk] [1-4 d: dddgd] [16-17 p: ppppppppppppppppf] [] [4-5 n: ncknqlwnrnjn] [8-9 t: tttttttpt] [] [] [2-4 j: nwwjrmckjjg] [] [6-13 r: rrkrrrrrrrrrjrr] [13-14 n: nnznsnnnnhnnnnnnn] [] [] [] [] [] [] [] [6-7 r: trrrrrdr] [2-4 l: hjhljhl] [2-4 v: vhbv] [] [4-8 w: nwswjktwznhwtzbdrp] [] [] [4-5 x: qxxcxx] [] [5-11 d: xdmdvkdddddxddd] [3-4 d: ddddp] [1-4 q: xqvq] [] [10-11 x: xxxxxxxxxxzx] [] [] [2-7 g: ggwgrfwgzg] [4-5 p: prppp] [] [1-3 f: fflf] [3-9 w: zwbwdzqzw] [4-5 t: tvttt] [] [5-8 x: xxxxxxxt] [3-5 j: hjljjj] [18-19 z: zzzzzzzzzzzzzzzzzzd] [] [] [] [] [] [] [5-12 q: qqqqxqwqqpfrqqqq] [] [] [8-12 m: mmmmmmmlmmmm] [7-10 s: sssssssspfr] [2-3 n: xnhn] [1-3 p: btppz] [12-16 l: lllxllllllljlllll] [2-5 d: zddtm] [5-14 p: pppppppppppppsp] [] [] [1-2 p: pvph] [2-3 l: llfxvq] [] [] [8-9 r: rrrrrrrsr] [2-7 c: slccmjcccc] [
-] [] [5-6 j: dfjkjbcsjqjjhkjmg] [] [8-15 s: tsszssjsssssmsss] [1-5 k: kkrblv] [6-7 j: jjjjjjv] [2-7 q: dvrnqtq] [6-7 v: vnvqwkvvcxpjmvvmg] [13-15 h: hhhhhhhhhhhhkhth] [] [] [] [3-9 l: lljlllllrll] [] [] [] [8-11 t: tttxtlfhtftttwbttt] [] [14-16 b: bbbbbbbbbbbbbbbw] [] [] [] [] [4-17 c: cgndccccscchqhxcbcc] [4-7 b: bbbbbmn] [12-14 p: pppppppppppppdp] [] [5-17 p: pxhbppfpjzzkpgdvb] [] [1-11 t: tjsjxctpbngtdvbdmlm] [3-5 n: wgmwnjwnnnkcnlqqr] [] [] [4-7 d: ddddrmhfdddfxf] [1-2 q: qxnq] [3-7 k: kqkqskcslcqbxkdsr] [] [18-19 k: kkkkkkkkkkkkkkkkkkqk] [6-7 v: vvvvvvtvxq] [1-4 w: wwkrmwwf] [2-3 c: ccdcw] [5-6 w: wwwwsw] [] [] [2-4 t: dmtt] [] [] [] [1-3 k: kqdwsfkdxl] [5-7 t: vtdtntttlrtt] [2-10 w: wvnfvctwmwwwqr] [1-11 c: lccccccccccc] [] [2-6 n: mnjrfnpmwnlhwvksmmss] [8-13 m: mzzmmpmmmmwmz] [] [8-13 p: pppppppppppts] [10-12 b: bbbbbblbbvbbbb] [2-3 b: bbzdv] [] [7-11 q: kqbqqqqqtqfx] [1-11 n: tnlnxpcqnnn] [4-6 j: jdjxcjbggjcdjpknx] [] [3-10 g: qggqjgfxqgmjdgv] [10-15 n: nwnrnnrwnnnnnnc] [6-15 l: lflldhzbllzlbklx] [1-2
- s: hsgsj] [5-6 f: ffffdff] [1-5 m: bmhmm] [2-6 m: bmlbslbgjm] [] [] [7-9 b: bbbbbbwbb] [15-17 q: qfqqzqqqqqqqqqqqnqq] [] [] [3-4 h: hhzhh] [1-6 h: hhhhhxh] [1-9 s: smwssfhsvs] [] [] [11-14 x: xxxxxxxxxxcxxxx] [] [] [3-5 q: qqqgxscqm] [] [] [] [7-14 q: qqqqqqlqqqqqqqq] [] [] [4-8 r: rwrqrlzrxrrqsccq] [2-3 v: vtvv] [] [14-16 w: wwwwwwwwwwwwwwwc] [2-6 c: tcvmrcht] [6-9 z: zzzzzzzzz] [] [3-4 f: frxfdff] [] [2-13 w: wmwwwvwlwwwwttqjjwc] [5-6 l: lllllj] [] [3-7 n: kndzxnsnn] [] [13-15 c: ccccccccccccccz] [12-15 n: nnnnnnnnnnnsnnsnn] [] [12-16 r: wrrrrrrrrrrgrrrrr] [8-11 l: nlllxllzllll] [3-5 d: prdfhhvdrpd] [2-3 t: wttzbp] [3-5 h: jhxhhdztw] [2-7 r: qrwcxjhtrrlw] [11-13 d: ddddddddddfpdd] [] [1-11 z: jzzzzznzzzq] [] [9-10 k: xktkkkpgnpkskkkzjkm] [14-15 j: jjwjjvjjjjjjjjvjj] [2-6 l: lntrlllx] [] [] [3-5 l: llllm] [] [] [1-5 g: hcfjntzgcxk] [] [1-12 p: pwjdppqpcgpplgwz] [] [] [15-17 v: vvvvvvvvvvvkvvvvxvv] [] [] [] [] [] [] [] [] [] [] [7-8 z: zzzzzpzxlzzg] [] [5-7 m: bvmxmwmlxpmmwt] [1-11 n: fbsghrrzbtnmn] [13-14 h
-: hhjtlhhhhhhhfhphbhh] [5-7 p: ppppdpspp] [6-7 v: vdvvvvhv] [6-9 k: kkkmknkkkkbc] [2-9 k: jvpczkkcnvfvm] [] [] [4-9 x: vxxxxxxxz] [2-5 h: gqhhhh] [1-9 m: nkcwjmqmmgldxwm] [] [] [] [2-8 w: wqwbwkzwsc] [4-6 c: ccctccc] [] [6-9 x: xxxxxpxxc] [] [] [2-5 w: wjtgw] [] [] [] [] [4-6 c: gcccnscccllfq] [] [6-9 h: lhhhhbhhj] [] [7-8 t: tttttstt] [7-16 j: kmjjcfjjcjjjjbwjjpjr] [] [8-11 q: qqqqqqqsqqtqq] [] [] [1-3 l: xljlml] [] [9-11 h: zhhrhhhsthhhhhr] [5-14 n: rkndnhgbnnwnnzgn] [] [] [1-3 c: jtcm] [] [2-7 b: bbbbgbz] [] [] [10-11 r: rrrrrrrrbrbqr] [3-4 x: xxxcxk] [] [10-12 f: fffffffffffcf] [] [] [] [8-11 q: qqqqqqqvqqqq] [] [] [] [2-16 p: xswnqpctbvmllwjpw] [] [3-5 w: wwlwh] [3-9 f: bffktxcwpfhckffr] [] [] [] [] [8-16 v: lvvvvvpvzvvvvvgwjvvv] [] [2-7 c: wqcrhxcg] [10-13 p: ppdppppppngbpdppz] [1-3 v: gbflwpsdgnrzhkdv] [3-6 w: pwhbwwwtww] [1-6 f: qmfwff] [11-16 x: xxnxxbxxxxgxxxsxrx] [3-11 b: cztbfcbpcbb] [] [11-14 c: hccccccccccscp] [] [] [2-4 s: sgtsmlhcm] [5-6 n: nnnnnt] [] [] [] [] [1-2 k: kdjb] [2-6 p: lmpppp] [3-
-5 f: ffcfh] [] [4-7 v: vvtxvwvsqb] [4-6 s: stslsxs] [11-15 x: xrxcxxxxxxvxxxxcx] [4-7 r: xrrlrrrrr] [5-10 v: vvbvsvtmtvvvvv] [] [] [3-7 m: mmkmmmmm] [] [] [] [9-10 c: jcccjwgcccsccxnc] [6-14 h: hhphhhrhhhhhhklhhh] [6-8 r: xrrrrrrrrg] [] [] [8-12 x: xxxxxxxtxxxx] [3-9 v: nvprvvvtxvvvv] [5-12 g: gggggggggggjg] [] [] [] [] [3-4 k: wqqkzwqgkqkk] [1-3 p: dppp] [5-9 p: ppkpppppjpt] [] [14-15 j: jjjjhjjjjjjjjjqj] [] [11-14 d: ddddhwxdddfrdddd] [5-7 h: hhhhhhfh] [] [10-11 r: rrrrrrrrrvrrf] [2-3 k: ftkkdc] [2-9 g: jpxcgggzgsgngrhght]]
+13-14   n:   nnznsnnnnhnnnnnnn
 nil
 clj::aoc-2020.day-two=> 
-#'aoc-2020.day-two/get-valid-entry
+#'aoc-2020.day-two/get-valid-entry-p2
 clj::aoc-2020.day-two=> 
-[[6-8 s: svsssszslpsp] nil nil [16-18 j: jjjjjjjjjjjjjjjjjf] [13-15 p: pppppppvppppxxppp] nil [8-18 x: qxphxxtczxxxxxrbxxl] nil [10-11 c: ccvxccccccccc] [2-4 f: pszff] [18-20 z: zzzzzzzzzzwzzzzzzzzj] nil nil [2-5 x: dxxzxv] [7-8 s: ssssssss] [3-9 k: ktkkkkkklkck] nil [5-9 k: tkrkhkxbvkbkkkkk] nil nil nil nil nil [8-9 h: hbhhhhchhhs] nil [14-15 w: wwwwwwwvwwwwwppwww] [5-19 m: mmmmmjmmmmmmmmcmmmw] [2-8 z: mvtnjvzzs] nil nil nil nil [2-3 b: bbgb] [2-14 q: qqqqtkqzqqqqqq] [9-15 z: zzzzzzzzzzzzzzb] [2-12 n: hnmztvzxxwvnrnvlfbs] nil nil nil [1-2 r: nprr] [9-15 z: zzfjwgczzzzzzvlqz] [5-6 q: vqqqqq] [3-10 r: rrftrrkrrg] nil nil nil [3-5 t: hdtrtt] [7-9 x: xxxxxxxxlx] [3-4 m: wmmm] [1-14 l: hllllllllllllll] [2-3 g: jgmg] [17-18 c: ccccccccccccccccctc] [8-13 l: lllllllllllldl] [4-9 v: sbxvbkvfqvvxvnl] nil [3-4 t: jtthcmtfnct] nil nil [1-3 t: qttt] [6-7 j: mwjxqmljtfxbcrjvjjj] [2-3 d: xddxnxmfhvdk] nil nil [10-15 g: ggggqggggngprggg] [11-13 n: nnznnnnnnnrnn] [11-17 p: pppppxppprpppprpppp] nil [3-5 k: tkkknr] nil nil nil
- nil [4-20 b: hmslxbrbrptfcljhblqb] nil [5-6 l: lllldl] [1-4 c: cccw] [6-11 n: tnnnnnnpnnvb] nil [7-8 l: llllllll] [10-11 s: ssssvssnsslsss] [1-3 f: ffkh] nil nil [3-5 r: jvrrrr] nil nil [8-11 h: qhhhhhslhqhhhwfm] nil [9-10 c: cccccccckc] [3-4 g: gggs] [9-16 s: ssllsssvkshssjsth] nil nil nil nil [1-2 h: ghwh] nil nil nil nil nil [5-14 h: tnrhhmqknqhmhfht] [2-4 h: chhxjfksc] [6-10 s: ljmsgsssstscsps] nil [6-7 s: sjskmscfssss] nil [1-8 x: xxqjxmgtxz] [12-13 l: llllllllllllfl] nil nil nil [3-8 q: rqqfqblmc] nil nil [2-8 g: ggqtqgkgfggfmg] [2-8 k: wpkzwwkm] nil nil [14-16 l: lllllllllllllbllln] nil nil nil [4-5 c: ccctc] [1-6 l: cllllg] [2-6 k: kwkkqk] [6-13 d: zdjddkxmdqrddtbdgbd] [6-8 k: kkkkkkkqk] nil nil [9-15 q: qqqqqqkqqqqqqqlqh] [6-12 n: nnnnnnnnnnnn] [2-6 j: cjnxjzljjlq] [14-16 v: vvvvvvvvvvvvvvvm] [6-13 f: gxffsfgdfpfffffffs] nil [13-14 j: jjjjjjjjjgjjjj] nil [2-10 q: qjqqqkqqkqq] nil nil [9-12 n: nndnncnnnnqn] nil nil nil nil [2-7 j: jjjjjjqj] nil [5-9 r: rrrrrmrrm] [8-11 k: kkwkkkkbkzk] [2-4 b: nbqpbtz
-kdrdm] [2-13 b: bpxltqdxbxbjbl] [2-5 h: jhhhz] [5-8 c: cncccvcn] nil [1-9 v: jvvvvvvvsv] nil nil [6-11 r: rzczrrtljhzkrkrrbrrr] nil [1-2 n: npkn] [14-18 n: nnnkzntnnnnnnnxnnknn] nil [7-19 l: llllllwlllllllllllll] [2-5 t: qdftt] [8-10 g: gggggggpgg] [3-7 h: gbtdhwhhkl] [2-7 q: glqqrqqzpvqz] nil [8-16 v: fvvvvnvvvrqwvvzf] [2-3 k: kbkk] [3-5 x: xxqxvtz] [2-3 m: jnmmdzzx] nil [2-10 z: zslzzzzdzzzzmz] nil [2-6 b: zbbzbb] [1-3 w: twrw] [2-10 k: hkkhtkskvk] [5-8 q: qqqqqqqf] [6-8 l: qrspqlkdcscclllkltkl] [2-10 j: jjjjjjjjjcj] nil nil nil nil nil nil [3-6 q: qcqqqwnfqrj] nil nil nil nil [4-6 d: qdzxddddnd] nil [2-4 d: qdhjddnd] [5-8 f: ffffzffdf] nil [3-6 x: xbxxtx] nil nil [2-11 w: bwskvwsqbcbnl] [7-14 p: lpgpxqppppplpvlwxx] [10-11 l: lllllllllnll] nil [8-14 v: vgqvvjxwvvzvvv] [3-13 v: vcvzclwbtvbgcngwghh] [3-5 w: zwwnrwww] nil [3-13 h: whhhgqzwjkjqfjc] nil [5-7 k: pkkkkxxkkk] [1-4 f: pqkff] [1-5 x: xxxxvx] [1-3 t: mtht] nil [1-5 t: jtmtttc] nil [4-5 t: jtttt] nil nil [12-14 g: gggggggggggzggg] nil nil [4-11 c: ctcc
-ccctcch] [18-20 j: jjjjjjjjtjjjjjjjjjjj] nil [2-4 b: wbbk] [1-2 t: tstf] [15-17 h: hhhhhzhhhhhhhhxhhh] [11-14 k: kkkkkkkkkkgkkkk] nil [2-5 s: slssn] nil [8-9 c: cnccccccrc] nil [13-15 c: cccjgccchjcmccrdcccc] nil nil [12-14 r: rrrrrrrrrrrrrv] [5-19 h: hhhhmhhhhhhhhghhhhhh] nil nil nil nil [3-11 g: qmgghrggggt] nil [7-11 b: bbbbbbbbbblb] [2-3 t: nctttjgr] [1-8 t: nrlrtnptztstnfstx] [1-4 r: rrrz] [12-13 z: zzznzzzvzzzzhczz] nil nil [2-7 q: ljsvqlq] [3-9 h: wlkfhjvthpfhzln] [8-10 j: jkxzjjjbjjjjjf] [2-5 p: pqppp] nil [3-4 w: wwww] nil nil [3-4 l: llzrl] nil nil [8-10 h: hjhkhdkgghhhhhwh] [10-14 n: npnnnnnnndnnnn] nil nil nil nil nil [4-7 c: ccczccccq] [3-13 h: hxsghhnhhhhhhhh] nil [13-14 w: wwwwwwwwwwwwwjw] [6-11 d: mdcddbdrddd] [15-19 r: rrgrrrrprrrrrrdrrrrr] [11-16 x: xxxkxxxxxxmsxxxxxxx] [4-13 v: xvqkhfpvlsvvvvs] [2-3 x: jxjbxbq] nil nil nil nil nil [1-4 x: xxxgg] [11-16 c: ccwlggccckwccccccc] [10-12 g: ggggggbggkgqgg] nil nil nil [2-5 q: bqnwqpmtglphq] [4-11 h: hhhmhhhhhhhh] [5-7 w: wwwwnwxww] nil nil nil ni
-l [2-4 z: wzjzlc] [2-11 m: zmctnwcvwhmgcq] [5-19 v: gcmvfvvkvxdmvvxvwgvv] [11-13 c: cccccpcccwcphcc] nil nil [2-4 x: kxxlx] nil nil [3-4 z: zbhzmz] [9-11 n: nnnnnnqnnnn] nil nil nil [10-11 f: fffffffpkzqqffrf] [3-7 k: kktkkkkk] nil nil [2-6 d: hdxhvdz] nil nil nil [11-13 x: xxvxxxxxxxxxj] nil [3-4 c: cwfcc] nil [4-7 n: lnqnlndbnf] nil [2-6 j: jjjjjcj] nil [10-12 v: vvvvvvvvvwvv] [3-13 z: nzhzvmzcbzzzzzj] nil [6-7 s: ssssscs] [5-8 f: ffxffffdff] nil [8-9 s: sssssssss] nil [5-6 n: nnnbnnn] [1-9 w: wwqpwhwcdw] [7-8 g: gxgggrgcggg] nil [4-11 b: svbwbqsbbbbbnpcbpprb] [6-7 j: zjvjmsjjjjnvt] [5-6 l: lhlllpll] nil [9-12 g: gjgqggggzggffgp] nil [2-6 v: fvvpvcxnpgd] nil nil [1-4 z: zsjf] [2-6 l: dvcsllhw] nil [5-6 g: dtggpgggcwvvdw] [5-13 p: ppppkppppdpvdpzdlppp] nil nil [4-7 m: mmxzmfmmlmm] nil nil nil nil [7-10 r: rrrrrrxrrsrr] nil nil [8-18 m: wtmtmtvmcmmjsmmxmmmm] nil [6-7 b: bbbbbbl] [1-5 c: cqzfcjhnccjwwjftkx] nil [3-7 f: gffffff] [13-17 b: bbbtbbbzbbbbsbbbjbbk] nil [5-6 b: xqbgbxblbbb] [5-9 p: phhpqppppgtppp] ni
-l nil nil nil nil [5-7 n: nnnnpnnn] nil nil [2-5 v: vvvnnhvv] [1-3 f: bfff] nil [1-12 d: dddddddtddcdd] nil [2-6 w: mwwmvmpwzwpzkn] nil [1-7 c: ccgncfc] [3-6 w: wrrwwww] nil nil [12-17 n: nnnnbnnxncnnvnpnjnr] [5-6 h: hhhhth] [1-3 q: qnbqf] nil [7-9 l: nlwlflsllllk] nil nil [4-6 r: rrrrrr] [1-10 j: hjjjljjjjwjjj] nil nil nil [13-14 r: rrrrrrrrrrrrrg] [2-15 j: jhhjnvgxzbjskjjj] [2-4 p: ppghp] nil [15-17 h: hhhhhshhhhhhhhhhh] nil nil [9-10 z: lzzzzzzrtdzqzz] [2-3 s: qksnrsvvb] [5-11 d: ddfvzdddkrgrddr] nil nil nil nil [4-8 w: mzwwswwttnxmkp] nil nil nil nil [1-3 d: ddgd] nil nil nil nil nil [6-15 x: hxlxxxxxxqpjtxwxxxxx] [8-16 l: qlqwrlllphlllllxglll] nil nil [6-9 b: bbbbbbbbt] nil [7-8 x: nxxxlxlxbxx] nil nil [9-11 n: nnnbnnnnnhnn] nil nil [2-4 c: nczcwqwkctzwl] nil nil [6-9 g: qhggzggjfjgghwrkfbg] [15-16 n: nmnnnnncnnnnnnnkndn] [3-11 r: frrrrrprrrgrrr] nil nil nil [10-11 m: mmgtmmmmmgmmm] nil nil [2-4 f: sxxfbpshndbkkmwf] [12-13 p: prpppppppppfppp] [2-3 f: wtff] [2-4 m: pdmmm] nil [10-11 m: mmmmmmmmmqnmm] nil 
-nil [1-4 h: mrhhh] [4-6 w: wxlwvwbhzwwkps] nil [1-3 z: zzqz] nil nil nil [1-3 s: gsss] nil nil [3-10 v: vvnvxvcjvvzcvcvvtv] [1-3 v: vvwvt] nil nil [6-8 d: sddvdjdmdmd] nil nil [3-5 s: mnsss] nil nil [11-12 f: fffffffffffm] [1-4 z: zznq] nil nil [8-9 d: ddddddgdwrpdd] nil [2-8 c: hcczwkwcspccrcckc] nil nil nil [2-9 k: jkjbktwdrdnn] nil nil nil nil nil [4-5 h: hpkhsrhshcht] [6-9 h: mhhhhhhht] nil [3-4 k: qfkkkkn] nil nil [7-15 x: zxxxvxxxmksxxxnxxrr] [4-5 v: vvdpvnv] [5-9 l: llrqhllcl] nil nil [1-2 g: gmdjg] nil nil [6-10 j: jxjjrjmvwwjjsjjcth] nil [2-7 p: mppmnpp] nil [1-10 m: msbjbgmmkw] nil nil [2-11 v: vgwrcfcszcvlwt] nil nil nil nil nil [2-7 p: ppdwknp] [4-8 t: rjdtmftjgftwt] [3-7 l: clljldl] nil [6-8 f: fffffcsf] nil [10-11 f: ffffffffffgf] nil nil [2-13 k: kkkwckkckkkkvkkkk] nil nil [7-8 d: xdddddnddd] [2-4 r: srxrrphrb] [2-3 v: vvkgd] [2-5 z: bzzzzhh] [11-16 h: hnchhhhhhhghhhhh] nil nil nil [9-10 z: zzzzzzzzpz] nil nil [3-15 m: qmxmwjmmjgmsmwmz] [2-3 g: hgggp] nil [7-10 t: ttcttttztw] nil [11-12 t: tttt
-qqtttnhttvttt] [6-11 r: rnrhrrrrrrcgtr] nil [18-19 m: mmmmwmmmmmmmmmmmmnmm] nil [16-17 m: mmmmmdmmmmmmmmcsmmm] nil [5-8 j: vtjcsjjcjlj] [6-11 t: ttttttttgmqttt] nil [1-9 s: dsssssssds] [5-6 d: dddddpdt] nil nil nil [3-11 f: tpfqgzkfrvqrjfhrrf] nil nil [1-8 f: vqtdxgsfkjmncxdkqdfb] nil [9-10 g: jgggfgqglgghxgg] [7-12 x: xdxxkcxcxxxm] nil [1-11 x: wxxxxxxxxxgx] nil [5-10 g: cpgggccpvkzggzgbgtgg] [1-4 w: wwzvq] [3-13 h: zzhnhnjhhkplhhwph] [4-6 f: fffkfff] [6-7 v: vvvvvvdv] nil nil [15-18 j: jjjjjjjjjrjjjjxjjvj] nil [5-17 q: szncqqqlmcspmcbgqhq] [2-7 s: tsrnhjslffbsv] nil nil [15-20 n: nnmnnsnnlnnncnnnnncn] [18-19 f: fffffffffffffffffkf] [3-5 b: bhnbbm] nil nil nil [12-13 q: qqqqqqqqqqqjq] nil nil [2-11 l: xlbsbrrnlllpl] [3-4 l: llml] [2-7 c: wscrkcvncc] nil nil [2-4 w: lcswnmwsprkhg] nil [10-12 p: ppjppppvpppqpp] nil [7-19 p: pmrhpppppppsppppjspp] [2-4 l: xllxb] [6-15 k: ktknghkkstkkjkkx] [3-4 p: pppq] nil [4-5 n: svnnnrnpn] nil nil nil nil [7-10 k: sskkqxzhkkpzkkvhkkb] [7-13 s: zskccbtsbssdctlmvsss] nil [7-13 p
-: ppfppvpppmppdppvfpg] nil nil nil [5-11 x: xxxxzxxxxxx] nil nil nil [15-17 j: jjjjjjpjjjjjjjljj] [11-12 f: ffffffqmffmfff] [5-7 p: ppppmpp] nil [1-4 n: nnnccb] nil nil [12-14 d: dddddddddbddddrd] [2-8 l: clvlhdxtqqzdsd] [9-12 z: bzzkzzrzzzzhz] nil [4-5 j: jjjjp] [2-8 f: vfnnlxfrll] [8-11 p: ppqppppwpplpp] [9-11 k: kkkkkkkkkkk] nil [1-2 q: qnccf] [3-5 x: wxkxzxcjk] nil [16-18 d: dfdldddddddddddhddd] [12-16 s: sssdssqdrsssssss] [1-7 k: kdkkwkkvk] nil nil [4-11 h: dvhhjdhhjkhbcbhb] nil nil nil nil [1-8 p: zppppppbp] [1-2 k: xckk] [1-4 d: dddgd] [16-17 p: ppppppppppppppppf] nil [4-5 n: ncknqlwnrnjn] [8-9 t: tttttttpt] nil nil [2-4 j: nwwjrmckjjg] nil [6-13 r: rrkrrrrrrrrrjrr] [13-14 n: nnznsnnnnhnnnnnnn] nil nil [] nil nil nil nil [6-7 r: trrrrrdr] [2-4 l: hjhljhl] [2-4 v: vhbv] nil [4-8 w: nwswjktwznhwtzbdrp] nil nil [4-5 x: qxxcxx] nil [5-11 d: xdmdvkdddddxddd] [3-4 d: ddddp] [1-4 q: xqvq] nil [10-11 x: xxxxxxxxxxzx] nil nil [2-7 g: ggwgrfwgzg] [4-5 p: prppp] nil [1-3 f: fflf] [3-9 w: zwbwdzqzw] [4-5 t: tvttt]
- nil [5-8 x: xxxxxxxt] [3-5 j: hjljjj] [18-19 z: zzzzzzzzzzzzzzzzzzd] nil nil nil nil nil nil [5-12 q: qqqqxqwqqpfrqqqq] nil nil [8-12 m: mmmmmmmlmmmm] [7-10 s: sssssssspfr] [2-3 n: xnhn] [1-3 p: btppz] [12-16 l: lllxllllllljlllll] [2-5 d: zddtm] [5-14 p: pppppppppppppsp] nil nil [1-2 p: pvph] [2-3 l: llfxvq] nil nil [8-9 r: rrrrrrrsr] [2-7 c: slccmjcccc] [] nil [5-6 j: dfjkjbcsjqjjhkjmg] nil [8-15 s: tsszssjsssssmsss] [1-5 k: kkrblv] [6-7 j: jjjjjjv] [2-7 q: dvrnqtq] [6-7 v: vnvqwkvvcxpjmvvmg] [13-15 h: hhhhhhhhhhhhkhth] nil nil nil [3-9 l: lljlllllrll] nil [] nil [8-11 t: tttxtlfhtftttwbttt] nil [14-16 b: bbbbbbbbbbbbbbbw] nil nil nil nil [4-17 c: cgndccccscchqhxcbcc] [4-7 b: bbbbbmn] [12-14 p: pppppppppppppdp] nil [5-17 p: pxhbppfpjzzkpgdvb] nil [1-11 t: tjsjxctpbngtdvbdmlm] [3-5 n: wgmwnjwnnnkcnlqqr] nil nil [4-7 d: ddddrmhfdddfxf] [1-2 q: qxnq] [3-7 k: kqkqskcslcqbxkdsr] nil [18-19 k: kkkkkkkkkkkkkkkkkkqk] [6-7 v: vvvvvvtvxq] [1-4 w: wwkrmwwf] [2-3 c: ccdcw] [5-6 w: wwwwsw] nil nil [2-4 t: dmtt] nil nil 
-nil [1-3 k: kqdwsfkdxl] [5-7 t: vtdtntttlrtt] [2-10 w: wvnfvctwmwwwqr] [1-11 c: lccccccccccc] nil [2-6 n: mnjrfnpmwnlhwvksmmss] [8-13 m: mzzmmpmmmmwmz] nil [8-13 p: pppppppppppts] [10-12 b: bbbbbblbbvbbbb] [2-3 b: bbzdv] nil [7-11 q: kqbqqqqqtqfx] [1-11 n: tnlnxpcqnnn] [4-6 j: jdjxcjbggjcdjpknx] nil [3-10 g: qggqjgfxqgmjdgv] [10-15 n: nwnrnnrwnnnnnnc] [6-15 l: lflldhzbllzlbklx] [1-2 s: hsgsj] [5-6 f: ffffdff] [1-5 m: bmhmm] [2-6 m: bmlbslbgjm] nil nil [7-9 b: bbbbbbwbb] [15-17 q: qfqqzqqqqqqqqqqqnqq] nil nil [3-4 h: hhzhh] [1-6 h: hhhhhxh] [1-9 s: smwssfhsvs] nil nil [11-14 x: xxxxxxxxxxcxxxx] nil nil [3-5 q: qqqgxscqm] nil nil nil [7-14 q: qqqqqqlqqqqqqqq] nil nil [4-8 r: rwrqrlzrxrrqsccq] [2-3 v: vtvv] nil [14-16 w: wwwwwwwwwwwwwwwc] [2-6 c: tcvmrcht] [6-9 z: zzzzzzzzz] nil [3-4 f: frxfdff] nil [2-13 w: wmwwwvwlwwwwttqjjwc] [5-6 l: lllllj] nil [3-7 n: kndzxnsnn] nil [13-15 c: ccccccccccccccz] [12-15 n: nnnnnnnnnnnsnnsnn] nil [12-16 r: wrrrrrrrrrrgrrrrr] [8-11 l: nlllxllzllll] [3-5 d: prdfhhvdrpd] [2-3 t: wt
-tzbp] [3-5 h: jhxhhdztw] [2-7 r: qrwcxjhtrrlw] [11-13 d: ddddddddddfpdd] nil [1-11 z: jzzzzznzzzq] nil [9-10 k: xktkkkpgnpkskkkzjkm] [14-15 j: jjwjjvjjjjjjjjvjj] [2-6 l: lntrlllx] nil nil [3-5 l: llllm] nil nil [1-5 g: hcfjntzgcxk] nil [1-12 p: pwjdppqpcgpplgwz] nil nil [15-17 v: vvvvvvvvvvvkvvvvxvv] nil nil nil nil nil nil nil nil nil nil [7-8 z: zzzzzpzxlzzg] nil [5-7 m: bvmxmwmlxpmmwt] [1-11 n: fbsghrrzbtnmn] [13-14 h: hhjtlhhhhhhhfhphbhh] [5-7 p: ppppdpspp] [6-7 v: vdvvvvhv] [6-9 k: kkkmknkkkkbc] [2-9 k: jvpczkkcnvfvm] nil nil [4-9 x: vxxxxxxxz] [2-5 h: gqhhhh] [1-9 m: nkcwjmqmmgldxwm] nil nil nil [2-8 w: wqwbwkzwsc] [4-6 c: ccctccc] nil [6-9 x: xxxxxpxxc] nil nil [2-5 w: wjtgw] nil nil nil nil [4-6 c: gcccnscccllfq] nil [6-9 h: lhhhhbhhj] nil [7-8 t: tttttstt] [7-16 j: kmjjcfjjcjjjjbwjjpjr] nil [8-11 q: qqqqqqqsqqtqq] nil nil [1-3 l: xljlml] nil [9-11 h: zhhrhhhsthhhhhr] [5-14 n: rkndnhgbnnwnnzgn] nil nil [1-3 c: jtcm] nil [2-7 b: bbbbgbz] nil nil [10-11 r: rrrrrrrrbrbqr] [3-4 x: xxxcxk] nil [10-12 f: ff
-fffffffffcf] nil nil nil [8-11 q: qqqqqqqvqqqq] nil nil nil [2-16 p: xswnqpctbvmllwjpw] nil [3-5 w: wwlwh] [3-9 f: bffktxcwpfhckffr] nil nil nil nil [8-16 v: lvvvvvpvzvvvvvgwjvvv] nil [2-7 c: wqcrhxcg] [10-13 p: ppdppppppngbpdppz] [1-3 v: gbflwpsdgnrzhkdv] [3-6 w: pwhbwwwtww] [1-6 f: qmfwff] [11-16 x: xxnxxbxxxxgxxxsxrx] [3-11 b: cztbfcbpcbb] nil [11-14 c: hccccccccccscp] nil nil [2-4 s: sgtsmlhcm] [5-6 n: nnnnnt] nil nil nil nil [1-2 k: kdjb] [2-6 p: lmpppp] [3-5 f: ffcfh] nil [4-7 v: vvtxvwvsqb] [4-6 s: stslsxs] [11-15 x: xrxcxxxxxxvxxxxcx] [4-7 r: xrrlrrrrr] [5-10 v: vvbvsvtmtvvvvv] nil nil [3-7 m: mmkmmmmm] nil nil nil [9-10 c: jcccjwgcccsccxnc] [6-14 h: hhphhhrhhhhhhklhhh] [6-8 r: xrrrrrrrrg] nil nil [8-12 x: xxxxxxxtxxxx] [3-9 v: nvprvvvtxvvvv] [5-12 g: gggggggggggjg] nil nil nil nil [3-4 k: wqqkzwqgkqkk] [1-3 p: dppp] [5-9 p: ppkpppppjpt] nil [14-15 j: jjjjhjjjjjjjjjqj] nil [11-14 d: ddddhwxdddfrdddd] [5-7 h: hhhhhhfh] nil [10-11 r: rrrrrrrrrvrrf] [2-3 k: ftkkdc] [2-9 g: jpxcgggzgsgngrhght]]
+; Execution error (UnsupportedOperationException) at aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:26).
+; nth not supported on this type: Character
+clojure.lang.RT/nthFrom (RT.java:991)
+clojure.lang.RT/nth (RT.java:940)
+aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:26)
+aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:25)
+aoc-2020.day-two/eval26219 (form-init2132174929412593829.clj:38)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.day-two=> 
+#'aoc-2020.day-two/get-valid-entry-p2
+clj::aoc-2020.day-two=> 
+n
+13-14   n:   nnznsnnnnhnnnnnnn
 nil
 clj::aoc-2020.day-two=> 
-#'aoc-2020.day-two/get-valid-entry
+#'aoc-2020.day-two/get-valid-entry-p2
 clj::aoc-2020.day-two=> 
-518
+n
+13-14   n:   nnznsnnnnhnnnnnnn
+nil
 clj::aoc-2020.day-two=> 
-#'aoc-2020.day-two/get-valid-entry
+#'aoc-2020.day-two/get-valid-entry-p2
 clj::aoc-2020.day-two=> 
-515
+z
+13-14   n:   nnznsnnnnhnnnnnnn
+nil
+clj::aoc-2020.day-two=> 
+; Syntax error compiling at (src/aoc_2020/day_two.clj:26:37).
+; Unable to resolve symbol: db-entry in this context
+clojure.lang.Compiler/analyze (Compiler.java:6808)
+clojure.lang.Compiler$InvokeExpr/parse (Compiler.java:3888)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7109)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/access$300 (Compiler.java:38)
+clojure.lang.Compiler$LetExpr$Parser/parse (Compiler.java:6384)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7107)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$FnMethod/parse (Compiler.java:5467)
+clojure.lang.Compiler$FnExpr/parse (Compiler.java:4029)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7105)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/eval (Compiler.java:7174)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.day-two=> 
+#'aoc-2020.day-two/get-valid-entry-p2
+clj::aoc-2020.day-two=> 
+z
+13-14   n:   nnznsnnnnhnnnnnnn
+; Execution error (ClassCastException) at aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:37).
+; java.lang.String cannot be cast to java.lang.Character
+clojure.lang.RT/intCast (RT.java:1220)
+aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:37)
+aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:25)
+aoc-2020.day-two/eval29052 (form-init2132174929412593829.clj:48)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.day-two=> 
+#'aoc-2020.day-two/get-valid-entry-p2
+clj::aoc-2020.day-two=> 
+z
+; Execution error (ClassCastException) at aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:32).
+; java.lang.String cannot be cast to java.lang.Character
+clojure.lang.RT/intCast (RT.java:1220)
+aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:32)
+aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:25)
+aoc-2020.day-two/eval29424 (form-init2132174929412593829.clj:45)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.day-two=> 
+#'aoc-2020.day-two/get-valid-entry-p2
+clj::aoc-2020.day-two=> 
+z
+s
+13-14   n:   nnznsnnnnhnnnnnnn
+nil
+clj::aoc-2020.day-two=> 
+#'aoc-2020.day-two/get-valid-entry-p2
+clj::aoc-2020.day-two=> 
+z
+; Execution error (ClassCastException) at aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:32).
+; java.lang.String cannot be cast to java.lang.Number
+clojure.lang.Numbers/minus (Numbers.java:162)
+aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:32)
+aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:25)
+aoc-2020.day-two/eval29671 (form-init2132174929412593829.clj:45)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.day-two=> 
+#'aoc-2020.day-two/get-valid-entry-p2
+clj::aoc-2020.day-two=> 
+z
+n
+13-14   n:   nnznsnnnnhnnnnnnn
+nil
+clj::aoc-2020.day-two=> 
+#'aoc-2020.day-two/get-valid-entry-p2
+clj::aoc-2020.day-two=> 
+z
+n
+13-14   n:   nnznsnnnnhnnnnnnn
+; Execution error (ClassCastException) at aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:38).
+; java.lang.Character cannot be cast to clojure.lang.IFn
+aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:38)
+aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:25)
+aoc-2020.day-two/eval30923 (form-init2132174929412593829.clj:45)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.day-two=> 
+#'aoc-2020.day-two/get-valid-entry-p2
+clj::aoc-2020.day-two=> 
+z
+n
+13-14   n:   nnznsnnnnhnnnnnnn
+; Execution error (ClassCastException) at aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:38).
+; java.lang.Character cannot be cast to clojure.lang.IFn
+aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:38)
+aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:25)
+aoc-2020.day-two/eval31045 (form-init2132174929412593829.clj:45)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.day-two=> 
+#'aoc-2020.day-two/get-valid-entry-p2
+clj::aoc-2020.day-two=> 
+z
+n
+13-14   n:   nnznsnnnnhnnnnnnn
+; Execution error (ClassCastException) at aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:34).
+; java.lang.Character cannot be cast to clojure.lang.IFn
+aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:34)
+aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:25)
+aoc-2020.day-two/eval31177 (form-init2132174929412593829.clj:46)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.day-two=> 
+#'aoc-2020.day-two/get-valid-entry-p2
+clj::aoc-2020.day-two=> 
+z
+n
+n
+13-14   n:   nnznsnnnnhnnnnnnn
+nil
+clj::aoc-2020.day-two=> 
+#'aoc-2020.day-two/get-valid-entry-p2
+clj::aoc-2020.day-two=> 
+z
+n
+n
+13-14   n:   nnznsnnnnhnnnnnnn
+; Execution error (ClassCastException) at aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:35).
+; java.lang.Character cannot be cast to clojure.lang.IFn
+aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:35)
+aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:25)
+aoc-2020.day-two/eval31657 (form-init2132174929412593829.clj:47)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.day-two=> 
+#'aoc-2020.day-two/get-valid-entry-p2
+clj::aoc-2020.day-two=> 
+z
+n
+n
+13-14   n:   nnznsnnnnhnnnnnnn
+"nnn"
+clj::aoc-2020.day-two=> 
+#'aoc-2020.day-two/get-valid-entry-p2
+clj::aoc-2020.day-two=> 
+z
+n
+n
+13-14   n:   nnznsnnnnhnnnnnnn
+nil
+clj::aoc-2020.day-two=> 
+#'aoc-2020.day-two/get-valid-entry-p2
+clj::aoc-2020.day-two=> 
+s
+s
+s
+6-8   s:   svsssszslpsp
+c
+c
+n
+3-4   n:   gncn
+v
+m
+v
+4-8   v:   vkvmvdmvhttvvrgvvwv
+j
+j
+f
+16-18   j:   jjjjjjjjjjjjjjjjjf
+p
+x
+p
+13-15   p:   pppppppvppppxxppp
+k
+k
+s
+3-4   k:   bkksggqbtwkkkzqcz
+p
+c
+x
+8-18   x:   qxphxxtczxxxxxrbxxl
+c
+c
+h
+6-11   c:   dccxcccccchrcfdckcsc
+v
+c
+c
+10-11   c:   ccvxccccccccc
+z
+s
+f
+2-4   f:   pszff
+z
+z
+j
+18-20   z:   zzzzzzzzzzwzzzzzzzzj
+g
+g
+p
+1-7   g:   ggggggpggggggg
+h
+h
+f
+3-5   h:   hhhhfhh
+x
+x
+x
+2-5   x:   dxxzxv
+s
+s
+s
+7-8   s:   ssssssss
+k
+k
+l
+3-9   k:   ktkkkkkklkck
+r
+z
+r
+2-9   r:   rzrrrrrrrrrrrr
+r
+h
+v
+5-9   k:   tkrkhkxbvkbkkkkk
+n
+n
+s
+8-9   n:   tnnpbnrns
+q
+q
+q
+14-15   q:   qqqqqqqqqqqqqqqq
+q
+s
+q
+11-12   q:   cqqqqqqqqqsqqqlqqqqq
+v
+v
+l
+15-17   v:   vvvvvvvvvvnvvvvvlvvv
+c
+c
+g
+2-10   c:   ccccccccvgckcccccc
+h
+h
+h
+8-9   h:   hbhhhhchhhs
+t
+z
+n
+7-13   t:   thtfttzctpvtn
+w
+p
+p
+14-15   w:   wwwwwwwvwwwwwppwww
+m
+m
+w
+5-19   m:   mmmmmjmmmmmmmmcmmmw
+t
+v
+z
+2-8   z:   mvtnjvzzs
+c
+x
+c
+8-10   c:   cccccccxcccc
+m
+m
+x
+8-11   m:   mmmmmmmmmmxmmmmk
+h
+h
+h
+6-7   h:   hhhhhhhhhhkhh
+h
+h
+m
+6-8   h:   xmhsphhm
+g
+b
+g
+2-3   b:   bbgb
+q
+q
+q
+2-14   q:   qqqqtkqzqqqqqq
+z
+z
+b
+9-15   z:   zzzzzzzzzzzzzzb
+m
+n
+n
+2-12   n:   hnmztvzxxwvnrnvlfbs
+c
+c
+t
+8-13   c:   cccccccccccctccbcc
+j
+m
+k
+10-13   k:   jkjzqkkkkmkkk
+m
+m
+m
+3-10   m:   mmmlmmmmmmmm
+r
+n
+p
+1-2   r:   nprr
+f
+z
+l
+9-15   z:   zzfjwgczzzzzzvlqz
+q
+q
+q
+5-6   q:   vqqqqq
+f
+f
+g
+3-10   r:   rrftrrkrrg
+f
+r
+b
+7-9   r:   tqfrrcrvbzrkrr
+j
+j
+j
+5-12   j:   jjjjjjjjjjjjj
+n
+p
+f
+14-18   p:   phnppvpchpncdppjpf
+t
+t
+t
+3-5   t:   hdtrtt
+x
+x
+l
+7-9   x:   xxxxxxxxlx
+m
+m
+m
+3-4   m:   wmmm
+l
+h
+l
+1-14   l:   hllllllllllllll
+m
+g
+m
+2-3   g:   jgmg
+c
+c
+t
+17-18   c:   ccccccccccccccccctc
+l
+l
+d
+8-13   l:   lllllllllllldl
+x
+v
+q
+4-9   v:   sbxvbkvfqvvxvnl
+g
+g
+b
+3-5   g:   nggxbp
+t
+t
+h
+3-4   t:   jtthcmtfnct
+c
+p
+c
+5-6   c:   vccwpcct
+v
+v
+b
+4-8   v:   vvvvvvvbvv
+t
+q
+t
+1-3   t:   qttt
+j
+m
+l
+6-7   j:   mwjxqmljtfxbcrjvjjj
+d
+d
+d
+2-3   d:   xddxnxmfhvdk
+j
+j
+b
+17-18   j:   pcjjcwkjjvvdjjvrjb
+p
+p
+l
+3-6   h:   drplhl
+g
+n
+g
+10-15   g:   ggggqggggngprggg
+z
+r
+n
+11-13   n:   nnznnnnnnnrnn
+p
+p
+p
+11-17   p:   pppppxppprpppprpppp
+f
+d
+r
+14-15   d:   qdfqdxkqdrqcddr
+k
+k
+n
+3-5   k:   tkkknr
+m
+z
+f
+10-11   m:   ncmrmxzsszfj
+w
+n
+m
+19-20   w:   wwwwwwwwwwwwwwwwtwnm
+r
+r
+d
+4-6   r:   rrrrrdrrtkf
+z
+z
+z
+8-10   z:   zzzzzzzzzzz
+s
+l
+b
+4-20   b:   hmslxbrbrptfcljhblqb
+t
+t
+n
+6-9   p:   pgtpptpnn
+l
+d
+l
+5-6   l:   lllldl
+c
+c
+w
+1-4   c:   cccw
+n
+n
+v
+6-11   n:   tnnnnnnpnnvb
+x
+b
+m
+6-8   m:   rwxcrbmmvdmqmd
+l
+l
+l
+7-8   l:   llllllll
+s
+s
+l
+10-11   s:   ssssvssnsslsss
+k
+f
+k
+1-3   f:   ffkh
+z
+h
+j
+4-5   j:   jlzhjj
+x
+x
+x
+1-3   x:   xxxxxxxx
+r
+r
+r
+3-5   r:   jvrrrr
+n
+n
+v
+18-20   n:   nnnnnnhdnxnnnnngnnvv
+n
+k
+n
+12-13   n:   nnnnnnnnnmnkn
+h
+l
+h
+8-11   h:   qhhhhhslhqhhhwfm
+z
+d
+j
+5-18   j:   hgzmdpkfpnjcmpwtqj
+c
+k
+c
+9-10   c:   cccccccckc
+g
+g
+s
+3-4   g:   gggs
+l
+k
+t
+9-16   s:   ssllsssvkshssjsth
+n
+v
+p
+10-12   v:   sbnpkfdmnvqpvkvv
+s
+t
+p
+6-7   t:   sfssstp
+c
+h
+c
+1-5   c:   hqccccfcccrcmcchc
+d
+l
+d
+6-8   d:   qrdwflbdd
+w
+g
+h
+1-2   h:   ghwh
+v
+c
+n
+9-10   v:   vvvvvvvvcn
+z
+t
+l
+12-14   l:   hlzxblbkkrhtllfnn
+b
+s
+b
+1-4   b:   sbbbbbbbb
+l
+q
+l
+6-7   l:   lhlllql
+z
+z
+q
+13-14   z:   jgzcqqgmvdzzzq
+r
+h
+f
+5-14   h:   tnrhhmqknqhmhfht
+h
+h
+x
+2-4   h:   chhxjfksc
+m
+s
+t
+6-10   s:   ljmsgsssstscsps
+p
+k
+g
+7-8   k:   mgpzkkkg
+s
+s
+c
+6-7   s:   sjskmscfssss
+f
+f
+d
+11-12   f:   fffffffffffdff
+q
+x
+t
+1-8   x:   xxqjxmgtxz
+l
+l
+f
+12-13   l:   llllllllllllfl
+b
+g
+c
+9-12   c:   ccbpccdcgccc
+f
+b
+k
+5-7   f:   hjfrbgk
+m
+m
+x
+15-18   x:   kwmttbfvqcxxjbmhvx
+q
+q
+m
+3-8   q:   rqqfqblmc
+s
+s
+q
+3-4   l:   nlsqf
+d
+x
+s
+7-9   x:   jgdmhzxxs
+q
+g
+g
+2-8   g:   ggqtqgkgfggfmg
+k
+p
+m
+2-8   k:   wpkzwwkm
+n
+n
+p
+1-9   n:   nnnnnnztpnnnn
+m
+m
+t
+3-16   m:   lxmqlcpwdfqhrmztsd
+l
+b
+l
+14-16   l:   lllllllllllllbllln
+b
+b
+x
+7-8   b:   bbbbbbbxbbbbb
+f
+m
+f
+9-10   f:   ffffffjbmf
+w
+k
+w
+9-10   w:   jrwwwwzmkwwfw
+c
+t
+c
+4-5   c:   ccctc
+l
+c
+g
+1-6   l:   cllllg
+k
+w
+k
+2-6   k:   kwkkqk
+j
+k
+d
+6-13   d:   zdjddkxmdqrddtbdgbd
+k
+k
+q
+6-8   k:   kkkkkkkqk
+g
+g
+s
+3-4   g:   twgsprvgm
+b
+h
+b
+9-10   b:   ckbmbshbhbbbbb
+q
+q
+l
+9-15   q:   qqqqqqkqqqqqqqlqh
+n
+n
+n
+6-12   n:   nnnnnnnnnnnn
+n
+j
+z
+2-6   j:   cjnxjzljjlq
+v
+v
+m
+14-16   v:   vvvvvvvvvvvvvvvm
+f
+f
+f
+6-13   f:   gxffsfgdfpfffffffs
+l
+l
+l
+12-13   l:   qdltpbdlzjvllftq
+j
+j
+j
+13-14   j:   jjjjjjjjjgjjjj
+x
+w
+x
+7-10   x:   sxxxlxwxxxjsxxzqxxt
+q
+j
+q
+2-10   q:   qjqqqkqqkqq
+d
+r
+c
+1-2   r:   rcdwrr
+j
+j
+j
+1-6   j:   jjjjjjj
+d
+n
+n
+9-12   n:   nndnncnnnnqn
+w
+p
+c
+12-16   p:   tbwnppzjpnpptpncp
+q
+g
+q
+8-9   q:   qzqhqqqgqqqqqtqqq
+c
+h
+d
+14-15   c:   ccccccccccccmhd
+b
+b
+b
+7-8   b:   jpbfjsbb
+j
+j
+q
+2-7   j:   jjjjjjqj
+z
+z
+x
+3-5   j:   lrzgxjhlx
+r
+r
+m
+5-9   r:   rrrrrmrrm
+w
+b
+k
+8-11   k:   kkwkkkkbkzk
+q
+b
+p
+2-4   b:   nbqpbtzkdrdm
+x
+p
+b
+2-13   b:   bpxltqdxbxbjbl
+h
+h
+z
+2-5   h:   jhhhz
+c
+c
+n
+5-8   c:   cncccvcn
+h
+h
+h
+9-11   h:   pfhhjhhhhsh
+v
+j
+s
+1-9   v:   jvvvvvvvsv
+z
+b
+g
+7-11   b:   bxzxpbbmxfgrkxb
+d
+d
+d
+2-7   d:   ddddddddd
+c
+r
+z
+6-11   r:   rzczrrtljhzkrkrrbrrr
+h
+c
+h
+7-17   h:   jshjhqcrphlsgxlqh
+k
+n
+p
+1-2   n:   npkn
+n
+n
+k
+14-18   n:   nnnkzntnnnnnnnxnnknn
+m
+g
+b
+6-8   g:   ggmfgggb
+l
+w
+l
+7-19   l:   llllllwlllllllllllll
+f
+d
+t
+2-5   t:   qdftt
+g
+p
+g
+8-10   g:   gggggggpgg
+t
+t
+h
+3-7   h:   gbtdhwhhkl
+q
+l
+q
+2-7   q:   glqqrqqzpvqz
+l
+p
+n
+5-11   p:   pcllpxgpldnk
+v
+v
+f
+8-16   v:   fvvvvnvvvrqwvvzf
+k
+b
+k
+2-3   k:   kbkk
+q
+q
+v
+3-5   x:   xxqxvtz
+m
+n
+m
+2-3   m:   jnmmdzzx
+p
+z
+p
+1-6   p:   zvppppppppppd
+l
+s
+z
+2-10   z:   zslzzzzdzzzzmz
+s
+k
+r
+2-5   s:   skssrsssssssssssss
+b
+b
+b
+2-6   b:   zbbzbb
+r
+t
+r
+1-3   w:   twrw
+k
+k
+k
+2-10   k:   hkkhtkskvk
+q
+q
+f
+5-8   q:   qqqqqqqf
+s
+l
+d
+6-8   l:   qrspqlkdcscclllkltkl
+j
+j
+c
+2-10   j:   jjjjjjjjjcj
+t
+t
+h
+4-11   t:   ckttqtlhclhv
+s
+m
+p
+13-15   p:   ghsdsmrjwppmmxp
+r
+j
+k
+7-8   j:   btrhmpjk
+k
+m
+g
+6-10   g:   ckkxpmqmxgg
+m
+t
+m
+1-3   t:   tnmrhtlztgttxxztxv
+n
+k
+n
+2-4   n:   kknnnnnnk
+q
+q
+w
+3-6   q:   qcqqqwnfqrj
+v
+w
+v
+1-14   v:   wvvvvvvvvvvvvvvv
+v
+m
+j
+10-11   j:   btvbnjckfmjfpjjzc
+d
+f
+d
+15-18   d:   ddddddddddddddfddddd
+q
+q
+q
+8-12   q:   qqqqqqqqqqqqqk
+z
+x
+d
+4-6   d:   qdzxddddnd
+s
+m
+d
+8-11   s:   sssssndmssdsssss
+h
+d
+j
+2-4   d:   qdhjddnd
+f
+z
+d
+5-8   f:   ffffzffdf
+f
+r
+f
+12-15   f:   lzfjpkhswmdrphf
+x
+x
+x
+3-6   x:   xbxxtx
+m
+q
+m
+8-12   m:   mmmmmmmqmmmmmm
+z
+v
+t
+8-9   v:   zvzqgvjvtvv
+s
+w
+b
+2-11   w:   bwskvwsqbcbnl
+g
+p
+v
+7-14   p:   lpgpxqppppplpvlwxx
+l
+n
+l
+10-11   l:   lllllllllnll
+q
+q
+c
+15-16   q:   qqqqqqqqqqqqqqqcqq
+q
+w
+v
+8-14   v:   vgqvvjxwvvzvvv
+v
+v
+c
+3-13   v:   vcvzclwbtvbgcngwghh
+w
+w
+r
+3-5   w:   zwwnrwww
+k
+k
+k
+3-4   k:   hkkkkk
+h
+h
+f
+3-13   h:   whhhgqzwjkjqfjc
+m
+m
+m
+4-5   m:   mmmmmmm
+k
+k
+x
+5-7   k:   pkkkkxxkkk
+k
+p
+f
+1-4   f:   pqkff
+x
+x
+v
+1-5   x:   xxxxvx
+h
+m
+h
+1-3   t:   mtht
+j
+r
+f
+4-6   j:   jvjrcfl
+m
+j
+t
+1-5   t:   jtmtttc
+k
+k
+k
+7-8   k:   kkkpkkkkkrkkqk
+t
+t
+t
+4-5   t:   jtttt
+z
+d
+n
+14-19   z:   zzzzmztzczzrzdzzzzn
+v
+n
+s
+14-16   s:   nqvfdwmtvbsbtnks
+g
+z
+g
+12-14   g:   gggggggggggzggg
+c
+c
+m
+6-9   m:   llcrncdzmqlzh
+r
+r
+w
+7-14   r:   rnrbbwrglbljrw
+c
+c
+h
+4-11   c:   ctccccctcch
+j
+j
+j
+18-20   j:   jjjjjjjjtjjjjjjjjjjj
+c
+r
+c
+5-6   c:   ncccrc
+b
+b
+k
+2-4   b:   wbbk
+t
+t
+s
+1-2   t:   tstf
+h
+x
+h
+15-17   h:   hhhhhzhhhhhhhhxhhh
+k
+g
+k
+11-14   k:   kkkkkkkkkkgkkkk
+q
+n
+q
+9-13   n:   vcqnnnlcnnnnq
+s
+l
+n
+2-5   s:   slssn
+m
+m
+w
+6-8   m:   bmmmmmqwmmmm
+c
+c
+r
+8-9   c:   cnccccccrc
+s
+s
+s
+3-4   s:   zcss
+c
+c
+r
+13-15   c:   cccjgccchjcmccrdcccc
+v
+p
+j
+4-6   r:   fkvpfjnflkrrccz
+s
+h
+s
+2-6   s:   shssssssss
+r
+r
+v
+12-14   r:   rrrrrrrrrrrrrv
+h
+m
+h
+5-19   h:   hhhhmhhhhhhhhghhhhhh
+n
+t
+b
+4-9   b:   gjntfbwtb
+n
+n
+g
+12-15   n:   nzndcrnjnnnnnngnd
+z
+z
+z
+11-12   z:   vqzjftszbzzz
+x
+w
+w
+16-18   w:   wlxwzwwczqwmtrpwbwg
+g
+g
+t
+3-11   g:   qmgghrggggt
+t
+n
+t
+2-3   v:   vntvvvvvvv
+b
+b
+l
+7-11   b:   bbbbbbbbbblb
+t
+c
+t
+2-3   t:   nctttjgr
+l
+n
+t
+1-8   t:   nrlrtnptztstnfstx
+r
+r
+z
+1-4   r:   rrrz
+z
+z
+h
+12-13   z:   zzznzzzvzzzzhczz
+j
+n
+n
+12-13   n:   gnjqqnnnnnnnnnnnsnnc
+g
+j
+g
+11-12   g:   ggggggghgrjg
+s
+j
+q
+2-7   q:   ljsvqlq
+k
+k
+h
+3-9   h:   wlkfhjvthpfhzln
+x
+b
+j
+8-10   j:   jkxzjjjbjjjjjf
+p
+q
+p
+2-5   p:   pqppp
+h
+m
+s
+2-7   c:   cmhgqwswwwjvwx
+w
+w
+w
+3-4   w:   wwww
+x
+d
+z
+6-7   z:   nfxmzdzk
+q
+q
+f
+7-12   q:   rqqbqxqdwchf
+z
+z
+r
+3-4   l:   llzrl
+t
+d
+h
+4-5   h:   hftdhw
+c
+d
+x
+8-15   x:   pxcdzxldgxgmpxxmxsv
+h
+g
+h
+8-10   h:   hjhkhdkgghhhhhwh
+n
+d
+n
+10-14   n:   npnnnnnnndnnnn
+m
+m
+n
+3-7   m:   dhmtmhnx
+h
+h
+p
+3-4   p:   fphp
+t
+t
+t
+1-2   t:   tttmvv
+j
+j
+g
+13-17   j:   qrjvzjbvjvvjjsjhg
+v
+f
+v
+14-19   v:   bvvvwdvbngqnzfnvvvv
+c
+z
+c
+4-7   c:   ccczccccq
+s
+s
+h
+3-13   h:   hxsghhnhhhhhhhh
+f
+n
+n
+2-7   n:   nnfnnnnnnh
+w
+w
+j
+13-14   w:   wwwwwwwwwwwwwjw
+c
+b
+d
+6-11   d:   mdcddbdrddd
+g
+d
+r
+15-19   r:   rrgrrrrprrrrrrdrrrrr
+x
+m
+x
+11-16   x:   xxxkxxxxxxmsxxxxxxx
+q
+k
+v
+4-13   v:   xvqkhfpvlsvvvvs
+j
+x
+j
+2-3   x:   jxjbxbq
+j
+d
+s
+11-14   s:   fdjtpsgsrgdlksskm
+s
+z
+w
+7-8   x:   rdsxpbzwxnkxvd
+f
+f
+t
+10-11   f:   ffffgffvfft
+j
+p
+s
+10-11   p:   pwjzmsnqbps
+b
+d
+j
+13-14   b:   bbbbtbbbbbbbdj
+x
+x
+g
+1-4   x:   xxxgg
+w
+w
+c
+11-16   c:   ccwlggccckwccccccc
+g
+k
+q
+10-12   g:   ggggggbggkgqgg
+f
+f
+q
+3-4   q:   kzfqqc
+r
+s
+r
+2-10   r:   rsrrrrxbgrrrrhrrrrdr
+s
+m
+s
+1-2   s:   mssksf
+n
+q
+q
+2-5   q:   bqnwqpmtglphq
+h
+m
+h
+4-11   h:   hhhmhhhhhhhh
+w
+n
+x
+5-7   w:   wwwwnwxww
+x
+x
+c
+3-4   n:   nmxc
+r
+c
+q
+7-8   c:   wcrcmccq
+c
+x
+b
+2-10   x:   qxctcjtmvbj
+r
+w
+w
+8-14   w:   gwrtwflwfsgwzwmmw
+j
+z
+z
+2-4   z:   wzjzlc
+c
+m
+m
+2-11   m:   zmctnwcvwhmgcq
+m
+f
+v
+5-19   v:   gcmvfvvkvxdmvvxvwgvv
+c
+c
+h
+11-13   c:   cccccpcccwcphcc
+j
+c
+b
+5-6   j:   pjjtcbprsjjhnz
+t
+m
+c
+6-8   h:   hktwdmsc
+x
+x
+l
+2-4   x:   kxxlx
+l
+l
+q
+3-4   l:   tblq
+q
+m
+r
+5-7   r:   lpqbmmrhtmwrcvlt
+h
+h
+z
+3-4   z:   zbhzmz
+n
+n
+n
+9-11   n:   nnnnnnqnnnn
+g
+g
+d
+3-4   g:   cdgd
+q
+j
+h
+4-7   j:   jnqjssh
+l
+p
+n
+6-9   p:   prlsjpmmn
+f
+z
+q
+10-11   f:   fffffffpkzqqffrf
+t
+t
+k
+3-7   k:   kktkkkkk
+q
+q
+r
+1-4   q:   qqqrqqqqqqq
+l
+n
+l
+10-13   l:   llllllsllnpllllll
+x
+d
+d
+2-6   d:   hdxhvdz
+s
+s
+j
+3-4   s:   kssjq
+d
+t
+p
+8-10   t:   rtdttdcttp
+j
+x
+x
+1-2   x:   xxjxxxxbx
+v
+x
+j
+11-13   x:   xxvxxxxxxxxxj
+n
+f
+n
+6-10   n:   xnnnkfwgnn
+f
+f
+c
+3-4   c:   cwfcc
+j
+j
+p
+16-18   j:   jjjjjjjjjjjjjjjjjpjj
+q
+n
+d
+4-7   n:   lnqnlndbnf
+k
+k
+k
+11-14   k:   nkkkkkkkkkkdkkkkk
+j
+j
+c
+2-6   j:   jjjjjcj
+v
+v
+v
+13-14   v:   vvvvvvvvvvvvvvvv
+v
+w
+v
+10-12   v:   vvvvvvvvvwvv
+h
+h
+z
+3-13   z:   nzhzvmzcbzzzzzj
+d
+d
+h
+2-6   d:   dddhthddddddq
+s
+c
+s
+6-7   s:   ssssscs
+x
+f
+d
+5-8   f:   ffxffffdff
+d
+r
+g
+10-14   r:   rvdzskgrmrrsxgc
+s
+s
+s
+8-9   s:   sssssssss
+g
+g
+l
+3-5   g:   khgkl
+n
+n
+n
+5-6   n:   nnnbnnn
+q
+w
+d
+1-9   w:   wwqpwhwcdw
+g
+g
+c
+7-8   g:   gxgggrgcggg
+w
+n
+w
+5-8   w:   wswwnwwwwxwwwwwwwww
+b
+w
+b
+4-11   b:   svbwbqsbbbbbnpcbpprb
+v
+s
+j
+6-7   j:   zjvjmsjjjjnvt
+l
+l
+p
+5-6   l:   lhlllpll
+b
+b
+x
+1-2   b:   bxbbxfbxb
+g
+z
+f
+9-12   g:   gjgqggggzggffgp
+f
+f
+v
+3-4   v:   wjfvsvd
+v
+v
+c
+2-6   v:   fvvpvcxnpgd
+v
+r
+q
+9-10   q:   qqvqqqqrrq
+k
+g
+k
+15-18   k:   kjkkklkkxkkqnsgqwkt
+j
+z
+f
+1-4   z:   zsjf
+c
+v
+l
+2-6   l:   dvcsllhw
+x
+x
+x
+10-12   x:   xxxxxxxxxxxxx
+g
+p
+g
+5-6   g:   dtggpgggcwvvdw
+p
+k
+d
+5-13   p:   ppppkppppdpvdpzdlppp
+w
+w
+d
+3-7   d:   ddwddddlddd
+x
+r
+z
+7-12   r:   jrxbrprrgngzpjjc
+x
+z
+m
+4-7   m:   mmxzmfmmlmm
+t
+t
+z
+3-5   m:   pgtmz
+p
+r
+k
+6-13   z:   dzpdlrsnxzshkbtlxvmn
+s
+l
+x
+6-12   x:   trszxlcdxknxnnj
+k
+q
+k
+6-11   k:   xgkbsqkgnkk
+r
+x
+s
+7-10   r:   rrrrrrxrrsrr
+w
+n
+t
+6-7   t:   ctwmxntbdl
+c
+d
+c
+5-6   d:   dbcddc
+m
+m
+m
+8-18   m:   wtmtmtvmcmmjsmmxmmmm
+v
+v
+k
+3-5   k:   dnvxk
+b
+b
+l
+6-7   b:   bbbbbbl
+z
+c
+c
+1-5   c:   cqzfcjhnccjwwjftkx
+s
+d
+l
+6-9   d:   hwsbcdmrldpszh
+f
+f
+f
+3-7   f:   gffffff
+b
+s
+j
+13-17   b:   bbbtbbbzbbbbsbbbjbbk
+w
+w
+w
+1-3   w:   wwwhw
+b
+b
+x
+5-6   b:   xqbgbxblbbb
+h
+q
+p
+5-9   p:   phhpqppppgtppp
+z
+z
+b
+3-8   z:   zzzzcrjbzzwzzzckzz
+r
+l
+r
+1-3   b:   lbrbnbbbb
+q
+q
+f
+3-5   q:   gqqgf
+c
+c
+m
+10-11   c:   jcccccjzccmcc
+p
+g
+l
+4-6   l:   dlpggl
+n
+p
+n
+5-7   n:   nnnnpnnn
+f
+n
+s
+4-6   f:   sffnfslkffdfff
+s
+s
+j
+4-5   s:   dsssj
+v
+v
+n
+2-5   v:   vvvnnhvv
+f
+b
+f
+1-3   f:   bfff
+n
+f
+t
+8-14   g:   gcndkmgfnpmsmtm
+d
+d
+d
+1-12   d:   dddddddtddcdd
+t
+t
+t
+12-14   t:   ttttttttttxttttttttt
+w
+w
+m
+2-6   w:   mwwmvmpwzwpzkn
+c
+m
+b
+9-12   c:   ccccmcccmccbcccc
+g
+c
+c
+1-7   c:   ccgncfc
+r
+r
+w
+3-6   w:   wrrwwww
+p
+b
+h
+6-7   s:   szpvlbhsbtktl
+m
+m
+f
+3-4   f:   wfmfw
+n
+n
+j
+12-17   n:   nnnnbnnxncnnvnpnjnr
+h
+t
+h
+5-6   h:   hhhhth
+b
+q
+b
+1-3   q:   qnbqf
+s
+s
+j
+3-4   s:   fmsj
+w
+s
+l
+7-9   l:   nlwlflsllllk
+p
+b
+s
+9-16   s:   xxpzsmvhbsssdkps
+t
+p
+r
+6-9   p:   pstppplpr
+r
+r
+r
+4-6   r:   rrrrrr
+j
+h
+w
+1-10   j:   hjjjljjjjwjjj
+l
+t
+c
+13-20   c:   qclflvdlmzwmtgfctwhc
+b
+d
+b
+6-7   b:   bbbcbdb
+r
+v
+r
+8-13   r:   wrrzbcwvfqkfr
+r
+r
+g
+13-14   r:   rrrrrrrrrrrrrg
+h
+h
+j
+2-15   j:   jhhjnvgxzbjskjjj
+g
+p
+h
+2-4   p:   ppghp
+m
+s
+r
+4-5   s:   gjmsrksvqqssslss
+h
+h
+h
+15-17   h:   hhhhhshhhhhhhhhhh
+c
+c
+m
+3-5   c:   lcclm
+n
+g
+v
+5-6   j:   gjnjgv
+z
+t
+d
+9-10   z:   lzzzzzzrtdzqzz
+s
+k
+s
+2-3   s:   qksnrsvvb
+f
+z
+g
+5-11   d:   ddfvzdddkrgrddr
+c
+m
+v
+15-18   v:   vtcvvlqsqvpkvvmvhv
+g
+g
+h
+3-6   j:   kbgjshj
+c
+r
+r
+1-4   r:   rrcrrrhltr
+f
+f
+q
+3-4   q:   qvfq
+w
+w
+t
+4-8   w:   mzwwswwttnxmkp
+l
+b
+l
+2-3   b:   zblbsbncbk
+k
+c
+k
+7-13   k:   tdksbkckckkjk
+p
+k
+h
+8-9   h:   hmpzhxhkhmlhzhkqph
+r
+r
+r
+3-9   p:   ctrjcknnrzpxklt
+g
+d
+g
+1-3   d:   ddgd
+t
+t
+s
+8-10   t:   xttttdttqs
+k
+m
+k
+4-5   k:   bkkmk
+t
+k
+c
+6-7   k:   kxtxkkcpbfb
+b
+r
+c
+11-13   r:   znbhrsrrrdrrc
+x
+l
+x
+14-16   x:   xxxxxdxxxxxqxlxx
+l
+x
+w
+6-15   x:   hxlxxxxxxqpjtxwxxxxx
+q
+l
+x
+8-16   l:   qlqwrlllphlllllxglll
+s
+n
+h
+14-16   m:   mssmmfmwlqznhndh
+c
+h
+f
+1-9   h:   hhchhhhhfhhsmhhhh
+b
+b
+t
+6-9   b:   bbbbbbbbt
+f
+j
+r
+5-6   r:   mrfrjr
+x
+l
+x
+7-8   x:   nxxxlxlxbxx
+h
+v
+t
+6-19   t:   tkhdtvtblvnlqbjsvct
+n
+p
+p
+4-14   p:   vpnpntggdzctqpbrl
+n
+n
+n
+9-11   n:   nnnbnnnnnhnn
+p
+w
+h
+1-2   p:   whppppwpppppzpqppp
+q
+b
+q
+2-3   m:   bbqxwvjxmnxh
+z
+c
+c
+2-4   c:   nczcwqwkctzwl
+x
+x
+v
+3-4   x:   xxxvxx
+q
+w
+l
+10-13   w:   bzqgckszwwjtl
+g
+g
+f
+6-9   g:   qhggzggjfjgghwrkfbg
+n
+n
+k
+15-16   n:   nmnnnnncnnnnnnnkndn
+r
+r
+g
+3-11   r:   frrrrrprrrgrrr
+p
+p
+g
+6-7   p:   pppdppg
+d
+d
+s
+3-8   s:   lzdthfbsfskk
+r
+h
+h
+4-9   h:   bmrhdrzbhtmx
+g
+g
+m
+10-11   m:   mmgtmmmmmgmmm
+k
+x
+k
+7-8   k:   kkkkkfxkkkkkkkkbk
+n
+n
+n
+3-5   n:   nnnnnn
+x
+x
+f
+2-4   f:   sxxfbpshndbkkmwf
+p
+f
+p
+12-13   p:   prpppppppppfppp
+f
+t
+f
+2-3   f:   wtff
+m
+d
+m
+2-4   m:   pdmmm
+d
+d
+d
+2-3   d:   dddd
+m
+q
+n
+10-11   m:   mmmmmmmmmqnmm
+c
+w
+c
+1-3   w:   wpcwwnwkr
+q
+w
+q
+1-5   q:   wqqqqqsqqqqqc
+h
+m
+h
+1-4   h:   mrhhh
+l
+w
+w
+4-6   w:   wxlwvwbhzwwkps
+z
+z
+h
+7-8   z:   pnzgfkzhqfw
+q
+z
+q
+1-3   z:   zzqz
+m
+m
+r
+3-9   r:   rrmrrrrrrrrrr
+f
+f
+q
+2-5   f:   ffffqffjn
+q
+p
+c
+2-6   p:   rpqtkc
+s
+g
+s
+1-3   s:   gsss
+t
+t
+t
+3-5   t:   tkttttwtkjxlq
+m
+n
+b
+5-7   w:   wkmwnpbw
+n
+n
+v
+3-10   v:   vvnvxvcjvvzcvcvvtv
+w
+v
+w
+1-3   v:   vvwvt
+t
+t
+n
+2-15   t:   ttttttttttktttnttt
+c
+x
+z
+15-17   w:   qrcfnqkflswwwlxwzwdl
+d
+j
+m
+6-8   d:   sddvdjdmdmd
+p
+k
+p
+1-3   p:   kppppppcp
+r
+v
+w
+8-17   v:   mtrbwzbvzjvtmmzxw
+s
+s
+s
+3-5   s:   mnsss
+b
+j
+b
+1-9   b:   jbbbbbbbbbvlhbbb
+f
+f
+v
+8-13   f:   fffffffffffdvfff
+f
+f
+m
+11-12   f:   fffffffffffm
+n
+z
+q
+1-4   z:   zznq
+t
+t
+m
+10-12   t:   tttttttttttmtttrtt
+g
+x
+g
+8-10   g:   gggggggxggvgpg
+d
+d
+w
+8-9   d:   ddddddgdwrpdd
+s
+j
+b
+9-10   b:   dfsbqbrbjbptrlxrbzf
+c
+c
+c
+2-8   c:   hcczwkwcspccrcckc
+m
+s
+q
+7-12   s:   rhmtjmsjhdsqpr
+q
+v
+q
+9-14   q:   wqqqgqqqvgvhvqlqv
+g
+n
+s
+4-6   s:   jbgnsss
+j
+k
+r
+2-9   k:   jkjbktwdrdnn
+n
+n
+g
+4-11   n:   nnnnnnnnnngnnnn
+w
+k
+j
+11-12   j:   bswbpbkdjzkj
+j
+j
+j
+3-4   j:   crjjqc
+g
+l
+g
+7-8   g:   gggtzglg
+d
+d
+r
+3-4   r:   gzdr
+k
+h
+s
+4-5   h:   hpkhsrhshcht
+h
+h
+t
+6-9   h:   mhhhhhhht
+b
+q
+l
+4-9   l:   dxbqtftsl
+k
+k
+k
+3-4   k:   qfkkkkn
+h
+p
+h
+8-10   p:   jwhmxpppfhjhzdj
+c
+g
+h
+6-7   g:   bgcgggh
+x
+x
+n
+7-15   x:   zxxxvxxxmksxxxnxxrr
+d
+p
+v
+4-5   v:   vvdpvnv
+r
+h
+l
+5-9   l:   llrqhllcl
+q
+q
+k
+4-5   q:   vqqqk
+d
+d
+d
+11-13   d:   drddwqlddcdsddzzxb
+d
+g
+m
+1-2   g:   gmdjg
+b
+b
+m
+10-11   b:   bbbbbbbbbbmbbb
+d
+t
+d
+9-16   d:   ddddddddtddddcddddd
+j
+j
+w
+6-10   j:   jxjjrjmvwwjjsjjcth
+n
+n
+f
+3-4   f:   fqnfdqt
+p
+p
+p
+2-7   p:   mppmnpp
+z
+z
+z
+3-5   z:   lzzzzzjz
+b
+m
+w
+1-10   m:   msbjbgmmkw
+t
+t
+r
+18-19   t:   lzttqtttkttttstjbtr
+b
+b
+k
+1-2   b:   bkbzb
+w
+g
+v
+2-11   v:   vgwrcfcszcvlwt
+z
+z
+x
+3-4   z:   jzzx
+t
+t
+t
+3-8   t:   ttttttkttfkt
+h
+b
+r
+11-18   b:   vjhvwjbwcwbffmpbbr
+w
+w
+d
+6-19   d:   kgwqcwbphdwwrddzkzd
+p
+c
+p
+6-7   p:   pppbbcpm
+d
+p
+p
+2-7   p:   ppdwknp
+d
+t
+j
+4-8   t:   rjdtmftjgftwt
+l
+l
+l
+3-7   l:   clljldl
+c
+z
+c
+6-7   c:   qpcsczccccccmrh
+f
+c
+f
+6-8   f:   fffffcsf
+v
+v
+k
+10-14   v:   lvvlklxxvvsnvk
+f
+f
+g
+10-11   f:   ffffffffffgf
+w
+q
+v
+10-12   v:   vswclpclcqtvvrrzf
+g
+p
+g
+6-8   g:   gjgggpggghsgggggg
+k
+k
+v
+2-13   k:   kkkwckkckkkkvkkkk
+r
+n
+h
+9-16   r:   jtrrrbqrnrpjrrshxc
+m
+h
+g
+7-8   f:   pvmjhfhg
+d
+n
+d
+7-8   d:   xdddddnddd
+x
+r
+r
+2-4   r:   srxrrphrb
+k
+v
+k
+2-3   v:   vvkgd
+z
+z
+z
+2-5   z:   bzzzzhh
+c
+g
+h
+11-16   h:   hnchhhhhhhghhhhh
+p
+p
+b
+10-12   p:   pzppqppppppb
+p
+p
+k
+13-14   p:   pppppppppppppkpppppp
+z
+z
+f
+12-15   z:   zzzzzzpzzzzzzzfzzdz
+z
+p
+z
+9-10   z:   zzzzzzzzpz
+j
+j
+x
+4-9   j:   wfjjntmjxpdq
+l
+t
+s
+9-11   t:   tklpbmlntjs
+x
+x
+m
+3-15   m:   qmxmwjmmjgmsmwmz
+g
+g
+g
+2-3   g:   hgggp
+d
+l
+d
+1-8   d:   ldddddldfddd
+c
+t
+w
+7-10   t:   ttcttttztw
+c
+g
+n
+6-8   n:   nwcjdgbnmnndltr
+t
+h
+t
+11-12   t:   ttttqqtttnhttvttt
+r
+r
+c
+6-11   r:   rnrhrrrrrrcgtr
+l
+l
+t
+10-12   l:   rlllrxwljlwtzl
+m
+n
+m
+18-19   m:   mmmmwmmmmmmmmmmmmnmm
+v
+v
+k
+7-8   v:   fsvvvdvkvnvgwvvv
+m
+s
+m
+16-17   m:   mmmmmdmmmmmmmmcsmmm
+p
+p
+f
+7-8   p:   pppppwpfb
+j
+s
+c
+5-8   j:   vtjcsjjcjlj
+t
+t
+q
+6-11   t:   ttttttttgmqttt
+m
+t
+m
+4-13   t:   vkmtvvqxclcpmtrpl
+s
+d
+d
+1-9   s:   dsssssssds
+d
+d
+p
+5-6   d:   dddddpdt
+p
+p
+t
+1-9   p:   pppppppptppp
+f
+n
+f
+15-16   f:   pqfjqfdpfxcvwbnf
+g
+w
+d
+5-6   d:   tcgdwd
+f
+f
+q
+3-11   f:   tpfqgzkfrvqrjfhrrf
+l
+t
+l
+1-3   t:   ttltt
+l
+q
+v
+11-12   q:   pqlqjqcwjqqv
+t
+v
+f
+1-8   f:   vqtdxgsfkjmncxdkqdfb
+n
+n
+n
+4-5   n:   nnnnnn
+g
+l
+g
+9-10   g:   jgggfgqglgghxgg
+x
+x
+m
+7-12   x:   xdxxkcxcxxxm
+g
+s
+f
+5-13   f:   fdglsggrwpmxfnm
+x
+w
+g
+1-11   x:   wxxxxxxxxxgx
+d
+d
+d
+13-15   d:   dddbdkwdldzdddd
+g
+g
+k
+5-10   g:   cpgggccpvkzggzgbgtgg
+z
+w
+v
+1-4   w:   wwzvq
+h
+h
+h
+3-13   h:   zzhnhnjhhkplhhwph
+f
+k
+f
+4-6   f:   fffkfff
+v
+v
+d
+6-7   v:   vvvvvvdv
+v
+v
+t
+3-4   v:   ktvttmvsc
+c
+t
+c
+11-13   c:   cccccccccctccccccc
+j
+x
+v
+15-18   j:   jjjjjjjjjrjjjjxjjvj
+v
+z
+v
+5-13   v:   vvvqzvvvvvvvvvvv
+n
+q
+q
+5-17   q:   szncqqqlmcspmcbgqhq
+r
+s
+s
+2-7   s:   tsrnhjslffbsv
+b
+w
+b
+13-17   b:   vvbhmbmlzsqbwbpkb
+t
+f
+f
+16-19   f:   nftvgftdfdrffjtfgvf
+m
+n
+n
+15-20   n:   nnmnnsnnlnnncnnnnncn
+f
+k
+f
+18-19   f:   fffffffffffffffffkf
+n
+n
+b
+3-5   b:   bhnbbm
+j
+j
+j
+1-6   j:   jbjjwjjjjjj
+h
+h
+l
+3-8   h:   hhhhhhhlhh
+x
+k
+d
+13-16   k:   hkxtvdkgpkpkkcfdtkr
+q
+j
+q
+12-13   q:   qqqqqqqqqqqjq
+k
+g
+k
+2-3   g:   ggkgggg
+d
+c
+l
+11-13   c:   xcdxpcnzcsckl
+b
+l
+l
+2-11   l:   xlbsbrrnlllpl
+m
+m
+l
+3-4   l:   llml
+c
+s
+v
+2-7   c:   wscrkcvncc
+w
+h
+k
+9-12   k:   dlwkkrhfhkkkkbvfrw
+g
+b
+w
+8-14   w:   xggjtvwbxccdqww
+s
+c
+w
+2-4   w:   lcswnmwsprkhg
+f
+b
+b
+12-13   b:   btfpmbbbsxzbb
+j
+p
+q
+10-12   p:   ppjppppvpppqpp
+w
+l
+g
+7-8   r:   rrwvcglg
+r
+p
+p
+7-19   p:   pmrhpppppppsppppjspp
+l
+l
+x
+2-4   l:   xllxb
+k
+h
+k
+6-15   k:   ktknghkkstkkjkkx
+p
+p
+q
+3-4   p:   pppq
+m
+p
+g
+5-6   g:   svmgpgcvbjh
+n
+n
+n
+4-5   n:   svnnnrnpn
+b
+p
+l
+5-7   b:   vsbgpjl
+s
+m
+n
+4-7   m:   mmsmmmnhmmmm
+d
+t
+x
+5-7   t:   lvdxtpx
+k
+g
+t
+5-10   k:   sxkkgrkkqt
+k
+z
+k
+7-10   k:   sskkqxzhkkpzkkvhkkb
+k
+t
+c
+7-13   s:   zskccbtsbssdctlmvsss
+s
+s
+c
+7-8   r:   lrsrrrscr
+f
+p
+d
+7-13   p:   ppfppvpppmppdppvfpg
+d
+j
+d
+7-8   d:   ddddhhjd
+b
+h
+r
+2-5   r:   thbkr
+k
+k
+k
+2-4   k:   kkkkk
+x
+z
+x
+5-11   x:   xxxxzxxxxxx
+c
+l
+v
+7-8   v:   zbcfxnlv
+w
+w
+j
+3-5   w:   nmwvjw
+h
+f
+h
+1-10   h:   fqhqhhhhhhhhhhzh
+j
+l
+j
+15-17   j:   jjjjjjpjjjjjjjljj
+f
+m
+f
+11-12   f:   ffffffqmffmfff
+p
+m
+p
+5-7   p:   ppppmpp
+n
+j
+w
+6-11   n:   nnnvkjrqwnwn
+n
+n
+c
+1-4   n:   nnnccb
+k
+k
+t
+3-5   t:   tnkttwbttchst
+d
+p
+v
+4-5   v:   nvdpvtrvt
+d
+d
+d
+12-14   d:   dddddddddbddddrd
+v
+l
+t
+2-8   l:   clvlhdxtqqzdsd
+z
+z
+h
+9-12   z:   bzzkzzrzzzzhz
+q
+q
+l
+3-4   p:   jpqlkgl
+j
+j
+p
+4-5   j:   jjjjp
+n
+f
+r
+2-8   f:   vfnnlxfrll
+q
+w
+l
+8-11   p:   ppqppppwpplpp
+k
+k
+k
+9-11   k:   kkkkkkkkkkk
+j
+j
+l
+3-4   l:   lkjl
+c
+q
+n
+1-2   q:   qnccf
+k
+k
+z
+3-5   x:   wxkxzxcjk
+w
+g
+d
+13-14   g:   rzwvvthgrlfjgd
+d
+h
+d
+16-18   d:   dfdldddddddddddhddd
+s
+s
+s
+12-16   s:   sssdssqdrsssssss
+k
+k
+k
+1-7   k:   kdkkwkkvk
+r
+l
+l
+4-6   l:   mvrlllzn
+d
+g
+l
+5-7   l:   lwdhgzl
+h
+h
+h
+4-11   h:   dvhhjdhhjkhbcbhb
+p
+p
+n
+15-17   p:   sppppppppvppppppn
+c
+c
+c
+1-3   c:   cccc
+r
+b
+r
+4-5   r:   pdrbrfbnvbrgwxtwstlj
+p
+x
+p
+16-18   p:   pnpphvpppwppknpxpp
+p
+z
+b
+1-8   p:   zppppppbp
+k
+x
+c
+1-2   k:   xckk
+d
+d
+g
+1-4   d:   dddgd
+p
+p
+f
+16-17   p:   ppppppppppppppppf
+m
+m
+v
+3-4   v:   vqmv
+k
+n
+q
+4-5   n:   ncknqlwnrnjn
+t
+p
+t
+8-9   t:   tttttttpt
+p
+p
+m
+3-6   m:   bfpvxmtzmw
+g
+q
+g
+1-7   g:   qgggjggggggg
+w
+w
+j
+2-4   j:   nwwjrmckjjg
+c
+g
+d
+6-8   d:   hdcjwgddpwhkt
+k
+r
+j
+6-13   r:   rrkrrrrrrrrrjrr
+z
+n
+n
+13-14   n:   nnznsnnnnhnnnnnnn
+h
+h
+h
+3-7   h:   kbhhhhhbqhhhqhhh
+k
+k
+k
+6-9   k:   kkkkkkhkkkkk
+h
+h
+p
+3-5   d:   wthbpm
+s
+s
+t
+6-7   s:   ssscsstsss
+b
+j
+s
+5-12   s:   ssbsjsssssssssssss
+s
+n
+x
+4-5   k:   wzsnxlk
+q
+j
+q
+10-11   q:   qqqqqqqqqjqqq
+r
+r
+d
+6-7   r:   trrrrrdr
+h
+j
+l
+2-4   l:   hjhljhl
+b
+h
+v
+2-4   v:   vhbv
+n
+j
+n
+16-17   j:   rjnjjxtbjjjjjjvjn
+s
+w
+w
+4-8   w:   nwswjktwznhwtzbdrp
+p
+s
+m
+6-10   f:   ffpfbsvcfm
+b
+x
+b
+10-12   b:   kbbbbbbblxbb
+x
+c
+x
+4-5   x:   qxxcxx
+d
+d
+r
+6-8   d:   bhdcpdmrwg
+m
+v
+d
+5-11   d:   xdmdvkdddddxddd
+d
+d
+d
+3-4   d:   ddddp
+v
+x
+q
+1-4   q:   xqvq
+x
+x
+z
+1-5   x:   xxxxzxx
+x
+x
+z
+10-11   x:   xxxxxxxxxxzx
+d
+h
+r
+7-8   n:   nqdnnnhrnn
+q
+p
+q
+9-10   q:   zqqnqtxgpq
+w
+g
+w
+2-7   g:   ggwgrfwgzg
+p
+p
+p
+4-5   p:   prppp
+n
+l
+m
+2-4   d:   glnmd
+l
+f
+l
+1-3   f:   fflf
+b
+b
+w
+3-9   w:   zwbwdzqzw
+t
+t
+t
+4-5   t:   tvttt
+l
+s
+c
+10-17   c:   cflcrfcccsfzcftvcgc
+x
+x
+t
+5-8   x:   xxxxxxxt
+l
+l
+j
+3-5   j:   hjljjj
+z
+z
+d
+18-19   z:   zzzzzzzzzzzzzzzzzzd
+b
+r
+l
+17-19   l:   llbhjllrlllllllgrllf
+f
+f
+m
+14-16   f:   vffmmfffwfrqgfdmd
+c
+c
+k
+3-4   c:   ccckcgccd
+w
+m
+r
+6-8   m:   lxwmxmkrk
+j
+n
+d
+9-11   j:   jmjjsjxjnjdj
+p
+s
+r
+9-10   r:   xhpccrrrsr
+q
+x
+r
+5-12   q:   qqqqxqwqqpfrqqqq
+m
+m
+c
+3-5   m:   mxmtc
+z
+x
+t
+4-11   b:   gbzxxbjrrctlrrv
+m
+l
+m
+8-12   m:   mmmmmmmlmmmm
+s
+s
+f
+7-10   s:   sssssssspfr
+h
+n
+h
+2-3   n:   xnhn
+p
+b
+p
+1-3   p:   btppz
+l
+j
+l
+12-16   l:   lllxllllllljlllll
+d
+d
+m
+2-5   d:   zddtm
+p
+p
+s
+5-14   p:   pppppppppppppsp
+k
+k
+k
+9-11   k:   kgkkmdzfkjkzpnz
+c
+c
+q
+11-16   c:   kbccczcccccnhccq
+p
+p
+v
+1-2   p:   pvph
+f
+l
+f
+2-3   l:   llfxvq
+h
+x
+d
+12-16   l:   lhhdzwczgrsxgkqd
+c
+c
+q
+6-9   c:   ccccccccqctccccccc
+r
+s
+r
+8-9   r:   rrrrrrrsr
+c
+l
+c
+2-7   c:   slccmjcccc
+w
+h
+d
+2-14   n:   whwqmdlrxmxzzdz
+v
+v
+v
+10-11   v:   vwvvkvvvvvvvvv
+j
+j
+b
+5-6   j:   dfjkjbcsjqjjhkjmg
+f
+f
+f
+6-8   f:   fffffffff
+s
+s
+s
+8-15   s:   tsszssjsssssmsss
+r
+k
+l
+1-5   k:   kkrblv
+j
+j
+v
+6-7   j:   jjjjjjv
+r
+v
+q
+2-7   q:   dvrnqtq
+v
+k
+v
+6-7   v:   vnvqwkvvcxpjmvvmg
+h
+k
+t
+13-15   h:   hhhhhhhhhhhhkhth
+v
+d
+s
+10-11   s:   skvssssssds
+m
+m
+b
+3-5   b:   zbmjbhbbcbbbg
+x
+w
+f
+6-7   x:   kxxstwfwbcxdxvjj
+j
+j
+r
+3-9   l:   lljlllllrll
+p
+p
+p
+12-13   p:   pppqppppppnpp
+m
+p
+n
+4-5   s:   pfmpn
+j
+v
+b
+7-8   v:   vkjvvvvb
+t
+h
+t
+8-11   t:   tttxtlfhtftttwbttt
+s
+h
+s
+4-5   h:   hvshsjhvb
+b
+b
+w
+14-16   b:   bbbbbbbbbbbbbbbw
+z
+m
+l
+6-9   l:   lxzklmgll
+n
+n
+n
+2-7   n:   nnnnnnnn
+x
+n
+x
+1-8   x:   nxxxxxxxxxxx
+q
+w
+f
+16-17   q:   qqqqqqqsqqqqqqqwf
+n
+d
+b
+4-17   c:   cgndccccscchqhxcbcc
+b
+b
+n
+4-7   b:   bbbbbmn
+p
+p
+d
+12-14   p:   pppppppppppppdp
+t
+t
+t
+3-4   t:   nttttrvrtd
+h
+p
+b
+5-17   p:   pxhbppfpjzzkpgdvb
+c
+c
+v
+7-12   c:   ccccccccsccvccjcc
+s
+t
+g
+1-11   t:   tjsjxctpbngtdvbdmlm
+m
+m
+n
+3-5   n:   wgmwnjwnnnkcnlqqr
+f
+v
+p
+19-20   p:   hwfknlcbnhmvkcrpjwvp
+l
+h
+f
+4-7   f:   gvlhxkffvd
+d
+d
+h
+4-7   d:   ddddrmhfdddfxf
+n
+q
+x
+1-2   q:   qxnq
+k
+k
+c
+3-7   k:   kqkqskcslcqbxkdsr
+g
+g
+z
+3-6   w:   wngwxz
+k
+k
+q
+18-19   k:   kkkkkkkkkkkkkkkkkkqk
+v
+v
+t
+6-7   v:   vvvvvvtvxq
+k
+w
+r
+1-4   w:   wwkrmwwf
+d
+c
+d
+2-3   c:   ccdcw
+w
+s
+w
+5-6   w:   wwwwsw
+f
+b
+w
+10-11   f:   fcfwgfrdzbwfffx
+d
+d
+b
+7-10   d:   dddddmdphbtdpdddd
+t
+m
+t
+2-4   t:   dmtt
+d
+s
+g
+18-19   s:   xsdssssnnnssxqcvssg
+q
+q
+q
+8-9   q:   qqqqqqqqqq
+x
+c
+c
+18-19   c:   ccxccccmccfccsbcbcc
+d
+k
+d
+1-3   k:   kqdwsfkdxl
+d
+n
+t
+5-7   t:   vtdtntttlrtt
+n
+v
+w
+2-10   w:   wvnfvctwmwwwqr
+c
+l
+c
+1-11   c:   lccccccccccc
+t
+m
+t
+6-14   t:   qbtkgmscnbztcth
+j
+n
+n
+2-6   n:   mnjrfnpmwnlhwvksmmss
+z
+m
+z
+8-13   m:   mzzmmpmmmmwmz
+v
+t
+t
+4-7   t:   nqvtjnttfsmc
+p
+p
+s
+8-13   p:   pppppppppppts
+b
+v
+b
+10-12   b:   bbbbbblbbvbbbb
+z
+b
+z
+2-3   b:   bbzdv
+x
+w
+x
+5-6   x:   tmxxwx
+b
+q
+f
+7-11   q:   kqbqqqqqtqfx
+l
+t
+n
+1-11   n:   tnlnxpcqnnn
+j
+x
+j
+4-6   j:   jdjxcjbggjcdjpknx
+x
+w
+w
+6-11   w:   stxldwdvstwf
+g
+g
+g
+3-10   g:   qggqjgfxqgmjdgv
+n
+n
+c
+10-15   n:   nwnrnnrwnnnnnnc
+l
+h
+l
+6-15   l:   lflldhzbllzlbklx
+g
+h
+s
+1-2   s:   hsgsj
+f
+d
+f
+5-6   f:   ffffdff
+h
+b
+m
+1-5   m:   bmhmm
+l
+m
+l
+2-6   m:   bmlbslbgjm
+r
+c
+r
+14-16   r:   rrrbrrjfrrqrfcrrr
+t
+t
+x
+3-4   x:   pxtx
+b
+w
+b
+7-9   b:   bbbbbbwbb
+q
+q
+n
+15-17   q:   qfqqzqqqqqqqqqqqnqq
+j
+t
+j
+1-4   j:   tjjjjj
+v
+v
+v
+1-10   v:   vvvvvvvvxvvvvk
+z
+z
+h
+3-4   h:   hhzhh
+h
+h
+x
+1-6   h:   hhhhhxh
+w
+s
+v
+1-9   s:   smwssfhsvs
+w
+s
+n
+13-14   s:   tswmwsgtnlpwsn
+k
+v
+v
+4-5   v:   vnkvvzs
+x
+c
+x
+11-14   x:   xxxxxxxxxxcxxxx
+n
+p
+n
+14-16   n:   nnnnnnnknnnnhpnnb
+k
+r
+k
+7-9   k:   kkkkkkrkkkkk
+q
+q
+x
+3-5   q:   qqqgxscqm
+h
+n
+n
+17-18   n:   njhmndnnpnvnnnnnnn
+s
+h
+w
+4-5   h:   chshwj
+z
+l
+f
+11-13   z:   zzzzzzzkzzlhfz
+q
+l
+q
+7-14   q:   qqqqqqlqqqqqqqq
+v
+v
+m
+17-19   v:   dvvvxtdgpxvbvvvzvvmv
+f
+f
+c
+7-9   f:   rmffffffc
+r
+q
+r
+4-8   r:   rwrqrlzrxrrqsccq
+v
+t
+v
+2-3   v:   vtvv
+g
+r
+n
+4-5   x:   qxgrnxxzbv
+w
+w
+c
+14-16   w:   wwwwwwwwwwwwwwwc
+v
+c
+c
+2-6   c:   tcvmrcht
+z
+z
+z
+6-9   z:   zzzzzzzzz
+n
+n
+n
+9-14   n:   nnnswrnnnqmvcnnb
+x
+x
+f
+3-4   f:   frxfdff
+n
+s
+n
+8-9   n:   nnnhnnzsn
+w
+m
+t
+2-13   w:   wmwwwvwlwwwwttqjjwc
+l
+l
+j
+5-6   l:   lllllj
+r
+w
+v
+8-11   w:   pwrbjlwwwhvxhnsvwh
+d
+d
+s
+3-7   n:   kndzxnsnn
+x
+x
+n
+13-14   x:   xxxtxxxbzxxxxnx
+c
+c
+z
+13-15   c:   ccccccccccccccz
+n
+s
+s
+12-15   n:   nnnnnnnnnnnsnnsnn
+w
+r
+w
+4-10   w:   wwwrwwwwwwww
+r
+g
+r
+12-16   r:   wrrrrrrrrrrgrrrrr
+l
+z
+l
+8-11   l:   nlllxllzllll
+d
+d
+h
+3-5   d:   prdfhhvdrpd
+t
+t
+t
+2-3   t:   wttzbp
+x
+x
+h
+3-5   h:   jhxhhdztw
+w
+r
+h
+2-7   r:   qrwcxjhtrrlw
+d
+f
+d
+11-13   d:   ddddddddddfpdd
+z
+q
+k
+10-11   q:   xqztlqqqqqk
+z
+j
+q
+1-11   z:   jzzzzznzzzq
+b
+t
+b
+9-10   b:   zbbbbbbbtb
+t
+n
+p
+9-10   k:   xktkkkpgnpkskkkzjkm
+w
+j
+v
+14-15   j:   jjwjjvjjjjjjjjvjj
+t
+n
+l
+2-6   l:   lntrlllx
+g
+g
+m
+12-13   g:   lgggggblghggmg
+x
+v
+x
+11-12   x:   xxxxxxxxxxvxxx
+l
+l
+m
+3-5   l:   llllm
+q
+x
+p
+7-12   x:   ffqrxjxxhbbp
+j
+j
+b
+16-17   j:   jjjjjjjjjjsgjjjjb
+f
+h
+n
+1-5   g:   hcfjntzgcxk
+q
+q
+q
+3-6   v:   vvqvvqvvv
+j
+p
+p
+1-12   p:   pwjdppqpcgpplgwz
+b
+p
+d
+5-6   d:   ddbdpd
+h
+n
+t
+8-10   t:   twhttnrnpt
+v
+v
+x
+15-17   v:   vvvvvvvvvvvkvvvvxvv
+f
+f
+v
+13-15   f:   dffjnhmxhbwlfkv
+c
+c
+c
+4-12   c:   ccccccccdzccccc
+p
+p
+l
+3-12   p:   rvpgssncpbqlkjc
+h
+h
+h
+1-2   h:   hhhl
+j
+j
+k
+1-2   j:   jkjrxqj
+v
+b
+b
+4-13   b:   bbvbbbbbbbbbbbbbbb
+q
+q
+k
+6-11   q:   ntqqhqvgqhkhz
+c
+d
+c
+10-13   c:   cdcckjgcwdcsct
+f
+f
+f
+9-10   f:   fffhffvqff
+s
+k
+m
+5-7   m:   mmsmklm
+z
+z
+x
+7-8   z:   zzzzzpzxlzzg
+d
+d
+v
+2-12   f:   nddlfsjrlhqv
+m
+m
+m
+5-7   m:   bvmxmwmlxpmmwt
+s
+f
+n
+1-11   n:   fbsghrrzbtnmn
+j
+f
+h
+13-14   h:   hhjtlhhhhhhhfhphbhh
+p
+d
+s
+5-7   p:   ppppdpspp
+v
+v
+h
+6-7   v:   vdvvvvhv
+k
+n
+k
+6-9   k:   kkkmknkkkkbc
+p
+v
+n
+2-9   k:   jvpczkkcnvfvm
+k
+g
+b
+5-6   g:   vgkggb
+t
+s
+m
+4-9   m:   mttsgntmmq
+x
+x
+z
+4-9   x:   vxxxxxxxz
+h
+q
+h
+2-5   h:   gqhhhh
+c
+n
+m
+1-9   m:   nkcwjmqmmgldxwm
+v
+v
+v
+3-5   v:   vvvvvv
+z
+z
+w
+5-12   z:   zzzzzzzzzzzwzzzz
+g
+l
+t
+4-5   l:   llglt
+w
+q
+w
+2-8   w:   wqwbwkzwsc
+c
+t
+c
+4-6   c:   ccctccc
+g
+p
+g
+8-9   g:   gggggggpgggg
+x
+p
+c
+6-9   x:   xxxxxpxxc
+b
+f
+h
+5-6   k:   fcbffhkbtr
+f
+v
+f
+4-5   f:   bffvfffff
+t
+j
+w
+2-5   w:   wjtgw
+z
+z
+w
+13-16   z:   zmzzzztzjpzzzqzw
+q
+q
+c
+10-12   q:   qrqqxqqkjqqcqq
+n
+n
+n
+2-9   n:   nnnnnnnnnnnwnnnnnn
+s
+s
+q
+3-5   l:   hlsgqtvv
+c
+c
+s
+4-6   c:   gcccnscccllfq
+l
+d
+l
+16-17   l:   llllllllllllllldlll
+h
+b
+j
+6-9   h:   lhhhhbhhj
+n
+p
+w
+15-17   r:   rznrrrhltxfrrkpjwrrr
+t
+t
+t
+7-8   t:   tttttstt
+j
+j
+j
+7-16   j:   kmjjcfjjcjjjjbwjjpjr
+j
+t
+d
+10-13   s:   sqjvssssstrhd
+q
+s
+t
+8-11   q:   qqqqqqqsqqtqq
+h
+n
+w
+8-11   m:   xzhlmnmnmkw
+r
+p
+k
+17-18   r:   rrrrrrrrrrrrrrrrpk
+j
+x
+j
+1-3   l:   xljlml
+t
+k
+q
+8-11   m:   jwtdhpmkqmqphms
+h
+t
+h
+9-11   h:   zhhrhhhsthhhhhr
+n
+n
+z
+5-14   n:   rkndnhgbnnwnnzgn
+n
+f
+w
+8-9   f:   lfnfvdgfw
+q
+d
+q
+2-8   q:   sdqqqqqqqqq
+c
+j
+c
+1-3   c:   jtcm
+x
+v
+v
+1-2   v:   vvxv
+b
+b
+z
+2-7   b:   bbbbgbz
+v
+v
+v
+5-6   v:   vvvvvvv
+n
+n
+m
+3-4   n:   hnnmgqt
+r
+r
+b
+10-11   r:   rrrrrrrrbrbqr
+x
+x
+c
+3-4   x:   xxxcxk
+j
+n
+j
+2-3   j:   jnjjjj
+f
+f
+c
+10-12   f:   fffffffffffcf
+l
+d
+d
+13-16   d:   dplpbdkxzjdlddddm
+h
+j
+j
+2-10   h:   hjhhhhhhhjhhhh
+s
+p
+k
+8-17   q:   xzszqwgpmscpcfqwkp
+q
+v
+q
+8-11   q:   qqqqqqqvqqqq
+j
+j
+j
+3-4   j:   lsjj
+z
+c
+z
+8-9   z:   nszzjzzczzzptgkbd
+n
+n
+l
+7-16   n:   nnnnnnnnnnnsnnnlnnnn
+w
+s
+p
+2-16   p:   xswnqpctbvmllwjpw
+g
+r
+g
+1-3   r:   rrgrrlr
+l
+l
+h
+3-5   w:   wwlwh
+f
+f
+p
+3-9   f:   bffktxcwpfhckffr
+r
+z
+g
+5-6   g:   ghrjzg
+n
+t
+k
+5-9   k:   xhnltmktkt
+x
+x
+x
+1-6   x:   xxxxxxxxx
+l
+b
+s
+1-4   l:   bllslllbnl
+v
+v
+w
+8-16   v:   lvvvvvpvzvvvvvgwjvvv
+c
+j
+j
+8-11   j:   jjcjjfzjjrj
+c
+q
+c
+2-7   c:   wqcrhxcg
+d
+n
+p
+10-13   p:   ppdppppppngbpdppz
+f
+g
+f
+1-3   v:   gbflwpsdgnrzhkdv
+h
+h
+w
+3-6   w:   pwhbwwwtww
+f
+q
+f
+1-6   f:   qmfwff
+n
+g
+x
+11-16   x:   xxnxxbxxxxgxxxsxrx
+t
+t
+b
+3-11   b:   cztbfcbpcbb
+l
+l
+j
+3-8   l:   bmljlgkjcw
+c
+c
+p
+11-14   c:   hccccccccccscp
+p
+x
+l
+4-7   l:   qlpxbll
+c
+w
+b
+5-6   b:   kscpwb
+t
+g
+s
+2-4   s:   sgtsmlhcm
+n
+n
+t
+5-6   n:   nnnnnt
+k
+q
+c
+8-12   c:   rcksqgcqcpfc
+l
+l
+w
+3-4   w:   wclw
+s
+s
+j
+6-10   s:   wlskbsmjkjngqqs
+g
+g
+t
+16-17   g:   dfgggggwbgggggggt
+j
+k
+d
+1-2   k:   kdjb
+p
+m
+p
+2-6   p:   lmpppp
+c
+c
+h
+3-5   f:   ffcfh
+j
+j
+l
+3-4   w:   wwjl
+t
+x
+v
+4-7   v:   vvtxvwvsqb
+s
+l
+x
+4-6   s:   stslsxs
+x
+v
+x
+11-15   x:   xrxcxxxxxxvxxxxcx
+r
+l
+r
+4-7   r:   xrrlrrrrr
+b
+s
+v
+5-10   v:   vvbvsvtmtvvvvv
+j
+b
+x
+4-8   b:   cbjbbmsx
+t
+t
+g
+1-6   t:   tttttgtt
+k
+k
+m
+3-7   m:   mmkmmmmm
+p
+w
+p
+13-16   p:   ppppmdspppgpwbpppplm
+f
+l
+h
+2-6   h:   tlfdnhz
+n
+f
+t
+6-7   f:   fsnfdftgsfdt
+c
+c
+c
+9-10   c:   jcccjwgcccsccxnc
+p
+h
+k
+6-14   h:   hhphhhrhhhhhhklhhh
+r
+r
+r
+6-8   r:   xrrrrrrrrg
+j
+g
+w
+8-10   g:   kgjgzgxgnwg
+k
+p
+p
+5-13   p:   fdkrpjzttpgpp
+x
+t
+x
+8-12   x:   xxxxxxxtxxxx
+p
+p
+x
+3-9   v:   nvprvvvtxvvvv
+g
+g
+j
+5-12   g:   gggggggggggjg
+x
+x
+s
+2-4   x:   sxxsxxdxxbqsgxhqqc
+j
+j
+c
+9-10   j:   jxjgjjmgjcjzjjjjj
+d
+f
+v
+13-14   d:   ddddddddzdddfvld
+l
+l
+l
+6-8   l:   lllmllllll
+q
+q
+k
+3-4   k:   wqqkzwqgkqkk
+p
+d
+p
+1-3   p:   dppp
+k
+p
+j
+5-9   p:   ppkpppppjpt
+q
+r
+l
+8-10   r:   rmqjnrrrrldrn
+j
+j
+q
+14-15   j:   jjjjhjjjjjjjjjqj
+s
+q
+b
+9-15   q:   mqsfqcqlqqfpgkbb
+d
+f
+d
+11-14   d:   ddddhwxdddfrdddd
+h
+h
+f
+5-7   h:   hhhhhhfh
+l
+q
+j
+6-7   q:   qqlkdqjq
+r
+v
+r
+10-11   r:   rrrrrrrrrvrrf
+k
+t
+k
+2-3   k:   ftkkdc
+x
+p
+g
+2-9   g:   jpxcgggzgsgngrhght
+"Elapsed time: 340.119949 msecs"
+711
+clj::aoc-2020.day-two=> 
+#'aoc-2020.day-two/get-valid-entry-p2
+clj::aoc-2020.day-two=> 
+; Execution error (UnsupportedOperationException) at aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:26).
+; nth not supported on this type: Character
+clojure.lang.RT/nthFrom (RT.java:991)
+clojure.lang.RT/nth (RT.java:940)
+aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:26)
+aoc-2020.day-two/get-valid-entry-p2 (form-init2132174929412593829.clj:25)
+aoc-2020.day-two/eval33100 (form-init2132174929412593829.clj:42)
+clojure.lang.PersistentVector/reduce (PersistentVector.java:343)
+clojure.core/reduce (core.clj:6827)
+clojure.core/reduce (core.clj:6810)
+aoc-2020.day-two/eval33100 (form-init2132174929412593829.clj:41)
+aoc-2020.day-two/eval33100 (form-init2132174929412593829.clj:39)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.day-two=> 
+#'aoc-2020.day-two/get-valid-entry-p2
+clj::aoc-2020.day-two=> 
+"Elapsed time: 6.074808 msecs"
+711
 clj::aoc-2020.day-two=> 
