@@ -12,8 +12,7 @@
       nil)
     (if (= (count passport-to-check) 8)
       passport-to-check
-      nil)
-    ))
+      nil)))
 
 (defn aoc-day4-p1 []
   (let [file-contents    (slurp passport-file)
@@ -23,8 +22,7 @@
     (time (count (remove nil? (reduce (fn [valid-passports valid-passport]
                                         (into valid-passports (set [(check-cid valid-passport)])))
                                       []
-                                      mapped-passports))))
-    ))
+                                      mapped-passports))))))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;byr (Birth Year) - four digits; at least 1920 and at most 2002.
@@ -32,8 +30,7 @@
   (let [birth-year (get passport-to-check :byr)]
     (if (and (some? birth-year) (<= 1920 (Integer/parseInt birth-year) 2002))
       passport-to-check
-      nil
-      )))
+      nil)))
 
 ;iyr (Issue Year) - four digits; at least 2010 and at most 2020.
 (defn check-iyr [passport-to-check]
@@ -61,8 +58,7 @@
       (if (or (and (= unit "cm") (<= 150 height 193))
               (and (= unit "in") (<= 59 height 76)))
           passport-to-check
-          nil))
-)))
+          nil)))))
 
 ;hcl (Hair Color) - a # followed by exactly six characters 0-9 or a-f.
 (defn check-hcl [passport-to-check]
@@ -95,8 +91,7 @@
            (check-hgt passport-to-check) (check-hcl passport-to-check)
            (check-ecl passport-to-check) (check-pid passport-to-check))
     passport-to-check
-    nil)
-  )
+    nil))
 
 (defn aoc-day4-p2 []
   (let [file-contents    (slurp passport-file)
@@ -106,6 +101,4 @@
     (time (count (remove nil? (reduce (fn [valid-passports valid-passport]
                                         (into valid-passports (set [(get-valid-passport-p2 valid-passport)])))
                                       []
-                                      mapped-passports))))
-    )
-  )
+                                      mapped-passports))))))
