@@ -1,6 +1,6 @@
 # Advent Of Code
 
-This repository contains some Advent of Code implementations using the Clojure language. The 2020 project contains my first attempts at writing anything in the Clojure language.
+This repository contains solutions to [Advent of Code](https://adventofcode.com/) using the Clojure language. The 2020 project contains my first attempts at writing anything in the Clojure language.
 
 ...
 
