@@ -25,3 +25,11 @@
 cid:315 iyr:2012 hgt:192cm eyr:2023 pid:873355140 byr:1925 hcl:#cb2c03"]
   (println sample)
   (str/replace sample "\r\n" ""))
+
+(str/split "1234abc" #"(\d[a-zA-Z])")
+
+(def birth-year 2027)
+(and (nil? birth-year) (<= 1920 (Integer/parseInt birth-year) 2002))
+
+(re-find #"\d+" "183cm")
+(re-find #"\p{Alpha}+" "183cm")
