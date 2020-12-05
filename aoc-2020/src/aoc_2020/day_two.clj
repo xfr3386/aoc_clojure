@@ -1,7 +1,7 @@
 (ns aoc-2020.day-two
   (:require [clojure.string :as str]))
 
-(def pwd-db "/Users/amund/Projects/aoc_clojure/aoc-2020/src/aoc_2020/pwd_db.txt")
+(def pwd-db "/Users/amund/Projects/aoc_clojure/aoc-2020/src/aoc_2020/input-files/pwd_db.txt")
 
 (defn get-valid-entry-p1 [db-entry]
   (let [[range letter-col password] (str/split db-entry #" ")
@@ -17,7 +17,7 @@
 (defn aoc-day2-p1-reduce "AOC day 2 part 1" []
   (let [file-contents    (slurp pwd-db)
         password-entries (str/split-lines file-contents)]
-    (time (count (remove nil? (reduce (fn [valid-entries valid-entry]
+    (println (count (remove nil? (reduce (fn [valid-entries valid-entry]
                                         (into valid-entries (set [(get-valid-entry-p1 valid-entry)])))
                                       []
                                       password-entries))))))
@@ -34,7 +34,7 @@
 (defn aoc-day2-p2-reduce "AOC day 2 part 2" []
   (let [file-contents    (slurp pwd-db)
         password-entries (str/split-lines file-contents)]
-    (time (count (remove nil? (reduce (fn [valid-entries valid-entry]
+    (println (count (remove nil? (reduce (fn [valid-entries valid-entry]
                                         (into valid-entries (set [(get-valid-entry-p2 valid-entry)])))
                                       []
                                       password-entries))))))

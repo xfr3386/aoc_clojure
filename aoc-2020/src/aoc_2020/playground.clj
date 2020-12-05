@@ -78,4 +78,4 @@ cid:315 iyr:2012 hgt:192cm eyr:2023 pid:873355140 byr:1925 hcl:#cb2c03"]
 (find-position "FBFBBFB" rows "F")
 (find-position "RRL" seats "L")
 
-; FBFBBFBRRL
+(mod 101 2)

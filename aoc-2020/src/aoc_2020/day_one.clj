@@ -1,7 +1,7 @@
 (ns aoc-2020.day-one
   (:require [clojure.string :as str]))
 
-(def expense-report "/Users/amund/Projects/aoc_clojure/aoc-2020/src/aoc_2020/expense-report.txt")
+(def expense-report "/Users/amund/Projects/aoc_clojure/aoc-2020/src/aoc_2020/input-files/expense-report.txt")
 
 (defn find-sum-to-value [sorted-values desired-sum]
   (let [first-value (first sorted-values)
