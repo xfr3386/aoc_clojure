@@ -12,17 +12,17 @@
       0)
     0)))
 
-(defn aoc-day5-p1 []
+(defn aoc-day3-p1 []
   (let [file-contents    (slurp tree-grid-file)
         tree-grid-lines  (str/split-lines file-contents)]
-    (reduce + (map-indexed #(is-tree-at-position %2 %1 3 1) tree-grid-lines))
+    (println (reduce + (map-indexed #(is-tree-at-position %2 %1 3 1) tree-grid-lines)))
     )
   )
 
-(defn aoc-day5-p2 []
+(defn aoc-day3-p2 []
   (let [file-contents    (slurp tree-grid-file)
         tree-grid-lines  (str/split-lines file-contents)]
-    (*
+    (println (*
     ;; Right 1, down 1.
     (reduce + (map-indexed #(is-tree-at-position %2 %1 1 1) tree-grid-lines))
     ;; Right 3, down 1. (This is the slope you already checked.)
@@ -32,4 +32,4 @@
     ;; Right 7, down 1.
     (reduce + (map-indexed #(is-tree-at-position %2 %1 7 1) tree-grid-lines))
     ;; Right 1, down 2.
-    (reduce + (map-indexed #(is-tree-at-position %2 %1 0.5 2) tree-grid-lines)))))
+    (reduce + (map-indexed #(is-tree-at-position %2 %1 0.5 2) tree-grid-lines))))))

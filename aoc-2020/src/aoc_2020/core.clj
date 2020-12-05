@@ -1,7 +1,7 @@
 (ns aoc-2020.core
   (:require [aoc-2020.day-one :as day1])
   (:require [aoc-2020.day-two :as day2])
-  ;; (:require [aoc-2020.day-three :as day3])
+  (:require [aoc-2020.day-three :as day3])
   (:require [aoc-2020.day-four :as day4])
   (:require [aoc-2020.day-five :as day5])
   (:gen-class))
@@ -16,6 +16,8 @@
   (time (day2/aoc-day2-p2-reduce))
 
   (println "==============" "AOC2020 Day 3" "==============")
+  (time (day3/aoc-day3-p1))
+  (time (day3/aoc-day3-p2))
 
   (println "==============" "AOC2020 Day 4" "==============")
   (time (day4/aoc-day4-p1))
