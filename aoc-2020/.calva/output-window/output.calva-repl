@@ -8999,3 +8999,4447 @@ clj::aoc-2020.day-three=>
 clj::aoc-2020.day-three=> 
 3093068400
 clj::aoc-2020.day-three=> 
+nil
+clj::aoc-2020.day-six=> 
+#'aoc-2020.day-six/group-answers-file
+clj::aoc-2020.day-six=> 
+mxuwh hwuxm uhxmw hwumx hwuxm
+k k tl k
+qebagdfvhr alvkif yufaovwi fivsa nwifazovu
+ilpecrqn aipqgrfh pbwizrqv rkwiqpnt
+kehaytgcbfiq cyhgkbtiaqfe cbkhteyqgifa eyaglfbvciktqzh yhcqebatgfki
+vknjbcuqrxshzemtayow uraptembyvxglzwiqsfn
+e e e e
+jhpu wmhqj jmbhvu ijyshorz
+dwise dneij iwdeh hidqe
+mclektfnbpgoyqxviru jniulbstvmxohawdpef
+ilqd idlspq
+bunoizjmdxeqka xmizbankqes nboejqdsimarzk bpcglniavyqmkezf
+jyf iqkgfnujrxzt vsflhwj obsjhf
+qwmgfaodtc frcmhyqetawz
+wpcvksgynim xciymspnwgv svpincmflg amvpncgsi
+pfyh hyf dhfy
+xtaec ctxae oxcate xcate
+oqbcnmhlakf xrtyvsudejpziwg
+zchoy dxp julwex
+r p xza
+hazxkgufnd ahgxzdnqufk uxhngfkzad
+jgwcznheympi afvdsmtqrcpbogy
+jflpzaingwdstb sanbltpjeizdfg tilpgsnajzfdb
+jgpank ngkeja wntjgrka jkagvn
+uydtgi ygtdui uydgit gtuiyd uytgid
+spbrqznjh hjrqdwepng jqfhrpny
+dqbpwhoar pqohgd
+irxqcgp pqhejcbrdg qcgrpiuo crpqug
+sopgtbhu
+caybqvdfkerzigoln jrfdbwcpyazukivmnoglse ogazdfnhlyebrqkvic vcerfthnzgiydbokla
+whijpulfstqnoyrzkemg igwtklezyfndrpj dfkgvepyzijtnwrl
+yvosapwtgdbxhcqn mdlafzqxrinsctvpwgb gxwnaysqkptebcjvdu
+(nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nilxkcrdeaytmjbnpgisf gnmtjyrdbkcafiepxs fnrisptwecgkumdyjbax cjovrgpxtabknzsymeifd lctusxdnrpeafkmigjby
+fdejinzpbhxumoyt lakqrmnfspwuyxojivb bjgpnfcoumyxi
+rcyihnjvzebtmwdoa ivkdznamrhcltwjgsbfou
+wpsxh gm e v uznma
+mfu mfhu ufm mfu
+n n n
+kwngilxvpdheztq nhdywlqmtxzvepiskg qvwdjrguxbciptefzokl
+v o
+viyf ify fiy ify ify
+uh kzhu hu
+vf vf fv fv vf
+hlimgvs sghunx aehumng bzpgktcrjyfqd
+wlvcrkih kchvwl lkhvwc lcvhkw
+ptjmoyzkcsequvhb ksveombhpjyztqcu bympzoivqcskjueht pbotvcqhkzjsyuem
+clawdptrguhqmekfvyoxsbj gphtfvxsujkreyacmwqbdl ywrvmtlabhcepqgfukdxjs htnyrqxauebmjkgcdflvpsw bcvwfoetdhksjygqpalxumr
+vszpabkj qmkpzsv bzkpavs hipznstxuvokl
+gtoqrlsfvdz tvfjdmgzpwqlsor dhzquvfrxglots qzfrdtivjgols
+tayfiobqpcdh jlwgsrxzevuk
+p p p p p
+aicqet lqhc njdvqwzpu
+quafxi fqaxiu aiqu iafqu ziauqv
+wfxealsjibhogu hjsgauxe eagxjhus
+rchsgnepltfkwyuz trlpuznscfgw jgvruzxwfctlnp clwrgfsnhumzpt
+iratdws tprwuxi htilwur
+mrgqeawu qrumabwge wurqgeam qamewgru
+eyghniakxbjpr qxhuazgbniep axtnhiuepm chnidvfaelopwxs
+lybasxmog wmxyolgasbr oblmxgyas
+jpbvxyfithzqdn xbtyjdihfzvnqp jnqfvyptzhixbd bvfiqpzsdrykjhtnx
+jicayzxwpfebqsvkg fpwqbcsngumjatexvrdy
+dxpuicjkzoamqwhtrbvsygenlf likutjrsdypeqzfgnawbxhocmv
+uzfivxhj legaxokm x inyqjx
+dqjkxbyt kgtqepwy qmytwkrp
+
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ ...)
+clj::aoc-2020.day-six=> 
+((\m \x \u \w \h \space)
+ (\k \space \t \l)
+ (\q \e \b \a \g \d \f \v \h \r \space \l \k \i \y \u \o \w \s \n \z)
+ (\i \l \p \e \c \r \q \n \space \a \g \f \h \b \w \z \v \k \t)
+ (\k \e \h \a \y \t \g \c \b \f \i \q \space \l \v \z)
+ (\v \k \n \j \b \c \u \q \r \x \s \h \z \e \m \t \a \y \o \w \space \p \g \l \i \f)
+ (\e \space)
+ (\j \h \p \u \space \w \m \q \b \v \i \y \s \o \r \z)
+ (\d \w \i \s \e \space \n \j \h \q)
+ (\m \c \l \e \k \t \f \n \b \p \g \o \y \q \x \v \i \r \u \space \j \s \h \a \w \d)
+ (\i \l \q \d \space \s \p)
+ (\b \u \n \o \i \z \j \m \d \x \e \q \k \a \space \s \r \p \c \g \l \v \y \f)
+ (\j \y \f \space \i \q \k \g \n \u \r \x \z \t \v \s \l \h \w \o \b)
+ (\q \w \m \g \f \a \o \d \t \c \space \r \h \y \e \z)
+ (\w \p \c \v \k \s \g \y \n \i \m \space \x \f \l \a)
+ (\p \f \y \h \space \d)
+ (\x \t \a \e \c \space \o)
+ (\o \q \b \c \n \m \h \l \a \k \f \space \x \r \t \y \v \s \u \d \e \j \p \z \i \w \g)
+ (\z \c \h \o \y \space \d \x \p \j \u \l \w \e)
+ (\r \space \p \x \z \a)
+ (\h \a \z \x \k \g \u \f \n \d \space \q)
+ (\j \g \w \c \z \n \h \e \y \m \p \i \space \a \f \v \d \s \t \q \r \b \o)
+ (\j \f \l \p \z \a \i \n \g \w \d \s \t \b \space \e)
+ (\j \g \p \a \n \k \space \e \w \t \r \v)
+ (\u \y \d \t \g \i \space)
+ (\s \p \b \r \q \z \n \j \h \space \d \w \e \g \f \y)
+ (\d \q \b \p \w \h \o \a \r \space \g)
+ (\i \r \x \q \c \g \p \space \h \e \j \b \d \u \o)
+ (\s \o \p \g \t \b \h \u)
+ (\c \a \y \b \q \v \d \f \k \e \r \z \i \g \o \l \n \space \j \w \p \u \m \s \h \t)
+ (\w \h \i \j \p \u \l \f \s \t \q \n \o \y \r \z \k \e \m \g \space \d \v)
+ (\y \v \o \s \a \p \w \t \g \d \b \x \h \c \q \n \space \m \l \f \z \r \i \k \e \j \u)
+ (\x \k \c \r \d \e \a \y \t \m \j \b \n \p \g \i \s \f \space \w \u \o \v \z \l)
+ (\f \d \e \j \i \n \z \p \b \h \x \u \m \o \y \t \space \l \a \k \q \r \s \w \v \g \c)
+ (\r \c \y \i \h \n \j \v \z \e \b \t \m \w \d \o \a \space \k \l \g \s \f \u)
+ (\w \p \s \x \h \space \g \m \e \v \u \z \n \a)
+ (\m \f \u \space \h)
+ (\n \space)
+ (\k \w \n \g \i \l \x \v \p \d \h \e \z \t \q \space \y \m \s \j \r \u \b \c \f \o)
+ (\v \space \o)
+ (\v \i \y \f \space)
+ (\u \h \space \k \z)
+ (\v \f \space)
+ (\h \l \i \m \g \v \s \space \u \n \x \a \e \b \z \p \k \t \c \r \j \y \f \q \d)
+ (\w \l \v \c \r \k \i \h \space)
+ (\p \t \j \m \o \y \z \k \c \s \e \q \u \v \h \b \space \i)
+ (\c \l \a \w \d \p \t \r \g \u \h \q \m \e \k \f \v \y \o \x \s \b \j \space \n)
+ (\v \s \z \p \a \b \k \j \space \q \m \h \i \n \t \x \u \o \l)
+ (\g \t \o \q \r \l \s \f \v \d \z \space \j \m \p \w \h \u \x \i)
+ (\t \a \y \f \i \o \b \q \p \c \d \h \space \j \l \w \g \s \r \x \z \e \v \u \k)
+ ...)
+clj::aoc-2020.day-six=> 
+((\m \x \u \w \h)
+ (\k \t \l)
+ (\q \e \b \a \g \d \f \v \h \r \l \k \i \y \u \o \w \s \n \z)
+ (\i \l \p \e \c \r \q \n \a \g \f \h \b \w \z \v \k \t)
+ (\k \e \h \a \y \t \g \c \b \f \i \q \l \v \z)
+ (\v \k \n \j \b \c \u \q \r \x \s \h \z \e \m \t \a \y \o \w \p \g \l \i \f)
+ (\e)
+ (\j \h \p \u \w \m \q \b \v \i \y \s \o \r \z)
+ (\d \w \i \s \e \n \j \h \q)
+ (\m \c \l \e \k \t \f \n \b \p \g \o \y \q \x \v \i \r \u \j \s \h \a \w \d)
+ (\i \l \q \d \s \p)
+ (\b \u \n \o \i \z \j \m \d \x \e \q \k \a \s \r \p \c \g \l \v \y \f)
+ (\j \y \f \i \q \k \g \n \u \r \x \z \t \v \s \l \h \w \o \b)
+ (\q \w \m \g \f \a \o \d \t \c \r \h \y \e \z)
+ (\w \p \c \v \k \s \g \y \n \i \m \x \f \l \a)
+ (\p \f \y \h \d)
+ (\x \t \a \e \c \o)
+ (\o \q \b \c \n \m \h \l \a \k \f \x \r \t \y \v \s \u \d \e \j \p \z \i \w \g)
+ (\z \c \h \o \y \d \x \p \j \u \l \w \e)
+ (\r \p \x \z \a)
+ (\h \a \z \x \k \g \u \f \n \d \q)
+ (\j \g \w \c \z \n \h \e \y \m \p \i \a \f \v \d \s \t \q \r \b \o)
+ (\j \f \l \p \z \a \i \n \g \w \d \s \t \b \e)
+ (\j \g \p \a \n \k \e \w \t \r \v)
+ (\u \y \d \t \g \i)
+ (\s \p \b \r \q \z \n \j \h \d \w \e \g \f \y)
+ (\d \q \b \p \w \h \o \a \r \g)
+ (\i \r \x \q \c \g \p \h \e \j \b \d \u \o)
+ (\s \o \p \g \t \b \h \u)
+ (\c \a \y \b \q \v \d \f \k \e \r \z \i \g \o \l \n \j \w \p \u \m \s \h \t)
+ (\w \h \i \j \p \u \l \f \s \t \q \n \o \y \r \z \k \e \m \g \d \v)
+ (\y \v \o \s \a \p \w \t \g \d \b \x \h \c \q \n \m \l \f \z \r \i \k \e \j \u)
+ (\x \k \c \r \d \e \a \y \t \m \j \b \n \p \g \i \s \f \w \u \o \v \z \l)
+ (\f \d \e \j \i \n \z \p \b \h \x \u \m \o \y \t \l \a \k \q \r \s \w \v \g \c)
+ (\r \c \y \i \h \n \j \v \z \e \b \t \m \w \d \o \a \k \l \g \s \f \u)
+ (\w \p \s \x \h \g \m \e \v \u \z \n \a)
+ (\m \f \u \h)
+ (\n)
+ (\k \w \n \g \i \l \x \v \p \d \h \e \z \t \q \y \m \s \j \r \u \b \c \f \o)
+ (\v \o)
+ (\v \i \y \f)
+ (\u \h \k \z)
+ (\v \f)
+ (\h \l \i \m \g \v \s \u \n \x \a \e \b \z \p \k \t \c \r \j \y \f \q \d)
+ (\w \l \v \c \r \k \i \h)
+ (\p \t \j \m \o \y \z \k \c \s \e \q \u \v \h \b \i)
+ (\c \l \a \w \d \p \t \r \g \u \h \q \m \e \k \f \v \y \o \x \s \b \j \n)
+ (\v \s \z \p \a \b \k \j \q \m \h \i \n \t \x \u \o \l)
+ (\g \t \o \q \r \l \s \f \v \d \z \j \m \p \w \h \u \x \i)
+ (\t \a \y \f \i \o \b \q \p \c \d \h \j \l \w \g \s \r \x \z \e \v \u \k)
+ ...)
+clj::aoc-2020.day-six=> 
+(5
+ 3
+ 20
+ 18
+ 15
+ 25
+ 1
+ 15
+ 9
+ 25
+ 6
+ 23
+ 20
+ 15
+ 15
+ 5
+ 6
+ 26
+ 13
+ 5
+ 11
+ 22
+ 15
+ 11
+ 6
+ 15
+ 10
+ 14
+ 8
+ 25
+ 22
+ 26
+ 24
+ 26
+ 23
+ 13
+ 4
+ 1
+ 25
+ 2
+ 4
+ 4
+ 2
+ 24
+ 8
+ 17
+ 24
+ 18
+ 19
+ 24
+ ...)
+clj::aoc-2020.day-six=> 
+6416
+clj::aoc-2020.day-six=> 
+mxuwh hwuxm uhxmw hwumx hwuxm
+k k tl k
+qebagdfvhr alvkif yufaovwi fivsa nwifazovu
+ilpecrqn aipqgrfh pbwizrqv rkwiqpnt
+kehaytgcbfiq cyhgkbtiaqfe cbkhteyqgifa eyaglfbvciktqzh yhcqebatgfki
+vknjbcuqrxshzemtayow uraptembyvxglzwiqsfn
+e e e e
+jhpu wmhqj jmbhvu ijyshorz
+dwise dneij iwdeh hidqe
+mclektfnbpgoyqxviru jniulbstvmxohawdpef
+ilqd idlspq
+bunoizjmdxeqka xmizbankqes nboejqdsimarzk bpcglniavyqmkezf
+jyf iqkgfnujrxzt vsflhwj obsjhf
+qwmgfaodtc frcmhyqetawz
+wpcvksgynim xciymspnwgv svpincmflg amvpncgsi
+pfyh hyf dhfy
+xtaec ctxae oxcate xcate
+oqbcnmhlakf xrtyvsudejpziwg
+zchoy dxp julwex
+r p xza
+hazxkgufnd ahgxzdnqufk uxhngfkzad
+jgwcznheympi afvdsmtqrcpbogy
+jflpzaingwdstb sanbltpjeizdfg tilpgsnajzfdb
+jgpank ngkeja wntjgrka jkagvn
+uydtgi ygtdui uydgit gtuiyd uytgid
+spbrqznjh hjrqdwepng jqfhrpny
+dqbpwhoar pqohgd
+irxqcgp pqhejcbrdg qcgrpiuo crpqug
+sopgtbhu
+caybqvdfkerzigoln jrfdbwcpyazukivmnoglse ogazdfnhlyebrqkvic vcerfthnzgiydbokla
+whijpulfstqnoyrzkemg igwtklezyfndrpj dfkgvepyzijtnwrl
+yvosapwtgdbxhcqn mdlafzqxrinsctvpwgb gxwnaysqkptebcjvdu
+(nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nilxkcrdeaytmjbnpgisf gnmtjyrdbkcafiepxs fnrisptwecgkumdyjbax cjovrgpxtabknzsymeifd lctusxdnrpeafkmigjby
+fdejinzpbhxumoyt lakqrmnfspwuyxojivb bjgpnfcoumyxi
+rcyihnjvzebtmwdoa ivkdznamrhcltwjgsbfou
+wpsxh gm e v uznma
+mfu mfhu ufm mfu
+n n n
+kwngilxvpdheztq nhdywlqmtxzvepiskg qvwdjrguxbciptefzokl
+v o
+viyf ify fiy ify ify
+uh kzhu hu
+vf vf fv fv vf
+hlimgvs sghunx aehumng bzpgktcrjyfqd
+wlvcrkih kchvwl lkhvwc lcvhkw
+ptjmoyzkcsequvhb ksveombhpjyztqcu bympzoivqcskjueht pbotvcqhkzjsyuem
+clawdptrguhqmekfvyoxsbj gphtfvxsujkreyacmwqbdl ywrvmtlabhcepqgfukdxjs htnyrqxauebmjkgcdflvpsw bcvwfoetdhksjygqpalxumr
+vszpabkj qmkpzsv bzkpavs hipznstxuvokl
+gtoqrlsfvdz tvfjdmgzpwqlsor dhzquvfrxglots qzfrdtivjgols
+tayfiobqpcdh jlwgsrxzevuk
+p p p p p
+aicqet lqhc njdvqwzpu
+quafxi fqaxiu aiqu iafqu ziauqv
+wfxealsjibhogu hjsgauxe eagxjhus
+rchsgnepltfkwyuz trlpuznscfgw jgvruzxwfctlnp clwrgfsnhumzpt
+iratdws tprwuxi htilwur
+mrgqeawu qrumabwge wurqgeam qamewgru
+eyghniakxbjpr qxhuazgbniep axtnhiuepm chnidvfaelopwxs
+lybasxmog wmxyolgasbr oblmxgyas
+jpbvxyfithzqdn xbtyjdihfzvnqp jnqfvyptzhixbd bvfiqpzsdrykjhtnx
+jicayzxwpfebqsvkg fpwqbcsngumjatexvrdy
+dxpuicjkzoamqwhtrbvsygenlf likutjrsdypeqzfgnawbxhocmv
+uzfivxhj legaxokm x inyqjx
+dqjkxbyt kgtqepwy qmytwkrp
+
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ ...)
+clj::aoc-2020.day-six=> 
+; Error printing return value (ClassCastException) at clojure.string/split (string.clj:219).
+; java.lang.String cannot be cast to java.util.regex.Pattern
+clojure.main/repl (main.clj:442)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.day-six=> 
+; Error printing return value (NullPointerException) at java.util.regex.Matcher/getTextLength (Matcher.java:1283).
+; null
+clojure.main/repl (main.clj:442)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.day-six=> 
+(["mxuwh" "hwuxm" "uhxmw" "hwumx" "hwuxm"]
+ ["k" "k" "tl" "k"]
+ ["qebagdfvhr" "alvkif" "yufaovwi" "fivsa" "nwifazovu"]
+ ["ilpecrqn" "aipqgrfh" "pbwizrqv" "rkwiqpnt"]
+ ["kehaytgcbfiq" "cyhgkbtiaqfe" "cbkhteyqgifa" "eyaglfbvciktqzh" "yhcqebatgfki"]
+ ["vknjbcuqrxshzemtayow" "uraptembyvxglzwiqsfn"]
+ ["e" "e" "e" "e"]
+ ["jhpu" "wmhqj" "jmbhvu" "ijyshorz"]
+ ["dwise" "dneij" "iwdeh" "hidqe"]
+ ["mclektfnbpgoyqxviru" "jniulbstvmxohawdpef"]
+ ["ilqd" "idlspq"]
+ ["bunoizjmdxeqka" "xmizbankqes" "nboejqdsimarzk" "bpcglniavyqmkezf"]
+ ["jyf" "iqkgfnujrxzt" "vsflhwj" "obsjhf"]
+ ["qwmgfaodtc" "frcmhyqetawz"]
+ ["wpcvksgynim" "xciymspnwgv" "svpincmflg" "amvpncgsi"]
+ ["pfyh" "hyf" "dhfy"]
+ ["xtaec" "ctxae" "oxcate" "xcate"]
+ ["oqbcnmhlakf" "xrtyvsudejpziwg"]
+ ["zchoy" "dxp" "julwex"]
+ ["r" "p" "xza"]
+ ["hazxkgufnd" "ahgxzdnqufk" "uxhngfkzad"]
+ ["jgwcznheympi" "afvdsmtqrcpbogy"]
+ ["jflpzaingwdstb" "sanbltpjeizdfg" "tilpgsnajzfdb"]
+ ["jgpank" "ngkeja" "wntjgrka" "jkagvn"]
+ ["uydtgi" "ygtdui" "uydgit" "gtuiyd" "uytgid"]
+ ["spbrqznjh" "hjrqdwepng" "jqfhrpny"]
+ ["dqbpwhoar" "pqohgd"]
+ ["irxqcgp" "pqhejcbrdg" "qcgrpiuo" "crpqug"]
+ ["sopgtbhu"]
+ ["caybqvdfkerzigoln" "jrfdbwcpyazukivmnoglse" "ogazdfnhlyebrqkvic" "vcerfthnzgiydbokla"]
+ ["whijpulfstqnoyrzkemg" "igwtklezyfndrpj" "dfkgvepyzijtnwrl"]
+ ["yvosapwtgdbxhcqn" "mdlafzqxrinsctvpwgb" "gxwnaysqkptebcjvdu"]
+ ["xkcrdeaytmjbnpgisf" "gnmtjyrdbkcafiepxs" "fnrisptwecgkumdyjbax" "cjovrgpxtabknzsymeifd" "lctusxdnrpeafkmigjby"]
+ ["fdejinzpbhxumoyt" "lakqrmnfspwuyxojivb" "bjgpnfcoumyxi"]
+ ["rcyihnjvzebtmwdoa" "ivkdznamrhcltwjgsbfou"]
+ ["wpsxh" "gm" "e" "v" "uznma"]
+ ["mfu" "mfhu" "ufm" "mfu"]
+ ["n" "n" "n"]
+ ["kwngilxvpdheztq" "nhdywlqmtxzvepiskg" "qvwdjrguxbciptefzokl"]
+ ["v" "o"]
+ ["viyf" "ify" "fiy" "ify" "ify"]
+ ["uh" "kzhu" "hu"]
+ ["vf" "vf" "fv" "fv" "vf"]
+ ["hlimgvs" "sghunx" "aehumng" "bzpgktcrjyfqd"]
+ ["wlvcrkih" "kchvwl" "lkhvwc" "lcvhkw"]
+ ["ptjmoyzkcsequvhb" "ksveombhpjyztqcu" "bympzoivqcskjueht" "pbotvcqhkzjsyuem"]
+ ["clawdptrguhqmekfvyoxsbj"
+  "gphtfvxsujkreyacmwqbdl"
+  "ywrvmtlabhcepqgfukdxjs"
+  "htnyrqxauebmjkgcdflvpsw"
+  "bcvwfoetdhksjygqpalxumr"]
+ ["vszpabkj" "qmkpzsv" "bzkpavs" "hipznstxuvokl"]
+ ["gtoqrlsfvdz" "tvfjdmgzpwqlsor" "dhzquvfrxglots" "qzfrdtivjgols"]
+ ["tayfiobqpcdh" "jlwgsrxzevuk"]
+ ...)
+clj::aoc-2020.day-six=> 
+; Execution error (ArityException) at aoc-2020.day-six/eval83384 (form-init344072271841352303.clj:15).
+; Wrong number of args (2) passed to: aoc-2020.day-six/eval83384/fn--83387
+clojure.lang.ArrayChunk/reduce (ArrayChunk.java:58)
+clojure.core.protocols/fn (protocols.clj:136)
+clojure.core.protocols/fn (protocols.clj:124)
+clojure.core.protocols/fn (protocols.clj:19)
+clojure.core.protocols/seq-reduce (protocols.clj:27)
+clojure.core.protocols/fn (protocols.clj:75)
+clojure.core.protocols/fn (protocols.clj:13)
+clojure.core/reduce (core.clj:6824)
+clojure.core/reduce (core.clj:6810)
+aoc-2020.day-six/eval83384 (form-init344072271841352303.clj:15)
+aoc-2020.day-six/eval83384 (form-init344072271841352303.clj:13)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.day-six=> 
+(["mxuwh" "hwuxm" "uhxmw" "hwumx" "hwuxm"]
+ ["k" "k" "tl" "k"]
+ ["qebagdfvhr" "alvkif" "yufaovwi" "fivsa" "nwifazovu"]
+ ["ilpecrqn" "aipqgrfh" "pbwizrqv" "rkwiqpnt"]
+ ["kehaytgcbfiq" "cyhgkbtiaqfe" "cbkhteyqgifa" "eyaglfbvciktqzh" "yhcqebatgfki"]
+ ["vknjbcuqrxshzemtayow" "uraptembyvxglzwiqsfn"]
+ ["e" "e" "e" "e"]
+ ["jhpu" "wmhqj" "jmbhvu" "ijyshorz"]
+ ["dwise" "dneij" "iwdeh" "hidqe"]
+ ["mclektfnbpgoyqxviru" "jniulbstvmxohawdpef"]
+ ["ilqd" "idlspq"]
+ ["bunoizjmdxeqka" "xmizbankqes" "nboejqdsimarzk" "bpcglniavyqmkezf"]
+ ["jyf" "iqkgfnujrxzt" "vsflhwj" "obsjhf"]
+ ["qwmgfaodtc" "frcmhyqetawz"]
+ ["wpcvksgynim" "xciymspnwgv" "svpincmflg" "amvpncgsi"]
+ ["pfyh" "hyf" "dhfy"]
+ ["xtaec" "ctxae" "oxcate" "xcate"]
+ ["oqbcnmhlakf" "xrtyvsudejpziwg"]
+ ["zchoy" "dxp" "julwex"]
+ ["r" "p" "xza"]
+ ["hazxkgufnd" "ahgxzdnqufk" "uxhngfkzad"]
+ ["jgwcznheympi" "afvdsmtqrcpbogy"]
+ ["jflpzaingwdstb" "sanbltpjeizdfg" "tilpgsnajzfdb"]
+ ["jgpank" "ngkeja" "wntjgrka" "jkagvn"]
+ ["uydtgi" "ygtdui" "uydgit" "gtuiyd" "uytgid"]
+ ["spbrqznjh" "hjrqdwepng" "jqfhrpny"]
+ ["dqbpwhoar" "pqohgd"]
+ ["irxqcgp" "pqhejcbrdg" "qcgrpiuo" "crpqug"]
+ ["sopgtbhu"]
+ ["caybqvdfkerzigoln" "jrfdbwcpyazukivmnoglse" "ogazdfnhlyebrqkvic" "vcerfthnzgiydbokla"]
+ ["whijpulfstqnoyrzkemg" "igwtklezyfndrpj" "dfkgvepyzijtnwrl"]
+ ["yvosapwtgdbxhcqn" "mdlafzqxrinsctvpwgb" "gxwnaysqkptebcjvdu"]
+ ["xkcrdeaytmjbnpgisf" "gnmtjyrdbkcafiepxs" "fnrisptwecgkumdyjbax" "cjovrgpxtabknzsymeifd" "lctusxdnrpeafkmigjby"]
+ ["fdejinzpbhxumoyt" "lakqrmnfspwuyxojivb" "bjgpnfcoumyxi"]
+ ["rcyihnjvzebtmwdoa" "ivkdznamrhcltwjgsbfou"]
+ ["wpsxh" "gm" "e" "v" "uznma"]
+ ["mfu" "mfhu" "ufm" "mfu"]
+ ["n" "n" "n"]
+ ["kwngilxvpdheztq" "nhdywlqmtxzvepiskg" "qvwdjrguxbciptefzokl"]
+ ["v" "o"]
+ ["viyf" "ify" "fiy" "ify" "ify"]
+ ["uh" "kzhu" "hu"]
+ ["vf" "vf" "fv" "fv" "vf"]
+ ["hlimgvs" "sghunx" "aehumng" "bzpgktcrjyfqd"]
+ ["wlvcrkih" "kchvwl" "lkhvwc" "lcvhkw"]
+ ["ptjmoyzkcsequvhb" "ksveombhpjyztqcu" "bympzoivqcskjueht" "pbotvcqhkzjsyuem"]
+ ["clawdptrguhqmekfvyoxsbj"
+  "gphtfvxsujkreyacmwqbdl"
+  "ywrvmtlabhcepqgfukdxjs"
+  "htnyrqxauebmjkgcdflvpsw"
+  "bcvwfoetdhksjygqpalxumr"]
+ ["vszpabkj" "qmkpzsv" "bzkpavs" "hipznstxuvokl"]
+ ["gtoqrlsfvdz" "tvfjdmgzpwqlsor" "dhzquvfrxglots" "qzfrdtivjgols"]
+ ["tayfiobqpcdh" "jlwgsrxzevuk"]
+ ...)
+clj::aoc-2020.day-six=> 
+(#{\space \h \m \u \w \x}
+ #{\space \k \l \t}
+ #{\space \a \b \d \e \f \g \h \i \k \l \n \o \q \r \s \u \v \w \y \z}
+ #{\space \a \b \c \e \f \g \h \i \k \l \n \p \q \r \t \v \w \z}
+ #{\space \a \b \c \e \f \g \h \i \k \l \q \t \v \y \z}
+ #{\space \a \b \c \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z}
+ #{\space \e}
+ #{\space \b \h \i \j \m \o \p \q \r \s \u \v \w \y \z}
+ #{\space \d \e \h \i \j \n \q \s \w}
+ #{\space \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y}
+ #{\space \d \i \l \p \q \s}
+ #{\space \a \b \c \d \e \f \g \i \j \k \l \m \n \o \p \q \r \s \u \v \x \y \z}
+ #{\space \b \f \g \h \i \j \k \l \n \o \q \r \s \t \u \v \w \x \y \z}
+ #{\space \a \c \d \e \f \g \h \m \o \q \r \t \w \y \z}
+ #{\space \a \c \f \g \i \k \l \m \n \p \s \v \w \x \y}
+ #{\space \d \f \h \p \y}
+ #{\space \a \c \e \o \t \x}
+ #{\space \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z}
+ #{\space \c \d \e \h \j \l \o \p \u \w \x \y \z}
+ #{\space \a \p \r \x \z}
+ #{\space \a \d \f \g \h \k \n \q \u \x \z}
+ #{\space \a \b \c \d \e \f \g \h \i \j \m \n \o \p \q \r \s \t \v \w \y \z}
+ #{\space \a \b \d \e \f \g \i \j \l \n \p \s \t \w \z}
+ #{\space \a \e \g \j \k \n \p \r \t \v \w}
+ #{\space \d \g \i \t \u \y}
+ #{\space \b \d \e \f \g \h \j \n \p \q \r \s \w \y \z}
+ #{\space \a \b \d \g \h \o \p \q \r \w}
+ #{\space \b \c \d \e \g \h \i \j \o \p \q \r \u \x}
+ #{\b \g \h \o \p \s \t \u}
+ #{\space \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \y \z}
+ #{\space \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \y \z}
+ #{\space \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z}
+ #{\space \a \b \c \d \e \f \g \i \j \k \l \m \n \o \p \r \s \t \u \v \w \x \y \z}
+ #{\space \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z}
+ #{\space \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \r \s \t \u \v \w \y \z}
+ #{\space \a \e \g \h \m \n \p \s \u \v \w \x \z}
+ #{\space \f \h \m \u}
+ #{\space \n}
+ #{\space \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z}
+ #{\space \o \v}
+ #{\space \f \i \v \y}
+ #{\space \h \k \u \z}
+ #{\space \f \v}
+ #{\space \a \b \c \d \e \f \g \h \i \j \k \l \m \n \p \q \r \s \t \u \v \x \y \z}
+ #{\space \c \h \i \k \l \r \v \w}
+ #{\space \b \c \e \h \i \j \k \m \o \p \q \s \t \u \v \y \z}
+ #{\space \a \b \c \d \e \f \g \h \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y}
+ #{\space \a \b \h \i \j \k \l \m \n \o \p \q \s \t \u \v \x \z}
+ #{\space \d \f \g \h \i \j \l \m \o \p \q \r \s \t \u \v \w \x \z}
+ #{\space \a \b \c \d \e \f \g \h \i \j \k \l \o \p \q \r \s \t \u \v \w \x \y \z}
+ ...)
+clj::aoc-2020.day-six=> 
+("mxuwh hwuxm uhxmw hwumx hwuxm"
+ "k k tl k"
+ "qebagdfvhr alvkif yufaovwi fivsa nwifazovu"
+ "ilpecrqn aipqgrfh pbwizrqv rkwiqpnt"
+ "kehaytgcbfiq cyhgkbtiaqfe cbkhteyqgifa eyaglfbvciktqzh yhcqebatgfki"
+ "vknjbcuqrxshzemtayow uraptembyvxglzwiqsfn"
+ "e e e e"
+ "jhpu wmhqj jmbhvu ijyshorz"
+ "dwise dneij iwdeh hidqe"
+ "mclektfnbpgoyqxviru jniulbstvmxohawdpef"
+ "ilqd idlspq"
+ "bunoizjmdxeqka xmizbankqes nboejqdsimarzk bpcglniavyqmkezf"
+ "jyf iqkgfnujrxzt vsflhwj obsjhf"
+ "qwmgfaodtc frcmhyqetawz"
+ "wpcvksgynim xciymspnwgv svpincmflg amvpncgsi"
+ "pfyh hyf dhfy"
+ "xtaec ctxae oxcate xcate"
+ "oqbcnmhlakf xrtyvsudejpziwg"
+ "zchoy dxp julwex"
+ "r p xza"
+ "hazxkgufnd ahgxzdnqufk uxhngfkzad"
+ "jgwcznheympi afvdsmtqrcpbogy"
+ "jflpzaingwdstb sanbltpjeizdfg tilpgsnajzfdb"
+ "jgpank ngkeja wntjgrka jkagvn"
+ "uydtgi ygtdui uydgit gtuiyd uytgid"
+ "spbrqznjh hjrqdwepng jqfhrpny"
+ "dqbpwhoar pqohgd"
+ "irxqcgp pqhejcbrdg qcgrpiuo crpqug"
+ "sopgtbhu"
+ "caybqvdfkerzigoln jrfdbwcpyazukivmnoglse ogazdfnhlyebrqkvic vcerfthnzgiydbokla"
+ "whijpulfstqnoyrzkemg igwtklezyfndrpj dfkgvepyzijtnwrl"
+ "yvosapwtgdbxhcqn mdlafzqxrinsctvpwgb gxwnaysqkptebcjvdu"
+ "xkcrdeaytmjbnpgisf gnmtjyrdbkcafiepxs fnrisptwecgkumdyjbax cjovrgpxtabknzsymeifd lctusxdnrpeafkmigjby"
+ "fdejinzpbhxumoyt lakqrmnfspwuyxojivb bjgpnfcoumyxi"
+ "rcyihnjvzebtmwdoa ivkdznamrhcltwjgsbfou"
+ "wpsxh gm e v uznma"
+ "mfu mfhu ufm mfu"
+ "n n n"
+ "kwngilxvpdheztq nhdywlqmtxzvepiskg qvwdjrguxbciptefzokl"
+ "v o"
+ "viyf ify fiy ify ify"
+ "uh kzhu hu"
+ "vf vf fv fv vf"
+ "hlimgvs sghunx aehumng bzpgktcrjyfqd"
+ "wlvcrkih kchvwl lkhvwc lcvhkw"
+ "ptjmoyzkcsequvhb ksveombhpjyztqcu bympzoivqcskjueht pbotvcqhkzjsyuem"
+ "clawdptrguhqmekfvyoxsbj gphtfvxsujkreyacmwqbdl ywrvmtlabhcepqgfukdxjs htnyrqxauebmjkgcdflvpsw bcvwfoetdhksjygqpalxumr"
+ "vszpabkj qmkpzsv bzkpavs hipznstxuvokl"
+ "gtoqrlsfvdz tvfjdmgzpwqlsor dhzquvfrxglots qzfrdtivjgols"
+ "tayfiobqpcdh jlwgsrxzevuk"
+ ...)
+clj::aoc-2020.day-six=> 
+(#{\space \h \m \u \w \x}
+ #{\space \k \l \t}
+ #{\space \a \b \d \e \f \g \h \i \k \l \n \o \q \r \s \u \v \w \y \z}
+ #{\space \a \b \c \e \f \g \h \i \k \l \n \p \q \r \t \v \w \z}
+ #{\space \a \b \c \e \f \g \h \i \k \l \q \t \v \y \z}
+ #{\space \a \b \c \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z}
+ #{\space \e}
+ #{\space \b \h \i \j \m \o \p \q \r \s \u \v \w \y \z}
+ #{\space \d \e \h \i \j \n \q \s \w}
+ #{\space \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y}
+ #{\space \d \i \l \p \q \s}
+ #{\space \a \b \c \d \e \f \g \i \j \k \l \m \n \o \p \q \r \s \u \v \x \y \z}
+ #{\space \b \f \g \h \i \j \k \l \n \o \q \r \s \t \u \v \w \x \y \z}
+ #{\space \a \c \d \e \f \g \h \m \o \q \r \t \w \y \z}
+ #{\space \a \c \f \g \i \k \l \m \n \p \s \v \w \x \y}
+ #{\space \d \f \h \p \y}
+ #{\space \a \c \e \o \t \x}
+ #{\space \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z}
+ #{\space \c \d \e \h \j \l \o \p \u \w \x \y \z}
+ #{\space \a \p \r \x \z}
+ #{\space \a \d \f \g \h \k \n \q \u \x \z}
+ #{\space \a \b \c \d \e \f \g \h \i \j \m \n \o \p \q \r \s \t \v \w \y \z}
+ #{\space \a \b \d \e \f \g \i \j \l \n \p \s \t \w \z}
+ #{\space \a \e \g \j \k \n \p \r \t \v \w}
+ #{\space \d \g \i \t \u \y}
+ #{\space \b \d \e \f \g \h \j \n \p \q \r \s \w \y \z}
+ #{\space \a \b \d \g \h \o \p \q \r \w}
+ #{\space \b \c \d \e \g \h \i \j \o \p \q \r \u \x}
+ #{\b \g \h \o \p \s \t \u}
+ #{\space \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \y \z}
+ #{\space \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \y \z}
+ #{\space \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z}
+ #{\space \a \b \c \d \e \f \g \i \j \k \l \m \n \o \p \r \s \t \u \v \w \x \y \z}
+ #{\space \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z}
+ #{\space \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \r \s \t \u \v \w \y \z}
+ #{\space \a \e \g \h \m \n \p \s \u \v \w \x \z}
+ #{\space \f \h \m \u}
+ #{\space \n}
+ #{\space \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z}
+ #{\space \o \v}
+ #{\space \f \i \v \y}
+ #{\space \h \k \u \z}
+ #{\space \f \v}
+ #{\space \a \b \c \d \e \f \g \h \i \j \k \l \m \n \p \q \r \s \t \u \v \x \y \z}
+ #{\space \c \h \i \k \l \r \v \w}
+ #{\space \b \c \e \h \i \j \k \m \o \p \q \s \t \u \v \y \z}
+ #{\space \a \b \c \d \e \f \g \h \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y}
+ #{\space \a \b \h \i \j \k \l \m \n \o \p \q \s \t \u \v \x \z}
+ #{\space \d \f \g \h \i \j \l \m \o \p \q \r \s \t \u \v \w \x \z}
+ #{\space \a \b \c \d \e \f \g \h \i \j \k \l \o \p \q \r \s \t \u \v \w \x \y \z}
+ ...)
+clj::aoc-2020.day-six=> 
+mxuwh hwuxm uhxmw hwumx hwuxm
+k k tl k
+qebagdfvhr alvkif yufaovwi fivsa nwifazovu
+ilpecrqn aipqgrfh pbwizrqv rkwiqpnt
+kehaytgcbfiq cyhgkbtiaqfe cbkhteyqgifa eyaglfbvciktqzh yhcqebatgfki
+vknjbcuqrxshzemtayow uraptembyvxglzwiqsfn
+e e e e
+jhpu wmhqj jmbhvu ijyshorz
+dwise dneij iwdeh hidqe
+mclektfnbpgoyqxviru jniulbstvmxohawdpef
+ilqd idlspq
+bunoizjmdxeqka xmizbankqes nboejqdsimarzk bpcglniavyqmkezf
+jyf iqkgfnujrxzt vsflhwj obsjhf
+qwmgfaodtc frcmhyqetawz
+wpcvksgynim xciymspnwgv svpincmflg amvpncgsi
+pfyh hyf dhfy
+xtaec ctxae oxcate xcate
+oqbcnmhlakf xrtyvsudejpziwg
+zchoy dxp julwex
+r p xza
+hazxkgufnd ahgxzdnqufk uxhngfkzad
+jgwcznheympi afvdsmtqrcpbogy
+jflpzaingwdstb sanbltpjeizdfg tilpgsnajzfdb
+jgpank ngkeja wntjgrka jkagvn
+uydtgi ygtdui uydgit gtuiyd uytgid
+spbrqznjh hjrqdwepng jqfhrpny
+dqbpwhoar pqohgd
+irxqcgp pqhejcbrdg qcgrpiuo crpqug
+sopgtbhu
+caybqvdfkerzigoln jrfdbwcpyazukivmnoglse ogazdfnhlyebrqkvic vcerfthnzgiydbokla
+whijpulfstqnoyrzkemg igwtklezyfndrpj dfkgvepyzijtnwrl
+yvosapwtgdbxhcqn mdlafzqxrinsctvpwgb gxwnaysqkptebcjvdu
+(nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nilxkcrdeaytmjbnpgisf gnmtjyrdbkcafiepxs fnrisptwecgkumdyjbax cjovrgpxtabknzsymeifd lctusxdnrpeafkmigjby
+fdejinzpbhxumoyt lakqrmnfspwuyxojivb bjgpnfcoumyxi
+rcyihnjvzebtmwdoa ivkdznamrhcltwjgsbfou
+wpsxh gm e v uznma
+mfu mfhu ufm mfu
+n n n
+kwngilxvpdheztq nhdywlqmtxzvepiskg qvwdjrguxbciptefzokl
+v o
+viyf ify fiy ify ify
+uh kzhu hu
+vf vf fv fv vf
+hlimgvs sghunx aehumng bzpgktcrjyfqd
+wlvcrkih kchvwl lkhvwc lcvhkw
+ptjmoyzkcsequvhb ksveombhpjyztqcu bympzoivqcskjueht pbotvcqhkzjsyuem
+clawdptrguhqmekfvyoxsbj gphtfvxsujkreyacmwqbdl ywrvmtlabhcepqgfukdxjs htnyrqxauebmjkgcdflvpsw bcvwfoetdhksjygqpalxumr
+vszpabkj qmkpzsv bzkpavs hipznstxuvokl
+gtoqrlsfvdz tvfjdmgzpwqlsor dhzquvfrxglots qzfrdtivjgols
+tayfiobqpcdh jlwgsrxzevuk
+p p p p p
+aicqet lqhc njdvqwzpu
+quafxi fqaxiu aiqu iafqu ziauqv
+wfxealsjibhogu hjsgauxe eagxjhus
+rchsgnepltfkwyuz trlpuznscfgw jgvruzxwfctlnp clwrgfsnhumzpt
+iratdws tprwuxi htilwur
+mrgqeawu qrumabwge wurqgeam qamewgru
+eyghniakxbjpr qxhuazgbniep axtnhiuepm chnidvfaelopwxs
+lybasxmog wmxyolgasbr oblmxgyas
+jpbvxyfithzqdn xbtyjdihfzvnqp jnqfvyptzhixbd bvfiqpzsdrykjhtnx
+jicayzxwpfebqsvkg fpwqbcsngumjatexvrdy
+dxpuicjkzoamqwhtrbvsygenlf likutjrsdypeqzfgnawbxhocmv
+uzfivxhj legaxokm x inyqjx
+dqjkxbyt kgtqepwy qmytwkrp
+
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ ...)
+clj::aoc-2020.day-six=> 
+(#{\space \h \m \u \w \x}
+ #{\space \k \l \t}
+ #{\space \a \b \d \e \f \g \h \i \k \l \n \o \q \r \s \u \v \w \y \z}
+ #{\space \a \b \c \e \f \g \h \i \k \l \n \p \q \r \t \v \w \z}
+ #{\space \a \b \c \e \f \g \h \i \k \l \q \t \v \y \z}
+ #{\space \a \b \c \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z}
+ #{\space \e}
+ #{\space \b \h \i \j \m \o \p \q \r \s \u \v \w \y \z}
+ #{\space \d \e \h \i \j \n \q \s \w}
+ #{\space \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y}
+ #{\space \d \i \l \p \q \s}
+ #{\space \a \b \c \d \e \f \g \i \j \k \l \m \n \o \p \q \r \s \u \v \x \y \z}
+ #{\space \b \f \g \h \i \j \k \l \n \o \q \r \s \t \u \v \w \x \y \z}
+ #{\space \a \c \d \e \f \g \h \m \o \q \r \t \w \y \z}
+ #{\space \a \c \f \g \i \k \l \m \n \p \s \v \w \x \y}
+ #{\space \d \f \h \p \y}
+ #{\space \a \c \e \o \t \x}
+ #{\space \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z}
+ #{\space \c \d \e \h \j \l \o \p \u \w \x \y \z}
+ #{\space \a \p \r \x \z}
+ #{\space \a \d \f \g \h \k \n \q \u \x \z}
+ #{\space \a \b \c \d \e \f \g \h \i \j \m \n \o \p \q \r \s \t \v \w \y \z}
+ #{\space \a \b \d \e \f \g \i \j \l \n \p \s \t \w \z}
+ #{\space \a \e \g \j \k \n \p \r \t \v \w}
+ #{\space \d \g \i \t \u \y}
+ #{\space \b \d \e \f \g \h \j \n \p \q \r \s \w \y \z}
+ #{\space \a \b \d \g \h \o \p \q \r \w}
+ #{\space \b \c \d \e \g \h \i \j \o \p \q \r \u \x}
+ #{\b \g \h \o \p \s \t \u}
+ #{\space \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \y \z}
+ #{\space \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \y \z}
+ #{\space \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z}
+ #{\space \a \b \c \d \e \f \g \i \j \k \l \m \n \o \p \r \s \t \u \v \w \x \y \z}
+ #{\space \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z}
+ #{\space \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \r \s \t \u \v \w \y \z}
+ #{\space \a \e \g \h \m \n \p \s \u \v \w \x \z}
+ #{\space \f \h \m \u}
+ #{\space \n}
+ #{\space \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z}
+ #{\space \o \v}
+ #{\space \f \i \v \y}
+ #{\space \h \k \u \z}
+ #{\space \f \v}
+ #{\space \a \b \c \d \e \f \g \h \i \j \k \l \m \n \p \q \r \s \t \u \v \x \y \z}
+ #{\space \c \h \i \k \l \r \v \w}
+ #{\space \b \c \e \h \i \j \k \m \o \p \q \s \t \u \v \y \z}
+ #{\space \a \b \c \d \e \f \g \h \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y}
+ #{\space \a \b \h \i \j \k \l \m \n \o \p \q \s \t \u \v \x \z}
+ #{\space \d \f \g \h \i \j \l \m \o \p \q \r \s \t \u \v \w \x \z}
+ #{\space \a \b \c \d \e \f \g \h \i \j \k \l \o \p \q \r \s \t \u \v \w \x \y \z}
+ ...)
+clj::aoc-2020.day-six=> 
+(#{(\w) (\x) (\h) (\space) (\m) (\u)}
+ #{(\t) (\l) (\space) (\k)}
+ #{(\w) (\i) (\d) (\b) (\y) (\o) (\f) (\g) (\r) (\v) (\s) (\h) (\a) (\n) (\l) (\space) (\z) (\e) (\u) (\k) (\q)}
+ #{(\w) (\i) (\t) (\b) (\c) (\f) (\g) (\r) (\v) (\h) (\a) (\n) (\l) (\space) (\z) (\e) (\p) (\k) (\q)}
+ #{(\i) (\t) (\b) (\y) (\c) (\f) (\g) (\v) (\h) (\a) (\l) (\space) (\z) (\e) (\k) (\q)}
+ #{(\w) (\x) (\i) (\t) (\b) (\y) (\c) (\o) (\f) (\g) (\r) (\v) (\s) (\h) (\a) (\n) (\l) (\space) (\m) (\z) (\e) (\u)
+   (\p) (\j) (\k) (\q)}
+ #{(\space) (\e)}
+ #{(\w) (\i) (\b) (\y) (\o) (\r) (\v) (\s) (\h) (\space) (\m) (\z) (\u) (\p) (\j) (\q)}
+ #{(\w) (\i) (\d) (\s) (\h) (\n) (\space) (\e) (\j) (\q)}
+ #{(\w) (\x) (\i) (\d) (\t) (\b) (\y) (\c) (\o) (\f) (\g) (\r) (\v) (\s) (\h) (\a) (\n) (\l) (\space) (\m) (\e) (\u)
+   (\p) (\j) (\k) (\q)}
+ #{(\i) (\d) (\s) (\l) (\space) (\p) (\q)}
+ #{(\x) (\i) (\d) (\b) (\y) (\c) (\o) (\f) (\g) (\r) (\v) (\s) (\a) (\n) (\l) (\space) (\m) (\z) (\e) (\u) (\p) (\j)
+   (\k) (\q)}
+ #{(\w) (\x) (\i) (\t) (\b) (\y) (\o) (\f) (\g) (\r) (\v) (\s) (\h) (\n) (\l) (\space) (\z) (\u) (\j) (\k) (\q)}
+ #{(\w) (\d) (\t) (\y) (\c) (\o) (\f) (\g) (\r) (\h) (\a) (\space) (\m) (\z) (\e) (\q)}
+ #{(\w) (\x) (\i) (\y) (\c) (\f) (\g) (\v) (\s) (\a) (\n) (\l) (\space) (\m) (\p) (\k)}
+ #{(\d) (\y) (\f) (\h) (\space) (\p)}
+ #{(\x) (\t) (\c) (\o) (\a) (\space) (\e)}
+ #{(\w) (\x) (\i) (\d) (\t) (\b) (\y) (\c) (\o) (\f) (\g) (\r) (\v) (\s) (\h) (\a) (\n) (\l) (\space) (\m) (\z) (\e)
+   (\u) (\p) (\j) (\k) (\q)}
+ #{(\w) (\x) (\d) (\y) (\c) (\o) (\h) (\l) (\space) (\z) (\e) (\u) (\p) (\j)}
+ #{(\x) (\r) (\a) (\space) (\z) (\p)}
+ #{(\x) (\d) (\f) (\g) (\h) (\a) (\n) (\space) (\z) (\u) (\k) (\q)}
+ #{(\w) (\i) (\d) (\t) (\b) (\y) (\c) (\o) (\f) (\g) (\r) (\v) (\s) (\h) (\a) (\n) (\space) (\m) (\z) (\e) (\p) (\j)
+   (\q)}
+ #{(\w) (\i) (\d) (\t) (\b) (\f) (\g) (\s) (\a) (\n) (\l) (\space) (\z) (\e) (\p) (\j)}
+ #{(\w) (\t) (\g) (\r) (\v) (\a) (\n) (\space) (\e) (\p) (\j) (\k)}
+ #{(\i) (\d) (\t) (\y) (\g) (\space) (\u)}
+ #{(\w) (\d) (\b) (\y) (\f) (\g) (\r) (\s) (\h) (\n) (\space) (\z) (\e) (\p) (\j) (\q)}
+ #{(\w) (\d) (\b) (\o) (\g) (\r) (\h) (\a) (\space) (\p) (\q)}
+ #{(\x) (\i) (\d) (\b) (\c) (\o) (\g) (\r) (\h) (\space) (\e) (\u) (\p) (\j) (\q)}
+ #{(\t) (\b) (\o) (\g) (\s) (\h) (\u) (\p)}
+ #{(\w) (\i) (\d) (\t) (\b) (\y) (\c) (\o) (\f) (\g) (\r) (\v) (\s) (\h) (\a) (\n) (\l) (\space) (\m) (\z) (\e) (\u)
+   (\p) (\j) (\k) (\q)}
+ #{(\w) (\i) (\d) (\t) (\y) (\o) (\f) (\g) (\r) (\v) (\s) (\h) (\n) (\l) (\space) (\m) (\z) (\e) (\u) (\p) (\j) (\k)
+   (\q)}
+ #{(\w) (\x) (\i) (\d) (\t) (\b) (\y) (\c) (\o) (\f) (\g) (\r) (\v) (\s) (\h) (\a) (\n) (\l) (\space) (\m) (\z) (\e)
+   (\u) (\p) (\j) (\k) (\q)}
+ #{(\w) (\x) (\i) (\d) (\t) (\b) (\y) (\c) (\o) (\f) (\g) (\r) (\v) (\s) (\a) (\n) (\l) (\space) (\m) (\z) (\e) (\u)
+   (\p) (\j) (\k)}
+ #{(\w) (\x) (\i) (\d) (\t) (\b) (\y) (\c) (\o) (\f) (\g) (\r) (\v) (\s) (\h) (\a) (\n) (\l) (\space) (\m) (\z) (\e)
+   (\u) (\p) (\j) (\k) (\q)}
+ #{(\w) (\i) (\d) (\t) (\b) (\y) (\c) (\o) (\f) (\g) (\r) (\v) (\s) (\h) (\a) (\n) (\l) (\space) (\m) (\z) (\e) (\u)
+   (\j) (\k)}
+ #{(\w) (\x) (\g) (\v) (\s) (\h) (\a) (\n) (\space) (\m) (\z) (\e) (\u) (\p)}
+ #{(\f) (\h) (\space) (\m) (\u)}
+ #{(\n) (\space)}
+ #{(\w) (\x) (\i) (\d) (\t) (\b) (\y) (\c) (\o) (\f) (\g) (\r) (\v) (\s) (\h) (\n) (\l) (\space) (\m) (\z) (\e) (\u)
+   (\p) (\j) (\k) (\q)}
+ #{(\o) (\v) (\space)}
+ #{(\i) (\y) (\f) (\v) (\space)}
+ #{(\h) (\space) (\z) (\u) (\k)}
+ #{(\f) (\v) (\space)}
+ #{(\x) (\i) (\d) (\t) (\b) (\y) (\c) (\f) (\g) (\r) (\v) (\s) (\h) (\a) (\n) (\l) (\space) (\m) (\z) (\e) (\u) (\p)
+   (\j) (\k) (\q)}
+ #{(\w) (\i) (\c) (\r) (\v) (\h) (\l) (\space) (\k)}
+ #{(\i) (\t) (\b) (\y) (\c) (\o) (\v) (\s) (\h) (\space) (\m) (\z) (\e) (\u) (\p) (\j) (\k) (\q)}
+ #{(\w) (\x) (\d) (\t) (\b) (\y) (\c) (\o) (\f) (\g) (\r) (\v) (\s) (\h) (\a) (\n) (\l) (\space) (\m) (\e) (\u) (\p)
+   (\j) (\k) (\q)}
+ #{(\x) (\i) (\t) (\b) (\o) (\v) (\s) (\h) (\a) (\n) (\l) (\space) (\m) (\z) (\u) (\p) (\j) (\k) (\q)}
+ #{(\w) (\x) (\i) (\d) (\t) (\o) (\f) (\g) (\r) (\v) (\s) (\h) (\l) (\space) (\m) (\z) (\u) (\p) (\j) (\q)}
+ #{(\w) (\x) (\i) (\d) (\t) (\b) (\y) (\c) (\o) (\f) (\g) (\r) (\v) (\s) (\h) (\a) (\l) (\space) (\z) (\e) (\u) (\p)
+   (\j) (\k) (\q)}
+ ...)
+clj::aoc-2020.day-six=> 
+; Error printing return value (ClassCastException) at aoc-2020.day-six/eval86186$fn (form-init344072271841352303.clj:16).
+; clojure.lang.LazySeq cannot be cast to clojure.lang.IFn
+clojure.main/repl (main.clj:442)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.day-six=> 
+(((\m)
+  (\x)
+  (\u)
+  (\w)
+  (\h)
+  (\space)
+  (\h)
+  (\w)
+  (\u)
+  (\x)
+  (\m)
+  (\space)
+  (\u)
+  (\h)
+  (\x)
+  (\m)
+  (\w)
+  (\space)
+  (\h)
+  (\w)
+  (\u)
+  (\m)
+  (\x)
+  (\space)
+  (\h)
+  (\w)
+  (\u)
+  (\x)
+  (\m))
+ ((\k) (\space) (\k) (\space) (\t) (\l) (\space) (\k))
+ ((\q)
+  (\e)
+  (\b)
+  (\a)
+  (\g)
+  (\d)
+  (\f)
+  (\v)
+  (\h)
+  (\r)
+  (\space)
+  (\a)
+  (\l)
+  (\v)
+  (\k)
+  (\i)
+  (\f)
+  (\space)
+  (\y)
+  (\u)
+  (\f)
+  (\a)
+  (\o)
+  (\v)
+  (\w)
+  (\i)
+  (\space)
+  (\f)
+  (\i)
+  (\v)
+  (\s)
+  (\a)
+  (\space)
+  (\n)
+  (\w)
+  (\i)
+  (\f)
+  (\a)
+  (\z)
+  (\o)
+  (\v)
+  (\u))
+ ((\i)
+  (\l)
+  (\p)
+  (\e)
+  (\c)
+  (\r)
+  (\q)
+  (\n)
+  (\space)
+  (\a)
+  (\i)
+  (\p)
+  (\q)
+  (\g)
+  (\r)
+  (\f)
+  (\h)
+  (\space)
+  (\p)
+  (\b)
+  (\w)
+  (\i)
+  (\z)
+  (\r)
+  (\q)
+  (\v)
+  (\space)
+  (\r)
+  (\k)
+  (\w)
+  (\i)
+  (\q)
+  (\p)
+  (\n)
+  (\t))
+ ((\k)
+  (\e)
+  (\h)
+  (\a)
+  (\y)
+  (\t)
+  (\g)
+  (\c)
+  (\b)
+  (\f)
+  (\i)
+  (\q)
+  (\space)
+  (\c)
+  (\y)
+  (\h)
+  (\g)
+  (\k)
+  (\b)
+  (\t)
+  (\i)
+  (\a)
+  (\q)
+  (\f)
+  (\e)
+  (\space)
+  (\c)
+  (\b)
+  (\k)
+  (\h)
+  (\t)
+  (\e)
+  (\y)
+  (\q)
+  (\g)
+  (\i)
+  (\f)
+  (\a)
+  (\space)
+  (\e)
+  (\y)
+  (\a)
+  (\g)
+  (\l)
+  (\f)
+  (\b)
+  (\v)
+  (\c)
+  (\i)
+  (\k)
+  ...)
+ ((\v)
+  (\k)
+  (\n)
+  (\j)
+  (\b)
+  (\c)
+  (\u)
+  (\q)
+  (\r)
+  (\x)
+  (\s)
+  (\h)
+  (\z)
+  (\e)
+  (\m)
+  (\t)
+  (\a)
+  (\y)
+  (\o)
+  (\w)
+  (\space)
+  (\u)
+  (\r)
+  (\a)
+  (\p)
+  (\t)
+  (\e)
+  (\m)
+  (\b)
+  (\y)
+  (\v)
+  (\x)
+  (\g)
+  (\l)
+  (\z)
+  (\w)
+  (\i)
+  (\q)
+  (\s)
+  (\f)
+  (\n))
+ ((\e) (\space) (\e) (\space) (\e) (\space) (\e))
+ ((\j)
+  (\h)
+  (\p)
+  (\u)
+  (\space)
+  (\w)
+  (\m)
+  (\h)
+  (\q)
+  (\j)
+  (\space)
+  (\j)
+  (\m)
+  (\b)
+  (\h)
+  (\v)
+  (\u)
+  (\space)
+  (\i)
+  (\j)
+  (\y)
+  (\s)
+  (\h)
+  (\o)
+  (\r)
+  (\z))
+ ((\d)
+  (\w)
+  (\i)
+  (\s)
+  (\e)
+  (\space)
+  (\d)
+  (\n)
+  (\e)
+  (\i)
+  (\j)
+  (\space)
+  (\i)
+  (\w)
+  (\d)
+  (\e)
+  (\h)
+  (\space)
+  (\h)
+  (\i)
+  (\d)
+  (\q)
+  (\e))
+ ((\m)
+  (\c)
+  (\l)
+  (\e)
+  (\k)
+  (\t)
+  (\f)
+  (\n)
+  (\b)
+  (\p)
+  (\g)
+  (\o)
+  (\y)
+  (\q)
+  (\x)
+  (\v)
+  (\i)
+  (\r)
+  (\u)
+  (\space)
+  (\j)
+  (\n)
+  (\i)
+  (\u)
+  (\l)
+  (\b)
+  (\s)
+  (\t)
+  (\v)
+  (\m)
+  (\x)
+  (\o)
+  (\h)
+  (\a)
+  (\w)
+  (\d)
+  (\p)
+  (\e)
+  (\f))
+ ((\i) (\l) (\q) (\d) (\space) (\i) (\d) (\l) (\s) (\p) (\q))
+ ((\b)
+  (\u)
+  (\n)
+  (\o)
+  (\i)
+  (\z)
+  (\j)
+  (\m)
+  (\d)
+  (\x)
+  (\e)
+  (\q)
+  (\k)
+  (\a)
+  (\space)
+  (\x)
+  (\m)
+  (\i)
+  (\z)
+  (\b)
+  (\a)
+  (\n)
+  (\k)
+  (\q)
+  (\e)
+  (\s)
+  (\space)
+  (\n)
+  (\b)
+  (\o)
+  (\e)
+  (\j)
+  (\q)
+  (\d)
+  (\s)
+  (\i)
+  (\m)
+  (\a)
+  (\r)
+  (\z)
+  (\k)
+  (\space)
+  (\b)
+  (\p)
+  (\c)
+  (\g)
+  (\l)
+  (\n)
+  (\i)
+  (\a)
+  ...)
+ ((\j)
+  (\y)
+  (\f)
+  (\space)
+  (\i)
+  (\q)
+  (\k)
+  (\g)
+  (\f)
+  (\n)
+  (\u)
+  (\j)
+  (\r)
+  (\x)
+  (\z)
+  (\t)
+  (\space)
+  (\v)
+  (\s)
+  (\f)
+  (\l)
+  (\h)
+  (\w)
+  (\j)
+  (\space)
+  (\o)
+  (\b)
+  (\s)
+  (\j)
+  (\h)
+  (\f))
+ ((\q)
+  (\w)
+  (\m)
+  (\g)
+  (\f)
+  (\a)
+  (\o)
+  (\d)
+  (\t)
+  (\c)
+  (\space)
+  (\f)
+  (\r)
+  (\c)
+  (\m)
+  (\h)
+  (\y)
+  (\q)
+  (\e)
+  (\t)
+  (\a)
+  (\w)
+  (\z))
+ ((\w)
+  (\p)
+  (\c)
+  (\v)
+  (\k)
+  (\s)
+  (\g)
+  (\y)
+  (\n)
+  (\i)
+  (\m)
+  (\space)
+  (\x)
+  (\c)
+  (\i)
+  (\y)
+  (\m)
+  (\s)
+  (\p)
+  (\n)
+  (\w)
+  (\g)
+  (\v)
+  (\space)
+  (\s)
+  (\v)
+  (\p)
+  (\i)
+  (\n)
+  (\c)
+  (\m)
+  (\f)
+  (\l)
+  (\g)
+  (\space)
+  (\a)
+  (\m)
+  (\v)
+  (\p)
+  (\n)
+  (\c)
+  (\g)
+  (\s)
+  (\i))
+ ((\p) (\f) (\y) (\h) (\space) (\h) (\y) (\f) (\space) (\d) (\h) (\f) (\y))
+ ((\x)
+  (\t)
+  (\a)
+  (\e)
+  (\c)
+  (\space)
+  (\c)
+  (\t)
+  (\x)
+  (\a)
+  (\e)
+  (\space)
+  (\o)
+  (\x)
+  (\c)
+  (\a)
+  (\t)
+  (\e)
+  (\space)
+  (\x)
+  (\c)
+  (\a)
+  (\t)
+  (\e))
+ ((\o)
+  (\q)
+  (\b)
+  (\c)
+  (\n)
+  (\m)
+  (\h)
+  (\l)
+  (\a)
+  (\k)
+  (\f)
+  (\space)
+  (\x)
+  (\r)
+  (\t)
+  (\y)
+  (\v)
+  (\s)
+  (\u)
+  (\d)
+  (\e)
+  (\j)
+  (\p)
+  (\z)
+  (\i)
+  (\w)
+  (\g))
+ ((\z) (\c) (\h) (\o) (\y) (\space) (\d) (\x) (\p) (\space) (\j) (\u) (\l) (\w) (\e) (\x))
+ ((\r) (\space) (\p) (\space) (\x) (\z) (\a))
+ ((\h)
+  (\a)
+  (\z)
+  (\x)
+  (\k)
+  (\g)
+  (\u)
+  (\f)
+  (\n)
+  (\d)
+  (\space)
+  (\a)
+  (\h)
+  (\g)
+  (\x)
+  (\z)
+  (\d)
+  (\n)
+  (\q)
+  (\u)
+  (\f)
+  (\k)
+  (\space)
+  (\u)
+  (\x)
+  (\h)
+  (\n)
+  (\g)
+  (\f)
+  (\k)
+  (\z)
+  (\a)
+  (\d))
+ ((\j)
+  (\g)
+  (\w)
+  (\c)
+  (\z)
+  (\n)
+  (\h)
+  (\e)
+  (\y)
+  (\m)
+  (\p)
+  (\i)
+  (\space)
+  (\a)
+  (\f)
+  (\v)
+  (\d)
+  (\s)
+  (\m)
+  (\t)
+  (\q)
+  (\r)
+  (\c)
+  (\p)
+  (\b)
+  (\o)
+  (\g)
+  (\y))
+ ((\j)
+  (\f)
+  (\l)
+  (\p)
+  (\z)
+  (\a)
+  (\i)
+  (\n)
+  (\g)
+  (\w)
+  (\d)
+  (\s)
+  (\t)
+  (\b)
+  (\space)
+  (\s)
+  (\a)
+  (\n)
+  (\b)
+  (\l)
+  (\t)
+  (\p)
+  (\j)
+  (\e)
+  (\i)
+  (\z)
+  (\d)
+  (\f)
+  (\g)
+  (\space)
+  (\t)
+  (\i)
+  (\l)
+  (\p)
+  (\g)
+  (\s)
+  (\n)
+  (\a)
+  (\j)
+  (\z)
+  (\f)
+  (\d)
+  (\b))
+ ((\j)
+  (\g)
+  (\p)
+  (\a)
+  (\n)
+  (\k)
+  (\space)
+  (\n)
+  (\g)
+  (\k)
+  (\e)
+  (\j)
+  (\a)
+  (\space)
+  (\w)
+  (\n)
+  (\t)
+  (\j)
+  (\g)
+  (\r)
+  (\k)
+  (\a)
+  (\space)
+  (\j)
+  (\k)
+  (\a)
+  (\g)
+  (\v)
+  (\n))
+ ((\u)
+  (\y)
+  (\d)
+  (\t)
+  (\g)
+  (\i)
+  (\space)
+  (\y)
+  (\g)
+  (\t)
+  (\d)
+  (\u)
+  (\i)
+  (\space)
+  (\u)
+  (\y)
+  (\d)
+  (\g)
+  (\i)
+  (\t)
+  (\space)
+  (\g)
+  (\t)
+  (\u)
+  (\i)
+  (\y)
+  (\d)
+  (\space)
+  (\u)
+  (\y)
+  (\t)
+  (\g)
+  (\i)
+  (\d))
+ ((\s)
+  (\p)
+  (\b)
+  (\r)
+  (\q)
+  (\z)
+  (\n)
+  (\j)
+  (\h)
+  (\space)
+  (\h)
+  (\j)
+  (\r)
+  (\q)
+  (\d)
+  (\w)
+  (\e)
+  (\p)
+  (\n)
+  (\g)
+  (\space)
+  (\j)
+  (\q)
+  (\f)
+  (\h)
+  (\r)
+  (\p)
+  (\n)
+  (\y))
+ ((\d) (\q) (\b) (\p) (\w) (\h) (\o) (\a) (\r) (\space) (\p) (\q) (\o) (\h) (\g) (\d))
+ ((\i)
+  (\r)
+  (\x)
+  (\q)
+  (\c)
+  (\g)
+  (\p)
+  (\space)
+  (\p)
+  (\q)
+  (\h)
+  (\e)
+  (\j)
+  (\c)
+  (\b)
+  (\r)
+  (\d)
+  (\g)
+  (\space)
+  (\q)
+  (\c)
+  (\g)
+  (\r)
+  (\p)
+  (\i)
+  (\u)
+  (\o)
+  (\space)
+  (\c)
+  (\r)
+  (\p)
+  (\q)
+  (\u)
+  (\g))
+ ((\s) (\o) (\p) (\g) (\t) (\b) (\h) (\u))
+ ((\c)
+  (\a)
+  (\y)
+  (\b)
+  (\q)
+  (\v)
+  (\d)
+  (\f)
+  (\k)
+  (\e)
+  (\r)
+  (\z)
+  (\i)
+  (\g)
+  (\o)
+  (\l)
+  (\n)
+  (\space)
+  (\j)
+  (\r)
+  (\f)
+  (\d)
+  (\b)
+  (\w)
+  (\c)
+  (\p)
+  (\y)
+  (\a)
+  (\z)
+  (\u)
+  (\k)
+  (\i)
+  (\v)
+  (\m)
+  (\n)
+  (\o)
+  (\g)
+  (\l)
+  (\s)
+  (\e)
+  (\space)
+  (\o)
+  (\g)
+  (\a)
+  (\z)
+  (\d)
+  (\f)
+  (\n)
+  (\h)
+  (\l)
+  ...)
+ ((\w)
+  (\h)
+  (\i)
+  (\j)
+  (\p)
+  (\u)
+  (\l)
+  (\f)
+  (\s)
+  (\t)
+  (\q)
+  (\n)
+  (\o)
+  (\y)
+  (\r)
+  (\z)
+  (\k)
+  (\e)
+  (\m)
+  (\g)
+  (\space)
+  (\i)
+  (\g)
+  (\w)
+  (\t)
+  (\k)
+  (\l)
+  (\e)
+  (\z)
+  (\y)
+  (\f)
+  (\n)
+  (\d)
+  (\r)
+  (\p)
+  (\j)
+  (\space)
+  (\d)
+  (\f)
+  (\k)
+  (\g)
+  (\v)
+  (\e)
+  (\p)
+  (\y)
+  (\z)
+  (\i)
+  (\j)
+  (\t)
+  (\n)
+  ...)
+ ((\y)
+  (\v)
+  (\o)
+  (\s)
+  (\a)
+  (\p)
+  (\w)
+  (\t)
+  (\g)
+  (\d)
+  (\b)
+  (\x)
+  (\h)
+  (\c)
+  (\q)
+  (\n)
+  (\space)
+  (\m)
+  (\d)
+  (\l)
+  (\a)
+  (\f)
+  (\z)
+  (\q)
+  (\x)
+  (\r)
+  (\i)
+  (\n)
+  (\s)
+  (\c)
+  (\t)
+  (\v)
+  (\p)
+  (\w)
+  (\g)
+  (\b)
+  (\space)
+  (\g)
+  (\x)
+  (\w)
+  (\n)
+  (\a)
+  (\y)
+  (\s)
+  (\q)
+  (\k)
+  (\p)
+  (\t)
+  (\e)
+  (\b)
+  ...)
+ ((\x)
+  (\k)
+  (\c)
+  (\r)
+  (\d)
+  (\e)
+  (\a)
+  (\y)
+  (\t)
+  (\m)
+  (\j)
+  (\b)
+  (\n)
+  (\p)
+  (\g)
+  (\i)
+  (\s)
+  (\f)
+  (\space)
+  (\g)
+  (\n)
+  (\m)
+  (\t)
+  (\j)
+  (\y)
+  (\r)
+  (\d)
+  (\b)
+  (\k)
+  (\c)
+  (\a)
+  (\f)
+  (\i)
+  (\e)
+  (\p)
+  (\x)
+  (\s)
+  (\space)
+  (\f)
+  (\n)
+  (\r)
+  (\i)
+  (\s)
+  (\p)
+  (\t)
+  (\w)
+  (\e)
+  (\c)
+  (\g)
+  (\k)
+  ...)
+ ((\f)
+  (\d)
+  (\e)
+  (\j)
+  (\i)
+  (\n)
+  (\z)
+  (\p)
+  (\b)
+  (\h)
+  (\x)
+  (\u)
+  (\m)
+  (\o)
+  (\y)
+  (\t)
+  (\space)
+  (\l)
+  (\a)
+  (\k)
+  (\q)
+  (\r)
+  (\m)
+  (\n)
+  (\f)
+  (\s)
+  (\p)
+  (\w)
+  (\u)
+  (\y)
+  (\x)
+  (\o)
+  (\j)
+  (\i)
+  (\v)
+  (\b)
+  (\space)
+  (\b)
+  (\j)
+  (\g)
+  (\p)
+  (\n)
+  (\f)
+  (\c)
+  (\o)
+  (\u)
+  (\m)
+  (\y)
+  (\x)
+  (\i))
+ ((\r)
+  (\c)
+  (\y)
+  (\i)
+  (\h)
+  (\n)
+  (\j)
+  (\v)
+  (\z)
+  (\e)
+  (\b)
+  (\t)
+  (\m)
+  (\w)
+  (\d)
+  (\o)
+  (\a)
+  (\space)
+  (\i)
+  (\v)
+  (\k)
+  (\d)
+  (\z)
+  (\n)
+  (\a)
+  (\m)
+  (\r)
+  (\h)
+  (\c)
+  (\l)
+  (\t)
+  (\w)
+  (\j)
+  (\g)
+  (\s)
+  (\b)
+  (\f)
+  (\o)
+  (\u))
+ ((\w) (\p) (\s) (\x) (\h) (\space) (\g) (\m) (\space) (\e) (\space) (\v) (\space) (\u) (\z) (\n) (\m) (\a))
+ ((\m) (\f) (\u) (\space) (\m) (\f) (\h) (\u) (\space) (\u) (\f) (\m) (\space) (\m) (\f) (\u))
+ ((\n) (\space) (\n) (\space) (\n))
+ ((\k)
+  (\w)
+  (\n)
+  (\g)
+  (\i)
+  (\l)
+  (\x)
+  (\v)
+  (\p)
+  (\d)
+  (\h)
+  (\e)
+  (\z)
+  (\t)
+  (\q)
+  (\space)
+  (\n)
+  (\h)
+  (\d)
+  (\y)
+  (\w)
+  (\l)
+  (\q)
+  (\m)
+  (\t)
+  (\x)
+  (\z)
+  (\v)
+  (\e)
+  (\p)
+  (\i)
+  (\s)
+  (\k)
+  (\g)
+  (\space)
+  (\q)
+  (\v)
+  (\w)
+  (\d)
+  (\j)
+  (\r)
+  (\g)
+  (\u)
+  (\x)
+  (\b)
+  (\c)
+  (\i)
+  (\p)
+  (\t)
+  (\e)
+  ...)
+ ((\v) (\space) (\o))
+ ((\v) (\i) (\y) (\f) (\space) (\i) (\f) (\y) (\space) (\f) (\i) (\y) (\space) (\i) (\f) (\y) (\space) (\i) (\f) (\y))
+ ((\u) (\h) (\space) (\k) (\z) (\h) (\u) (\space) (\h) (\u))
+ ((\v) (\f) (\space) (\v) (\f) (\space) (\f) (\v) (\space) (\f) (\v) (\space) (\v) (\f))
+ ((\h)
+  (\l)
+  (\i)
+  (\m)
+  (\g)
+  (\v)
+  (\s)
+  (\space)
+  (\s)
+  (\g)
+  (\h)
+  (\u)
+  (\n)
+  (\x)
+  (\space)
+  (\a)
+  (\e)
+  (\h)
+  (\u)
+  (\m)
+  (\n)
+  (\g)
+  (\space)
+  (\b)
+  (\z)
+  (\p)
+  (\g)
+  (\k)
+  (\t)
+  (\c)
+  (\r)
+  (\j)
+  (\y)
+  (\f)
+  (\q)
+  (\d))
+ ((\w)
+  (\l)
+  (\v)
+  (\c)
+  (\r)
+  (\k)
+  (\i)
+  (\h)
+  (\space)
+  (\k)
+  (\c)
+  (\h)
+  (\v)
+  (\w)
+  (\l)
+  (\space)
+  (\l)
+  (\k)
+  (\h)
+  (\v)
+  (\w)
+  (\c)
+  (\space)
+  (\l)
+  (\c)
+  (\v)
+  (\h)
+  (\k)
+  (\w))
+ ((\p)
+  (\t)
+  (\j)
+  (\m)
+  (\o)
+  (\y)
+  (\z)
+  (\k)
+  (\c)
+  (\s)
+  (\e)
+  (\q)
+  (\u)
+  (\v)
+  (\h)
+  (\b)
+  (\space)
+  (\k)
+  (\s)
+  (\v)
+  (\e)
+  (\o)
+  (\m)
+  (\b)
+  (\h)
+  (\p)
+  (\j)
+  (\y)
+  (\z)
+  (\t)
+  (\q)
+  (\c)
+  (\u)
+  (\space)
+  (\b)
+  (\y)
+  (\m)
+  (\p)
+  (\z)
+  (\o)
+  (\i)
+  (\v)
+  (\q)
+  (\c)
+  (\s)
+  (\k)
+  (\j)
+  (\u)
+  (\e)
+  (\h)
+  ...)
+ ((\c)
+  (\l)
+  (\a)
+  (\w)
+  (\d)
+  (\p)
+  (\t)
+  (\r)
+  (\g)
+  (\u)
+  (\h)
+  (\q)
+  (\m)
+  (\e)
+  (\k)
+  (\f)
+  (\v)
+  (\y)
+  (\o)
+  (\x)
+  (\s)
+  (\b)
+  (\j)
+  (\space)
+  (\g)
+  (\p)
+  (\h)
+  (\t)
+  (\f)
+  (\v)
+  (\x)
+  (\s)
+  (\u)
+  (\j)
+  (\k)
+  (\r)
+  (\e)
+  (\y)
+  (\a)
+  (\c)
+  (\m)
+  (\w)
+  (\q)
+  (\b)
+  (\d)
+  (\l)
+  (\space)
+  (\y)
+  (\w)
+  (\r)
+  ...)
+ ((\v)
+  (\s)
+  (\z)
+  (\p)
+  (\a)
+  (\b)
+  (\k)
+  (\j)
+  (\space)
+  (\q)
+  (\m)
+  (\k)
+  (\p)
+  (\z)
+  (\s)
+  (\v)
+  (\space)
+  (\b)
+  (\z)
+  (\k)
+  (\p)
+  (\a)
+  (\v)
+  (\s)
+  (\space)
+  (\h)
+  (\i)
+  (\p)
+  (\z)
+  (\n)
+  (\s)
+  (\t)
+  (\x)
+  (\u)
+  (\v)
+  (\o)
+  (\k)
+  (\l))
+ ((\g)
+  (\t)
+  (\o)
+  (\q)
+  (\r)
+  (\l)
+  (\s)
+  (\f)
+  (\v)
+  (\d)
+  (\z)
+  (\space)
+  (\t)
+  (\v)
+  (\f)
+  (\j)
+  (\d)
+  (\m)
+  (\g)
+  (\z)
+  (\p)
+  (\w)
+  (\q)
+  (\l)
+  (\s)
+  (\o)
+  (\r)
+  (\space)
+  (\d)
+  (\h)
+  (\z)
+  (\q)
+  (\u)
+  (\v)
+  (\f)
+  (\r)
+  (\x)
+  (\g)
+  (\l)
+  (\o)
+  (\t)
+  (\s)
+  (\space)
+  (\q)
+  (\z)
+  (\f)
+  (\r)
+  (\d)
+  (\t)
+  (\i)
+  ...)
+ ((\t)
+  (\a)
+  (\y)
+  (\f)
+  (\i)
+  (\o)
+  (\b)
+  (\q)
+  (\p)
+  (\c)
+  (\d)
+  (\h)
+  (\space)
+  (\j)
+  (\l)
+  (\w)
+  (\g)
+  (\s)
+  (\r)
+  (\x)
+  (\z)
+  (\e)
+  (\v)
+  (\u)
+  (\k))
+ ...)
+clj::aoc-2020.day-six=> 
+; Syntax error reading source at (REPL:16:27).
+; Nested #()s are not allowed
+clojure.main/repl (main.clj:433)
+clojure.main/repl (main.clj:432)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.day-six=> 
+; Error printing return value (ClassCastException) at clojure.core/partition-by$fn (core.clj:7199).
+; java.lang.String cannot be cast to clojure.lang.IFn
+clojure.main/repl (main.clj:442)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.day-six=> 
+#'aoc-2020.day-six/all-answered
+clj::aoc-2020.day-six=> 
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+(nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+#function[clojure.core/partition-by/fn--8511]
+
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ ...)
+clj::aoc-2020.day-six=> 
+#'aoc-2020.day-six/all-answered
+clj::aoc-2020.day-six=> 
+(#function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ ...)
+clj::aoc-2020.day-six=> 
+#'aoc-2020.day-six/all-answered
+clj::aoc-2020.day-six=> 
+mxuwh hwuxm uhxmw hwumx hwuxm
+k k tl k
+qebagdfvhr alvkif yufaovwi fivsa nwifazovu
+ilpecrqn aipqgrfh pbwizrqv rkwiqpnt
+kehaytgcbfiq cyhgkbtiaqfe cbkhteyqgifa eyaglfbvciktqzh yhcqebatgfki
+vknjbcuqrxshzemtayow uraptembyvxglzwiqsfn
+e e e e
+jhpu wmhqj jmbhvu ijyshorz
+dwise dneij iwdeh hidqe
+mclektfnbpgoyqxviru jniulbstvmxohawdpef
+ilqd idlspq
+bunoizjmdxeqka xmizbankqes nboejqdsimarzk bpcglniavyqmkezf
+jyf iqkgfnujrxzt vsflhwj obsjhf
+qwmgfaodtc frcmhyqetawz
+wpcvksgynim xciymspnwgv svpincmflg amvpncgsi
+pfyh hyf dhfy
+xtaec ctxae oxcate xcate
+oqbcnmhlakf xrtyvsudejpziwg
+zchoy dxp julwex
+r p xza
+hazxkgufnd ahgxzdnqufk uxhngfkzad
+jgwcznheympi afvdsmtqrcpbogy
+jflpzaingwdstb sanbltpjeizdfg tilpgsnajzfdb
+jgpank ngkeja wntjgrka jkagvn
+uydtgi ygtdui uydgit gtuiyd uytgid
+spbrqznjh hjrqdwepng jqfhrpny
+dqbpwhoar pqohgd
+irxqcgp pqhejcbrdg qcgrpiuo crpqug
+sopgtbhu
+caybqvdfkerzigoln jrfdbwcpyazukivmnoglse ogazdfnhlyebrqkvic vcerfthnzgiydbokla
+whijpulfstqnoyrzkemg igwtklezyfndrpj dfkgvepyzijtnwrl
+yvosapwtgdbxhcqn mdlafzqxrinsctvpwgb gxwnaysqkptebcjvdu
+(#function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]xkcrdeaytmjbnpgisf gnmtjyrdbkcafiepxs fnrisptwecgkumdyjbax cjovrgpxtabknzsymeifd lctusxdnrpeafkmigjby
+fdejinzpbhxumoyt lakqrmnfspwuyxojivb bjgpnfcoumyxi
+rcyihnjvzebtmwdoa ivkdznamrhcltwjgsbfou
+wpsxh gm e v uznma
+mfu mfhu ufm mfu
+n n n
+kwngilxvpdheztq nhdywlqmtxzvepiskg qvwdjrguxbciptefzokl
+v o
+viyf ify fiy ify ify
+uh kzhu hu
+vf vf fv fv vf
+hlimgvs sghunx aehumng bzpgktcrjyfqd
+wlvcrkih kchvwl lkhvwc lcvhkw
+ptjmoyzkcsequvhb ksveombhpjyztqcu bympzoivqcskjueht pbotvcqhkzjsyuem
+clawdptrguhqmekfvyoxsbj gphtfvxsujkreyacmwqbdl ywrvmtlabhcepqgfukdxjs htnyrqxauebmjkgcdflvpsw bcvwfoetdhksjygqpalxumr
+vszpabkj qmkpzsv bzkpavs hipznstxuvokl
+gtoqrlsfvdz tvfjdmgzpwqlsor dhzquvfrxglots qzfrdtivjgols
+tayfiobqpcdh jlwgsrxzevuk
+p p p p p
+aicqet lqhc njdvqwzpu
+quafxi fqaxiu aiqu iafqu ziauqv
+wfxealsjibhogu hjsgauxe eagxjhus
+rchsgnepltfkwyuz trlpuznscfgw jgvruzxwfctlnp clwrgfsnhumzpt
+iratdws tprwuxi htilwur
+mrgqeawu qrumabwge wurqgeam qamewgru
+eyghniakxbjpr qxhuazgbniep axtnhiuepm chnidvfaelopwxs
+lybasxmog wmxyolgasbr oblmxgyas
+jpbvxyfithzqdn xbtyjdihfzvnqp jnqfvyptzhixbd bvfiqpzsdrykjhtnx
+jicayzxwpfebqsvkg fpwqbcsngumjatexvrdy
+dxpuicjkzoamqwhtrbvsygenlf likutjrsdypeqzfgnawbxhocmv
+uzfivxhj legaxokm x inyqjx
+dqjkxbyt kgtqepwy qmytwkrp
+
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ #function[clojure.core/partition-by/fn--8511]
+ ...)
+clj::aoc-2020.day-six=> 
+#'aoc-2020.day-six/all-answered
+clj::aoc-2020.day-six=> 
+; Error printing return value (ClassCastException) at clojure.core/re-matcher (core.clj:4849).
+; java.lang.Character cannot be cast to java.lang.CharSequence
+clojure.main/repl (main.clj:442)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.day-six=> 
+(["mxuwh" "hwuxm" "uhxmw" "hwumx" "hwuxm"]
+ ["k" "k" "tl" "k"]
+ ["qebagdfvhr" "alvkif" "yufaovwi" "fivsa" "nwifazovu"]
+ ["ilpecrqn" "aipqgrfh" "pbwizrqv" "rkwiqpnt"]
+ ["kehaytgcbfiq" "cyhgkbtiaqfe" "cbkhteyqgifa" "eyaglfbvciktqzh" "yhcqebatgfki"]
+ ["vknjbcuqrxshzemtayow" "uraptembyvxglzwiqsfn"]
+ ["e" "e" "e" "e"]
+ ["jhpu" "wmhqj" "jmbhvu" "ijyshorz"]
+ ["dwise" "dneij" "iwdeh" "hidqe"]
+ ["mclektfnbpgoyqxviru" "jniulbstvmxohawdpef"]
+ ["ilqd" "idlspq"]
+ ["bunoizjmdxeqka" "xmizbankqes" "nboejqdsimarzk" "bpcglniavyqmkezf"]
+ ["jyf" "iqkgfnujrxzt" "vsflhwj" "obsjhf"]
+ ["qwmgfaodtc" "frcmhyqetawz"]
+ ["wpcvksgynim" "xciymspnwgv" "svpincmflg" "amvpncgsi"]
+ ["pfyh" "hyf" "dhfy"]
+ ["xtaec" "ctxae" "oxcate" "xcate"]
+ ["oqbcnmhlakf" "xrtyvsudejpziwg"]
+ ["zchoy" "dxp" "julwex"]
+ ["r" "p" "xza"]
+ ["hazxkgufnd" "ahgxzdnqufk" "uxhngfkzad"]
+ ["jgwcznheympi" "afvdsmtqrcpbogy"]
+ ["jflpzaingwdstb" "sanbltpjeizdfg" "tilpgsnajzfdb"]
+ ["jgpank" "ngkeja" "wntjgrka" "jkagvn"]
+ ["uydtgi" "ygtdui" "uydgit" "gtuiyd" "uytgid"]
+ ["spbrqznjh" "hjrqdwepng" "jqfhrpny"]
+ ["dqbpwhoar" "pqohgd"]
+ ["irxqcgp" "pqhejcbrdg" "qcgrpiuo" "crpqug"]
+ ["sopgtbhu"]
+ ["caybqvdfkerzigoln" "jrfdbwcpyazukivmnoglse" "ogazdfnhlyebrqkvic" "vcerfthnzgiydbokla"]
+ ["whijpulfstqnoyrzkemg" "igwtklezyfndrpj" "dfkgvepyzijtnwrl"]
+ ["yvosapwtgdbxhcqn" "mdlafzqxrinsctvpwgb" "gxwnaysqkptebcjvdu"]
+ ["xkcrdeaytmjbnpgisf" "gnmtjyrdbkcafiepxs" "fnrisptwecgkumdyjbax" "cjovrgpxtabknzsymeifd" "lctusxdnrpeafkmigjby"]
+ ["fdejinzpbhxumoyt" "lakqrmnfspwuyxojivb" "bjgpnfcoumyxi"]
+ ["rcyihnjvzebtmwdoa" "ivkdznamrhcltwjgsbfou"]
+ ["wpsxh" "gm" "e" "v" "uznma"]
+ ["mfu" "mfhu" "ufm" "mfu"]
+ ["n" "n" "n"]
+ ["kwngilxvpdheztq" "nhdywlqmtxzvepiskg" "qvwdjrguxbciptefzokl"]
+ ["v" "o"]
+ ["viyf" "ify" "fiy" "ify" "ify"]
+ ["uh" "kzhu" "hu"]
+ ["vf" "vf" "fv" "fv" "vf"]
+ ["hlimgvs" "sghunx" "aehumng" "bzpgktcrjyfqd"]
+ ["wlvcrkih" "kchvwl" "lkhvwc" "lcvhkw"]
+ ["ptjmoyzkcsequvhb" "ksveombhpjyztqcu" "bympzoivqcskjueht" "pbotvcqhkzjsyuem"]
+ ["clawdptrguhqmekfvyoxsbj"
+  "gphtfvxsujkreyacmwqbdl"
+  "ywrvmtlabhcepqgfukdxjs"
+  "htnyrqxauebmjkgcdflvpsw"
+  "bcvwfoetdhksjygqpalxumr"]
+ ["vszpabkj" "qmkpzsv" "bzkpavs" "hipznstxuvokl"]
+ ["gtoqrlsfvdz" "tvfjdmgzpwqlsor" "dhzquvfrxglots" "qzfrdtivjgols"]
+ ["tayfiobqpcdh" "jlwgsrxzevuk"]
+ ...)
+clj::aoc-2020.day-six=> 
+#'aoc-2020.day-six/all-answered
+clj::aoc-2020.day-six=> 
+mxuwh hwuxm uhxmw hwumx hwuxm
+k k tl k
+qebagdfvhr alvkif yufaovwi fivsa nwifazovu
+ilpecrqn aipqgrfh pbwizrqv rkwiqpnt
+kehaytgcbfiq cyhgkbtiaqfe cbkhteyqgifa eyaglfbvciktqzh yhcqebatgfki
+vknjbcuqrxshzemtayow uraptembyvxglzwiqsfn
+e e e e
+jhpu wmhqj jmbhvu ijyshorz
+dwise dneij iwdeh hidqe
+mclektfnbpgoyqxviru jniulbstvmxohawdpef
+ilqd idlspq
+bunoizjmdxeqka xmizbankqes nboejqdsimarzk bpcglniavyqmkezf
+jyf iqkgfnujrxzt vsflhwj obsjhf
+qwmgfaodtc frcmhyqetawz
+wpcvksgynim xciymspnwgv svpincmflg amvpncgsi
+pfyh hyf dhfy
+xtaec ctxae oxcate xcate
+oqbcnmhlakf xrtyvsudejpziwg
+zchoy dxp julwex
+r p xza
+hazxkgufnd ahgxzdnqufk uxhngfkzad
+jgwcznheympi afvdsmtqrcpbogy
+jflpzaingwdstb sanbltpjeizdfg tilpgsnajzfdb
+jgpank ngkeja wntjgrka jkagvn
+uydtgi ygtdui uydgit gtuiyd uytgid
+spbrqznjh hjrqdwepng jqfhrpny
+dqbpwhoar pqohgd
+irxqcgp pqhejcbrdg qcgrpiuo crpqug
+sopgtbhu
+caybqvdfkerzigoln jrfdbwcpyazukivmnoglse ogazdfnhlyebrqkvic vcerfthnzgiydbokla
+whijpulfstqnoyrzkemg igwtklezyfndrpj dfkgvepyzijtnwrl
+yvosapwtgdbxhcqn mdlafzqxrinsctvpwgb gxwnaysqkptebcjvdu
+(nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nilxkcrdeaytmjbnpgisf gnmtjyrdbkcafiepxs fnrisptwecgkumdyjbax cjovrgpxtabknzsymeifd lctusxdnrpeafkmigjby
+fdejinzpbhxumoyt lakqrmnfspwuyxojivb bjgpnfcoumyxi
+rcyihnjvzebtmwdoa ivkdznamrhcltwjgsbfou
+wpsxh gm e v uznma
+mfu mfhu ufm mfu
+n n n
+kwngilxvpdheztq nhdywlqmtxzvepiskg qvwdjrguxbciptefzokl
+v o
+viyf ify fiy ify ify
+uh kzhu hu
+vf vf fv fv vf
+hlimgvs sghunx aehumng bzpgktcrjyfqd
+wlvcrkih kchvwl lkhvwc lcvhkw
+ptjmoyzkcsequvhb ksveombhpjyztqcu bympzoivqcskjueht pbotvcqhkzjsyuem
+clawdptrguhqmekfvyoxsbj gphtfvxsujkreyacmwqbdl ywrvmtlabhcepqgfukdxjs htnyrqxauebmjkgcdflvpsw bcvwfoetdhksjygqpalxumr
+vszpabkj qmkpzsv bzkpavs hipznstxuvokl
+gtoqrlsfvdz tvfjdmgzpwqlsor dhzquvfrxglots qzfrdtivjgols
+tayfiobqpcdh jlwgsrxzevuk
+p p p p p
+aicqet lqhc njdvqwzpu
+quafxi fqaxiu aiqu iafqu ziauqv
+wfxealsjibhogu hjsgauxe eagxjhus
+rchsgnepltfkwyuz trlpuznscfgw jgvruzxwfctlnp clwrgfsnhumzpt
+iratdws tprwuxi htilwur
+mrgqeawu qrumabwge wurqgeam qamewgru
+eyghniakxbjpr qxhuazgbniep axtnhiuepm chnidvfaelopwxs
+lybasxmog wmxyolgasbr oblmxgyas
+jpbvxyfithzqdn xbtyjdihfzvnqp jnqfvyptzhixbd bvfiqpzsdrykjhtnx
+jicayzxwpfebqsvkg fpwqbcsngumjatexvrdy
+dxpuicjkzoamqwhtrbvsygenlf likutjrsdypeqzfgnawbxhocmv
+uzfivxhj legaxokm x inyqjx
+dqjkxbyt kgtqepwy qmytwkrp
+
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ ...)
+clj::aoc-2020.day-six=> 
+#'aoc-2020.day-six/all-answered
+clj::aoc-2020.day-six=> 
+mxuwh hwuxm uhxmw hwumx hwuxm
+k k tl k
+qebagdfvhr alvkif yufaovwi fivsa nwifazovu
+ilpecrqn aipqgrfh pbwizrqv rkwiqpnt
+kehaytgcbfiq cyhgkbtiaqfe cbkhteyqgifa eyaglfbvciktqzh yhcqebatgfki
+vknjbcuqrxshzemtayow uraptembyvxglzwiqsfn
+e e e e
+jhpu wmhqj jmbhvu ijyshorz
+dwise dneij iwdeh hidqe
+mclektfnbpgoyqxviru jniulbstvmxohawdpef
+ilqd idlspq
+bunoizjmdxeqka xmizbankqes nboejqdsimarzk bpcglniavyqmkezf
+jyf iqkgfnujrxzt vsflhwj obsjhf
+qwmgfaodtc frcmhyqetawz
+wpcvksgynim xciymspnwgv svpincmflg amvpncgsi
+pfyh hyf dhfy
+xtaec ctxae oxcate xcate
+oqbcnmhlakf xrtyvsudejpziwg
+zchoy dxp julwex
+r p xza
+hazxkgufnd ahgxzdnqufk uxhngfkzad
+jgwcznheympi afvdsmtqrcpbogy
+jflpzaingwdstb sanbltpjeizdfg tilpgsnajzfdb
+jgpank ngkeja wntjgrka jkagvn
+uydtgi ygtdui uydgit gtuiyd uytgid
+spbrqznjh hjrqdwepng jqfhrpny
+dqbpwhoar pqohgd
+irxqcgp pqhejcbrdg qcgrpiuo crpqug
+sopgtbhu
+caybqvdfkerzigoln jrfdbwcpyazukivmnoglse ogazdfnhlyebrqkvic vcerfthnzgiydbokla
+whijpulfstqnoyrzkemg igwtklezyfndrpj dfkgvepyzijtnwrl
+yvosapwtgdbxhcqn mdlafzqxrinsctvpwgb gxwnaysqkptebcjvdu
+("mxuwh hwuxm uhxmw hwumx hwuxm"
+ "k k tl k"
+ "qebagdfvhr alvkif yufaovwi fivsa nwifazovu"
+ "ilpecrqn aipqgrfh pbwizrqv rkwiqpnt"
+ "kehaytgcbfiq cyhgkbtiaqfe cbkhteyqgifa eyaglfbvciktqzh yhcqebatgfki"
+ "vknjbcuqrxshzemtayow uraptembyvxglzwiqsfn"
+ "e e e e"
+ "jhpu wmhqj jmbhvu ijyshorz"
+ "dwise dneij iwdeh hidqe"
+ "mclektfnbpgoyqxviru jniulbstvmxohawdpef"
+ "ilqd idlspq"
+ "bunoizjmdxeqka xmizbankqes nboejqdsimarzk bpcglniavyqmkezf"
+ "jyf iqkgfnujrxzt vsflhwj obsjhf"
+ "qwmgfaodtc frcmhyqetawz"
+ "wpcvksgynim xciymspnwgv svpincmflg amvpncgsi"
+ "pfyh hyf dhfy"
+ "xtaec ctxae oxcate xcate"
+ "oqbcnmhlakf xrtyvsudejpziwg"
+ "zchoy dxp julwex"
+ "r p xza"
+ "hazxkgufnd ahgxzdnqufk uxhngfkzad"
+ "jgwcznheympi afvdsmtqrcpbogy"
+ "jflpzaingwdstb sanbltpjeizdfg tilpgsnajzfdb"
+ "jgpank ngkeja wntjgrka jkagvn"
+ "uydtgi ygtdui uydgit gtuiyd uytgid"
+ "spbrqznjh hjrqdwepng jqfhrpny"
+ "dqbpwhoar pqohgd"
+ "irxqcgp pqhejcbrdg qcgrpiuo crpqug"
+ "sopgtbhu"
+ "caybqvdfkerzigoln jrfdbwcpyazukivmnoglse ogazdfnhlyebrqkvic vcerfthnzgiydbokla"
+ "whijpulfstqnoyrzkemg igwtklezyfndrpj dfkgvepyzijtnwrl"
+ "yvosapwtgdbxhcqn mdlafzqxrinsctvpwgb gxwnaysqkptebcjvdu"xkcrdeaytmjbnpgisf gnmtjyrdbkcafiepxs fnrisptwecgkumdyjbax cjovrgpxtabknzsymeifd lctusxdnrpeafkmigjby
+fdejinzpbhxumoyt lakqrmnfspwuyxojivb bjgpnfcoumyxi
+rcyihnjvzebtmwdoa ivkdznamrhcltwjgsbfou
+wpsxh gm e v uznma
+mfu mfhu ufm mfu
+n n n
+kwngilxvpdheztq nhdywlqmtxzvepiskg qvwdjrguxbciptefzokl
+v o
+viyf ify fiy ify ify
+uh kzhu hu
+vf vf fv fv vf
+hlimgvs sghunx aehumng bzpgktcrjyfqd
+wlvcrkih kchvwl lkhvwc lcvhkw
+ptjmoyzkcsequvhb ksveombhpjyztqcu bympzoivqcskjueht pbotvcqhkzjsyuem
+clawdptrguhqmekfvyoxsbj gphtfvxsujkreyacmwqbdl ywrvmtlabhcepqgfukdxjs htnyrqxauebmjkgcdflvpsw bcvwfoetdhksjygqpalxumr
+vszpabkj qmkpzsv bzkpavs hipznstxuvokl
+gtoqrlsfvdz tvfjdmgzpwqlsor dhzquvfrxglots qzfrdtivjgols
+tayfiobqpcdh jlwgsrxzevuk
+p p p p p
+aicqet lqhc njdvqwzpu
+quafxi fqaxiu aiqu iafqu ziauqv
+wfxealsjibhogu hjsgauxe eagxjhus
+rchsgnepltfkwyuz trlpuznscfgw jgvruzxwfctlnp clwrgfsnhumzpt
+iratdws tprwuxi htilwur
+mrgqeawu qrumabwge wurqgeam qamewgru
+eyghniakxbjpr qxhuazgbniep axtnhiuepm chnidvfaelopwxs
+lybasxmog wmxyolgasbr oblmxgyas
+jpbvxyfithzqdn xbtyjdihfzvnqp jnqfvyptzhixbd bvfiqpzsdrykjhtnx
+jicayzxwpfebqsvkg fpwqbcsngumjatexvrdy
+dxpuicjkzoamqwhtrbvsygenlf likutjrsdypeqzfgnawbxhocmv
+uzfivxhj legaxokm x inyqjx
+dqjkxbyt kgtqepwy qmytwkrp
+
+ "xkcrdeaytmjbnpgisf gnmtjyrdbkcafiepxs fnrisptwecgkumdyjbax cjovrgpxtabknzsymeifd lctusxdnrpeafkmigjby"
+ "fdejinzpbhxumoyt lakqrmnfspwuyxojivb bjgpnfcoumyxi"
+ "rcyihnjvzebtmwdoa ivkdznamrhcltwjgsbfou"
+ "wpsxh gm e v uznma"
+ "mfu mfhu ufm mfu"
+ "n n n"
+ "kwngilxvpdheztq nhdywlqmtxzvepiskg qvwdjrguxbciptefzokl"
+ "v o"
+ "viyf ify fiy ify ify"
+ "uh kzhu hu"
+ "vf vf fv fv vf"
+ "hlimgvs sghunx aehumng bzpgktcrjyfqd"
+ "wlvcrkih kchvwl lkhvwc lcvhkw"
+ "ptjmoyzkcsequvhb ksveombhpjyztqcu bympzoivqcskjueht pbotvcqhkzjsyuem"
+ "clawdptrguhqmekfvyoxsbj gphtfvxsujkreyacmwqbdl ywrvmtlabhcepqgfukdxjs htnyrqxauebmjkgcdflvpsw bcvwfoetdhksjygqpalxumr"
+ "vszpabkj qmkpzsv bzkpavs hipznstxuvokl"
+ "gtoqrlsfvdz tvfjdmgzpwqlsor dhzquvfrxglots qzfrdtivjgols"
+ "tayfiobqpcdh jlwgsrxzevuk"
+ ...)
+clj::aoc-2020.day-six=> 
+#'aoc-2020.day-six/all-answered
+clj::aoc-2020.day-six=> 
+mxuwh hwuxm uhxmw hwumx hwuxm
+mxuwh hwuxm uhxmw hwumx hwuxm
+k k tl k
+k k tl k
+qebagdfvhr alvkif yufaovwi fivsa nwifazovu
+qebagdfvhr alvkif yufaovwi fivsa nwifazovu
+ilpecrqn aipqgrfh pbwizrqv rkwiqpnt
+ilpecrqn aipqgrfh pbwizrqv rkwiqpnt
+kehaytgcbfiq cyhgkbtiaqfe cbkhteyqgifa eyaglfbvciktqzh yhcqebatgfki
+kehaytgcbfiq cyhgkbtiaqfe cbkhteyqgifa eyaglfbvciktqzh yhcqebatgfki
+vknjbcuqrxshzemtayow uraptembyvxglzwiqsfn
+vknjbcuqrxshzemtayow uraptembyvxglzwiqsfn
+e e e e
+e e e e
+jhpu wmhqj jmbhvu ijyshorz
+jhpu wmhqj jmbhvu ijyshorz
+dwise dneij iwdeh hidqe
+dwise dneij iwdeh hidqe
+mclektfnbpgoyqxviru jniulbstvmxohawdpef
+mclektfnbpgoyqxviru jniulbstvmxohawdpef
+ilqd idlspq
+ilqd idlspq
+bunoizjmdxeqka xmizbankqes nboejqdsimarzk bpcglniavyqmkezf
+bunoizjmdxeqka xmizbankqes nboejqdsimarzk bpcglniavyqmkezf
+jyf iqkgfnujrxzt vsflhwj obsjhf
+jyf iqkgfnujrxzt vsflhwj obsjhf
+qwmgfaodtc frcmhyqetawz
+qwmgfaodtc frcmhyqetawz
+wpcvksgynim xciymspnwgv svpincmflg amvpncgsi
+wpcvksgynim xciymspnwgv svpincmflg amvpncgsi
+pfyh hyf dhfy
+pfyh hyf dhfy
+xtaec ctxae oxcate xcate
+xtaec ctxae oxcate xcate
+oqbcnmhlakf xrtyvsudejpziwg
+oqbcnmhlakf xrtyvsudejpziwg
+zchoy dxp julwex
+zchoy dxp julwex
+r p xza
+r p xza
+hazxkgufnd ahgxzdnqufk uxhngfkzad
+hazxkgufnd ahgxzdnqufk uxhngfkzad
+jgwcznheympi afvdsmtqrcpbogy
+jgwcznheympi afvdsmtqrcpbogy
+jflpzaingwdstb sanbltpjeizdfg tilpgsnajzfdb
+jflpzaingwdstb sanbltpjeizdfg tilpgsnajzfdb
+jgpank ngkeja wntjgrka jkagvn
+jgpank ngkeja wntjgrka jkagvn
+uydtgi ygtdui uydgit gtuiyd uytgid
+uydtgi ygtdui uydgit gtuiyd uytgid
+spbrqznjh hjrqdwepng jqfhrpny
+spbrqznjh hjrqdwepng jqfhrpny
+dqbpwhoar pqohgd
+dqbpwhoar pqohgd
+irxqcgp pqhejcbrdg qcgrpiuo crpqug
+irxqcgp pqhejcbrdg qcgrpiuo crpqug
+sopgtbhu
+sopgtbhu
+caybqvdfkerzigoln jrfdbwcpyazukivmnoglse ogazdfnhlyebrqkvic vcerfthnzgiydbokla
+caybqvdfkerzigoln jrfdbwcpyazukivmnoglse ogazdfnhlyebrqkvic vcerfthnzgiydbokla
+whijpulfstqnoyrzkemg igwtklezyfndrpj dfkgvepyzijtnwrl
+whijpulfstqnoyrzkemg igwtklezyfndrpj dfkgvepyzijtnwrl
+yvosapwtgdbxhcqn mdlafzqxrinsctvpwgb gxwnaysqkptebcjvdu
+yvosapwtgdbxhcqn mdlafzqxrinsctvpwgb gxwnaysqkptebcjvdu
+(nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nilxkcrdeaytmjbnpgisf gnmtjyrdbkcafiepxs fnrisptwecgkumdyjbax cjovrgpxtabknzsymeifd lctusxdnrpeafkmigjby
+xkcrdeaytmjbnpgisf gnmtjyrdbkcafiepxs fnrisptwecgkumdyjbax cjovrgpxtabknzsymeifd lctusxdnrpeafkmigjby
+fdejinzpbhxumoyt lakqrmnfspwuyxojivb bjgpnfcoumyxi
+fdejinzpbhxumoyt lakqrmnfspwuyxojivb bjgpnfcoumyxi
+rcyihnjvzebtmwdoa ivkdznamrhcltwjgsbfou
+rcyihnjvzebtmwdoa ivkdznamrhcltwjgsbfou
+wpsxh gm e v uznma
+wpsxh gm e v uznma
+mfu mfhu ufm mfu
+mfu mfhu ufm mfu
+n n n
+n n n
+kwngilxvpdheztq nhdywlqmtxzvepiskg qvwdjrguxbciptefzokl
+kwngilxvpdheztq nhdywlqmtxzvepiskg qvwdjrguxbciptefzokl
+v o
+v o
+viyf ify fiy ify ify
+viyf ify fiy ify ify
+uh kzhu hu
+uh kzhu hu
+vf vf fv fv vf
+vf vf fv fv vf
+hlimgvs sghunx aehumng bzpgktcrjyfqd
+hlimgvs sghunx aehumng bzpgktcrjyfqd
+wlvcrkih kchvwl lkhvwc lcvhkw
+wlvcrkih kchvwl lkhvwc lcvhkw
+ptjmoyzkcsequvhb ksveombhpjyztqcu bympzoivqcskjueht pbotvcqhkzjsyuem
+ptjmoyzkcsequvhb ksveombhpjyztqcu bympzoivqcskjueht pbotvcqhkzjsyuem
+clawdptrguhqmekfvyoxsbj gphtfvxsujkreyacmwqbdl ywrvmtlabhcepqgfukdxjs htnyrqxauebmjkgcdflvpsw bcvwfoetdhksjygqpalxumr
+clawdptrguhqmekfvyoxsbj gphtfvxsujkreyacmwqbdl ywrvmtlabhcepqgfukdxjs htnyrqxauebmjkgcdflvpsw bcvwfoetdhksjygqpalxumr
+vszpabkj qmkpzsv bzkpavs hipznstxuvokl
+vszpabkj qmkpzsv bzkpavs hipznstxuvokl
+gtoqrlsfvdz tvfjdmgzpwqlsor dhzquvfrxglots qzfrdtivjgols
+gtoqrlsfvdz tvfjdmgzpwqlsor dhzquvfrxglots qzfrdtivjgols
+tayfiobqpcdh jlwgsrxzevuk
+tayfiobqpcdh jlwgsrxzevuk
+p p p p p
+p p p p p
+aicqet lqhc njdvqwzpu
+aicqet lqhc njdvqwzpu
+quafxi fqaxiu aiqu iafqu ziauqv
+quafxi fqaxiu aiqu iafqu ziauqv
+wfxealsjibhogu hjsgauxe eagxjhus
+wfxealsjibhogu hjsgauxe eagxjhus
+rchsgnepltfkwyuz trlpuznscfgw jgvruzxwfctlnp clwrgfsnhumzpt
+rchsgnepltfkwyuz trlpuznscfgw jgvruzxwfctlnp clwrgfsnhumzpt
+iratdws tprwuxi htilwur
+iratdws tprwuxi htilwur
+mrgqeawu qrumabwge wurqgeam qamewgru
+mrgqeawu qrumabwge wurqgeam qamewgru
+eyghniakxbjpr qxhuazgbniep axtnhiuepm chnidvfaelopwxs
+eyghniakxbjpr qxhuazgbniep axtnhiuepm chnidvfaelopwxs
+lybasxmog wmxyolgasbr oblmxgyas
+lybasxmog wmxyolgasbr oblmxgyas
+jpbvxyfithzqdn xbtyjdihfzvnqp jnqfvyptzhixbd bvfiqpzsdrykjhtnx
+jpbvxyfithzqdn xbtyjdihfzvnqp jnqfvyptzhixbd bvfiqpzsdrykjhtnx
+jicayzxwpfebqsvkg fpwqbcsngumjatexvrdy
+jicayzxwpfebqsvkg fpwqbcsngumjatexvrdy
+dxpuicjkzoamqwhtrbvsygenlf likutjrsdypeqzfgnawbxhocmv
+dxpuicjkzoamqwhtrbvsygenlf likutjrsdypeqzfgnawbxhocmv
+uzfivxhj legaxokm x inyqjx
+uzfivxhj legaxokm x inyqjx
+dqjkxbyt kgtqepwy qmytwkrp
+dqjkxbyt kgtqepwy qmytwkrp
+
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ ...)
+clj::aoc-2020.day-six=> 
+#'aoc-2020.day-six/all-answered
+clj::aoc-2020.day-six=> 
+mxuwh hwuxm uhxmw hwumx hwuxm
+false
+k k tl k
+false
+qebagdfvhr alvkif yufaovwi fivsa nwifazovu
+false
+ilpecrqn aipqgrfh pbwizrqv rkwiqpnt
+false
+kehaytgcbfiq cyhgkbtiaqfe cbkhteyqgifa eyaglfbvciktqzh yhcqebatgfki
+false
+vknjbcuqrxshzemtayow uraptembyvxglzwiqsfn
+false
+e e e e
+false
+jhpu wmhqj jmbhvu ijyshorz
+false
+dwise dneij iwdeh hidqe
+false
+mclektfnbpgoyqxviru jniulbstvmxohawdpef
+false
+ilqd idlspq
+false
+bunoizjmdxeqka xmizbankqes nboejqdsimarzk bpcglniavyqmkezf
+false
+jyf iqkgfnujrxzt vsflhwj obsjhf
+false
+qwmgfaodtc frcmhyqetawz
+false
+wpcvksgynim xciymspnwgv svpincmflg amvpncgsi
+false
+pfyh hyf dhfy
+false
+xtaec ctxae oxcate xcate
+false
+oqbcnmhlakf xrtyvsudejpziwg
+false
+zchoy dxp julwex
+false
+r p xza
+false
+hazxkgufnd ahgxzdnqufk uxhngfkzad
+false
+jgwcznheympi afvdsmtqrcpbogy
+false
+jflpzaingwdstb sanbltpjeizdfg tilpgsnajzfdb
+false
+jgpank ngkeja wntjgrka jkagvn
+false
+uydtgi ygtdui uydgit gtuiyd uytgid
+false
+spbrqznjh hjrqdwepng jqfhrpny
+false
+dqbpwhoar pqohgd
+false
+irxqcgp pqhejcbrdg qcgrpiuo crpqug
+false
+sopgtbhu
+false
+caybqvdfkerzigoln jrfdbwcpyazukivmnoglse ogazdfnhlyebrqkvic vcerfthnzgiydbokla
+false
+whijpulfstqnoyrzkemg igwtklezyfndrpj dfkgvepyzijtnwrl
+false
+yvosapwtgdbxhcqn mdlafzqxrinsctvpwgb gxwnaysqkptebcjvdu
+false
+(nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nilxkcrdeaytmjbnpgisf gnmtjyrdbkcafiepxs fnrisptwecgkumdyjbax cjovrgpxtabknzsymeifd lctusxdnrpeafkmigjby
+false
+fdejinzpbhxumoyt lakqrmnfspwuyxojivb bjgpnfcoumyxi
+false
+rcyihnjvzebtmwdoa ivkdznamrhcltwjgsbfou
+false
+wpsxh gm e v uznma
+false
+mfu mfhu ufm mfu
+false
+n n n
+false
+kwngilxvpdheztq nhdywlqmtxzvepiskg qvwdjrguxbciptefzokl
+false
+v o
+false
+viyf ify fiy ify ify
+false
+uh kzhu hu
+false
+vf vf fv fv vf
+false
+hlimgvs sghunx aehumng bzpgktcrjyfqd
+false
+wlvcrkih kchvwl lkhvwc lcvhkw
+false
+ptjmoyzkcsequvhb ksveombhpjyztqcu bympzoivqcskjueht pbotvcqhkzjsyuem
+false
+clawdptrguhqmekfvyoxsbj gphtfvxsujkreyacmwqbdl ywrvmtlabhcepqgfukdxjs htnyrqxauebmjkgcdflvpsw bcvwfoetdhksjygqpalxumr
+false
+vszpabkj qmkpzsv bzkpavs hipznstxuvokl
+false
+gtoqrlsfvdz tvfjdmgzpwqlsor dhzquvfrxglots qzfrdtivjgols
+false
+tayfiobqpcdh jlwgsrxzevuk
+false
+p p p p p
+false
+aicqet lqhc njdvqwzpu
+false
+quafxi fqaxiu aiqu iafqu ziauqv
+false
+wfxealsjibhogu hjsgauxe eagxjhus
+false
+rchsgnepltfkwyuz trlpuznscfgw jgvruzxwfctlnp clwrgfsnhumzpt
+false
+iratdws tprwuxi htilwur
+false
+mrgqeawu qrumabwge wurqgeam qamewgru
+false
+eyghniakxbjpr qxhuazgbniep axtnhiuepm chnidvfaelopwxs
+false
+lybasxmog wmxyolgasbr oblmxgyas
+false
+jpbvxyfithzqdn xbtyjdihfzvnqp jnqfvyptzhixbd bvfiqpzsdrykjhtnx
+false
+jicayzxwpfebqsvkg fpwqbcsngumjatexvrdy
+false
+dxpuicjkzoamqwhtrbvsygenlf likutjrsdypeqzfgnawbxhocmv
+false
+uzfivxhj legaxokm x inyqjx
+false
+dqjkxbyt kgtqepwy qmytwkrp
+false
+
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ ...)
+clj::aoc-2020.day-six=> 
+#'aoc-2020.day-six/all-answered
+clj::aoc-2020.day-six=> 
+#'aoc-2020.day-six/aoc-day6-p2
+clj::aoc-2020.day-six=> 
+mxuwh hwuxm uhxmw hwumx hwuxm
+false
+k k tl k
+false
+qebagdfvhr alvkif yufaovwi fivsa nwifazovu
+false
+ilpecrqn aipqgrfh pbwizrqv rkwiqpnt
+false
+kehaytgcbfiq cyhgkbtiaqfe cbkhteyqgifa eyaglfbvciktqzh yhcqebatgfki
+false
+vknjbcuqrxshzemtayow uraptembyvxglzwiqsfn
+false
+e e e e
+false
+jhpu wmhqj jmbhvu ijyshorz
+false
+dwise dneij iwdeh hidqe
+false
+mclektfnbpgoyqxviru jniulbstvmxohawdpef
+false
+ilqd idlspq
+false
+bunoizjmdxeqka xmizbankqes nboejqdsimarzk bpcglniavyqmkezf
+false
+jyf iqkgfnujrxzt vsflhwj obsjhf
+false
+qwmgfaodtc frcmhyqetawz
+false
+wpcvksgynim xciymspnwgv svpincmflg amvpncgsi
+false
+pfyh hyf dhfy
+false
+xtaec ctxae oxcate xcate
+false
+oqbcnmhlakf xrtyvsudejpziwg
+false
+zchoy dxp julwex
+false
+r p xza
+false
+hazxkgufnd ahgxzdnqufk uxhngfkzad
+false
+jgwcznheympi afvdsmtqrcpbogy
+false
+jflpzaingwdstb sanbltpjeizdfg tilpgsnajzfdb
+false
+jgpank ngkeja wntjgrka jkagvn
+false
+uydtgi ygtdui uydgit gtuiyd uytgid
+false
+spbrqznjh hjrqdwepng jqfhrpny
+false
+dqbpwhoar pqohgd
+false
+irxqcgp pqhejcbrdg qcgrpiuo crpqug
+false
+sopgtbhu
+false
+caybqvdfkerzigoln jrfdbwcpyazukivmnoglse ogazdfnhlyebrqkvic vcerfthnzgiydbokla
+false
+whijpulfstqnoyrzkemg igwtklezyfndrpj dfkgvepyzijtnwrl
+false
+yvosapwtgdbxhcqn mdlafzqxrinsctvpwgb gxwnaysqkptebcjvdu
+false
+(nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nilxkcrdeaytmjbnpgisf gnmtjyrdbkcafiepxs fnrisptwecgkumdyjbax cjovrgpxtabknzsymeifd lctusxdnrpeafkmigjby
+false
+fdejinzpbhxumoyt lakqrmnfspwuyxojivb bjgpnfcoumyxi
+false
+rcyihnjvzebtmwdoa ivkdznamrhcltwjgsbfou
+false
+wpsxh gm e v uznma
+false
+mfu mfhu ufm mfu
+false
+n n n
+false
+kwngilxvpdheztq nhdywlqmtxzvepiskg qvwdjrguxbciptefzokl
+false
+v o
+false
+viyf ify fiy ify ify
+false
+uh kzhu hu
+false
+vf vf fv fv vf
+false
+hlimgvs sghunx aehumng bzpgktcrjyfqd
+false
+wlvcrkih kchvwl lkhvwc lcvhkw
+false
+ptjmoyzkcsequvhb ksveombhpjyztqcu bympzoivqcskjueht pbotvcqhkzjsyuem
+false
+clawdptrguhqmekfvyoxsbj gphtfvxsujkreyacmwqbdl ywrvmtlabhcepqgfukdxjs htnyrqxauebmjkgcdflvpsw bcvwfoetdhksjygqpalxumr
+false
+vszpabkj qmkpzsv bzkpavs hipznstxuvokl
+false
+gtoqrlsfvdz tvfjdmgzpwqlsor dhzquvfrxglots qzfrdtivjgols
+false
+tayfiobqpcdh jlwgsrxzevuk
+false
+p p p p p
+false
+aicqet lqhc njdvqwzpu
+false
+quafxi fqaxiu aiqu iafqu ziauqv
+false
+wfxealsjibhogu hjsgauxe eagxjhus
+false
+rchsgnepltfkwyuz trlpuznscfgw jgvruzxwfctlnp clwrgfsnhumzpt
+false
+iratdws tprwuxi htilwur
+false
+mrgqeawu qrumabwge wurqgeam qamewgru
+false
+eyghniakxbjpr qxhuazgbniep axtnhiuepm chnidvfaelopwxs
+false
+lybasxmog wmxyolgasbr oblmxgyas
+false
+jpbvxyfithzqdn xbtyjdihfzvnqp jnqfvyptzhixbd bvfiqpzsdrykjhtnx
+false
+jicayzxwpfebqsvkg fpwqbcsngumjatexvrdy
+false
+dxpuicjkzoamqwhtrbvsygenlf likutjrsdypeqzfgnawbxhocmv
+false
+uzfivxhj legaxokm x inyqjx
+false
+dqjkxbyt kgtqepwy qmytwkrp
+false
+
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ ...)
+clj::aoc-2020.day-six=> 
+#'aoc-2020.day-six/all-answered
+clj::aoc-2020.day-six=> 
+mxuwh hwuxm uhxmw hwumx hwuxm
+false
+k k tl k
+false
+qebagdfvhr alvkif yufaovwi fivsa nwifazovu
+false
+ilpecrqn aipqgrfh pbwizrqv rkwiqpnt
+false
+kehaytgcbfiq cyhgkbtiaqfe cbkhteyqgifa eyaglfbvciktqzh yhcqebatgfki
+false
+vknjbcuqrxshzemtayow uraptembyvxglzwiqsfn
+false
+e e e e
+false
+jhpu wmhqj jmbhvu ijyshorz
+false
+dwise dneij iwdeh hidqe
+false
+mclektfnbpgoyqxviru jniulbstvmxohawdpef
+false
+ilqd idlspq
+false
+bunoizjmdxeqka xmizbankqes nboejqdsimarzk bpcglniavyqmkezf
+false
+jyf iqkgfnujrxzt vsflhwj obsjhf
+false
+qwmgfaodtc frcmhyqetawz
+false
+wpcvksgynim xciymspnwgv svpincmflg amvpncgsi
+false
+pfyh hyf dhfy
+false
+xtaec ctxae oxcate xcate
+false
+oqbcnmhlakf xrtyvsudejpziwg
+false
+zchoy dxp julwex
+false
+r p xza
+false
+hazxkgufnd ahgxzdnqufk uxhngfkzad
+false
+jgwcznheympi afvdsmtqrcpbogy
+false
+jflpzaingwdstb sanbltpjeizdfg tilpgsnajzfdb
+false
+jgpank ngkeja wntjgrka jkagvn
+false
+uydtgi ygtdui uydgit gtuiyd uytgid
+false
+spbrqznjh hjrqdwepng jqfhrpny
+false
+dqbpwhoar pqohgd
+false
+irxqcgp pqhejcbrdg qcgrpiuo crpqug
+false
+sopgtbhu
+false
+caybqvdfkerzigoln jrfdbwcpyazukivmnoglse ogazdfnhlyebrqkvic vcerfthnzgiydbokla
+false
+whijpulfstqnoyrzkemg igwtklezyfndrpj dfkgvepyzijtnwrl
+false
+yvosapwtgdbxhcqn mdlafzqxrinsctvpwgb gxwnaysqkptebcjvdu
+false
+(nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nilxkcrdeaytmjbnpgisf gnmtjyrdbkcafiepxs fnrisptwecgkumdyjbax cjovrgpxtabknzsymeifd lctusxdnrpeafkmigjby
+false
+fdejinzpbhxumoyt lakqrmnfspwuyxojivb bjgpnfcoumyxi
+false
+rcyihnjvzebtmwdoa ivkdznamrhcltwjgsbfou
+false
+wpsxh gm e v uznma
+false
+mfu mfhu ufm mfu
+false
+n n n
+false
+kwngilxvpdheztq nhdywlqmtxzvepiskg qvwdjrguxbciptefzokl
+false
+v o
+false
+viyf ify fiy ify ify
+false
+uh kzhu hu
+false
+vf vf fv fv vf
+false
+hlimgvs sghunx aehumng bzpgktcrjyfqd
+false
+wlvcrkih kchvwl lkhvwc lcvhkw
+false
+ptjmoyzkcsequvhb ksveombhpjyztqcu bympzoivqcskjueht pbotvcqhkzjsyuem
+false
+clawdptrguhqmekfvyoxsbj gphtfvxsujkreyacmwqbdl ywrvmtlabhcepqgfukdxjs htnyrqxauebmjkgcdflvpsw bcvwfoetdhksjygqpalxumr
+false
+vszpabkj qmkpzsv bzkpavs hipznstxuvokl
+false
+gtoqrlsfvdz tvfjdmgzpwqlsor dhzquvfrxglots qzfrdtivjgols
+false
+tayfiobqpcdh jlwgsrxzevuk
+false
+p p p p p
+false
+aicqet lqhc njdvqwzpu
+false
+quafxi fqaxiu aiqu iafqu ziauqv
+false
+wfxealsjibhogu hjsgauxe eagxjhus
+false
+rchsgnepltfkwyuz trlpuznscfgw jgvruzxwfctlnp clwrgfsnhumzpt
+false
+iratdws tprwuxi htilwur
+false
+mrgqeawu qrumabwge wurqgeam qamewgru
+false
+eyghniakxbjpr qxhuazgbniep axtnhiuepm chnidvfaelopwxs
+false
+lybasxmog wmxyolgasbr oblmxgyas
+false
+jpbvxyfithzqdn xbtyjdihfzvnqp jnqfvyptzhixbd bvfiqpzsdrykjhtnx
+false
+jicayzxwpfebqsvkg fpwqbcsngumjatexvrdy
+false
+dxpuicjkzoamqwhtrbvsygenlf likutjrsdypeqzfgnawbxhocmv
+false
+uzfivxhj legaxokm x inyqjx
+false
+dqjkxbyt kgtqepwy qmytwkrp
+false
+
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ ...)
+clj::aoc-2020.day-six=> 
+#'aoc-2020.day-six/all-answered
+clj::aoc-2020.day-six=> 
+mxuwh hwuxm uhxmw hwumx hwuxm
+false
+k k tl k
+false
+qebagdfvhr alvkif yufaovwi fivsa nwifazovu
+false
+ilpecrqn aipqgrfh pbwizrqv rkwiqpnt
+false
+kehaytgcbfiq cyhgkbtiaqfe cbkhteyqgifa eyaglfbvciktqzh yhcqebatgfki
+false
+vknjbcuqrxshzemtayow uraptembyvxglzwiqsfn
+false
+e e e e
+false
+jhpu wmhqj jmbhvu ijyshorz
+false
+dwise dneij iwdeh hidqe
+false
+mclektfnbpgoyqxviru jniulbstvmxohawdpef
+false
+ilqd idlspq
+false
+bunoizjmdxeqka xmizbankqes nboejqdsimarzk bpcglniavyqmkezf
+false
+jyf iqkgfnujrxzt vsflhwj obsjhf
+false
+qwmgfaodtc frcmhyqetawz
+false
+wpcvksgynim xciymspnwgv svpincmflg amvpncgsi
+false
+pfyh hyf dhfy
+false
+xtaec ctxae oxcate xcate
+false
+oqbcnmhlakf xrtyvsudejpziwg
+false
+zchoy dxp julwex
+false
+r p xza
+false
+hazxkgufnd ahgxzdnqufk uxhngfkzad
+false
+jgwcznheympi afvdsmtqrcpbogy
+false
+jflpzaingwdstb sanbltpjeizdfg tilpgsnajzfdb
+false
+jgpank ngkeja wntjgrka jkagvn
+false
+uydtgi ygtdui uydgit gtuiyd uytgid
+false
+spbrqznjh hjrqdwepng jqfhrpny
+false
+dqbpwhoar pqohgd
+false
+irxqcgp pqhejcbrdg qcgrpiuo crpqug
+false
+sopgtbhu
+false
+caybqvdfkerzigoln jrfdbwcpyazukivmnoglse ogazdfnhlyebrqkvic vcerfthnzgiydbokla
+false
+whijpulfstqnoyrzkemg igwtklezyfndrpj dfkgvepyzijtnwrl
+false
+yvosapwtgdbxhcqn mdlafzqxrinsctvpwgb gxwnaysqkptebcjvdu
+false
+(nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nilxkcrdeaytmjbnpgisf gnmtjyrdbkcafiepxs fnrisptwecgkumdyjbax cjovrgpxtabknzsymeifd lctusxdnrpeafkmigjby
+false
+fdejinzpbhxumoyt lakqrmnfspwuyxojivb bjgpnfcoumyxi
+false
+rcyihnjvzebtmwdoa ivkdznamrhcltwjgsbfou
+false
+wpsxh gm e v uznma
+false
+mfu mfhu ufm mfu
+false
+n n n
+false
+kwngilxvpdheztq nhdywlqmtxzvepiskg qvwdjrguxbciptefzokl
+false
+v o
+false
+viyf ify fiy ify ify
+false
+uh kzhu hu
+false
+vf vf fv fv vf
+false
+hlimgvs sghunx aehumng bzpgktcrjyfqd
+false
+wlvcrkih kchvwl lkhvwc lcvhkw
+false
+ptjmoyzkcsequvhb ksveombhpjyztqcu bympzoivqcskjueht pbotvcqhkzjsyuem
+false
+clawdptrguhqmekfvyoxsbj gphtfvxsujkreyacmwqbdl ywrvmtlabhcepqgfukdxjs htnyrqxauebmjkgcdflvpsw bcvwfoetdhksjygqpalxumr
+false
+vszpabkj qmkpzsv bzkpavs hipznstxuvokl
+false
+gtoqrlsfvdz tvfjdmgzpwqlsor dhzquvfrxglots qzfrdtivjgols
+false
+tayfiobqpcdh jlwgsrxzevuk
+false
+p p p p p
+false
+aicqet lqhc njdvqwzpu
+false
+quafxi fqaxiu aiqu iafqu ziauqv
+false
+wfxealsjibhogu hjsgauxe eagxjhus
+false
+rchsgnepltfkwyuz trlpuznscfgw jgvruzxwfctlnp clwrgfsnhumzpt
+false
+iratdws tprwuxi htilwur
+false
+mrgqeawu qrumabwge wurqgeam qamewgru
+false
+eyghniakxbjpr qxhuazgbniep axtnhiuepm chnidvfaelopwxs
+false
+lybasxmog wmxyolgasbr oblmxgyas
+false
+jpbvxyfithzqdn xbtyjdihfzvnqp jnqfvyptzhixbd bvfiqpzsdrykjhtnx
+false
+jicayzxwpfebqsvkg fpwqbcsngumjatexvrdy
+false
+dxpuicjkzoamqwhtrbvsygenlf likutjrsdypeqzfgnawbxhocmv
+false
+uzfivxhj legaxokm x inyqjx
+false
+dqjkxbyt kgtqepwy qmytwkrp
+false
+
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ ...)
+clj::aoc-2020.day-six=> 
+[mxuwh hwuxm uhxmw hwumx hwuxm]
+false
+[k k tl k]
+false
+[qebagdfvhr alvkif yufaovwi fivsa nwifazovu]
+false
+[ilpecrqn aipqgrfh pbwizrqv rkwiqpnt]
+false
+[kehaytgcbfiq cyhgkbtiaqfe cbkhteyqgifa eyaglfbvciktqzh yhcqebatgfki]
+false
+[vknjbcuqrxshzemtayow uraptembyvxglzwiqsfn]
+false
+[e e e e]
+false
+[jhpu wmhqj jmbhvu ijyshorz]
+false
+[dwise dneij iwdeh hidqe]
+false
+[mclektfnbpgoyqxviru jniulbstvmxohawdpef]
+false
+[ilqd idlspq]
+false
+[bunoizjmdxeqka xmizbankqes nboejqdsimarzk bpcglniavyqmkezf]
+false
+[jyf iqkgfnujrxzt vsflhwj obsjhf]
+false
+[qwmgfaodtc frcmhyqetawz]
+false
+[wpcvksgynim xciymspnwgv svpincmflg amvpncgsi]
+false
+[pfyh hyf dhfy]
+false
+[xtaec ctxae oxcate xcate]
+false
+[oqbcnmhlakf xrtyvsudejpziwg]
+false
+[zchoy dxp julwex]
+false
+[r p xza]
+false
+[hazxkgufnd ahgxzdnqufk uxhngfkzad]
+false
+[jgwcznheympi afvdsmtqrcpbogy]
+false
+[jflpzaingwdstb sanbltpjeizdfg tilpgsnajzfdb]
+false
+[jgpank ngkeja wntjgrka jkagvn]
+false
+[uydtgi ygtdui uydgit gtuiyd uytgid]
+false
+[spbrqznjh hjrqdwepng jqfhrpny]
+false
+[dqbpwhoar pqohgd]
+false
+[irxqcgp pqhejcbrdg qcgrpiuo crpqug]
+false
+[sopgtbhu]
+false
+[caybqvdfkerzigoln jrfdbwcpyazukivmnoglse ogazdfnhlyebrqkvic vcerfthnzgiydbokla]
+false
+[whijpulfstqnoyrzkemg igwtklezyfndrpj dfkgvepyzijtnwrl]
+false
+[yvosapwtgdbxhcqn mdlafzqxrinsctvpwgb gxwnaysqkptebcjvdu]
+false
+(nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil[xkcrdeaytmjbnpgisf gnmtjyrdbkcafiepxs fnrisptwecgkumdyjbax cjovrgpxtabknzsymeifd lctusxdnrpeafkmigjby]
+false
+[fdejinzpbhxumoyt lakqrmnfspwuyxojivb bjgpnfcoumyxi]
+false
+[rcyihnjvzebtmwdoa ivkdznamrhcltwjgsbfou]
+false
+[wpsxh gm e v uznma]
+false
+[mfu mfhu ufm mfu]
+false
+[n n n]
+false
+[kwngilxvpdheztq nhdywlqmtxzvepiskg qvwdjrguxbciptefzokl]
+false
+[v o]
+false
+[viyf ify fiy ify ify]
+false
+[uh kzhu hu]
+false
+[vf vf fv fv vf]
+false
+[hlimgvs sghunx aehumng bzpgktcrjyfqd]
+false
+[wlvcrkih kchvwl lkhvwc lcvhkw]
+false
+[ptjmoyzkcsequvhb ksveombhpjyztqcu bympzoivqcskjueht pbotvcqhkzjsyuem]
+false
+[clawdptrguhqmekfvyoxsbj gphtfvxsujkreyacmwqbdl ywrvmtlabhcepqgfukdxjs htnyrqxauebmjkgcdflvpsw bcvwfoetdhksjygqpalxumr]
+false
+[vszpabkj qmkpzsv bzkpavs hipznstxuvokl]
+false
+[gtoqrlsfvdz tvfjdmgzpwqlsor dhzquvfrxglots qzfrdtivjgols]
+false
+[tayfiobqpcdh jlwgsrxzevuk]
+false
+[p p p p p]
+false
+[aicqet lqhc njdvqwzpu]
+false
+[quafxi fqaxiu aiqu iafqu ziauqv]
+false
+[wfxealsjibhogu hjsgauxe eagxjhus]
+false
+[rchsgnepltfkwyuz trlpuznscfgw jgvruzxwfctlnp clwrgfsnhumzpt]
+false
+[iratdws tprwuxi htilwur]
+false
+[mrgqeawu qrumabwge wurqgeam qamewgru]
+false
+[eyghniakxbjpr qxhuazgbniep axtnhiuepm chnidvfaelopwxs]
+false
+[lybasxmog wmxyolgasbr oblmxgyas]
+false
+[jpbvxyfithzqdn xbtyjdihfzvnqp jnqfvyptzhixbd bvfiqpzsdrykjhtnx]
+false
+[jicayzxwpfebqsvkg fpwqbcsngumjatexvrdy]
+false
+[dxpuicjkzoamqwhtrbvsygenlf likutjrsdypeqzfgnawbxhocmv]
+false
+[uzfivxhj legaxokm x inyqjx]
+false
+[dqjkxbyt kgtqepwy qmytwkrp]
+false
+
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ ...)
+clj::aoc-2020.day-six=> 
+#'aoc-2020.day-six/all-answered
+clj::aoc-2020.day-six=> 
+[mxuwh hwuxm uhxmw hwumx hwuxm]
+true
+[k k tl k]
+true
+[qebagdfvhr alvkif yufaovwi fivsa nwifazovu]
+true
+[ilpecrqn aipqgrfh pbwizrqv rkwiqpnt]
+true
+[kehaytgcbfiq cyhgkbtiaqfe cbkhteyqgifa eyaglfbvciktqzh yhcqebatgfki]
+true
+[vknjbcuqrxshzemtayow uraptembyvxglzwiqsfn]
+true
+[e e e e]
+true
+[jhpu wmhqj jmbhvu ijyshorz]
+true
+[dwise dneij iwdeh hidqe]
+true
+[mclektfnbpgoyqxviru jniulbstvmxohawdpef]
+true
+[ilqd idlspq]
+true
+[bunoizjmdxeqka xmizbankqes nboejqdsimarzk bpcglniavyqmkezf]
+true
+[jyf iqkgfnujrxzt vsflhwj obsjhf]
+true
+[qwmgfaodtc frcmhyqetawz]
+true
+[wpcvksgynim xciymspnwgv svpincmflg amvpncgsi]
+true
+[pfyh hyf dhfy]
+true
+[xtaec ctxae oxcate xcate]
+true
+[oqbcnmhlakf xrtyvsudejpziwg]
+true
+[zchoy dxp julwex]
+true
+[r p xza]
+true
+[hazxkgufnd ahgxzdnqufk uxhngfkzad]
+true
+[jgwcznheympi afvdsmtqrcpbogy]
+true
+[jflpzaingwdstb sanbltpjeizdfg tilpgsnajzfdb]
+true
+[jgpank ngkeja wntjgrka jkagvn]
+true
+[uydtgi ygtdui uydgit gtuiyd uytgid]
+true
+[spbrqznjh hjrqdwepng jqfhrpny]
+true
+[dqbpwhoar pqohgd]
+true
+[irxqcgp pqhejcbrdg qcgrpiuo crpqug]
+true
+[sopgtbhu]
+true
+[caybqvdfkerzigoln jrfdbwcpyazukivmnoglse ogazdfnhlyebrqkvic vcerfthnzgiydbokla]
+true
+[whijpulfstqnoyrzkemg igwtklezyfndrpj dfkgvepyzijtnwrl]
+true
+[yvosapwtgdbxhcqn mdlafzqxrinsctvpwgb gxwnaysqkptebcjvdu]
+true
+(nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil[xkcrdeaytmjbnpgisf gnmtjyrdbkcafiepxs fnrisptwecgkumdyjbax cjovrgpxtabknzsymeifd lctusxdnrpeafkmigjby]
+true
+[fdejinzpbhxumoyt lakqrmnfspwuyxojivb bjgpnfcoumyxi]
+true
+[rcyihnjvzebtmwdoa ivkdznamrhcltwjgsbfou]
+true
+[wpsxh gm e v uznma]
+true
+[mfu mfhu ufm mfu]
+true
+[n n n]
+true
+[kwngilxvpdheztq nhdywlqmtxzvepiskg qvwdjrguxbciptefzokl]
+true
+[v o]
+true
+[viyf ify fiy ify ify]
+true
+[uh kzhu hu]
+true
+[vf vf fv fv vf]
+true
+[hlimgvs sghunx aehumng bzpgktcrjyfqd]
+true
+[wlvcrkih kchvwl lkhvwc lcvhkw]
+true
+[ptjmoyzkcsequvhb ksveombhpjyztqcu bympzoivqcskjueht pbotvcqhkzjsyuem]
+true
+[clawdptrguhqmekfvyoxsbj gphtfvxsujkreyacmwqbdl ywrvmtlabhcepqgfukdxjs htnyrqxauebmjkgcdflvpsw bcvwfoetdhksjygqpalxumr]
+true
+[vszpabkj qmkpzsv bzkpavs hipznstxuvokl]
+true
+[gtoqrlsfvdz tvfjdmgzpwqlsor dhzquvfrxglots qzfrdtivjgols]
+true
+[tayfiobqpcdh jlwgsrxzevuk]
+true
+[p p p p p]
+true
+[aicqet lqhc njdvqwzpu]
+true
+[quafxi fqaxiu aiqu iafqu ziauqv]
+true
+[wfxealsjibhogu hjsgauxe eagxjhus]
+true
+[rchsgnepltfkwyuz trlpuznscfgw jgvruzxwfctlnp clwrgfsnhumzpt]
+true
+[iratdws tprwuxi htilwur]
+true
+[mrgqeawu qrumabwge wurqgeam qamewgru]
+true
+[eyghniakxbjpr qxhuazgbniep axtnhiuepm chnidvfaelopwxs]
+true
+[lybasxmog wmxyolgasbr oblmxgyas]
+true
+[jpbvxyfithzqdn xbtyjdihfzvnqp jnqfvyptzhixbd bvfiqpzsdrykjhtnx]
+true
+[jicayzxwpfebqsvkg fpwqbcsngumjatexvrdy]
+true
+[dxpuicjkzoamqwhtrbvsygenlf likutjrsdypeqzfgnawbxhocmv]
+true
+[uzfivxhj legaxokm x inyqjx]
+true
+[dqjkxbyt kgtqepwy qmytwkrp]
+true
+
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ ...)
+clj::aoc-2020.day-six=> 
+#'aoc-2020.day-six/all-answered
+clj::aoc-2020.day-six=> 
+; Error printing return value (ArityException) at clojure.lang.AFn/throwArity (AFn.java:429).
+; Wrong number of args (2) passed to: aoc-2020.day-six/all-answered/fn--94180
+clojure.main/repl (main.clj:442)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.day-six=> 
+#'aoc-2020.day-six/all-answered
+clj::aoc-2020.day-six=> 
+; Error printing return value (IllegalArgumentException) at clojure.lang.RT/contains (RT.java:853).
+; contains? not supported on type: java.lang.String
+clojure.main/repl (main.clj:442)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.day-six=> 
+#'aoc-2020.day-six/all-answered
+clj::aoc-2020.day-six=> 
+; Error printing return value (UnsupportedOperationException) at clojure.lang.RT/countFrom (RT.java:671).
+; count not supported on this type: Character
+clojure.main/repl (main.clj:442)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.day-six=> 
+#'aoc-2020.day-six/all-answered
+clj::aoc-2020.day-six=> 
+(#{\h \m \u \w \x}
+ #{}
+ #{\a \f \v}
+ #{\i \p \q \r}
+ #{\a \b \c \e \f \g \h \i \k \q \t \y}
+ #{\a \b \e \m \n \q \r \s \t \u \v \w \x \y \z}
+ #{\e}
+ #{\h \j}
+ #{\d \e \i}
+ #{\b \e \f \i \l \m \n \o \p \t \u \v \x}
+ #{\d \i \l \q}
+ #{\a \b \e \i \k \m \n \q \z}
+ #{\f \j}
+ #{\a \c \f \m \q \t \w}
+ #{\c \g \i \m \n \p \s \v}
+ #{\f \h \y}
+ #{\a \c \e \t \x}
+ #{}
+ #{}
+ #{}
+ #{\a \d \f \g \h \k \n \u \x \z}
+ #{\c \g \m \p \y}
+ #{\a \b \d \f \g \i \j \l \n \p \s \t \z}
+ #{\a \g \j \k \n}
+ #{\d \g \i \t \u \y}
+ #{\h \j \n \p \q \r}
+ #{\d \h \o \p \q}
+ #{\c \g \p \q \r}
+ #{\b \g \h \o \p \s \t \u}
+ #{\a \b \c \d \e \f \g \i \k \l \n \o \r \v \y \z}
+ #{\e \f \g \i \j \k \l \n \p \r \t \w \y \z}
+ #{\a \b \c \d \g \n \p \q \s \t \v \w \x}
+ #{\a \b \c \d \e \f \g \i \j \k \m \n \p \r \s \t \x \y}
+ #{\b \f \i \j \m \n \o \p \u \x \y}
+ #{\a \b \c \d \h \i \j \m \n \o \r \t \v \w \z}
+ #{}
+ #{\f \m \u}
+ #{\n}
+ #{\d \e \g \i \k \l \p \q \t \v \w \x \z}
+ #{}
+ #{\f \i \y}
+ #{\h \u}
+ #{\f \v}
+ #{\g}
+ #{\c \h \k \l \v \w}
+ #{\b \c \e \h \j \k \m \o \p \q \s \t \u \v \y \z}
+ #{\a \b \c \d \e \f \g \h \j \k \l \m \p \q \r \s \t \u \v \w \x \y}
+ #{\k \p \s \v \z}
+ #{\d \f \g \l \o \q \r \s \t \v \z}
+ #{}
+ ...)
+clj::aoc-2020.day-six=> 
+(#{\h \m \u \w \x}
+ #{}
+ #{\a \f \v}
+ #{\i \p \q \r}
+ #{\a \b \c \e \f \g \h \i \k \q \t \y}
+ #{\a \b \e \m \n \q \r \s \t \u \v \w \x \y \z}
+ #{\e}
+ #{\h \j}
+ #{\d \e \i}
+ #{\b \e \f \i \l \m \n \o \p \t \u \v \x}
+ #{\d \i \l \q}
+ #{\a \b \e \i \k \m \n \q \z}
+ #{\f \j}
+ #{\a \c \f \m \q \t \w}
+ #{\c \g \i \m \n \p \s \v}
+ #{\f \h \y}
+ #{\a \c \e \t \x}
+ #{}
+ #{}
+ #{}
+ #{\a \d \f \g \h \k \n \u \x \z}
+ #{\c \g \m \p \y}
+ #{\a \b \d \f \g \i \j \l \n \p \s \t \z}
+ #{\a \g \j \k \n}
+ #{\d \g \i \t \u \y}
+ #{\h \j \n \p \q \r}
+ #{\d \h \o \p \q}
+ #{\c \g \p \q \r}
+ #{\b \g \h \o \p \s \t \u}
+ #{\a \b \c \d \e \f \g \i \k \l \n \o \r \v \y \z}
+ #{\e \f \g \i \j \k \l \n \p \r \t \w \y \z}
+ #{\a \b \c \d \g \n \p \q \s \t \v \w \x}
+ #{\a \b \c \d \e \f \g \i \j \k \m \n \p \r \s \t \x \y}
+ #{\b \f \i \j \m \n \o \p \u \x \y}
+ #{\a \b \c \d \h \i \j \m \n \o \r \t \v \w \z}
+ #{}
+ #{\f \m \u}
+ #{\n}
+ #{\d \e \g \i \k \l \p \q \t \v \w \x \z}
+ #{}
+ #{\f \i \y}
+ #{\h \u}
+ #{\f \v}
+ #{\g}
+ #{\c \h \k \l \v \w}
+ #{\b \c \e \h \j \k \m \o \p \q \s \t \u \v \y \z}
+ #{\a \b \c \d \e \f \g \h \j \k \l \m \p \q \r \s \t \u \v \w \x \y}
+ #{\k \p \s \v \z}
+ #{\d \f \g \l \o \q \r \s \t \v \z}
+ #{}
+ ...)
+clj::aoc-2020.day-six=> 
+; Error printing return value (UnsupportedOperationException) at clojure.lang.RT/countFrom (RT.java:671).
+; count not supported on this type: Character
+clojure.main/repl (main.clj:442)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.day-six=> 
+; Error printing return value (ArityException) at clojure.lang.AFn/throwArity (AFn.java:429).
+; Wrong number of args (0) passed to: clojure.lang.PersistentHashSet
+clojure.main/repl (main.clj:442)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.day-six=> 
+(#{\h \m \u \w \x}
+ #{}
+ #{\a \f \v}
+ #{\i \p \q \r}
+ #{\a \b \c \e \f \g \h \i \k \q \t \y}
+ #{\a \b \e \m \n \q \r \s \t \u \v \w \x \y \z}
+ #{\e}
+ #{\h \j}
+ #{\d \e \i}
+ #{\b \e \f \i \l \m \n \o \p \t \u \v \x}
+ #{\d \i \l \q}
+ #{\a \b \e \i \k \m \n \q \z}
+ #{\f \j}
+ #{\a \c \f \m \q \t \w}
+ #{\c \g \i \m \n \p \s \v}
+ #{\f \h \y}
+ #{\a \c \e \t \x}
+ #{}
+ #{}
+ #{}
+ #{\a \d \f \g \h \k \n \u \x \z}
+ #{\c \g \m \p \y}
+ #{\a \b \d \f \g \i \j \l \n \p \s \t \z}
+ #{\a \g \j \k \n}
+ #{\d \g \i \t \u \y}
+ #{\h \j \n \p \q \r}
+ #{\d \h \o \p \q}
+ #{\c \g \p \q \r}
+ #{\b \g \h \o \p \s \t \u}
+ #{\a \b \c \d \e \f \g \i \k \l \n \o \r \v \y \z}
+ #{\e \f \g \i \j \k \l \n \p \r \t \w \y \z}
+ #{\a \b \c \d \g \n \p \q \s \t \v \w \x}
+ #{\a \b \c \d \e \f \g \i \j \k \m \n \p \r \s \t \x \y}
+ #{\b \f \i \j \m \n \o \p \u \x \y}
+ #{\a \b \c \d \h \i \j \m \n \o \r \t \v \w \z}
+ #{}
+ #{\f \m \u}
+ #{\n}
+ #{\d \e \g \i \k \l \p \q \t \v \w \x \z}
+ #{}
+ #{\f \i \y}
+ #{\h \u}
+ #{\f \v}
+ #{\g}
+ #{\c \h \k \l \v \w}
+ #{\b \c \e \h \j \k \m \o \p \q \s \t \u \v \y \z}
+ #{\a \b \c \d \e \f \g \h \j \k \l \m \p \q \r \s \t \u \v \w \x \y}
+ #{\k \p \s \v \z}
+ #{\d \f \g \l \o \q \r \s \t \v \z}
+ #{}
+ ...)
+clj::aoc-2020.day-six=> 
+(5 0 3 4 12 15 1 2 3 13 4 9 2 7 8 3 5 0 0 0 10 5 13 5 6 6 5 5 8 16 14 13 18 11 15 0 3 1 13 0 3 2 2 1 6 16 22 5 11 0 ...)
+clj::aoc-2020.day-six=> 
+3050
+clj::aoc-2020.day-six=> 
