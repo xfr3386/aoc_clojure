@@ -2198,3 +2198,918 @@ clj::day-seven=>
 clj::day-seven=> 
 (":plaid-fuchsia-bag" ":posh-purple-bag" ":light-crimson-bag" ":posh-beige-bag" ":pale-indigo-bag")
 clj::day-seven=> 
+; Error printing return value (ClassCastException) at clojure.core/re-pattern (core.clj:4845).
+; clojure.lang.LazySeq cannot be cast to java.lang.String
+clojure.main/repl (main.clj:442)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::day-seven=> 
+([:clear-brown-bag]
+ [:pale-aqua-bag]
+ [:posh-teal-bag]
+ [:dotted-beige-bag]
+ [:dotted-green-bag]
+ [:posh-white-bag]
+ [:faded-purple-bag]
+ [:dark-silver-bag]
+ [:dark-violet-bag]
+ [:mirrored-maroon-bag]
+ [:clear-indigo-bag]
+ [:bright-turquoise-bag]
+ [:striped-silver-bag]
+ [:clear-green-bag]
+ [:posh-tomato-bag]
+ [:light-blue-bag]
+ [:posh-bronze-bag]
+ [:dull-olive-bag]
+ [:vibrant-coral-bag])
+clj::day-seven=> 
+; Execution error (ClassCastException) at day-seven/eval50150 (form-init6500883712258886364.clj:77).
+; clojure.lang.LazySeq cannot be cast to clojure.lang.IFn
+day-seven/eval50150 (form-init6500883712258886364.clj:77)
+day-seven/eval50150 (form-init6500883712258886364.clj:72)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::day-seven=> 
+(":clear-brown-bag"
+ ":pale-aqua-bag"
+ ":posh-teal-bag"
+ ":dotted-beige-bag"
+ ":dotted-green-bag"
+ ":posh-white-bag"
+ ":faded-purple-bag"
+ ":dark-silver-bag"
+ ":dark-violet-bag"
+ ":mirrored-maroon-bag"
+ ":clear-indigo-bag"
+ ":bright-turquoise-bag"
+ ":striped-silver-bag"
+ ":clear-green-bag"
+ ":posh-tomato-bag"
+ ":light-blue-bag"
+ ":posh-bronze-bag"
+ ":dull-olive-bag"
+ ":vibrant-coral-bag")
+clj::day-seven=> 
+#'day-seven/this-one-works
+clj::day-seven=> 
+#'day-seven/this-one-works
+clj::day-seven=> 
+; Execution error (ClassCastException) at day-seven/this-one-works (form-init6500883712258886364.clj:78).
+; java.lang.Character cannot be cast to java.util.Map$Entry
+clojure.lang.ATransientMap/conj (ATransientMap.java:44)
+clojure.core/conj! (core.clj:3366)
+clojure.core/conj! (core.clj:3358)
+clojure.lang.ArrayChunk/reduce (ArrayChunk.java:58)
+clojure.core.protocols/fn (protocols.clj:136)
+clojure.core.protocols/fn (protocols.clj:124)
+clojure.core.protocols/fn (protocols.clj:19)
+clojure.core.protocols/seq-reduce (protocols.clj:31)
+clojure.core.protocols/fn (protocols.clj:75)
+clojure.core.protocols/fn (protocols.clj:13)
+clojure.core/reduce (core.clj:6828)
+clojure.core/into (core.clj:6895)
+clojure.core/into (core.clj:6887)
+day-seven/this-one-works (form-init6500883712258886364.clj:78)
+day-seven/this-one-works (form-init6500883712258886364.clj:71)
+day-seven/this-one-works (form-init6500883712258886364.clj:72)
+day-seven/this-one-works (form-init6500883712258886364.clj:71)
+day-seven/eval62820 (form-init6500883712258886364.clj:87)
+day-seven/eval62820 (form-init6500883712258886364.clj:82)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::day-seven=> 
+(":clear-brown-bag"
+ ":pale-aqua-bag"
+ ":posh-teal-bag"
+ ":dotted-beige-bag"
+ ":dotted-green-bag"
+ ":posh-white-bag"
+ ":faded-purple-bag"
+ ":dark-silver-bag"
+ ":dark-violet-bag"
+ ":mirrored-maroon-bag"
+ ":clear-indigo-bag"
+ ":bright-turquoise-bag"
+ ":striped-silver-bag"
+ ":clear-green-bag"
+ ":posh-tomato-bag"
+ ":light-blue-bag"
+ ":posh-bronze-bag"
+ ":dull-olive-bag"
+ ":vibrant-coral-bag")
+clj::day-seven=> 
+#'day-seven/this-one-works
+clj::day-seven=> 
+(":clear-brown-bag"
+ ":pale-aqua-bag"
+ ":posh-teal-bag"
+ ":dotted-beige-bag"
+ ":dotted-green-bag"
+ ":posh-white-bag"
+ ":faded-purple-bag"
+ ":dark-silver-bag"
+ ":dark-violet-bag"
+ ":mirrored-maroon-bag"
+ ":clear-indigo-bag"
+ ":bright-turquoise-bag"
+ ":striped-silver-bag"
+ ":clear-green-bag"
+ ":posh-tomato-bag"
+ ":light-blue-bag"
+ ":posh-bronze-bag"
+ ":dull-olive-bag"
+ ":vibrant-coral-bag")
+clj::day-seven=> 
+sfc:  (:shiny-gold-bag) bci:  (:plaid-fuchsia-bag :posh-purple-bag :light-crimson-bag :posh-beige-bag :pale-indigo-bag)
+; Execution error (ClassCastException) at day-seven/this-one-works (form-init6500883712258886364.clj:79).
+; java.lang.Character cannot be cast to java.util.Map$Entry
+clojure.lang.ATransientMap/conj (ATransientMap.java:44)
+clojure.core/conj! (core.clj:3366)
+clojure.core/conj! (core.clj:3358)
+clojure.lang.ArrayChunk/reduce (ArrayChunk.java:58)
+clojure.core.protocols/fn (protocols.clj:136)
+clojure.core.protocols/fn (protocols.clj:124)
+clojure.core.protocols/fn (protocols.clj:19)
+clojure.core.protocols/seq-reduce (protocols.clj:31)
+clojure.core.protocols/fn (protocols.clj:75)
+clojure.core.protocols/fn (protocols.clj:13)
+clojure.core/reduce (core.clj:6828)
+clojure.core/into (core.clj:6895)
+clojure.core/into (core.clj:6887)
+day-seven/this-one-works (form-init6500883712258886364.clj:79)
+day-seven/this-one-works (form-init6500883712258886364.clj:71)
+day-seven/this-one-works (form-init6500883712258886364.clj:72)
+day-seven/this-one-works (form-init6500883712258886364.clj:71)
+day-seven/eval64990 (form-init6500883712258886364.clj:88)
+day-seven/eval64990 (form-init6500883712258886364.clj:83)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::day-seven=> 
+#'day-seven/this-one-works
+clj::day-seven=> 
+#'day-seven/aoc-day7-p1
+clj::day-seven=> 
+#'day-seven/this-one-works
+clj::day-seven=> 
+#'day-seven/aoc-day7-p1
+clj::day-seven=> 
+#'day-seven/this-one-works
+clj::day-seven=> 
+sfc:  (:shiny-gold-bag) bci:  ([:plaid-fuchsia-bag] [:posh-purple-bag] [:light-crimson-bag] [:posh-beige-bag] [:pale-indigo-bag])
+; Execution error (ClassCastException) at day-seven/this-one-works (form-init6500883712258886364.clj:80).
+; java.lang.Character cannot be cast to java.util.Map$Entry
+clojure.lang.ATransientMap/conj (ATransientMap.java:44)
+clojure.core/conj! (core.clj:3366)
+clojure.core/conj! (core.clj:3358)
+clojure.lang.ArrayChunk/reduce (ArrayChunk.java:58)
+clojure.core.protocols/fn (protocols.clj:136)
+clojure.core.protocols/fn (protocols.clj:124)
+clojure.core.protocols/fn (protocols.clj:19)
+clojure.core.protocols/seq-reduce (protocols.clj:31)
+clojure.core.protocols/fn (protocols.clj:75)
+clojure.core.protocols/fn (protocols.clj:13)
+clojure.core/reduce (core.clj:6828)
+clojure.core/into (core.clj:6895)
+clojure.core/into (core.clj:6887)
+day-seven/this-one-works (form-init6500883712258886364.clj:80)
+day-seven/this-one-works (form-init6500883712258886364.clj:71)
+day-seven/this-one-works (form-init6500883712258886364.clj:72)
+day-seven/this-one-works (form-init6500883712258886364.clj:71)
+day-seven/eval65920 (form-init6500883712258886364.clj:89)
+day-seven/eval65920 (form-init6500883712258886364.clj:84)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::day-seven=> 
+#'day-seven/this-one-works
+clj::day-seven=> 
+sfc:  (:shiny-gold-bag) bci:  (:plaid-fuchsia-bag :posh-purple-bag :light-crimson-bag :posh-beige-bag :pale-indigo-bag)
+; Execution error (ClassCastException) at day-seven/this-one-works (form-init6500883712258886364.clj:80).
+; java.lang.Character cannot be cast to java.util.Map$Entry
+clojure.lang.ATransientMap/conj (ATransientMap.java:44)
+clojure.core/conj! (core.clj:3366)
+clojure.core/conj! (core.clj:3358)
+clojure.lang.ArrayChunk/reduce (ArrayChunk.java:58)
+clojure.core.protocols/fn (protocols.clj:136)
+clojure.core.protocols/fn (protocols.clj:124)
+clojure.core.protocols/fn (protocols.clj:19)
+clojure.core.protocols/seq-reduce (protocols.clj:31)
+clojure.core.protocols/fn (protocols.clj:75)
+clojure.core.protocols/fn (protocols.clj:13)
+clojure.core/reduce (core.clj:6828)
+clojure.core/into (core.clj:6895)
+clojure.core/into (core.clj:6887)
+day-seven/this-one-works (form-init6500883712258886364.clj:80)
+day-seven/this-one-works (form-init6500883712258886364.clj:71)
+day-seven/this-one-works (form-init6500883712258886364.clj:72)
+day-seven/this-one-works (form-init6500883712258886364.clj:71)
+day-seven/eval66102 (form-init6500883712258886364.clj:89)
+day-seven/eval66102 (form-init6500883712258886364.clj:84)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::day-seven=> 
+#'day-seven/this-one-works
+clj::day-seven=> 
+; Execution error (ClassCastException) at day-seven/this-one-works (form-init6500883712258886364.clj:80).
+; java.lang.Character cannot be cast to java.util.Map$Entry
+clojure.lang.ATransientMap/conj (ATransientMap.java:44)
+clojure.core/conj! (core.clj:3366)
+clojure.core/conj! (core.clj:3358)
+clojure.lang.ArrayChunk/reduce (ArrayChunk.java:58)
+clojure.core.protocols/fn (protocols.clj:136)
+clojure.core.protocols/fn (protocols.clj:124)
+clojure.core.protocols/fn (protocols.clj:19)
+clojure.core.protocols/seq-reduce (protocols.clj:31)
+clojure.core.protocols/fn (protocols.clj:75)
+clojure.core.protocols/fn (protocols.clj:13)
+clojure.core/reduce (core.clj:6828)
+clojure.core/into (core.clj:6895)
+clojure.core/into (core.clj:6887)
+day-seven/this-one-works (form-init6500883712258886364.clj:80)
+day-seven/this-one-works (form-init6500883712258886364.clj:71)
+day-seven/this-one-works (form-init6500883712258886364.clj:72)
+day-seven/this-one-works (form-init6500883712258886364.clj:71)
+day-seven/eval66896 (form-init6500883712258886364.clj:89)
+day-seven/eval66896 (form-init6500883712258886364.clj:84)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::day-seven=> 
+#'day-seven/this-one-works
+clj::day-seven=> 
+; Execution error (ClassCastException) at day-seven/this-one-works (form-init6500883712258886364.clj:80).
+; java.lang.Character cannot be cast to java.util.Map$Entry
+clojure.lang.ATransientMap/conj (ATransientMap.java:44)
+clojure.core/conj! (core.clj:3366)
+clojure.core/conj! (core.clj:3358)
+clojure.lang.ArrayChunk/reduce (ArrayChunk.java:58)
+clojure.core.protocols/fn (protocols.clj:136)
+clojure.core.protocols/fn (protocols.clj:124)
+clojure.core.protocols/fn (protocols.clj:19)
+clojure.core.protocols/seq-reduce (protocols.clj:31)
+clojure.core.protocols/fn (protocols.clj:75)
+clojure.core.protocols/fn (protocols.clj:13)
+clojure.core/reduce (core.clj:6828)
+clojure.core/into (core.clj:6895)
+clojure.core/into (core.clj:6887)
+day-seven/this-one-works (form-init6500883712258886364.clj:80)
+day-seven/this-one-works (form-init6500883712258886364.clj:71)
+day-seven/this-one-works (form-init6500883712258886364.clj:72)
+day-seven/this-one-works (form-init6500883712258886364.clj:71)
+day-seven/eval67330 (form-init6500883712258886364.clj:89)
+day-seven/eval67330 (form-init6500883712258886364.clj:84)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::day-seven=> 
+#'day-seven/this-one-works
+clj::day-seven=> 
+()
+clj::day-seven=> 
+#'day-seven/this-one-works
+clj::day-seven=> 
+sfc:  (:shiny-gold-bag) bci:  ([:plaid-fuchsia-bag] [:posh-purple-bag] [:light-crimson-bag] [:posh-beige-bag] [:pale-indigo-bag])
+sfc:  (:plaid-fuchsia-bag :posh-purple-bag :light-crimson-bag :posh-beige-bag :pale-indigo-bag) bci:  ([:clear-brown-bag] [:pale-aqua-bag] [:posh-teal-bag] [:dotted-beige-bag] [:dotted-green-bag] [:posh-white-bag] [:faded-purple-bag] [:dark-silver-bag] [:dark-violet-bag] [:mirrored-maroon-bag] [:clear-indigo-bag] [:bright-turquoise-bag] [:striped-silver-bag] [:clear-green-bag] [:posh-tomato-bag] [:light-blue-bag] [:posh-bronze-bag] [:dull-olive-bag] [:vibrant-coral-bag])
+sfc:  (:clear-brown-bag :pale-aqua-bag :posh-teal-bag :dotted-beige-bag :dotted-green-bag :posh-white-bag :faded-purple-bag :dark-silver-bag :dark-violet-bag :mirrored-maroon-bag :clear-indigo-bag :bright-turquoise-bag :striped-silver-bag :clear-green-bag :posh-tomato-bag :light-blue-bag :posh-bronze-bag :dull-olive-bag :vibrant-coral-bag) bci:  ([:faded-teal-bag] [:dim-gold-bag] [:clear-teal-bag] [:striped-indigo-bag] [:vibrant-chartreuse-bag] [:shiny-salmon-bag] [:plaid-red-bag] [:drab-black-bag] [:pale-purple-bag] [:faded-crimson-bag] [:pale-maroon-bag] [:dotted-magenta-bag] [:shiny-lime-bag] [:light-bronze-bag] [:striped-gold-bag] [:muted-cyan-bag] [:mirrored-cyan-bag] [:faded-coral-bag] [:mirrored-white-bag] [:vibrant-gray-bag] [:striped-bronze-bag] [:mirrored-blue-bag] [:vibrant-white-bag] [:posh-aqua-bag] [:dotted-bronze-bag] [:dotted-cyan-bag] [:striped-blue-bag] [:dotted-tan-bag] [:clear-silver-bag] [:dark-red-bag] [:muted-plum-bag] [:dim-bronze-bag] [:bright-tomato-bag] [:striped-coral-bag] [:vibran
+t-aqua-bag] [:dull-black-bag] [:plaid-purple-bag] [:pale-turquoise-bag :pale-turquoise-bag] [:mirrored-lavender-bag] [:bright-black-bag] [:drab-maroon-bag] [:dotted-gold-bag] [:posh-orange-bag] [:drab-indigo-bag] [:dark-beige-bag] [:plaid-coral-bag])
+sfc:  (:faded-teal-bag :dim-gold-bag :clear-teal-bag :striped-indigo-bag :vibrant-chartreuse-bag :shiny-salmon-bag :plaid-red-bag :drab-black-bag :pale-purple-bag :faded-crimson-bag :pale-maroon-bag :dotted-magenta-bag :shiny-lime-bag :light-bronze-bag :striped-gold-bag :muted-cyan-bag :mirrored-cyan-bag :faded-coral-bag :mirrored-white-bag :vibrant-gray-bag :striped-bronze-bag :mirrored-blue-bag :vibrant-white-bag :posh-aqua-bag :dotted-bronze-bag :dotted-cyan-bag :striped-blue-bag :dotted-tan-bag :clear-silver-bag :dark-red-bag :muted-plum-bag :dim-bronze-bag :bright-tomato-bag :striped-coral-bag :vibrant-aqua-bag :dull-black-bag :plaid-purple-bag :pale-turquoise-bag :mirrored-lavender-bag :bright-black-bag :drab-maroon-bag :dotted-gold-bag :posh-orange-bag :drab-indigo-bag :dark-beige-bag :plaid-coral-bag) bci:  ([:posh-lime-bag] [:dark-magenta-bag] [:light-fuchsia-bag :light-fuchsia-bag] [:wavy-salmon-bag] [:dull-tomato-bag] [:dull-white-bag] [:bright-salmon-bag] [:posh-salmon-bag] [:dim-blue-bag :dim-blu
+e-bag] [:shiny-green-bag :shiny-green-bag] [:plaid-tan-bag] [:striped-indigo-bag] [:muted-teal-bag] [:plaid-olive-bag] [:dim-gray-bag] [:striped-maroon-bag] [:muted-white-bag] [:wavy-silver-bag] [:clear-crimson-bag] [:mirrored-purple-bag] [:clear-turquoise-bag] [:dim-beige-bag] [:clear-chartreuse-bag] [:vibrant-gold-bag] [:dotted-chartreuse-bag] [:clear-orange-bag] [:bright-crimson-bag] [:dull-gray-bag :dull-gray-bag] [:dim-orange-bag] [:faded-salmon-bag] [:dark-fuchsia-bag :dark-fuchsia-bag] [:faded-red-bag] [:drab-yellow-bag :drab-yellow-bag] [:mirrored-magenta-bag] [:bright-brown-bag] [:clear-purple-bag] [:light-plum-bag] [:pale-maroon-bag] [:clear-fuchsia-bag] [:wavy-lavender-bag] [:shiny-plum-bag] [:dark-gray-bag] [:muted-cyan-bag] [:vibrant-crimson-bag] [:dull-crimson-bag] [:bright-violet-bag :bright-violet-bag] [:mirrored-white-bag] [:clear-salmon-bag] [:plaid-blue-bag] [:dim-fuchsia-bag :dim-fuchsia-bag] [:vibrant-lime-bag] [:bright-beige-bag] [:vibrant-gray-bag] [:dull-aqua-bag] [:shiny-orange-bag] [
+:dark-green-bag :dark-green-bag] [:striped-tan-bag] [:muted-indigo-bag] [:faded-green-bag] [:mirrored-silver-bag] [:drab-brown-bag] [:drab-violet-bag] [:vibrant-maroon-bag :vibrant-maroon-bag] [:wavy-magenta-bag] [:plaid-chartreuse-bag] [:bright-orange-bag] [:light-coral-bag] [:light-violet-bag] [:vibrant-bronze-bag] [:posh-silver-bag] [:mirrored-crimson-bag] [:bright-lime-bag] [:drab-green-bag] [:dotted-turquoise-bag] [:bright-tomato-bag] [:dim-plum-bag] [:bright-olive-bag] [:faded-olive-bag] [:plaid-tomato-bag] [:drab-blue-bag] [:dotted-indigo-bag] [:pale-indigo-bag] [:bright-plum-bag] [:drab-aqua-bag] [:mirrored-red-bag] [:mirrored-chartreuse-bag])
+sfc:  (:posh-lime-bag :dark-magenta-bag :light-fuchsia-bag :wavy-salmon-bag :dull-tomato-bag :dull-white-bag :bright-salmon-bag :posh-salmon-bag :dim-blue-bag :shiny-green-bag :plaid-tan-bag :striped-indigo-bag :muted-teal-bag :plaid-olive-bag :dim-gray-bag :striped-maroon-bag :muted-white-bag :wavy-silver-bag :clear-crimson-bag :mirrored-purple-bag :clear-turquoise-bag :dim-beige-bag :clear-chartreuse-bag :vibrant-gold-bag :dotted-chartreuse-bag :clear-orange-bag :bright-crimson-bag :dull-gray-bag :dim-orange-bag :faded-salmon-bag :dark-fuchsia-bag :faded-red-bag :drab-yellow-bag :mirrored-magenta-bag :bright-brown-bag :clear-purple-bag :light-plum-bag :pale-maroon-bag :clear-fuchsia-bag :wavy-lavender-bag :shiny-plum-bag :dark-gray-bag :muted-cyan-bag :vibrant-crimson-bag :dull-crimson-bag :bright-violet-bag :mirrored-white-bag :clear-salmon-bag :plaid-blue-bag :dim-fuchsia-bag :vibrant-lime-bag :bright-beige-bag :vibrant-gray-bag :dull-aqua-bag :shiny-orange-bag :dark-green-bag :striped-tan-bag :muted-indi
+go-bag :faded-green-bag :mirrored-silver-bag :drab-brown-bag :drab-violet-bag :vibrant-maroon-bag :wavy-magenta-bag :plaid-chartreuse-bag :bright-orange-bag :light-coral-bag :light-violet-bag :vibrant-bronze-bag :posh-silver-bag :mirrored-crimson-bag :bright-lime-bag :drab-green-bag :dotted-turquoise-bag :bright-tomato-bag :dim-plum-bag :bright-olive-bag :faded-olive-bag :plaid-tomato-bag :drab-blue-bag :dotted-indigo-bag :pale-indigo-bag :bright-plum-bag :drab-aqua-bag :mirrored-red-bag :mirrored-chartreuse-bag) bci:  ([:dark-olive-bag] [:dark-magenta-bag] [:posh-chartreuse-bag :posh-chartreuse-bag] [:pale-aqua-bag] [:muted-salmon-bag] [:dull-green-bag] [:dull-white-bag] [:dim-gold-bag] [:posh-white-bag] [:shiny-green-bag] [:clear-teal-bag] [:plaid-tan-bag] [:striped-green-bag] [:faded-violet-bag] [:striped-indigo-bag :striped-indigo-bag] [:muted-teal-bag] [:shiny-tomato-bag] [:striped-maroon-bag :striped-maroon-bag] [:posh-olive-bag] [:plaid-maroon-bag] [:dark-aqua-bag :dark-aqua-bag] [:dotted-teal-bag] [:s
+hiny-salmon-bag] [:mirrored-teal-bag] [:dull-indigo-bag] [:dull-gray-bag] [:dim-orange-bag] [:faded-salmon-bag] [:clear-red-bag] [:shiny-violet-bag] [:light-olive-bag :light-olive-bag] [:faded-crimson-bag] [:bright-lavender-bag] [:wavy-blue-bag] [:clear-yellow-bag] [:dim-magenta-bag] [:dim-cyan-bag] [:light-red-bag] [:dark-turquoise-bag] [:plaid-lavender-bag :plaid-lavender-bag] [:faded-orange-bag] [:mirrored-tan-bag] [:dull-crimson-bag] [:bright-violet-bag] [:clear-salmon-bag] [:dim-olive-bag] [:dark-plum-bag] [:plaid-lime-bag] [:mirrored-blue-bag] [:posh-fuchsia-bag] [:light-crimson-bag] [:vibrant-orange-bag] [:muted-indigo-bag :muted-indigo-bag] [:mirrored-silver-bag :mirrored-silver-bag] [:shiny-purple-bag] [:vibrant-red-bag] [:posh-gold-bag] [:light-orange-bag] [:vibrant-maroon-bag] [:wavy-magenta-bag] [:striped-orange-bag] [:posh-lavender-bag] [:wavy-brown-bag] [:mirrored-coral-bag] [:dark-crimson-bag] [:wavy-teal-bag] [:posh-silver-bag] [:light-white-bag] [:faded-fuchsia-bag] [:plaid-gray-bag] [:shiny-
+silver-bag] [:muted-crimson-bag] [:posh-tan-bag] [:dim-yellow-bag] [:drab-green-bag] [:drab-lavender-bag] [:dotted-turquoise-bag] [:clear-white-bag] [:faded-magenta-bag] [:pale-beige-bag] [:posh-blue-bag :posh-blue-bag] [:muted-olive-bag] [:dull-coral-bag] [:dotted-violet-bag] [:dotted-indigo-bag] [:clear-beige-bag] [:dark-black-bag] [:bright-black-bag] [:striped-black-bag] [:striped-plum-bag] [:dotted-olive-bag] [:pale-brown-bag])
+sfc:  (:dark-olive-bag :dark-magenta-bag :posh-chartreuse-bag :pale-aqua-bag :muted-salmon-bag :dull-green-bag :dull-white-bag :dim-gold-bag :posh-white-bag :shiny-green-bag :clear-teal-bag :plaid-tan-bag :striped-green-bag :faded-violet-bag :striped-indigo-bag :muted-teal-bag :shiny-tomato-bag :striped-maroon-bag :posh-olive-bag :plaid-maroon-bag :dark-aqua-bag :dotted-teal-bag :shiny-salmon-bag :mirrored-teal-bag :dull-indigo-bag :dull-gray-bag :dim-orange-bag :faded-salmon-bag :clear-red-bag :shiny-violet-bag :light-olive-bag :faded-crimson-bag :bright-lavender-bag :wavy-blue-bag :clear-yellow-bag :dim-magenta-bag :dim-cyan-bag :light-red-bag :dark-turquoise-bag :plaid-lavender-bag :faded-orange-bag :mirrored-tan-bag :dull-crimson-bag :bright-violet-bag :clear-salmon-bag :dim-olive-bag :dark-plum-bag :plaid-lime-bag :mirrored-blue-bag :posh-fuchsia-bag :light-crimson-bag :vibrant-orange-bag :muted-indigo-bag :mirrored-silver-bag :shiny-purple-bag :vibrant-red-bag :posh-gold-bag :light-orange-bag :vibrant-m
+aroon-bag :wavy-magenta-bag :striped-orange-bag :posh-lavender-bag :wavy-brown-bag :mirrored-coral-bag :dark-crimson-bag :wavy-teal-bag :posh-silver-bag :light-white-bag :faded-fuchsia-bag :plaid-gray-bag :shiny-silver-bag :muted-crimson-bag :posh-tan-bag :dim-yellow-bag :drab-green-bag :drab-lavender-bag :dotted-turquoise-bag :clear-white-bag :faded-magenta-bag :pale-beige-bag :posh-blue-bag :muted-olive-bag :dull-coral-bag :dotted-violet-bag :dotted-indigo-bag :clear-beige-bag :dark-black-bag :bright-black-bag :striped-black-bag :striped-plum-bag :dotted-olive-bag :pale-brown-bag) bci:  ([:dark-magenta-bag] [:vibrant-green-bag] [:light-aqua-bag] [:posh-chartreuse-bag] [:pale-aqua-bag] [:dotted-blue-bag] [:dull-tomato-bag] [:faded-black-bag :faded-black-bag] [:wavy-indigo-bag] [:posh-coral-bag] [:bright-salmon-bag] [:dim-gold-bag] [:plaid-tan-bag] [:faded-violet-bag] [:shiny-tomato-bag] [:muted-white-bag] [:pale-teal-bag] [:bright-blue-bag] [:wavy-silver-bag] [:pale-salmon-bag] [:clear-crimson-bag] [:dark-aq
+ua-bag] [:clear-turquoise-bag] [:plaid-crimson-bag] [:drab-cyan-bag] [:dim-chartreuse-bag] [:mirrored-teal-bag] [:drab-fuchsia-bag] [:faded-aqua-bag] [:drab-plum-bag] [:vibrant-beige-bag] [:clear-maroon-bag] [:clear-red-bag :clear-red-bag] [:pale-orange-bag] [:mirrored-plum-bag] [:drab-yellow-bag :drab-yellow-bag] [:mirrored-magenta-bag] [:faded-crimson-bag :faded-crimson-bag] [:pale-maroon-bag] [:dark-teal-bag] [:clear-fuchsia-bag] [:plaid-green-bag] [:shiny-plum-bag :shiny-plum-bag] [:shiny-lime-bag] [:dim-maroon-bag] [:plaid-black-bag] [:plaid-salmon-bag] [:dull-bronze-bag :dull-bronze-bag] [:dull-teal-bag :dull-teal-bag] [:dull-crimson-bag] [:posh-maroon-bag] [:bright-violet-bag :bright-violet-bag] [:muted-silver-bag] [:dull-orange-bag] [:dim-olive-bag] [:plaid-lime-bag] [:dim-purple-bag] [:muted-violet-bag] [:vibrant-orange-bag] [:muted-lime-bag] [:dim-turquoise-bag] [:muted-indigo-bag] [:dotted-bronze-bag] [:dotted-cyan-bag] [:faded-green-bag] [:drab-brown-bag] [:vibrant-red-bag] [:faded-lime-bag] [:pos
+h-gold-bag] [:muted-beige-bag] [:bright-orange-bag] [:dark-crimson-bag] [:light-violet-bag] [:posh-silver-bag] [:bright-purple-bag] [:light-white-bag] [:faded-fuchsia-bag] [:shiny-silver-bag] [:posh-tan-bag :posh-tan-bag] [:dotted-turquoise-bag] [:clear-white-bag] [:dark-purple-bag] [:bright-tomato-bag] [:striped-coral-bag] [:dim-plum-bag] [:wavy-plum-bag] [:bright-coral-bag :bright-coral-bag :bright-coral-bag] [:posh-blue-bag] [:dull-coral-bag] [:dull-red-bag] [:dotted-indigo-bag] [:dark-black-bag] [:bright-black-bag] [:striped-plum-bag] [:plaid-coral-bag :plaid-coral-bag] [:plaid-aqua-bag] [:shiny-teal-bag] [:vibrant-coral-bag])
+sfc:  (:dark-magenta-bag :vibrant-green-bag :light-aqua-bag :posh-chartreuse-bag :pale-aqua-bag :dotted-blue-bag :dull-tomato-bag :faded-black-bag :wavy-indigo-bag :posh-coral-bag :bright-salmon-bag :dim-gold-bag :plaid-tan-bag :faded-violet-bag :shiny-tomato-bag :muted-white-bag :pale-teal-bag :bright-blue-bag :wavy-silver-bag :pale-salmon-bag :clear-crimson-bag :dark-aqua-bag :clear-turquoise-bag :plaid-crimson-bag :drab-cyan-bag :dim-chartreuse-bag :mirrored-teal-bag :drab-fuchsia-bag :faded-aqua-bag :drab-plum-bag :vibrant-beige-bag :clear-maroon-bag :clear-red-bag :pale-orange-bag :mirrored-plum-bag :drab-yellow-bag :mirrored-magenta-bag :faded-crimson-bag :pale-maroon-bag :dark-teal-bag :clear-fuchsia-bag :plaid-green-bag :shiny-plum-bag :shiny-lime-bag :dim-maroon-bag :plaid-black-bag :plaid-salmon-bag :dull-bronze-bag :dull-teal-bag :dull-crimson-bag :posh-maroon-bag :bright-violet-bag :muted-silver-bag :dull-orange-bag :dim-olive-bag :plaid-lime-bag :dim-purple-bag :muted-violet-bag :vibrant-orange-b
+ag :muted-lime-bag :dim-turquoise-bag :muted-indigo-bag :dotted-bronze-bag :dotted-cyan-bag :faded-green-bag :drab-brown-bag :vibrant-red-bag :faded-lime-bag :posh-gold-bag :muted-beige-bag :bright-orange-bag :dark-crimson-bag :light-violet-bag :posh-silver-bag :bright-purple-bag :light-white-bag :faded-fuchsia-bag :shiny-silver-bag :posh-tan-bag :dotted-turquoise-bag :clear-white-bag :dark-purple-bag :bright-tomato-bag :striped-coral-bag :dim-plum-bag :wavy-plum-bag :bright-coral-bag :posh-blue-bag :dull-coral-bag :dull-red-bag :dotted-indigo-bag :dark-black-bag :bright-black-bag :striped-plum-bag :plaid-coral-bag :plaid-aqua-bag :shiny-teal-bag :vibrant-coral-bag) bci:  ([:dark-olive-bag :dark-olive-bag] [:light-fuchsia-bag] [:plaid-silver-bag] [:dotted-blue-bag] [:dotted-lime-bag :dotted-lime-bag] [:dim-blue-bag :dim-blue-bag] [:shiny-green-bag :shiny-green-bag] [:clear-teal-bag] [:plaid-tan-bag] [:faded-violet-bag] [:striped-indigo-bag :striped-indigo-bag] [:muted-teal-bag] [:shiny-tomato-bag] [:striped-m
+aroon-bag] [:striped-teal-bag] [:posh-olive-bag] [:pale-teal-bag] [:wavy-silver-bag] [:pale-salmon-bag] [:posh-gray-bag] [:striped-lime-bag] [:posh-magenta-bag] [:mirrored-teal-bag] [:clear-orange-bag] [:pale-lavender-bag] [:wavy-blue-bag] [:shiny-plum-bag :shiny-plum-bag] [:dull-bronze-bag :dull-bronze-bag] [:plaid-lavender-bag] [:faded-orange-bag] [:dull-teal-bag :dull-teal-bag] [:mirrored-beige-bag :mirrored-beige-bag] [:striped-aqua-bag] [:dull-crimson-bag :dull-crimson-bag] [:bright-violet-bag :bright-violet-bag] [:clear-salmon-bag] [:dim-olive-bag] [:dark-plum-bag] [:plaid-lime-bag] [:vibrant-tan-bag] [:vibrant-gray-bag] [:pale-tan-bag] [:dark-green-bag] [:striped-tan-bag] [:muted-lime-bag] [:muted-indigo-bag :muted-indigo-bag] [:pale-lime-bag :pale-lime-bag] [:mirrored-silver-bag] [:clear-silver-bag] [:vibrant-maroon-bag] [:light-black-bag] [:striped-orange-bag] [:drab-purple-bag] [:mirrored-coral-bag] [:dark-crimson-bag :dark-crimson-bag] [:posh-silver-bag :posh-silver-bag :posh-silver-bag] [:faded-fu
+chsia-bag] [:shiny-silver-bag] [:dotted-turquoise-bag] [:bright-tomato-bag] [:dim-plum-bag] [:bright-coral-bag :bright-coral-bag] [:posh-blue-bag] [:dull-coral-bag] [:plaid-tomato-bag] [:vibrant-silver-bag] [:dotted-violet-bag] [:dark-black-bag :dark-black-bag] [:plaid-aqua-bag])
+sfc:  (:dark-olive-bag :light-fuchsia-bag :plaid-silver-bag :dotted-blue-bag :dotted-lime-bag :dim-blue-bag :shiny-green-bag :clear-teal-bag :plaid-tan-bag :faded-violet-bag :striped-indigo-bag :muted-teal-bag :shiny-tomato-bag :striped-maroon-bag :striped-teal-bag :posh-olive-bag :pale-teal-bag :wavy-silver-bag :pale-salmon-bag :posh-gray-bag :striped-lime-bag :posh-magenta-bag :mirrored-teal-bag :clear-orange-bag :pale-lavender-bag :wavy-blue-bag :shiny-plum-bag :dull-bronze-bag :plaid-lavender-bag :faded-orange-bag :dull-teal-bag :mirrored-beige-bag :striped-aqua-bag :dull-crimson-bag :bright-violet-bag :clear-salmon-bag :dim-olive-bag :dark-plum-bag :plaid-lime-bag :vibrant-tan-bag :vibrant-gray-bag :pale-tan-bag :dark-green-bag :striped-tan-bag :muted-lime-bag :muted-indigo-bag :pale-lime-bag :mirrored-silver-bag :clear-silver-bag :vibrant-maroon-bag :light-black-bag :striped-orange-bag :drab-purple-bag :mirrored-coral-bag :dark-crimson-bag :posh-silver-bag :faded-fuchsia-bag :shiny-silver-bag :dotted-tu
+rquoise-bag :bright-tomato-bag :dim-plum-bag :bright-coral-bag :posh-blue-bag :dull-coral-bag :plaid-tomato-bag :vibrant-silver-bag :dotted-violet-bag :dark-black-bag :plaid-aqua-bag) bci:  ([:dark-olive-bag] [:dark-magenta-bag] [:posh-chartreuse-bag] [:dotted-lime-bag] [:clear-teal-bag] [:striped-indigo-bag] [:wavy-cyan-bag] [:posh-olive-bag] [:plaid-maroon-bag] [:bright-blue-bag] [:wavy-silver-bag] [:pale-salmon-bag] [:clear-crimson-bag] [:dark-aqua-bag :dark-aqua-bag] [:mirrored-teal-bag] [:drab-orange-bag] [:faded-gold-bag] [:shiny-violet-bag] [:drab-yellow-bag] [:mirrored-magenta-bag] [:pale-maroon-bag] [:dim-magenta-bag] [:plaid-black-bag] [:dim-crimson-bag] [:plaid-salmon-bag] [:dull-bronze-bag] [:dull-teal-bag] [:bright-violet-bag :bright-violet-bag] [:clear-salmon-bag] [:mirrored-aqua-bag] [:dim-olive-bag] [:plaid-lime-bag] [:dim-turquoise-bag] [:muted-indigo-bag] [:dotted-cyan-bag] [:faded-green-bag] [:light-black-bag] [:bright-green-bag] [:mirrored-coral-bag] [:light-violet-bag] [:bright-purple-bag
+] [:faded-fuchsia-bag] [:posh-tan-bag] [:dotted-turquoise-bag :dotted-turquoise-bag] [:clear-white-bag] [:wavy-plum-bag] [:bright-coral-bag] [:posh-blue-bag] [:dotted-violet-bag] [:dotted-indigo-bag] [:dark-black-bag] [:bright-plum-bag] [:plaid-beige-bag] [:drab-indigo-bag] [:plaid-aqua-bag])
+sfc:  (:dark-olive-bag :dark-magenta-bag :posh-chartreuse-bag :dotted-lime-bag :clear-teal-bag :striped-indigo-bag :wavy-cyan-bag :posh-olive-bag :plaid-maroon-bag :bright-blue-bag :wavy-silver-bag :pale-salmon-bag :clear-crimson-bag :dark-aqua-bag :mirrored-teal-bag :drab-orange-bag :faded-gold-bag :shiny-violet-bag :drab-yellow-bag :mirrored-magenta-bag :pale-maroon-bag :dim-magenta-bag :plaid-black-bag :dim-crimson-bag :plaid-salmon-bag :dull-bronze-bag :dull-teal-bag :bright-violet-bag :clear-salmon-bag :mirrored-aqua-bag :dim-olive-bag :plaid-lime-bag :dim-turquoise-bag :muted-indigo-bag :dotted-cyan-bag :faded-green-bag :light-black-bag :bright-green-bag :mirrored-coral-bag :light-violet-bag :bright-purple-bag :faded-fuchsia-bag :posh-tan-bag :dotted-turquoise-bag :clear-white-bag :wavy-plum-bag :bright-coral-bag :posh-blue-bag :dotted-violet-bag :dotted-indigo-bag :dark-black-bag :bright-plum-bag :plaid-beige-bag :drab-indigo-bag :plaid-aqua-bag) bci:  ([:dark-olive-bag] [:dark-magenta-bag] [:wavy-salm
+on-bag] [:pale-aqua-bag] [:dull-white-bag] [:dim-blue-bag :dim-blue-bag] [:shiny-green-bag] [:light-gold-bag] [:striped-indigo-bag :striped-indigo-bag] [:striped-maroon-bag :striped-maroon-bag] [:striped-teal-bag] [:pale-teal-bag] [:bright-blue-bag] [:wavy-silver-bag] [:clear-orange-bag] [:drab-yellow-bag] [:mirrored-magenta-bag] [:wavy-blue-bag] [:pale-maroon-bag] [:clear-fuchsia-bag] [:plaid-salmon-bag] [:dull-bronze-bag] [:faded-orange-bag] [:dull-teal-bag] [:dull-crimson-bag] [:bright-violet-bag :bright-violet-bag] [:dark-green-bag] [:striped-tan-bag] [:muted-indigo-bag] [:striped-salmon-bag] [:faded-green-bag] [:drab-brown-bag] [:vibrant-maroon-bag] [:striped-red-bag] [:light-violet-bag] [:posh-silver-bag] [:faded-fuchsia-bag] [:shiny-silver-bag] [:dotted-turquoise-bag] [:clear-white-bag] [:bright-tomato-bag] [:bright-coral-bag :bright-coral-bag] [:posh-blue-bag] [:dull-coral-bag] [:drab-blue-bag] [:vibrant-silver-bag] [:dotted-indigo-bag])
+sfc:  (:dark-olive-bag :dark-magenta-bag :wavy-salmon-bag :pale-aqua-bag :dull-white-bag :dim-blue-bag :shiny-green-bag :light-gold-bag :striped-indigo-bag :striped-maroon-bag :striped-teal-bag :pale-teal-bag :bright-blue-bag :wavy-silver-bag :clear-orange-bag :drab-yellow-bag :mirrored-magenta-bag :wavy-blue-bag :pale-maroon-bag :clear-fuchsia-bag :plaid-salmon-bag :dull-bronze-bag :faded-orange-bag :dull-teal-bag :dull-crimson-bag :bright-violet-bag :dark-green-bag :striped-tan-bag :muted-indigo-bag :striped-salmon-bag :faded-green-bag :drab-brown-bag :vibrant-maroon-bag :striped-red-bag :light-violet-bag :posh-silver-bag :faded-fuchsia-bag :shiny-silver-bag :dotted-turquoise-bag :clear-white-bag :bright-tomato-bag :bright-coral-bag :posh-blue-bag :dull-coral-bag :drab-blue-bag :vibrant-silver-bag :dotted-indigo-bag) bci:  ([:posh-chartreuse-bag] [:shiny-green-bag] [:striped-indigo-bag :striped-indigo-bag] [:striped-teal-bag] [:dark-aqua-bag :dark-aqua-bag] [:mirrored-teal-bag] [:light-red-bag] [:faded-oran
+ge-bag] [:dull-teal-bag] [:dull-crimson-bag] [:bright-violet-bag] [:clear-salmon-bag] [:plaid-lime-bag] [:vibrant-orange-bag] [:muted-indigo-bag :muted-indigo-bag] [:vibrant-maroon-bag] [:dark-crimson-bag] [:faded-fuchsia-bag] [:posh-tan-bag] [:dotted-turquoise-bag] [:wavy-plum-bag] [:posh-blue-bag] [:dull-coral-bag] [:vibrant-silver-bag] [:dark-black-bag] [:drab-aqua-bag])
+sfc:  (:posh-chartreuse-bag :shiny-green-bag :striped-indigo-bag :striped-teal-bag :dark-aqua-bag :mirrored-teal-bag :light-red-bag :faded-orange-bag :dull-teal-bag :dull-crimson-bag :bright-violet-bag :clear-salmon-bag :plaid-lime-bag :vibrant-orange-bag :muted-indigo-bag :vibrant-maroon-bag :dark-crimson-bag :faded-fuchsia-bag :posh-tan-bag :dotted-turquoise-bag :wavy-plum-bag :posh-blue-bag :dull-coral-bag :vibrant-silver-bag :dark-black-bag :drab-aqua-bag) bci:  ([:pale-teal-bag] [:faded-crimson-bag] [:dull-bronze-bag :dull-bronze-bag] [:dull-teal-bag] [:bright-violet-bag] [:vibrant-red-bag] [:posh-silver-bag] [:shiny-silver-bag] [:dotted-turquoise-bag] [:bright-tomato-bag] [:bright-coral-bag] [:posh-blue-bag] [:dotted-indigo-bag] [:dark-black-bag] [:dotted-olive-bag])
+sfc:  (:pale-teal-bag :faded-crimson-bag :dull-bronze-bag :dull-teal-bag :bright-violet-bag :vibrant-red-bag :posh-silver-bag :shiny-silver-bag :dotted-turquoise-bag :bright-tomato-bag :bright-coral-bag :posh-blue-bag :dotted-indigo-bag :dark-black-bag :dotted-olive-bag) bci:  ([:clear-turquoise-bag] [:mirrored-teal-bag] [:shiny-plum-bag] [:muted-silver-bag] [:clear-salmon-bag] [:plaid-lime-bag] [:muted-lime-bag] [:muted-indigo-bag] [:posh-tan-bag] [:posh-blue-bag])
+sfc:  (:clear-turquoise-bag :mirrored-teal-bag :shiny-plum-bag :muted-silver-bag :clear-salmon-bag :plaid-lime-bag :muted-lime-bag :muted-indigo-bag :posh-tan-bag :posh-blue-bag) bci:  ([:bright-violet-bag] [:dotted-turquoise-bag] [:bright-coral-bag] [:dotted-indigo-bag])
+sfc:  (:bright-violet-bag :dotted-turquoise-bag :bright-coral-bag :dotted-indigo-bag) bci:  ([:posh-blue-bag])
+sfc:  (:posh-blue-bag) bci:  ()
+()
+clj::day-seven=> 
+#'day-seven/this-one-works
+clj::day-seven=> 
+(:plaid-fuchsia-bag :posh-purple-bag :light-crimson-bag :posh-beige-bag :pale-indigo-bag)
+(:clear-brown-bag :pale-aqua-bag :posh-teal-bag :dotted-beige-bag :dotted-green-bag :posh-white-bag :faded-purple-bag :dark-silver-bag :dark-violet-bag :mirrored-maroon-bag :clear-indigo-bag :bright-turquoise-bag :striped-silver-bag :clear-green-bag :posh-tomato-bag :light-blue-bag :posh-bronze-bag :dull-olive-bag :vibrant-coral-bag)
+(:faded-teal-bag :dim-gold-bag :clear-teal-bag :striped-indigo-bag :vibrant-chartreuse-bag :shiny-salmon-bag :plaid-red-bag :drab-black-bag :pale-purple-bag :faded-crimson-bag :pale-maroon-bag :dotted-magenta-bag :shiny-lime-bag :light-bronze-bag :striped-gold-bag :muted-cyan-bag :mirrored-cyan-bag :faded-coral-bag :mirrored-white-bag :vibrant-gray-bag :striped-bronze-bag :mirrored-blue-bag :vibrant-white-bag :posh-aqua-bag :dotted-bronze-bag :dotted-cyan-bag :striped-blue-bag :dotted-tan-bag :clear-silver-bag :dark-red-bag :muted-plum-bag :dim-bronze-bag :bright-tomato-bag :striped-coral-bag :vibrant-aqua-bag :dull-black-bag :plaid-purple-bag :pale-turquoise-bag :mirrored-lavender-bag :bright-black-bag :drab-maroon-bag :dotted-gold-bag :posh-orange-bag :drab-indigo-bag :dark-beige-bag :plaid-coral-bag)
+(:posh-lime-bag :dark-magenta-bag :light-fuchsia-bag :wavy-salmon-bag :dull-tomato-bag :dull-white-bag :bright-salmon-bag :posh-salmon-bag :dim-blue-bag :shiny-green-bag :plaid-tan-bag :striped-indigo-bag :muted-teal-bag :plaid-olive-bag :dim-gray-bag :striped-maroon-bag :muted-white-bag :wavy-silver-bag :clear-crimson-bag :mirrored-purple-bag :clear-turquoise-bag :dim-beige-bag :clear-chartreuse-bag :vibrant-gold-bag :dotted-chartreuse-bag :clear-orange-bag :bright-crimson-bag :dull-gray-bag :dim-orange-bag :faded-salmon-bag :dark-fuchsia-bag :faded-red-bag :drab-yellow-bag :mirrored-magenta-bag :bright-brown-bag :clear-purple-bag :light-plum-bag :pale-maroon-bag :clear-fuchsia-bag :wavy-lavender-bag :shiny-plum-bag :dark-gray-bag :muted-cyan-bag :vibrant-crimson-bag :dull-crimson-bag :bright-violet-bag :mirrored-white-bag :clear-salmon-bag :plaid-blue-bag :dim-fuchsia-bag :vibrant-lime-bag :bright-beige-bag :vibrant-gray-bag :dull-aqua-bag :shiny-orange-bag :dark-green-bag :striped-tan-bag :muted-indigo-bag
+ :faded-green-bag :mirrored-silver-bag :drab-brown-bag :drab-violet-bag :vibrant-maroon-bag :wavy-magenta-bag :plaid-chartreuse-bag :bright-orange-bag :light-coral-bag :light-violet-bag :vibrant-bronze-bag :posh-silver-bag :mirrored-crimson-bag :bright-lime-bag :drab-green-bag :dotted-turquoise-bag :bright-tomato-bag :dim-plum-bag :bright-olive-bag :faded-olive-bag :plaid-tomato-bag :drab-blue-bag :dotted-indigo-bag :pale-indigo-bag :bright-plum-bag :drab-aqua-bag :mirrored-red-bag :mirrored-chartreuse-bag)
+(:dark-olive-bag :dark-magenta-bag :posh-chartreuse-bag :pale-aqua-bag :muted-salmon-bag :dull-green-bag :dull-white-bag :dim-gold-bag :posh-white-bag :shiny-green-bag :clear-teal-bag :plaid-tan-bag :striped-green-bag :faded-violet-bag :striped-indigo-bag :muted-teal-bag :shiny-tomato-bag :striped-maroon-bag :posh-olive-bag :plaid-maroon-bag :dark-aqua-bag :dotted-teal-bag :shiny-salmon-bag :mirrored-teal-bag :dull-indigo-bag :dull-gray-bag :dim-orange-bag :faded-salmon-bag :clear-red-bag :shiny-violet-bag :light-olive-bag :faded-crimson-bag :bright-lavender-bag :wavy-blue-bag :clear-yellow-bag :dim-magenta-bag :dim-cyan-bag :light-red-bag :dark-turquoise-bag :plaid-lavender-bag :faded-orange-bag :mirrored-tan-bag :dull-crimson-bag :bright-violet-bag :clear-salmon-bag :dim-olive-bag :dark-plum-bag :plaid-lime-bag :mirrored-blue-bag :posh-fuchsia-bag :light-crimson-bag :vibrant-orange-bag :muted-indigo-bag :mirrored-silver-bag :shiny-purple-bag :vibrant-red-bag :posh-gold-bag :light-orange-bag :vibrant-maroon-
+bag :wavy-magenta-bag :striped-orange-bag :posh-lavender-bag :wavy-brown-bag :mirrored-coral-bag :dark-crimson-bag :wavy-teal-bag :posh-silver-bag :light-white-bag :faded-fuchsia-bag :plaid-gray-bag :shiny-silver-bag :muted-crimson-bag :posh-tan-bag :dim-yellow-bag :drab-green-bag :drab-lavender-bag :dotted-turquoise-bag :clear-white-bag :faded-magenta-bag :pale-beige-bag :posh-blue-bag :muted-olive-bag :dull-coral-bag :dotted-violet-bag :dotted-indigo-bag :clear-beige-bag :dark-black-bag :bright-black-bag :striped-black-bag :striped-plum-bag :dotted-olive-bag :pale-brown-bag)
+(:dark-magenta-bag :vibrant-green-bag :light-aqua-bag :posh-chartreuse-bag :pale-aqua-bag :dotted-blue-bag :dull-tomato-bag :faded-black-bag :wavy-indigo-bag :posh-coral-bag :bright-salmon-bag :dim-gold-bag :plaid-tan-bag :faded-violet-bag :shiny-tomato-bag :muted-white-bag :pale-teal-bag :bright-blue-bag :wavy-silver-bag :pale-salmon-bag :clear-crimson-bag :dark-aqua-bag :clear-turquoise-bag :plaid-crimson-bag :drab-cyan-bag :dim-chartreuse-bag :mirrored-teal-bag :drab-fuchsia-bag :faded-aqua-bag :drab-plum-bag :vibrant-beige-bag :clear-maroon-bag :clear-red-bag :pale-orange-bag :mirrored-plum-bag :drab-yellow-bag :mirrored-magenta-bag :faded-crimson-bag :pale-maroon-bag :dark-teal-bag :clear-fuchsia-bag :plaid-green-bag :shiny-plum-bag :shiny-lime-bag :dim-maroon-bag :plaid-black-bag :plaid-salmon-bag :dull-bronze-bag :dull-teal-bag :dull-crimson-bag :posh-maroon-bag :bright-violet-bag :muted-silver-bag :dull-orange-bag :dim-olive-bag :plaid-lime-bag :dim-purple-bag :muted-violet-bag :vibrant-orange-bag :mu
+ted-lime-bag :dim-turquoise-bag :muted-indigo-bag :dotted-bronze-bag :dotted-cyan-bag :faded-green-bag :drab-brown-bag :vibrant-red-bag :faded-lime-bag :posh-gold-bag :muted-beige-bag :bright-orange-bag :dark-crimson-bag :light-violet-bag :posh-silver-bag :bright-purple-bag :light-white-bag :faded-fuchsia-bag :shiny-silver-bag :posh-tan-bag :dotted-turquoise-bag :clear-white-bag :dark-purple-bag :bright-tomato-bag :striped-coral-bag :dim-plum-bag :wavy-plum-bag :bright-coral-bag :posh-blue-bag :dull-coral-bag :dull-red-bag :dotted-indigo-bag :dark-black-bag :bright-black-bag :striped-plum-bag :plaid-coral-bag :plaid-aqua-bag :shiny-teal-bag :vibrant-coral-bag)
+(:dark-olive-bag :light-fuchsia-bag :plaid-silver-bag :dotted-blue-bag :dotted-lime-bag :dim-blue-bag :shiny-green-bag :clear-teal-bag :plaid-tan-bag :faded-violet-bag :striped-indigo-bag :muted-teal-bag :shiny-tomato-bag :striped-maroon-bag :striped-teal-bag :posh-olive-bag :pale-teal-bag :wavy-silver-bag :pale-salmon-bag :posh-gray-bag :striped-lime-bag :posh-magenta-bag :mirrored-teal-bag :clear-orange-bag :pale-lavender-bag :wavy-blue-bag :shiny-plum-bag :dull-bronze-bag :plaid-lavender-bag :faded-orange-bag :dull-teal-bag :mirrored-beige-bag :striped-aqua-bag :dull-crimson-bag :bright-violet-bag :clear-salmon-bag :dim-olive-bag :dark-plum-bag :plaid-lime-bag :vibrant-tan-bag :vibrant-gray-bag :pale-tan-bag :dark-green-bag :striped-tan-bag :muted-lime-bag :muted-indigo-bag :pale-lime-bag :mirrored-silver-bag :clear-silver-bag :vibrant-maroon-bag :light-black-bag :striped-orange-bag :drab-purple-bag :mirrored-coral-bag :dark-crimson-bag :posh-silver-bag :faded-fuchsia-bag :shiny-silver-bag :dotted-turquois
+e-bag :bright-tomato-bag :dim-plum-bag :bright-coral-bag :posh-blue-bag :dull-coral-bag :plaid-tomato-bag :vibrant-silver-bag :dotted-violet-bag :dark-black-bag :plaid-aqua-bag)
+(:dark-olive-bag :dark-magenta-bag :posh-chartreuse-bag :dotted-lime-bag :clear-teal-bag :striped-indigo-bag :wavy-cyan-bag :posh-olive-bag :plaid-maroon-bag :bright-blue-bag :wavy-silver-bag :pale-salmon-bag :clear-crimson-bag :dark-aqua-bag :mirrored-teal-bag :drab-orange-bag :faded-gold-bag :shiny-violet-bag :drab-yellow-bag :mirrored-magenta-bag :pale-maroon-bag :dim-magenta-bag :plaid-black-bag :dim-crimson-bag :plaid-salmon-bag :dull-bronze-bag :dull-teal-bag :bright-violet-bag :clear-salmon-bag :mirrored-aqua-bag :dim-olive-bag :plaid-lime-bag :dim-turquoise-bag :muted-indigo-bag :dotted-cyan-bag :faded-green-bag :light-black-bag :bright-green-bag :mirrored-coral-bag :light-violet-bag :bright-purple-bag :faded-fuchsia-bag :posh-tan-bag :dotted-turquoise-bag :clear-white-bag :wavy-plum-bag :bright-coral-bag :posh-blue-bag :dotted-violet-bag :dotted-indigo-bag :dark-black-bag :bright-plum-bag :plaid-beige-bag :drab-indigo-bag :plaid-aqua-bag)
+(:dark-olive-bag :dark-magenta-bag :wavy-salmon-bag :pale-aqua-bag :dull-white-bag :dim-blue-bag :shiny-green-bag :light-gold-bag :striped-indigo-bag :striped-maroon-bag :striped-teal-bag :pale-teal-bag :bright-blue-bag :wavy-silver-bag :clear-orange-bag :drab-yellow-bag :mirrored-magenta-bag :wavy-blue-bag :pale-maroon-bag :clear-fuchsia-bag :plaid-salmon-bag :dull-bronze-bag :faded-orange-bag :dull-teal-bag :dull-crimson-bag :bright-violet-bag :dark-green-bag :striped-tan-bag :muted-indigo-bag :striped-salmon-bag :faded-green-bag :drab-brown-bag :vibrant-maroon-bag :striped-red-bag :light-violet-bag :posh-silver-bag :faded-fuchsia-bag :shiny-silver-bag :dotted-turquoise-bag :clear-white-bag :bright-tomato-bag :bright-coral-bag :posh-blue-bag :dull-coral-bag :drab-blue-bag :vibrant-silver-bag :dotted-indigo-bag)
+(:posh-chartreuse-bag :shiny-green-bag :striped-indigo-bag :striped-teal-bag :dark-aqua-bag :mirrored-teal-bag :light-red-bag :faded-orange-bag :dull-teal-bag :dull-crimson-bag :bright-violet-bag :clear-salmon-bag :plaid-lime-bag :vibrant-orange-bag :muted-indigo-bag :vibrant-maroon-bag :dark-crimson-bag :faded-fuchsia-bag :posh-tan-bag :dotted-turquoise-bag :wavy-plum-bag :posh-blue-bag :dull-coral-bag :vibrant-silver-bag :dark-black-bag :drab-aqua-bag)
+(:pale-teal-bag :faded-crimson-bag :dull-bronze-bag :dull-teal-bag :bright-violet-bag :vibrant-red-bag :posh-silver-bag :shiny-silver-bag :dotted-turquoise-bag :bright-tomato-bag :bright-coral-bag :posh-blue-bag :dotted-indigo-bag :dark-black-bag :dotted-olive-bag)
+(:clear-turquoise-bag :mirrored-teal-bag :shiny-plum-bag :muted-silver-bag :clear-salmon-bag :plaid-lime-bag :muted-lime-bag :muted-indigo-bag :posh-tan-bag :posh-blue-bag)
+(:bright-violet-bag :dotted-turquoise-bag :bright-coral-bag :dotted-indigo-bag)
+(:posh-blue-bag)
+()
+clj::day-seven=> 
+#'day-seven/this-one-works
+clj::day-seven=> 
+((":posh-blue-bag")
+ (":bright-violet-bag" ":dotted-turquoise-bag" ":bright-coral-bag" ":dotted-indigo-bag")
+ (":clear-turquoise-bag"
+  ":mirrored-teal-bag"
+  ":shiny-plum-bag"
+  ":muted-silver-bag"
+  ":clear-salmon-bag"
+  ":plaid-lime-bag"
+  ":muted-lime-bag"
+  ":muted-indigo-bag"
+  ":posh-tan-bag"
+  ":posh-blue-bag")
+ (":pale-teal-bag"
+  ":faded-crimson-bag"
+  ":dull-bronze-bag"
+  ":dull-teal-bag"
+  ":bright-violet-bag"
+  ":vibrant-red-bag"
+  ":posh-silver-bag"
+  ":shiny-silver-bag"
+  ":dotted-turquoise-bag"
+  ":bright-tomato-bag"
+  ":bright-coral-bag"
+  ":posh-blue-bag"
+  ":dotted-indigo-bag"
+  ":dark-black-bag"
+  ":dotted-olive-bag")
+ (":posh-chartreuse-bag"
+  ":shiny-green-bag"
+  ":striped-indigo-bag"
+  ":striped-teal-bag"
+  ":dark-aqua-bag"
+  ":mirrored-teal-bag"
+  ":light-red-bag"
+  ":faded-orange-bag"
+  ":dull-teal-bag"
+  ":dull-crimson-bag"
+  ":bright-violet-bag"
+  ":clear-salmon-bag"
+  ":plaid-lime-bag"
+  ":vibrant-orange-bag"
+  ":muted-indigo-bag"
+  ":vibrant-maroon-bag"
+  ":dark-crimson-bag"
+  ":faded-fuchsia-bag"
+  ":posh-tan-bag"
+  ":dotted-turquoise-bag"
+  ":wavy-plum-bag"
+  ":posh-blue-bag"
+  ":dull-coral-bag"
+  ":vibrant-silver-bag"
+  ":dark-black-bag"
+  ":drab-aqua-bag")
+ (":dark-olive-bag"
+  ":dark-magenta-bag"
+  ":wavy-salmon-bag"
+  ":pale-aqua-bag"
+  ":dull-white-bag"
+  ":dim-blue-bag"
+  ":shiny-green-bag"
+  ":light-gold-bag"
+  ":striped-indigo-bag"
+  ":striped-maroon-bag"
+  ":striped-teal-bag"
+  ":pale-teal-bag"
+  ":bright-blue-bag"
+  ":wavy-silver-bag"
+  ":clear-orange-bag"
+  ":drab-yellow-bag"
+  ":mirrored-magenta-bag"
+  ":wavy-blue-bag"
+  ":pale-maroon-bag"
+  ":clear-fuchsia-bag"
+  ":plaid-salmon-bag"
+  ":dull-bronze-bag"
+  ":faded-orange-bag"
+  ":dull-teal-bag"
+  ":dull-crimson-bag"
+  ":bright-violet-bag"
+  ":dark-green-bag"
+  ":striped-tan-bag"
+  ":muted-indigo-bag"
+  ":striped-salmon-bag"
+  ":faded-green-bag"
+  ":drab-brown-bag"
+  ":vibrant-maroon-bag"
+  ":striped-red-bag"
+  ":light-violet-bag"
+  ":posh-silver-bag"
+  ":faded-fuchsia-bag"
+  ":shiny-silver-bag"
+  ":dotted-turquoise-bag"
+  ":clear-white-bag"
+  ":bright-tomato-bag"
+  ":bright-coral-bag"
+  ":posh-blue-bag"
+  ":dull-coral-bag"
+  ":drab-blue-bag"
+  ":vibrant-silver-bag"
+  ":dotted-indigo-bag")
+ (":dark-olive-bag"
+  ":dark-magenta-bag"
+  ":posh-chartreuse-bag"
+  ":dotted-lime-bag"
+  ":clear-teal-bag"
+  ":striped-indigo-bag"
+  ":wavy-cyan-bag"
+  ":posh-olive-bag"
+  ":plaid-maroon-bag"
+  ":bright-blue-bag"
+  ":wavy-silver-bag"
+  ":pale-salmon-bag"
+  ":clear-crimson-bag"
+  ":dark-aqua-bag"
+  ":mirrored-teal-bag"
+  ":drab-orange-bag"
+  ":faded-gold-bag"
+  ":shiny-violet-bag"
+  ":drab-yellow-bag"
+  ":mirrored-magenta-bag"
+  ":pale-maroon-bag"
+  ":dim-magenta-bag"
+  ":plaid-black-bag"
+  ":dim-crimson-bag"
+  ":plaid-salmon-bag"
+  ":dull-bronze-bag"
+  ":dull-teal-bag"
+  ":bright-violet-bag"
+  ":clear-salmon-bag"
+  ":mirrored-aqua-bag"
+  ":dim-olive-bag"
+  ":plaid-lime-bag"
+  ":dim-turquoise-bag"
+  ":muted-indigo-bag"
+  ":dotted-cyan-bag"
+  ":faded-green-bag"
+  ":light-black-bag"
+  ":bright-green-bag"
+  ":mirrored-coral-bag"
+  ":light-violet-bag"
+  ":bright-purple-bag"
+  ":faded-fuchsia-bag"
+  ":posh-tan-bag"
+  ":dotted-turquoise-bag"
+  ":clear-white-bag"
+  ":wavy-plum-bag"
+  ":bright-coral-bag"
+  ":posh-blue-bag"
+  ":dotted-violet-bag"
+  ":dotted-indigo-bag"
+  ...)
+ (":dark-olive-bag"
+  ":light-fuchsia-bag"
+  ":plaid-silver-bag"
+  ":dotted-blue-bag"
+  ":dotted-lime-bag"
+  ":dim-blue-bag"
+  ":shiny-green-bag"
+  ":clear-teal-bag"
+  ":plaid-tan-bag"
+  ":faded-violet-bag"
+  ":striped-indigo-bag"
+  ":muted-teal-bag"
+  ":shiny-tomato-bag"
+  ":striped-maroon-bag"
+  ":striped-teal-bag"
+  ":posh-olive-bag"
+  ":pale-teal-bag"
+  ":wavy-silver-bag"
+  ":pale-salmon-bag"
+  ":posh-gray-bag"
+  ":striped-lime-bag"
+  ":posh-magenta-bag"
+  ":mirrored-teal-bag"
+  ":clear-orange-bag"
+  ":pale-lavender-bag"
+  ":wavy-blue-bag"
+  ":shiny-plum-bag"
+  ":dull-bronze-bag"
+  ":plaid-lavender-bag"
+  ":faded-orange-bag"
+  ":dull-teal-bag"
+  ":mirrored-beige-bag"
+  ":striped-aqua-bag"
+  ":dull-crimson-bag"
+  ":bright-violet-bag"
+  ":clear-salmon-bag"
+  ":dim-olive-bag"
+  ":dark-plum-bag"
+  ":plaid-lime-bag"
+  ":vibrant-tan-bag"
+  ":vibrant-gray-bag"
+  ":pale-tan-bag"
+  ":dark-green-bag"
+  ":striped-tan-bag"
+  ":muted-lime-bag"
+  ":muted-indigo-bag"
+  ":pale-lime-bag"
+  ":mirrored-silver-bag"
+  ":clear-silver-bag"
+  ":vibrant-maroon-bag"
+  ...)
+ (":dark-magenta-bag"
+  ":vibrant-green-bag"
+  ":light-aqua-bag"
+  ":posh-chartreuse-bag"
+  ":pale-aqua-bag"
+  ":dotted-blue-bag"
+  ":dull-tomato-bag"
+  ":faded-black-bag"
+  ":wavy-indigo-bag"
+  ":posh-coral-bag"
+  ":bright-salmon-bag"
+  ":dim-gold-bag"
+  ":plaid-tan-bag"
+  ":faded-violet-bag"
+  ":shiny-tomato-bag"
+  ":muted-white-bag"
+  ":pale-teal-bag"
+  ":bright-blue-bag"
+  ":wavy-silver-bag"
+  ":pale-salmon-bag"
+  ":clear-crimson-bag"
+  ":dark-aqua-bag"
+  ":clear-turquoise-bag"
+  ":plaid-crimson-bag"
+  ":drab-cyan-bag"
+  ":dim-chartreuse-bag"
+  ":mirrored-teal-bag"
+  ":drab-fuchsia-bag"
+  ":faded-aqua-bag"
+  ":drab-plum-bag"
+  ":vibrant-beige-bag"
+  ":clear-maroon-bag"
+  ":clear-red-bag"
+  ":pale-orange-bag"
+  ":mirrored-plum-bag"
+  ":drab-yellow-bag"
+  ":mirrored-magenta-bag"
+  ":faded-crimson-bag"
+  ":pale-maroon-bag"
+  ":dark-teal-bag"
+  ":clear-fuchsia-bag"
+  ":plaid-green-bag"
+  ":shiny-plum-bag"
+  ":shiny-lime-bag"
+  ":dim-maroon-bag"
+  ":plaid-black-bag"
+  ":plaid-salmon-bag"
+  ":dull-bronze-bag"
+  ":dull-teal-bag"
+  ":dull-crimson-bag"
+  ...)
+ (":dark-olive-bag"
+  ":dark-magenta-bag"
+  ":posh-chartreuse-bag"
+  ":pale-aqua-bag"
+  ":muted-salmon-bag"
+  ":dull-green-bag"
+  ":dull-white-bag"
+  ":dim-gold-bag"
+  ":posh-white-bag"
+  ":shiny-green-bag"
+  ":clear-teal-bag"
+  ":plaid-tan-bag"
+  ":striped-green-bag"
+  ":faded-violet-bag"
+  ":striped-indigo-bag"
+  ":muted-teal-bag"
+  ":shiny-tomato-bag"
+  ":striped-maroon-bag"
+  ":posh-olive-bag"
+  ":plaid-maroon-bag"
+  ":dark-aqua-bag"
+  ":dotted-teal-bag"
+  ":shiny-salmon-bag"
+  ":mirrored-teal-bag"
+  ":dull-indigo-bag"
+  ":dull-gray-bag"
+  ":dim-orange-bag"
+  ":faded-salmon-bag"
+  ":clear-red-bag"
+  ":shiny-violet-bag"
+  ":light-olive-bag"
+  ":faded-crimson-bag"
+  ":bright-lavender-bag"
+  ":wavy-blue-bag"
+  ":clear-yellow-bag"
+  ":dim-magenta-bag"
+  ":dim-cyan-bag"
+  ":light-red-bag"
+  ":dark-turquoise-bag"
+  ":plaid-lavender-bag"
+  ":faded-orange-bag"
+  ":mirrored-tan-bag"
+  ":dull-crimson-bag"
+  ":bright-violet-bag"
+  ":clear-salmon-bag"
+  ":dim-olive-bag"
+  ":dark-plum-bag"
+  ":plaid-lime-bag"
+  ":mirrored-blue-bag"
+  ":posh-fuchsia-bag"
+  ...)
+ (":posh-lime-bag"
+  ":dark-magenta-bag"
+  ":light-fuchsia-bag"
+  ":wavy-salmon-bag"
+  ":dull-tomato-bag"
+  ":dull-white-bag"
+  ":bright-salmon-bag"
+  ":posh-salmon-bag"
+  ":dim-blue-bag"
+  ":shiny-green-bag"
+  ":plaid-tan-bag"
+  ":striped-indigo-bag"
+  ":muted-teal-bag"
+  ":plaid-olive-bag"
+  ":dim-gray-bag"
+  ":striped-maroon-bag"
+  ":muted-white-bag"
+  ":wavy-silver-bag"
+  ":clear-crimson-bag"
+  ":mirrored-purple-bag"
+  ":clear-turquoise-bag"
+  ":dim-beige-bag"
+  ":clear-chartreuse-bag"
+  ":vibrant-gold-bag"
+  ":dotted-chartreuse-bag"
+  ":clear-orange-bag"
+  ":bright-crimson-bag"
+  ":dull-gray-bag"
+  ":dim-orange-bag"
+  ":faded-salmon-bag"
+  ":dark-fuchsia-bag"
+  ":faded-red-bag"
+  ":drab-yellow-bag"
+  ":mirrored-magenta-bag"
+  ":bright-brown-bag"
+  ":clear-purple-bag"
+  ":light-plum-bag"
+  ":pale-maroon-bag"
+  ":clear-fuchsia-bag"
+  ":wavy-lavender-bag"
+  ":shiny-plum-bag"
+  ":dark-gray-bag"
+  ":muted-cyan-bag"
+  ":vibrant-crimson-bag"
+  ":dull-crimson-bag"
+  ":bright-violet-bag"
+  ":mirrored-white-bag"
+  ":clear-salmon-bag"
+  ":plaid-blue-bag"
+  ":dim-fuchsia-bag"
+  ...)
+ (":faded-teal-bag"
+  ":dim-gold-bag"
+  ":clear-teal-bag"
+  ":striped-indigo-bag"
+  ":vibrant-chartreuse-bag"
+  ":shiny-salmon-bag"
+  ":plaid-red-bag"
+  ":drab-black-bag"
+  ":pale-purple-bag"
+  ":faded-crimson-bag"
+  ":pale-maroon-bag"
+  ":dotted-magenta-bag"
+  ":shiny-lime-bag"
+  ":light-bronze-bag"
+  ":striped-gold-bag"
+  ":muted-cyan-bag"
+  ":mirrored-cyan-bag"
+  ":faded-coral-bag"
+  ":mirrored-white-bag"
+  ":vibrant-gray-bag"
+  ":striped-bronze-bag"
+  ":mirrored-blue-bag"
+  ":vibrant-white-bag"
+  ":posh-aqua-bag"
+  ":dotted-bronze-bag"
+  ":dotted-cyan-bag"
+  ":striped-blue-bag"
+  ":dotted-tan-bag"
+  ":clear-silver-bag"
+  ":dark-red-bag"
+  ":muted-plum-bag"
+  ":dim-bronze-bag"
+  ":bright-tomato-bag"
+  ":striped-coral-bag"
+  ":vibrant-aqua-bag"
+  ":dull-black-bag"
+  ":plaid-purple-bag"
+  ":pale-turquoise-bag"
+  ":mirrored-lavender-bag"
+  ":bright-black-bag"
+  ":drab-maroon-bag"
+  ":dotted-gold-bag"
+  ":posh-orange-bag"
+  ":drab-indigo-bag"
+  ":dark-beige-bag"
+  ":plaid-coral-bag")
+ (":clear-brown-bag"
+  ":pale-aqua-bag"
+  ":posh-teal-bag"
+  ":dotted-beige-bag"
+  ":dotted-green-bag"
+  ":posh-white-bag"
+  ":faded-purple-bag"
+  ":dark-silver-bag"
+  ":dark-violet-bag"
+  ":mirrored-maroon-bag"
+  ":clear-indigo-bag"
+  ":bright-turquoise-bag"
+  ":striped-silver-bag"
+  ":clear-green-bag"
+  ":posh-tomato-bag"
+  ":light-blue-bag"
+  ":posh-bronze-bag"
+  ":dull-olive-bag"
+  ":vibrant-coral-bag")
+ (":plaid-fuchsia-bag" ":posh-purple-bag" ":light-crimson-bag" ":posh-beige-bag" ":pale-indigo-bag"))
+clj::day-seven=> 
+#{":pale-brown-bag" ":pale-tan-bag" ":vibrant-silver-bag" ":bright-violet-bag" ":faded-gold-bag" ":dotted-gold-bag"
+  ":pale-aqua-bag" ":clear-maroon-bag" ":drab-purple-bag" ":bright-plum-bag" ":vibrant-lime-bag" ":drab-fuchsia-bag"
+  ":dim-gray-bag" ":clear-white-bag" ":dim-orange-bag" ":dotted-bronze-bag" ":muted-plum-bag" ":dotted-chartreuse-bag"
+  ":pale-purple-bag" ":dim-gold-bag" ":striped-red-bag" ":clear-red-bag" ":pale-lavender-bag" ":bright-olive-bag"
+  ":light-plum-bag" ":light-orange-bag" ":bright-salmon-bag" ":pale-beige-bag" ":muted-crimson-bag" ":muted-teal-bag"
+  ":dim-purple-bag" ":mirrored-blue-bag" ":dark-black-bag" ":muted-lime-bag" ":light-bronze-bag" ":muted-beige-bag"
+  ":mirrored-crimson-bag" ":dim-fuchsia-bag" ":bright-brown-bag" ":dim-chartreuse-bag" ":wavy-blue-bag"
+  ":light-olive-bag" ":mirrored-red-bag" ":plaid-green-bag" ":light-gold-bag" ":vibrant-white-bag" ":plaid-gray-bag"
+  ":shiny-plum-bag" ":dull-coral-bag" ":clear-silver-bag" ...}
+clj::day-seven=> 
+278
+clj::day-seven=> 
+; Syntax error compiling at (src/aoc_2020/day_seven.clj:52:34).
+; Unable to resolve symbol: find-all-containing-bags in this context
+clojure.lang.Compiler/analyze (Compiler.java:6808)
+clojure.lang.Compiler$InvokeExpr/parse (Compiler.java:3820)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7109)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/access$300 (Compiler.java:38)
+clojure.lang.Compiler$LetExpr$Parser/parse (Compiler.java:6384)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7107)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7095)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$FnMethod/parse (Compiler.java:5467)
+clojure.lang.Compiler$FnExpr/parse (Compiler.java:4029)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7105)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7095)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/access$300 (Compiler.java:38)
+clojure.lang.Compiler$DefExpr$Parser/parse (Compiler.java:596)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7107)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/eval (Compiler.java:7181)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::day-seven=> 
+#'day-seven/get-map-entry-no-values
+clj::day-seven=> 
+#'day-seven/get-containing-bags
+clj::day-seven=> 
+#'day-seven/get-all-possible-containers
+clj::day-seven=> 
+#'day-seven/find-all-containing-bags
+clj::day-seven=> 
+#'day-seven/aoc-day7-p1
+clj::day-seven=> 
+278
+clj::day-seven=> 

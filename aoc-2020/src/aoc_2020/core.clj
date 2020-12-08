@@ -5,6 +5,7 @@
   (:require [aoc-2020.day-four :as day4])
   (:require [aoc-2020.day-five :as day5])
   (:require [aoc-2020.day-six :as day6])
+  (:require [aoc-2020.day-seven :as day7])
   (:gen-class))
 
 (defn -main []
@@ -32,10 +33,15 @@
   (time (day5/aoc-day5-p1))
   (time (day5/aoc-day5-p2))
   (println)
-  
+
   (println "==============" "AOC2020 Day 6" "==============")
   (time (day6/aoc-day6-p1))
   (time (day6/aoc-day6-p2))
+  (println)
+  
+  (println "==============" "AOC2020 Day 7" "==============")
+  (time (day7/aoc-day7-p1))
+  ;; (time (day6/aoc-day6-p2))
   (println))
 
 
