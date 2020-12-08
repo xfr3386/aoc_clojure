@@ -1,5 +1,6 @@
 (ns playground
-  (:require [clojure.string :as str]))
+  (:require [clojure.string :as str])
+  (:require [clojure.edn :as edn]))
 
 ; print 0, -1, -2, -3, -4
 (loop [i 0]
@@ -79,3 +80,56 @@ cid:315 iyr:2012 hgt:192cm eyr:2023 pid:873355140 byr:1925 hcl:#cb2c03"]
 (find-position "RRL" seats "L")
 
 (mod 101 2)
+
+;; a map with a term that contains a sub-map
+(def bag-test-map {:gold {:dull-green 3 :muted-green 1 :shiny-orange 2} :fuschia {:dim-blue 3 :dim-red 1 :dim-orange 2}})
+(println bag-test-map)
+
+;; to get an item in the submap, get-in with the m
+(get-in bag-test-map [:gold :dull-green])
+
+;; dim red bags contain 1 mirrored olive bag, 1 plaid violet bag.
+;; {:dim-red {:mirrored-olive-bag 1 :plaid-violet-bag 1 :plaid-violet-bag 1}}
+;; posh salmon bags contain 1 shiny brown bag, 2 dark red bags, 3 drab gold bags. ;; NOTICE: bag vs bags
+;; {:posh-salmon {:shiny-brown 1 :dark-red 2 :drab-gold 3}}
+;; posh salmon bags contain 1 shiny brown bag, 2 dark red bags, 3 drab gold bags.
+(def bag-test-string (str/replace "posh salmon bags contain 1 shiny brown bag, 2 dark red bags, 3 drab gold bags." #"bags" "bag"))
+;; remove contain, separate main from subs with #, replace trailing . with ,
+(def parse-bag-test-string (str/replace bag-test-string #"^(.* bag)\scontain\s(.*)(.)" "$1#$2, "))
+(println parse-bag-test-string)
+
+;; GET MAIN BAG NAME
+;; get the main bag string, with spaces replaced as -
+(def main-bag (str/replace (str/replace parse-bag-test-string #"(.*)#.*" "$1") #" " "-"))
+(println main-bag)
+
+;; GENERATE SUB-BAG MAP WITH COUNT AS VALUE
+;; get sub-bag strings in the form of #-remaining-name-words
+(def containing-seq (map #(str/replace % #"(\w) " "$1-") (re-seq #"\d[\w|\s]+" parse-bag-test-string)))
+(println containing-seq)
+;; get map form string of sub-bags as ":sub-bag count"
+(def sub-bags-with-values (map #(str/replace % #"(\d)-(.*)" ":$2 $1") containing-seq))
+(println sub-bags-with-values)
+;; combine main bag and sub bag into single map form string, convert to map
+(def bag-and-containers-values-hash (clojure.edn/read-string (str "{:" main-bag " {" (str/join " " sub-bags-with-values) "}}")))
+(println bag-and-containers-values-hash)
+
+(map #(str %) (get bag-and-containers-values-hash (keyword main-bag)))
+
+;; GENERATE SUB-BAG LIST, DROP VALUES
+;; (re-find #"\d[\w|\s]+" parse-bag-test-string)
+;; (defn extract-group [n] (fn [group] (group n)))
+(def sub-bags (map #(str/replace % #"\d-([\w|-]+)" "$1") containing-seq))
+(println sub-bags)
+(def bag-and-containers-hash (clojure.edn/read-string (str "{:" main-bag " (" (str/join " " sub-bags) ")}")))
+(println bag-and-containers-hash)
+
+(def test-bag-1 (edn/read-string "{:posh-salmon-bag {:shiny-brown-bag 1, :dark-red-bags 2, :drab-gold-bags 3} :shiny-brown-bag {:dark-red-bags 2, :drab-gold-bags 3} :dark-red-bags {:drab-gold-bags 3}}"))
+(get test-bag-1 :posh-salmon-bag)
+(get test-bag-1 :shiny-brown-bag)
+(get-in test-bag-1 [:posh-salmon-bag :shiny-brown-bag])
+(select-keys test-bag-1 [:posh-salmon-bag])
+
+(def sub-bag-test (str "(drab-silver-bag dim-coral-bag drab-silver-bag dim-salmon-bag)"))
+(re-find #"dim-coral-bag" sub-bag-test)
+(into () ":shiny-gold-bag :vibrant-yellow-bag")
