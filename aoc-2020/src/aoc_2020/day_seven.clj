@@ -53,7 +53,7 @@
         modified-bc (map #(str/replace % #"\sno\s" " 0 ") (str/split-lines colored-bag-rules))
         full-bag-list (map get-map-entry-no-values modified-bc)
         all-shiny-bag-containers (find-all-containing-bags full-bag-list (list ":shiny-gold-bag"))]
-    (count (set (flatten all-shiny-bag-containers)))))
+    (println (count (set (flatten all-shiny-bag-containers))))))
 
 ;; parse the input file into a collection of maps
 ;; {:main-bag-1 (:sub-bag-1 :sub-bag-2) :main-bag-2 (:sub-bag-1 :sub-bag-2) ...}
