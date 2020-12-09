@@ -53,7 +53,7 @@
     
     (println "============== AOC2020 Day 9 ==============")
     (time (day9/aoc-day9-p1))
-    ;; (time (day9/aoc-day9-p2))
+    (time (day9/aoc-day9-p2))
     )
 
 
