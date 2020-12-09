@@ -18,15 +18,374 @@ clj::aoc-2020.core=>
 
 ; Jack-in done.
 clj::aoc-2020.core=> 
+[(1 2) (3 4 5)]
+clj::playground=> 
+[() (1 2 3 4 5)]
+clj::playground=> 
+[(1 2 3 4) (5)]
+clj::playground=> 
 nil
-clj::aoc-2020.day-eight=> 
-#'aoc-2020.day-eight/console-instructions-file
-clj::aoc-2020.day-eight=> 
-#'aoc-2020.day-eight/console-inst-sample-file
-clj::aoc-2020.day-eight=> 
-#'aoc-2020.day-eight/perform-instructions-terminate
-clj::aoc-2020.day-eight=> 
-1643
-clj::aoc-2020.day-eight=> 
+clj::aoc-2020.day-nine=> 
+#'aoc-2020.day-nine/xmas-encryption-sample-file
+clj::aoc-2020.day-nine=> 
+#'aoc-2020.day-nine/find-sum-to-value
+clj::aoc-2020.day-nine=> 
+; Execution error (ClassCastException) at java.util.TimSort/countRunAndMakeAscending (TimSort.java:355).
+; clojure.lang.LazySeq cannot be cast to java.lang.Number
+clojure.lang.Numbers/lt (Numbers.java:251)
+clojure.core/< (core.clj:907)
+clojure.core/< (core.clj:900)
+clojure.lang.AFunction/compare (AFunction.java:51)
+java.util.TimSort/countRunAndMakeAscending (TimSort.java:355)
+java.util.TimSort/sort (TimSort.java:220)
+java.util.Arrays/sort (Arrays.java:1438)
+clojure.core/sort (core.clj:3115)
+clojure.core/sort (core.clj:3102)
+aoc-2020.day-nine/eval22948 (form-init5036399784749401915.clj:30)
+aoc-2020.day-nine/eval22948 (form-init5036399784749401915.clj:23)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.day-nine=> 
+; Execution error (ClassCastException) at java.util.TimSort/countRunAndMakeAscending (TimSort.java:355).
+; java.lang.Character cannot be cast to java.lang.Number
+clojure.lang.Numbers/lt (Numbers.java:251)
+clojure.core/< (core.clj:907)
+clojure.core/< (core.clj:900)
+clojure.lang.AFunction/compare (AFunction.java:51)
+java.util.TimSort/countRunAndMakeAscending (TimSort.java:355)
+java.util.TimSort/sort (TimSort.java:220)
+java.util.Arrays/sort (Arrays.java:1438)
+clojure.core/sort (core.clj:3115)
+clojure.core/sort (core.clj:3102)
+aoc-2020.day-nine/eval23126 (form-init5036399784749401915.clj:30)
+aoc-2020.day-nine/eval23126 (form-init5036399784749401915.clj:23)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.day-nine=> 
+[(\3 \5 \newline \2 \0)
+ (\newline
+  \1
+  \5
+  \newline
+  \2
+  \5
+  \newline
+  \4
+  \7
+  \newline
+  \4
+  \0
+  \newline
+  \6
+  \2
+  \newline
+  \5
+  \5
+  \newline
+  \6
+  \5
+  \newline
+  \9
+  \5
+  \newline
+  \1
+  \0
+  \2
+  \newline
+  \1
+  \1
+  \7
+  \newline
+  \1
+  \5
+  \0
+  \newline
+  \1
+  \8
+  \2
+  \newline
+  \1
+  \2
+  \7
+  \newline
+  \2
+  \1
+  \9
+  \newline
+  \2
+  ...)]
+clj::aoc-2020.day-nine=> 
+35
+20
+15
+25
+47
+40
+62
+55
+65
+95
+102
+117
+150
+182
+127
+219
+299
+277
+309
+576
+
+[(\3 \5 \newline \2 \0)
+ (\newline
+  \1
+  \5
+  \newline
+  \2
+  \5
+  \newline
+  \4
+  \7
+  \newline
+  \4
+  \0
+  \newline
+  \6
+  \2
+  \newline
+  \5
+  \5
+  \newline
+  \6
+  \5
+  \newline
+  \9
+  \5
+  \newline
+  \1
+  \0
+  \2
+  \newline
+  \1
+  \1
+  \7
+  \newline
+  \1
+  \5
+  \0
+  \newline
+  \1
+  \8
+  \2
+  \newline
+  \1
+  \2
+  \7
+  \newline
+  \2
+  \1
+  \9
+  \newline
+  \2
+  ...)]
+clj::aoc-2020.day-nine=> 
+[35 20 15 25 47 40 62 55 65 95 102 117 150 182 127 219 299 277 309 576]
+[("35" "20" "15" "25" "47") ("40" "62" "55" "65" "95" "102" "117" "150" "182" "127" "219" "299" "277" "309" "576")]
+clj::aoc-2020.day-nine=> 
+; Execution error (ClassCastException) at java.util.TimSort/countRunAndMakeAscending (TimSort.java:355).
+; java.lang.String cannot be cast to java.lang.Number
+clojure.lang.Numbers/lt (Numbers.java:251)
+clojure.core/< (core.clj:907)
+clojure.core/< (core.clj:900)
+clojure.lang.AFunction/compare (AFunction.java:51)
+java.util.TimSort/countRunAndMakeAscending (TimSort.java:355)
+java.util.TimSort/sort (TimSort.java:220)
+java.util.Arrays/sort (Arrays.java:1438)
+clojure.core/sort (core.clj:3115)
+clojure.core/sort (core.clj:3102)
+aoc-2020.day-nine/eval23737 (form-init5036399784749401915.clj:30)
+aoc-2020.day-nine/eval23737 (form-init5036399784749401915.clj:23)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.day-nine=> 
+40
 nil
-clj::aoc-2020.day-eight=> 
+clj::aoc-2020.day-nine=> 
+; Execution error (IndexOutOfBoundsException) at aoc-2020.day-nine/eval24230 (form-init5036399784749401915.clj:32).
+; null
+clojure.lang.RT/nthFrom (RT.java:928)
+clojure.lang.RT/nth (RT.java:897)
+aoc-2020.day-nine/eval24230 (form-init5036399784749401915.clj:32)
+aoc-2020.day-nine/eval24230 (form-init5036399784749401915.clj:23)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.day-nine=> 
+; Execution error (IndexOutOfBoundsException) at aoc-2020.day-nine/eval26049 (form-init5036399784749401915.clj:32).
+; null
+clojure.lang.RT/nthFrom (RT.java:928)
+clojure.lang.RT/nth (RT.java:897)
+aoc-2020.day-nine/eval26049 (form-init5036399784749401915.clj:32)
+aoc-2020.day-nine/eval26049 (form-init5036399784749401915.clj:23)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.day-nine=> 
+; Execution error (IndexOutOfBoundsException) at aoc-2020.day-nine/eval26189 (form-init5036399784749401915.clj:32).
+; null
+clojure.lang.RT/nthFrom (RT.java:928)
+clojure.lang.RT/nth (RT.java:897)
+aoc-2020.day-nine/eval26189 (form-init5036399784749401915.clj:32)
+aoc-2020.day-nine/eval26189 (form-init5036399784749401915.clj:23)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.day-nine=> 
+#'aoc-2020.day-nine/aoc-day9-p1
+clj::aoc-2020.day-nine=> 
+none found
+nil
+clj::aoc-2020.day-nine=> 
+(15 20 25 35 47) # 40 # (15 25)
+(15 20 25 35 40 47) # 62 # (15 47)
+(15 20 25 35 40 47 62) # 55 # (15 40)
+(15 20 25 35 40 47 55 62) # 65 # (25 40)
+(15 20 25 35 40 47 55 62 65) # 95 # (40 55)
+(15 20 25 35 40 47 55 62 65 95) # 102 # (40 62)
+(15 20 25 35 40 47 55 62 65 95 102) # 117 # (15 102)
+(15 20 25 35 40 47 55 62 65 95 102 117) # 150 # (55 95)
+(15 20 25 35 40 47 55 62 65 95 102 117 150) # 182 # (65 117)
+(15 20 25 35 40 47 55 62 65 95 102 117 150 182) # 127 # (25 102)
+(15 20 25 35 40 47 55 62 65 95 102 117 127 150 182) # 219 # (102 117)
+(15 20 25 35 40 47 55 62 65 95 102 117 127 150 182 219) # 299 # (117 182)
+(15 20 25 35 40 47 55 62 65 95 102 117 127 150 182 219 299) # 277 # (95 182)
+(15 20 25 35 40 47 55 62 65 95 102 117 127 150 182 219 277 299) # 309 # (127 182)
+none found
+nil
+clj::aoc-2020.day-nine=> 
+[1 2 3 4 5 6 7]
+clj::playground=> 
+1
+clj::playground=> 
+(15 20 25 35 47) # 40 # (15 25)
+(15 20 25 40 47) # 62 # (15 47)
+(15 25 40 47 62) # 55 # (15 40)
+(25 40 47 55 62) # 65 # (25 40)
+(40 47 55 62 65) # 95 # (40 55)
+(40 55 62 65 95) # 102 # (40 62)
+(55 62 65 95 102) # 117 # (55 62)
+(55 65 95 102 117) # 150 # (55 95)
+(65 95 102 117 150) # 182 # (65 117)
+(95 102 117 150 182) # 127 # ()
+(102 117 127 150 182) # 219 # (102 117)
+(117 127 150 182 219) # 299 # (117 182)
+(127 150 182 219 299) # 277 # (127 150)
+(127 182 219 277 299) # 309 # (127 182)
+none found
+nil
+clj::aoc-2020.day-nine=> 
+#'aoc-2020.day-nine/find-sum-to-value
+clj::aoc-2020.day-nine=> 
+(15 20 25 35 47) # 40 # (15 25)
+(15 20 25 40 47) # 62 # (15 47)
+(15 25 40 47 62) # 55 # (15 40)
+(25 40 47 55 62) # 65 # (25 40)
+(40 47 55 62 65) # 95 # (40 55)
+(40 55 62 65 95) # 102 # (40 62)
+(55 62 65 95 102) # 117 # (55 62)
+(55 65 95 102 117) # 150 # (55 95)
+(65 95 102 117 150) # 182 # (65 117)
+(95 102 117 150 182) # 127 # nil
+127
+nil
+clj::aoc-2020.day-nine=> 
+127
+nil
+clj::aoc-2020.day-nine=> 
+15
+nil
+clj::aoc-2020.day-nine=> 
+29221323
+nil
+clj::aoc-2020.day-nine=> 

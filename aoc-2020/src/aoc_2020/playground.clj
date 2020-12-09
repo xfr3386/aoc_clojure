@@ -133,3 +133,8 @@ cid:315 iyr:2012 hgt:192cm eyr:2023 pid:873355140 byr:1925 hcl:#cb2c03"]
 (def sub-bag-test (str "(drab-silver-bag dim-coral-bag drab-silver-bag dim-salmon-bag)"))
 (re-find #"dim-coral-bag" sub-bag-test)
 (into () ":shiny-gold-bag :vibrant-yellow-bag")
+
+(split-at 4 [1 2 3 4 5])
+
+(subvec [1 2 3 4 5 6 7] 0)
+(nth [1 2 3 4 5 6 7] 0)
