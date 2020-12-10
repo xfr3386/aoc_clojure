@@ -48,7 +48,6 @@
             (recur (inc index) current-sum)))))))
 
 ;; challenge: find contiguous numbers that sum up to the result from part 1 - 29221323
-;; sample file part 1 result is 127
 (defn aoc-day9-p2 []
   (let [xmas-file    (slurp xmas-encryption-file)
         xmas-file-contents  (into [] (map read-string (str/split-lines xmas-file)))
