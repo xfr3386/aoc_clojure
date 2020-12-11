@@ -1,6 +1,7 @@
 (ns playground
   (:require [clojure.string :as str])
-  (:require [clojure.edn :as edn]))
+  (:require [clojure.edn :as edn])
+  (:require [clojure.math.numeric-tower :as math]))
 
 ; print 0, -1, -2, -3, -4
 (loop [i 0]
@@ -138,3 +139,23 @@ cid:315 iyr:2012 hgt:192cm eyr:2023 pid:873355140 byr:1925 hcl:#cb2c03"]
 
 (subvec [1 2 3 4 5 6 7] 0)
 (nth [1 2 3 4 5 6 7] 0)
+
+(def diffs [3 1 1 1 1 3 3 1 1 1 1 3 1 1 1 1 3 1 1 3 1 3 1 1 1 1 3 1 1 1 1 3 1 1 1 3 1 1 1 3 3 1 3 1 1 1 1 3 1 1 1 1 3 1 1 1 1 3 3 1 1 3 3 3 3 1 1 1 1 3 1 1 1 1 3 1 1 1 1 3 1 1 1 1 3 1 1 1 3 1 3 1 1 1])
+;; (def diffs [3 1 3 1 1 3 1 1 1 3 1])
+(def separated-diffs (partition-by #(= 1 %) diffs))
+(println separated-diffs)
+(loop [index 0
+       two-groups 0
+       three-groups 0
+       four-groups 0]
+  (if (= index (count separated-diffs))
+    (* (math/expt 2 two-groups) (math/expt 4 three-groups) (math/expt 7 four-groups))
+    (let [current-group (nth separated-diffs index)]
+      (println current-group " count " (count current-group))
+      (if (and (some #(= 1 %) current-group) (> (count current-group) 1))
+        (if (= (count current-group) 2)
+          (recur (inc index) (inc two-groups) three-groups four-groups)
+          (if (= (count current-group) 3)
+            (recur (inc index) two-groups (inc three-groups) four-groups)
+            (recur (inc index) two-groups three-groups (inc four-groups))))
+        (recur (inc index) two-groups three-groups four-groups)))))
