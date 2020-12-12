@@ -159,3 +159,7 @@ cid:315 iyr:2012 hgt:192cm eyr:2023 pid:873355140 byr:1925 hcl:#cb2c03"]
             (recur (inc index) two-groups (inc three-groups) four-groups)
             (recur (inc index) two-groups three-groups (inc four-groups))))
         (recur (inc index) two-groups three-groups four-groups)))))
+
+(def test-seats "#.#L.L#.###LLL#LL.L#L.#.L..#..#L##.##.L##.#L.LL.LL#.#L#L#.##..L.L.....#L#L##L#L##.LLLLLL.L#.#L#L#.##")
+(count (filter #(= "#" (str %)) test-seats))
+(frequencies test-seats)

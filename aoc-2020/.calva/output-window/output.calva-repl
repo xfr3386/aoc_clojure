@@ -18,354 +18,12 @@ clj::aoc-2020.core=>
 
 ; Jack-in done.
 clj::aoc-2020.core=> 
-nil
-clj::playground=> 
-#'playground/diffs
-clj::playground=> 
-#'playground/separated-diffs
-clj::playground=> 
-nil
-clj::playground=> 
-4861502986181632
-clj::playground=> 
-; Syntax error compiling at (src/aoc_2020/day_ten.clj:79:25).
-; Unable to resolve symbol: joltage-values-sample in this context
-clojure.lang.Compiler/analyze (Compiler.java:6808)
-clojure.lang.Compiler$InvokeExpr/parse (Compiler.java:3888)
-clojure.lang.Compiler/analyzeSeq (Compiler.java:7109)
-clojure.lang.Compiler/analyze (Compiler.java:6789)
-clojure.lang.Compiler/access$300 (Compiler.java:38)
-clojure.lang.Compiler$LetExpr$Parser/parse (Compiler.java:6384)
-clojure.lang.Compiler/analyzeSeq (Compiler.java:7107)
-clojure.lang.Compiler/analyze (Compiler.java:6789)
-clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
-clojure.lang.Compiler$FnMethod/parse (Compiler.java:5467)
-clojure.lang.Compiler$FnExpr/parse (Compiler.java:4029)
-clojure.lang.Compiler/analyzeSeq (Compiler.java:7105)
-clojure.lang.Compiler/analyze (Compiler.java:6789)
-clojure.lang.Compiler/eval (Compiler.java:7174)
-clojure.core/eval (core.clj:3214)
-clojure.core/eval (core.clj:3210)
-nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
-clojure.core/apply (core.clj:665)
-clojure.core/with-bindings* (core.clj:1973)
-nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
-clojure.main/repl (main.clj:437)
-clojure.main/repl (main.clj:458)
-clojure.main/repl (main.clj:368)
-nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
-nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
-nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
-nrepl.middleware.session/session-exec (session.clj:202)
-nrepl.middleware.session/session-exec (session.clj:201)
-java.lang.Thread/run (Thread.java:745)
-clj::aoc-2020.day-ten=> 
-#'aoc-2020.day-ten/joltage-values-sample
-clj::aoc-2020.day-ten=> 
-one-jolt-diffs  (1 1 1 1 1 1 1)  three-jd  (3 3 3 3)  all-jd  (3 1 3 1 1 3 1 1 1 3 1)
-nil
-clj::aoc-2020.day-ten=> 
-#'playground/diffs
-clj::playground=> 
-4861502986181632
-clj::playground=> 
-#'playground/separated-diffs
-clj::playground=> 
-392
-clj::playground=> 
-((3) (1) (3) (1 1) (3) (1 1 1) (3) (1))
-nil
-clj::playground=> 
-(3)
-(1)
-(3)
-(1 1)
-(3)
-(1 1 1)
-(3)
-(1)
-392
-clj::playground=> 
-(3)
-(1)
-(3)
-(1 1)
-(3)
-(1 1 1)
-(3)
-(1)
-1 1 2
-392
-clj::playground=> 
-(3)
-(1)
-(3)
-(1 1)
-(3)
-(1 1 1)
-(3)
-(1)
-1 1 2
-392
-clj::playground=> 
-(3)
-(1)
-(3)
-(1 1)
-(3)
-(1 1 1)
-(3)
-(1)
-1 1 2
-nil
-clj::playground=> 
-(3)
-(1)
-(3)
-(1 1)
-(3)
-(1 1 1)
-(3)
-(1)
-1 1 2
-nil
-clj::playground=> 
-#'playground/separated-diffs
-clj::playground=> 
-#'playground/diffs
-clj::playground=> 
-#'playground/separated-diffs
-clj::playground=> 
-((3) (1) (3) (1 1) (3) (1 1 1) (3) (1))
-nil
-clj::playground=> 
-(3)
-(1)
-(3)
-(1 1)
-(3)
-(1 1 1)
-(3)
-(1)
-1 1 2
-nil
-clj::playground=> 
-(3)
-(1)
-(3)
-(1 1)
-(3)
-(1 1 1)
-(3)
-(1)
-two  1  three  1  four  2
-nil
-clj::playground=> 
-(3)  count  1
-(1)  count  1
-(3)  count  1
-(1 1)  count  2
-(3)  count  1
-(1 1 1)  count  3
-(3)  count  1
-(1)  count  1
-two  1  three  1  four  2
-nil
-clj::playground=> 
-(3)  count  1
-(1)  count  1
-(3)  count  1
-(1 1)  count  2
-(3)  count  1
-(1 1 1)  count  3
-(3)  count  1
-(1)  count  1
-two  1  three  1  four  0
-nil
-clj::playground=> 
-(3)  count  1
-(1)  count  1
-(3)  count  1
-(1 1)  count  2
-(3)  count  1
-(1 1 1)  count  3
-(3)  count  1
-(1)  count  1
-8
-clj::playground=> 
-(3)  count  1
-(1)  count  1
-(3)  count  1
-(1 1)  count  2
-(3)  count  1
-(1 1 1)  count  3
-(3)  count  1
-(1)  count  1
-8
-clj::playground=> 
-#'playground/diffs
-clj::playground=> 
-#'playground/separated-diffs
-clj::playground=> 
-(3)  count  1
-(1 1 1 1)  count  4
-(3 3)  count  2
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1)  count  2
-(3)  count  1
-(1)  count  1
-(3)  count  1
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1 1)  count  3
-(3)  count  1
-(1 1 1)  count  3
-(3 3)  count  2
-(1)  count  1
-(3)  count  1
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1 1 1)  count  4
-(3 3)  count  2
-(1 1)  count  2
-(3 3 3 3)  count  4
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1 1)  count  3
-(3)  count  1
-(1)  count  1
-(3)  count  1
-(1 1 1)  count  3
-14173478093824
-clj::playground=> 
-; Syntax error compiling at (src/aoc_2020/day_ten.clj:86:8).
-; No such namespace: math
-clojure.lang.Compiler/analyze (Compiler.java:6808)
-clojure.lang.Compiler$InvokeExpr/parse (Compiler.java:3820)
-clojure.lang.Compiler/analyzeSeq (Compiler.java:7109)
-clojure.lang.Compiler/analyze (Compiler.java:6789)
-clojure.lang.Compiler$HostExpr$Parser/parse (Compiler.java:1020)
-clojure.lang.Compiler/analyzeSeq (Compiler.java:7107)
-clojure.lang.Compiler/analyze (Compiler.java:6789)
-clojure.lang.Compiler$HostExpr$Parser/parse (Compiler.java:1020)
-clojure.lang.Compiler/analyzeSeq (Compiler.java:7107)
-clojure.lang.Compiler/analyze (Compiler.java:6789)
-clojure.lang.Compiler/analyzeSeq (Compiler.java:7102)
-clojure.lang.Compiler/analyze (Compiler.java:6789)
-clojure.lang.Compiler$IfExpr$Parser/parse (Compiler.java:2829)
-clojure.lang.Compiler/analyzeSeq (Compiler.java:7107)
-clojure.lang.Compiler/analyze (Compiler.java:6789)
-clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
-clojure.lang.Compiler$LetExpr$Parser/parse (Compiler.java:6436)
-clojure.lang.Compiler/analyzeSeq (Compiler.java:7107)
-clojure.lang.Compiler/analyze (Compiler.java:6789)
-clojure.lang.Compiler/analyzeSeq (Compiler.java:7095)
-clojure.lang.Compiler/analyze (Compiler.java:6789)
-clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
-clojure.lang.Compiler$FnMethod/parse (Compiler.java:5467)
-clojure.lang.Compiler$FnExpr/parse (Compiler.java:4029)
-clojure.lang.Compiler/analyzeSeq (Compiler.java:7105)
-clojure.lang.Compiler/analyze (Compiler.java:6789)
-clojure.lang.Compiler/analyzeSeq (Compiler.java:7095)
-clojure.lang.Compiler/analyze (Compiler.java:6789)
-clojure.lang.Compiler/access$300 (Compiler.java:38)
-clojure.lang.Compiler$DefExpr$Parser/parse (Compiler.java:596)
-clojure.lang.Compiler/analyzeSeq (Compiler.java:7107)
-clojure.lang.Compiler/analyze (Compiler.java:6789)
-clojure.lang.Compiler/eval (Compiler.java:7181)
-clojure.core/eval (core.clj:3214)
-clojure.core/eval (core.clj:3210)
-nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
-clojure.core/apply (core.clj:665)
-clojure.core/with-bindings* (core.clj:1973)
-nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
-clojure.main/repl (main.clj:437)
-clojure.main/repl (main.clj:458)
-clojure.main/repl (main.clj:368)
-nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
-nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
-nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
-nrepl.middleware.session/session-exec (session.clj:202)
-nrepl.middleware.session/session-exec (session.clj:201)
-java.lang.Thread/run (Thread.java:745)
-clj::aoc-2020.day-ten=> 
-nil
-clj::aoc-2020.day-ten=> 
-#'aoc-2020.day-ten/compute-combinations
-clj::aoc-2020.day-ten=> 
-(3)  count  1
-(1)  count  1
-(3)  count  1
-(1 1)  count  2
-(3)  count  1
-(1 1 1)  count  3
-(3)  count  1
-(1)  count  1
-8
-clj::aoc-2020.day-ten=> 
-(3)  count  1
-(1 1 1 1)  count  4
-(3 3)  count  2
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1)  count  2
-(3)  count  1
-(1)  count  1
-(3)  count  1
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1 1)  count  3
-(3)  count  1
-(1 1 1)  count  3
-(3 3)  count  2
-(1)  count  1
-(3)  count  1
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1 1 1)  count  4
-(3 3)  count  2
-(1 1)  count  2
-(3 3 3 3)  count  4
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1 1)  count  3
-(3)  count  1
-(1)  count  1
-(3)  count  1
-(1 1 1)  count  3
-14173478093824
-clj::aoc-2020.day-ten=> 
-; Execution error (IndexOutOfBoundsException) at aoc-2020.day-ten/eval50136 (form-init3970899640579759324.clj:110).
-; null
-clojure.lang.RT/nthFrom (RT.java:928)
-clojure.lang.RT/nth (RT.java:897)
-aoc-2020.day-ten/eval50136 (form-init3970899640579759324.clj:110)
-aoc-2020.day-ten/eval50136 (form-init3970899640579759324.clj:100)
+#'aoc-2020.day-eleven/aoc-day11-p1
+clj::aoc-2020.day-eleven=> 
+; Execution error (ClassCastException) at aoc-2020.day-eleven/eval14873 (form-init6538940662748265498.clj:72).
+; java.lang.Long cannot be cast to clojure.lang.IFn
+aoc-2020.day-eleven/eval14873 (form-init6538940662748265498.clj:72)
+aoc-2020.day-eleven/eval14873 (form-init6538940662748265498.clj:53)
 clojure.lang.Compiler/eval (Compiler.java:7177)
 clojure.core/eval (core.clj:3214)
 clojure.core/eval (core.clj:3210)
@@ -382,92 +40,82 @@ nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:1
 nrepl.middleware.session/session-exec (session.clj:202)
 nrepl.middleware.session/session-exec (session.clj:201)
 java.lang.Thread/run (Thread.java:745)
-clj::aoc-2020.day-ten=> 
-(3)  count  1
-(1 1 1 1)  count  4
-(3 3)  count  2
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1)  count  2
-(3)  count  1
-(1)  count  1
-(3)  count  1
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1 1)  count  3
-(3)  count  1
-(1 1 1)  count  3
-(3 3)  count  2
-(1)  count  1
-(3)  count  1
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1 1 1)  count  4
-(3 3)  count  2
-(1 1)  count  2
-(3 3 3 3)  count  4
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1 1)  count  3
-(3)  count  1
-(1)  count  1
-(3)  count  1
-(1 1)  count  2
-7086739046912
-clj::aoc-2020.day-ten=> 
-(3)  count  1
-(1 1 1 1)  count  4
-(3 3)  count  2
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1)  count  2
-(3)  count  1
-(1)  count  1
-(3)  count  1
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1 1)  count  3
-(3)  count  1
-(1 1 1)  count  3
-(3 3)  count  2
-(1)  count  1
-(3)  count  1
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1 1 1)  count  4
-(3 3)  count  2
-(1 1)  count  2
-(3 3 3 3)  count  4
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1 1 1)  count  4
-(3)  count  1
-(1 1 1)  count  3
-(3)  count  1
-(1)  count  1
-(3)  count  1
-(1 1 1)  count  3
-14173478093824
-clj::aoc-2020.day-ten=> 
+clj::aoc-2020.day-eleven=> 
+done
+nil
+clj::aoc-2020.day-eleven=> 
+; Execution error (ClassCastException) at aoc-2020.day-eleven/eval17319 (form-init6538940662748265498.clj:72).
+; java.lang.Long cannot be cast to clojure.lang.IFn
+aoc-2020.day-eleven/eval17319 (form-init6538940662748265498.clj:72)
+aoc-2020.day-eleven/eval17319 (form-init6538940662748265498.clj:53)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:745)
+clj::aoc-2020.day-eleven=> 
+37
+clj::aoc-2020.day-eleven=> 
+37
+clj::aoc-2020.day-eleven=> 
+#'aoc-2020.day-eleven/build-adjacent-list
+clj::aoc-2020.day-eleven=> 
+71
+clj::aoc-2020.day-eleven=> 
+#'aoc-2020.day-eleven/build-adjacent-list
+clj::aoc-2020.day-eleven=> 
+56
+clj::aoc-2020.day-eleven=> 
+56
+clj::aoc-2020.day-eleven=> 
+#'aoc-2020.day-eleven/build-adjacent-list
+clj::aoc-2020.day-eleven=> 
+37
+clj::aoc-2020.day-eleven=> 
+#'aoc-2020.day-eleven/find-new-state-of-seats-loop
+clj::aoc-2020.day-eleven=> 
+#'aoc-2020.day-eleven/find-new-state-of-seats
+clj::aoc-2020.day-eleven=> 
+#'aoc-2020.day-eleven/build-adjacent-list
+clj::aoc-2020.day-eleven=> 
+#'aoc-2020.day-eleven/get-seat-position
+clj::aoc-2020.day-eleven=> 
+
+clj::aoc-2020.day-eleven=> 
+10
+10
+nil
+clj::aoc-2020.day-eleven=> 
+#'aoc-2020.day-eleven/find-new-state-of-seats-loop
+clj::aoc-2020.day-eleven=> 
+#'aoc-2020.day-eleven/find-new-state-of-seats
+clj::aoc-2020.day-eleven=> 
+#'aoc-2020.day-eleven/build-adjacent-list
+clj::aoc-2020.day-eleven=> 
+#'aoc-2020.day-eleven/get-seat-position
+clj::aoc-2020.day-eleven=> 
+10
+10
+37
+clj::aoc-2020.day-eleven=> 
+91
+97
+2281
+clj::aoc-2020.day-eleven=> 
+2281
+clj::aoc-2020.day-eleven=> 
+#'aoc-2020.day-eleven/aoc-day11-p1
+clj::aoc-2020.day-eleven=> 
+2281
+clj::aoc-2020.day-eleven=> 
