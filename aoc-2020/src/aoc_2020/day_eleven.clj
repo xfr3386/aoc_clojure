@@ -52,3 +52,9 @@
       (if (= current-state previous-state)
         (count (filter #(= "#" (str %)) current-state))
         (recur current-state (str/join (flatten (find-new-state-of-seats-loop current-state num-cols num-rows))))))))
+
+;; for part 2
+;; modify build-adjacent-list to account for the every entry the direction
+;;   have it stop going in a direction and return nth once it finds non-floor (i.e. find first non-floor)
+;; change the 4 constant in find-new-state-of-seats to 5
+;; find-new-state-of-seats needs to change to
